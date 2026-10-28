@@ -1,0 +1,471 @@
+[
+  {
+    "DisplayRequirements": {
+      "Size": "3840, 2160",
+      "DpiX": 96,
+      "DpiY": 96
+    },
+    "Layout": {
+      "Slots": [
+        {
+          "Id": 1,
+          "Bounds": {
+            "X": 2467.0,
+            "Y": 0.0,
+            "Width": 685.0,
+            "Height": 514.0
+          },
+          "SlotType": "Observer",
+          "IsAspectRatioLocked": true
+        },
+        {
+          "Id": 2,
+          "Bounds": {
+            "X": 3152.0,
+            "Y": 0.0,
+            "Width": 685.0,
+            "Height": 514.0
+          },
+          "SlotType": "Observer",
+          "IsAspectRatioLocked": true
+        },
+        {
+          "Id": 3,
+          "Bounds": {
+            "X": 2467.0,
+            "Y": 514.0,
+            "Width": 685.0,
+            "Height": 514.0
+          },
+          "SlotType": "Observer",
+          "IsAspectRatioLocked": true
+        },
+        {
+          "Id": 4,
+          "Bounds": {
+            "X": 3152.0,
+            "Y": 514.0,
+            "Width": 685.0,
+            "Height": 514.0
+          },
+          "SlotType": "Observer",
+          "IsAspectRatioLocked": true
+        },
+        {
+          "Id": 5,
+          "Bounds": {
+            "X": 2467.0,
+            "Y": 1028.0,
+            "Width": 685.0,
+            "Height": 514.0
+          },
+          "SlotType": "Observer",
+          "IsAspectRatioLocked": true
+        },
+        {
+          "Id": 6,
+          "Bounds": {
+            "X": 3152.0,
+            "Y": 1028.0,
+            "Width": 685.0,
+            "Height": 514.0
+          },
+          "SlotType": "Observer",
+          "IsAspectRatioLocked": true
+        },
+        {
+          "Id": 7,
+          "Bounds": {
+            "X": 2467.0,
+            "Y": 1542.0,
+            "Width": 685.0,
+            "Height": 514.0
+          },
+          "SlotType": "Observer",
+          "IsAspectRatioLocked": true
+        },
+        {
+          "Id": 1,
+          "Bounds": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Width": 1233.0,
+            "Height": 925.0
+          },
+          "SlotType": "Playing",
+          "IsAspectRatioLocked": true
+        },
+        {
+          "Id": 2,
+          "Bounds": {
+            "X": 1233.0,
+            "Y": 0.0,
+            "Width": 1233.0,
+            "Height": 925.0
+          },
+          "SlotType": "Playing",
+          "IsAspectRatioLocked": true
+        },
+        {
+          "Id": 3,
+          "Bounds": {
+            "X": 0.0,
+            "Y": 925.0,
+            "Width": 1233.0,
+            "Height": 925.0
+          },
+          "SlotType": "Playing",
+          "IsAspectRatioLocked": true
+        },
+        {
+          "Id": 4,
+          "Bounds": {
+            "X": 1233.0,
+            "Y": 925.0,
+            "Width": 1233.0,
+            "Height": 925.0
+          },
+          "SlotType": "Playing",
+          "IsAspectRatioLocked": true
+        },
+        {
+          "Id": 1,
+          "Bounds": {
+            "X": 3152.0,
+            "Y": 1542.0,
+            "Width": 685.0,
+            "Height": 514.0
+          },
+          "SlotType": "Replay",
+          "IsAspectRatioLocked": true
+        }
+      ]
+    },
+    "Description": ""
+  },
+  {
+    "DisplayRequirements": {
+      "Size": "3840, 2160",
+      "DpiX": 96,
+      "DpiY": 96
+    },
+    "Layout": {
+      "Slots": [
+        {
+          "Id": 1,
+          "Bounds": {
+            "X": 2467.0,
+            "Y": 0.0,
+            "Width": 685.0,
+            "Height": 514.0
+          },
+          "SlotType": "Observer",
+          "IsAspectRatioLocked": true
+        },
+        {
+          "Id": 2,
+          "Bounds": {
+            "X": 3152.0,
+            "Y": 0.0,
+            "Width": 685.0,
+            "Height": 514.0
+          },
+          "SlotType": "Observer",
+          "IsAspectRatioLocked": true
+        },
+        {
+          "Id": 3,
+          "Bounds": {
+            "X": 2467.0,
+            "Y": 514.0,
+            "Width": 685.0,
+            "Height": 514.0
+          },
+          "SlotType": "Observer",
+          "IsAspectRatioLocked": true
+        },
+        {
+          "Id": 4,
+          "Bounds": {
+            "X": 3152.0,
+            "Y": 514.0,
+            "Width": 685.0,
+            "Height": 514.0
+          },
+          "SlotType": "Observer",
+          "IsAspectRatioLocked": true
+        },
+        {
+          "Id": 5,
+          "Bounds": {
+            "X": 2467.0,
+            "Y": 1028.0,
+            "Width": 685.0,
+            "Height": 514.0
+          },
+          "SlotType": "Observer",
+          "IsAspectRatioLocked": true
+        },
+        {
+          "Id": 1,
+          "Bounds": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Width": 1233.0,
+            "Height": 925.0
+          },
+          "SlotType": "Playing",
+          "IsAspectRatioLocked": true
+        },
+        {
+          "Id": 2,
+          "Bounds": {
+            "X": 1233.0,
+            "Y": 0.0,
+            "Width": 1233.0,
+            "Height": 925.0
+          },
+          "SlotType": "Playing",
+          "IsAspectRatioLocked": true
+        },
+        {
+          "Id": 3,
+          "Bounds": {
+            "X": 0.0,
+            "Y": 925.0,
+            "Width": 1233.0,
+            "Height": 925.0
+          },
+          "SlotType": "Playing",
+          "IsAspectRatioLocked": true
+        },
+        {
+          "Id": 4,
+          "Bounds": {
+            "X": 1233.0,
+            "Y": 925.0,
+            "Width": 1233.0,
+            "Height": 925.0
+          },
+          "SlotType": "Playing",
+          "IsAspectRatioLocked": true
+        },
+        {
+          "Id": 1,
+          "Bounds": {
+            "X": 3152.0,
+            "Y": 1034.0,
+            "Width": 685.0,
+            "Height": 514.0
+          },
+          "SlotType": "Replay",
+          "IsAspectRatioLocked": true
+        },
+        {
+          "Game": "ChicoPoker",
+          "StackingOption": "Stack",
+          "Id": 1,
+          "Bounds": {
+            "X": 2468.0,
+            "Y": 1545.0,
+            "Width": 800.0,
+            "Height": 600.0
+          },
+          "SlotType": "Lobby",
+          "IsAspectRatioLocked": false
+        }
+      ]
+    },
+    "Description": ""
+  },
+  {
+    "DisplayRequirements": {
+      "Size": "3840, 2160",
+      "DpiX": 96,
+      "DpiY": 96
+    },
+    "Layout": {
+      "Slots": [
+        {
+          "Id": 1,
+          "Bounds": {
+            "X": 2467.0,
+            "Y": 0.0,
+            "Width": 685.0,
+            "Height": 514.0
+          },
+          "SlotType": "Observer",
+          "IsAspectRatioLocked": true
+        },
+        {
+          "Id": 2,
+          "Bounds": {
+            "X": 3152.0,
+            "Y": 0.0,
+            "Width": 685.0,
+            "Height": 514.0
+          },
+          "SlotType": "Observer",
+          "IsAspectRatioLocked": true
+        },
+        {
+          "Id": 3,
+          "Bounds": {
+            "X": 2467.0,
+            "Y": 514.0,
+            "Width": 685.0,
+            "Height": 514.0
+          },
+          "SlotType": "Observer",
+          "IsAspectRatioLocked": true
+        },
+        {
+          "Id": 4,
+          "Bounds": {
+            "X": 3152.0,
+            "Y": 514.0,
+            "Width": 685.0,
+            "Height": 514.0
+          },
+          "SlotType": "Observer",
+          "IsAspectRatioLocked": true
+        },
+        {
+          "Id": 5,
+          "Bounds": {
+            "X": 2467.0,
+            "Y": 1028.0,
+            "Width": 685.0,
+            "Height": 514.0
+          },
+          "SlotType": "Observer",
+          "IsAspectRatioLocked": true
+        },
+        {
+          "Id": 1,
+          "Bounds": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Width": 820.0,
+            "Height": 616.0
+          },
+          "SlotType": "Playing",
+          "IsAspectRatioLocked": true
+        },
+        {
+          "Id": 2,
+          "Bounds": {
+            "X": 820.0,
+            "Y": 0.0,
+            "Width": 820.0,
+            "Height": 616.0
+          },
+          "SlotType": "Playing",
+          "IsAspectRatioLocked": true
+        },
+        {
+          "Id": 3,
+          "Bounds": {
+            "X": 1640.0,
+            "Y": 0.0,
+            "Width": 820.0,
+            "Height": 616.0
+          },
+          "SlotType": "Playing",
+          "IsAspectRatioLocked": true
+        },
+        {
+          "Id": 4,
+          "Bounds": {
+            "X": 0.0,
+            "Y": 616.0,
+            "Width": 820.0,
+            "Height": 616.0
+          },
+          "SlotType": "Playing",
+          "IsAspectRatioLocked": true
+        },
+        {
+          "Id": 5,
+          "Bounds": {
+            "X": 820.0,
+            "Y": 616.0,
+            "Width": 820.0,
+            "Height": 616.0
+          },
+          "SlotType": "Playing",
+          "IsAspectRatioLocked": true
+        },
+        {
+          "Id": 6,
+          "Bounds": {
+            "X": 1640.0,
+            "Y": 616.0,
+            "Width": 820.0,
+            "Height": 616.0
+          },
+          "SlotType": "Playing",
+          "IsAspectRatioLocked": true
+        },
+        {
+          "Id": 7,
+          "Bounds": {
+            "X": 0.0,
+            "Y": 1232.0,
+            "Width": 820.0,
+            "Height": 616.0
+          },
+          "SlotType": "Playing",
+          "IsAspectRatioLocked": true
+        },
+        {
+          "Id": 8,
+          "Bounds": {
+            "X": 820.0,
+            "Y": 1232.0,
+            "Width": 820.0,
+            "Height": 616.0
+          },
+          "SlotType": "Playing",
+          "IsAspectRatioLocked": true
+        },
+        {
+          "Id": 9,
+          "Bounds": {
+            "X": 1640.0,
+            "Y": 1232.0,
+            "Width": 820.0,
+            "Height": 616.0
+          },
+          "SlotType": "Playing",
+          "IsAspectRatioLocked": true
+        },
+        {
+          "Id": 1,
+          "Bounds": {
+            "X": 3152.0,
+            "Y": 1034.0,
+            "Width": 685.0,
+            "Height": 514.0
+          },
+          "SlotType": "Replay",
+          "IsAspectRatioLocked": true
+        },
+        {
+          "Game": "ChicoPoker",
+          "StackingOption": "Stack",
+          "Id": 1,
+          "Bounds": {
+            "X": 2468.0,
+            "Y": 1545.0,
+            "Width": 800.0,
+            "Height": 600.0
+          },
+          "SlotType": "Lobby",
+          "IsAspectRatioLocked": false
+        }
+      ]
+    },
+    "Description": ""
+  }
+]

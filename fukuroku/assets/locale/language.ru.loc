@@ -1,0 +1,1903 @@
+<?xml version="1.0" encoding="utf-8"?>
+<locale xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://jurojinpoker.com/locale">
+  <area id="100" name="App Window">
+    <add key="APP_WINDOW_NL_Popup_Signup_Title" value="РЕГИСТРАЦИЯ" />
+    <add key="APP_WINDOW_NL_Popup_Signup_Subtitle" value="ЧТОБЫ НАЧАТЬ ВАШ БЕСПЛАТНЫЙ ПРОБНЫЙ ПЕРИОД!!" />
+    <add key="APP_WINDOW_NL_" value="РЕГИСТРАЦИЯ" />
+    <sub id="0" name="Error Messages">
+      <add key="ON_ACTIVE_LAYOUT_SLOTS_OUTSIDE_WORKING_AREA_NL_MESSAGE" value="Обнаружено изменение конфигурации дисплеев, и ваш текущий активный layout содержит slots за пределами допустимой области. Хотите отредактировать Активный Layout сейчас?" />
+      <add key="ON_APPLICATION_ERROR_Title" value="Ошибка сервера" />
+      <add key="ON_SERVER_FATAL_ERROR_MESSAGE" value="Связь потеряна. Проверьте ваше интернет-соединение." />
+      <add key="ON_ERROR" value="Ошибка сервера" />
+      <add key="ON_APPLICATION_MAINTENANCE_Title" value="Обслуживание сервера" />
+      <add key="ON_APPLICATION_MAINTENANCE_Text" value="Пожалуйста, сейчас же перезапустите Jurojin, скорее всего после этого вы вернётесь к обычному пользователю в приложении!" />
+      <add key="DLL_MISSING_ERROR_TITLE" value="Отсутствуют файлы" />
+      <add key="DLL_MISSING_ERROR_MESSAGE" value="Отсутствуют необходимые для запуска приложения файлы! Обычно их удаляет антивирус! Пожалуйста, добавьте папку установки Jurojin в исключения антивируса или Windows Defender и попробуйте снова использовать приложение. Если сообщение об ошибке появится снова, загрузите последний установщик с https://jurojinpoker.com/download?v=345789/" />
+      <add key="INSTALLATION_INTEGRITY_ERROR_TITLE" value="Установка изменена" />
+      <add key="INSTALLATION_INTEGRITY_ERROR_MESSAGE" value="Jurojin обнаружил неожиданное изменение файлов установки. Для вашей безопасности приложение будет закрыто. Переустановите с https://jurojinpoker.com/download" />
+      <add key="UNHANDLED_EX_ERROR_OUTOFMEMORY" value="На вашем ПК закончилась оперативная память или память видеокарты для запуска программы. Рекомендуется закрыть неиспользуемые приложения, например браузер, или обновить ПК." />
+      <add key="GLOBALFEATURE_ERROR" value="Произошла ошибка при активации одной из ваших Comfort Features, пожалуйста, свяжитесь с поддержкой с этой информацией: #ex#" />
+      <add key="PLAYINGSESSIONHANDLER_ERROR" value="Произошла проблема при сохранении информации о столах в вашем layout, пожалуйста, свяжитесь с поддержкой с этой информацией: #ex#" />
+      <add key="HOOKCONTROLLER_ERROR" value="Произошла проблема с подключением к вашему контроллеру, пожалуйста, свяжитесь с поддержкой с этой информацией: #ex#" />
+      <add key="EMERGENCY_SHUTDOWN_CANNOT_CONNECT_TO_SERVERS_MESSAGE" value="" />
+      <add key="KEEP_ALIVE_RECONNECT_ENTITLEMENTS_REVOKED_TOAST" value="Ваш ПК сейчас не может подключиться к нашим серверам. Проверьте интернет-соединение и брандмауэр/антивирус" />
+      <add key="DIALOG_CONNECTIVITY_ENTITLEMENTS_REVOKED_Title" value="Проблема с подключением" />
+      <add key="DIALOG_CONNECTIVITY_ENTITLEMENTS_REVOKED_Body" isFormatted="true" value="&lt;p&gt;Ваша подписка всё ещё активна, но Jurojin не может подключиться к нашим серверам с вашего ПК. Функции временно отключены в целях безопасности.&lt;/p&gt;&lt;p&gt;Проверьте интернет-соединение, брандмауэр и антивирус и дождитесь автоматического переподключения Jurojin.&lt;/p&gt;" />
+      <add key="DIALOG_CONNECTIVITY_ENTITLEMENTS_REVOKED_Button_Open_Guide" value="Открыть руководство по устранению неполадок" />
+      <add key="DIALOG_CONNECTIVITY_ENTITLEMENTS_REVOKED_Button_Got_It" value="Понятно" />
+    </sub>
+    <sub id="1" name="User Control - Active Sites">
+      <add key="APP_WINDOW_ACTIVE_SITES_NL_Title_Active_Poker_Sites" value="Активные покерные сайты" />
+      <add key="APP_WINDOW_ACTIVE_SITES_NL_Label_No_Sites_Running" value="Сайты не запущены" />
+      <add key="APP_WINDOW_ACTIVE_SITES_NL_Label_Open_Your_Sites_To_Start_Enjoying_Jurojin" value="Откройте ваши сайты, чтобы начать пользоваться Jurojin" />
+    </sub>
+    <sub id="2" name="User Control - Account Actions">
+      <add key="APP_WINDOW_ACTIVE_SITES_NL_Button_Go_To_My_Profile" value="Перейти в мой профиль" />
+      <add key="APP_WINDOW_ACTIVE_SITES_NL_Button_Logout" value="Выйти" />
+    </sub>
+    <sub id="3" name="App Status bar">
+      <add key="APP_WINDOW_STATUS_BAR_NL_Button_Open_Guide" value="Открыть руководство" />
+      <add key="APP_WINDOW_STATUS_BAR_NL_Button_Collaborate" value="Сотрудничество" />
+      <add key="APP_WINDOW_STATUS_BAR_NL_Button_Report_Issue" value="Сообщить о проблеме" />
+      <add key="APP_WINDOW_STATUS_BAR_NL_Button_Streamer_Contact" value="Контакт стримера" />
+    </sub>
+  </area>
+  <area id="101" name="Hamburger Menu">
+    <add key="APP_HAMBURGER_MENU_ITEM_Title_Account" value="Аккаунт" />
+    <add key="APP_HAMBURGER_MENU_ITEM_ToolTip_Account" value="" />
+    <add key="APP_HAMBURGER_MENU_ITEM_Title_Back" value="Назад" />
+    <add key="APP_HAMBURGER_MENU_ITEM_ToolTip_Back" value="" />
+    <add key="APP_HAMBURGER_MENU_ITEM_Title_Configuration" value="Общие настройки" />
+    <add key="APP_HAMBURGER_MENU_ITEM_ToolTip_Configuration" value="" />
+    <add key="APP_HAMBURGER_MENU_ITEM_Title_Help" value="Помощь" />
+    <add key="APP_HAMBURGER_MENU_ITEM_ToolTip_Help" value="" />
+    <add key="APP_HAMBURGER_MENU_ITEM_Title_Home" value="Главная" />
+    <add key="APP_HAMBURGER_MENU_ITEM_ToolTip_Home" value="" />
+    <add key="APP_HAMBURGER_MENU_ITEM_Title_Layout" value="Настройка столов" />
+    <add key="APP_HAMBURGER_MENU_ITEM_ToolTip_Layout" value="" />
+    <add key="APP_HAMBURGER_MENU_ITEM_Title_Shop" value="Магазин" />
+    <add key="APP_HAMBURGER_MENU_ITEM_Title_Sites" value="Настройка сайтов" />
+    <add key="APP_HAMBURGER_MENU_ITEM_ToolTip_Sites" value="" />
+    <add key="APP_HAMBURGER_MENU_ITEM_Title_Changelog" value="Журнал изменений" />
+    <add key="APP_HAMBURGER_MENU_ITEM_ToolTip_Changelog" value="" />
+    <add key="APP_HAMBURGER_MENU_ITEM_Title_HotKeys" value="Горячие клавиши" />
+    <add key="APP_HAMBURGER_MENU_ITEM_ToolTip_HotKeys" value="" />
+    <add key="APP_HAMBURGER_MENU_ITEM_Title_Controller" value="Контроллер" />
+    <add key="APP_HAMBURGER_MENU_ITEM_ToolTip_Controller" value="" />
+    <add key="APP_HAMBURGER_MENU_ITEM_Title_Overlays" value="Оверлеи для столов" />
+    <add key="APP_HAMBURGER_MENU_ITEM_ToolTip_Overlays" value="" />
+    <add key="APP_HAMBURGER_MENU_ITEM_Title_SessionTime" value="Время сессии" />
+    <add key="APP_HAMBURGER_MENU_ITEM_ToolTip_SessionTime" value="" />
+    <add key="APP_HAMBURGER_MENU_ITEM_Title_Store" value="Магазин" />
+    <add key="APP_HAMBURGER_MENU_ITEM_ToolTip_Store" value="" />
+  </area>
+  <area id="102" name="Page - Home">
+    <add key="HOME_NL_Label_Be_Part_Of_Our_Community" value="Станьте частью нашего сообщества" />
+    <add key="HOME_NL_Button_Join_Us_On_Discord" value="Присоединяйтесь к нам в Discord!" />
+    <add key="HOME_NL_Button_Follow_Us" value="Подписывайтесь на нас" />
+    <add key="HOME_NL_Label_Chill_Out_Poker_Music" value="LoFi Chill 100% фокус на покерную музыку" />
+    <sub id="0" name="UserControl - Streamers">
+      <add key="HOME_NL_Juro_Streamers" value="" />
+      <add key="HOME_NL_It_Seems_There_Are_No_Streamers" value="Похоже, стримеры сейчас не в сети" />
+    </sub>
+  </area>
+  <area id="103" name="Pages - Layout">
+    <sub id="0" name="Page - Layout Configuration">
+      <add key="LAYOUT_CONFIGURATION_NL_Tab_Title" value="Конфиг. Layout" />
+      <add key="LAYOUT_CONFIGURATION_NL_Tab_Header_Configuration" value="Настройки" />
+      <add key="LAYOUT_CONFIGURATION_NL_Label_Active_Layout" value="АКТИВНЫЙ LAYOUT:" />
+      <add key="LAYOUT_CONFIGURATION_NL_Label_Select_Layout" value="Выберите Layout" />
+      <add key="LAYOUT_CONFIGURATION_NL_Label_Layout_Preview" value="Предпросмотр layout" />
+      <add key="LAYOUT_CONFIGURATION_NL_Layout_Layout_Actions" value="Действия с layout" />
+      <add key="LAYOUT_CONFIGURATION_NL_Button_Activate_Layout" value="Активировать Layout" />
+      <add key="LAYOUT_CONFIGURATION_NL_Button_Edit_Layout" value="Редактировать Layout" />
+      <add key="LAYOUT_CONFIGURATION_NL_Button_Delete_Layout" value="Удалить Layout" />
+      <add key="LAYOUT_CONFIGURATION_NL_Button_Create_New_Layout" value="Создать новый Layout" />
+      <add key="LAYOUT_CONFIGURATION_NL_Tab_Header_Automatic_Layout_Switch" value="Авто Layout" />
+      <add key="LAYOUT_CONFIGURATION_NL_Switch_Feature_Enabled" value="Функция включена" />
+      <add key="LAYOUT_CONFIGURATION_NL_Switch_Feature_Disabled" value="Функция отключена" />
+      <add key="LAYOUT_CONFIGURATION_NL_Label_Auto_Switch_Options" value="Параметры автоматического переключения" />
+      <add key="LAYOUT_CONFIGURATION_NL_Label_Initial_Layout" value="Начальный" />
+      <add key="LAYOUT_CONFIGURATION_NL_Label_Go_Back_To_Previous_Layout_If_Table_Decrease" value="Возвращаться к предыдущему layout при уменьшении столов" />
+      <add key="LAYOUT_CONFIGURATION_NL_Label_Ask_Before_Switching_Layout_Automatically" value="Спрашивать перед автоматическим переключением layout" />
+      <add key="LAYOUT_CONFIGURATION_NL_Info_Automatically_Switch_From_An_Initial_Layout" value="При использовании Jurojin всегда будет активен один layout, однако мы предлагаем возможность автоматически переключаться с начального layout." />
+      <add key="LAYOUT_CONFIGURATION_NL_Button_Save_Changes" value="Сохранить изменения" />
+      <add key="LAYOUT_CONFIGURATION_NL_ON_LAYOUT_SWITCH_Title" value="ПЕРЕКЛЮЧИТЬ LAYOUT" />
+      <add key="LAYOUT_CONFIGURATION_NL_ON_LAYOUT_SWITCH_Message" value="ВЫ ХОТИТЕ АВТОМАТИЧЕСКИ ПЕРЕКЛЮЧИТЬСЯ НА LAYOUT " />
+      <add key="LAYOUT_CONFIGURATION_NL_Help_Layout_Switch_Title" value="Автоматическое переключение layout" />
+      <add key="LAYOUT_CONFIGURATION_NL_Help_Layout_Switch_Body" value="Эта функция автоматически изменит активный layout в зависимости от количества открытых столов. Нажмите на иконку карандаша под первым переключением layout, чтобы начать." />
+      <add key="LAYOUT_CONFIGURATION_NL_ON_TABLES_LAYOUT_CONFIGURATION_Auto_Swap_Caption" value="АВТОМАТИЧЕСКОЕ ПЕРЕКЛЮЧЕНИЕ LAYOUT" />
+      <add key="LAYOUT_CONFIGURATION_NL_ON_TABLES_LAYOUT_CONFIGURATION_Auto_Swap_Message" value="Ручная активация Layout отключит Автоматическое переключение layout. Вы уверены, что хотите отключить эту функцию и активировать этот Layout?" />
+      <add key="LAYOUT_CONFIGURATION_NL_ON_ACTIVE_LAYOUT_SLOTS_OUTSIDE_WORKING_AREA_Title" value="ВНИМАНИЕ!" />
+      <add key="LAYOUT_CONFIGURATION_NL_ON_ACTIVE_LAYOUT_SLOTS_OUTSIDE_WORKING_AREA_Message" value="Обнаружено изменение конфигурации дисплеев, и ваш текущий активный layout содержит slots за пределами допустимой области. Хотите отредактировать Активный Layout сейчас?" />
+      <add key="LAYOUT_CONFIGURATION_NL_Tab_Header_Layout_Hotkeys" value="Клавиши Layout" />
+      <add key="LAYOUT_CONFIGURATION_NL_HOTKEYS_Label_Playing_Slot" value="Играющий Slot" />
+      <add key="LAYOUT_CONFIGURATION_NL_HOTKEYS_Label_Send_Table_To_Playing_Slot" value="Отправить стол в играющий slot" />
+      <add key="LAYOUT_CONFIGURATION_NL_HOTKEYS_Label_Observer_Slot" value="Наблюдатель Slot" />
+      <add key="LAYOUT_CONFIGURATION_NL_HOTKEYS_Label_Send_Table_To_Observer_Slot" value="Отправить стол в наблюдательный slot" />
+      <add key="LAYOUT_CONFIGURATION_NL_HOTKEYS_Label_Playing_Slot_No" value="Играющий Slot №" />
+      <add key="LAYOUT_CONFIGURATION_NL_Hotkeys_Label_Observer_Slot_No" value="Наблюдатель Slot №" />
+      <add key="LAYOUT_CONFIGURATION_NL_HOTKEYS_Label_Lock_Table_Of_Dynamic_Flow" value="Заблокировать стол вне динамического потока" />
+      <add key="LAYOUT_CONFIGURATION_NL_HOTKEYS_Label_Move_Table_To_Next_Slot" value="Переместить стол в следующий slot" />
+      <add key="LAYOUT_CONFIGURATION_NL_HOTKEYS_Label_Move_Table_To_Previous_Slot" value="Переместить стол в предыдущий slot" />
+      <add key="LAYOUT_CONFIGURATION_NL_HOTKEYS_Help_Title_Lock_Table" value="Заблокировать/Вставить стол заново" />
+      <add key="LAYOUT_CONFIGURATION_NL_HOTKEYS_Help_Body_Lock_Table" value="Используйте эту горячую клавишу, чтобы исключить или повторно вставить стол в динамический поток slots (AR/In Hand). По сути, ваш стол останется в том slot, где он находится. Можно нажать горячую клавишу снова, чтобы вернуть стол в динамический поток." />
+    </sub>
+    <sub id="1" name="Page - Create New Layout">
+      <add key="CREATE_NEW_LAYOUT_NL_Title_Create_New_Layout" value="Создать новый Layout" />
+      <add key="CREATE_NEW_LAYOUT_NL_Button_Create_Manually" value="Создать РУЧНО" />
+      <add key="CREATE_NEW_LAYOUT_NL_Button_Create_Automatically" value="Создать АВТОМАТИЧЕСКИ" />
+      <add key="CREATE_NEW_LAYOUT_NL_Button_Start_Form_Preset_Layout" value="Начать с ПРЕДУСТАНОВЛЕННОГО LAYOUT" />
+      <add key="CREATE_NEW_LAYOUT_NL_Button_Clone_Existing_Layout" value="Клонировать СУЩЕСТВУЮЩИЙ LAYOUT" />
+      <add key="CREATE_NEW_LAYOUT_NL_Help_Option_Unavaliable_For_Your_Screen_Resolution" value="Этот параметр недоступен для разрешения вашего экрана" />
+    </sub>
+    <sub id="2" name="Page - Edit Layout">
+      <add key="EDIT_LAYOUT_NL_Title_Edit_Layout" value="Редактировать Layout" />
+      <add key="EDIT_LAYOUT_NL_Label_Layout_Name" value="Имя Layout" />
+      <add key="EDIT_LAYOUT_NL_Label_Hotkey_To_Switch_Layout_During_Session" value="Горячая клавиша для переключения layout во время сессии" />
+      <add key="EDIT_LAYOUT_NL_Label_Dynamic_Slots" value="Динамические slots" />
+      <add key="EDIT_LAYOUT_NL_Label_Resize_Every_Slot" value="Изменять размер каждого slot" />
+      <add key="EDIT_LAYOUT_NL_Label_Scale" value="Масштаб:" />
+      <add key="EDIT_LAYOUT_NL_Button_Add_Playing_Area_Slot" value="Добавить ИГРАЮЩИЙ Slot" />
+      <add key="EDIT_LAYOUT_NL_Button_Add_Observer_Area_Slot" value="Добавить НАБЛЮДАТЕЛЬСКИЙ Slot" />
+      <add key="EDIT_LAYOUT_NL_Button_Add_Replay_Area_Slot" value="Добавить REPLAY Slot" />
+      <add key="EDIT_LAYOUT_NL_Button_Add_Lobby_Slot" value="Добавить LOBBY Slot" />
+      <add key="EDIT_LAYOUT_NL_Button_Add_Action_Required_Slot" value="Добавить ACTION REQUIRED Slot" />
+      <add key="EDIT_LAYOUT_NL_Tooltip_Title_Action_Required" value="Требуется действие" />
+      <add key="EDIT_LAYOUT_NL_Tooltip_Body_Action_Required" value="Этот slot обозначает область экрана, куда помещаются столы, когда наступает ваш ход. В таких slots в любой момент будет только один стол, когда все они заняты, столы переходят в очередь (Queue slots), и как только slot с требуемым действием освобождается, самый срочный стол из очереди отправляется туда." />
+      <add key="EDIT_LAYOUT_NL_Button_Add_Queue_Slot" value="Добавить QUEUE slot" />
+      <add key="EDIT_LAYOUT_NL_Button_Add_In_Hand_Slot" value="Добавить IN HAND slot" />
+      <add key="EDIT_LAYOUT_NL_Button_Save_Changes" value="Сохранить изменения" />
+      <add key="EDIT_LAYOUT_NL_ON_EDIT_LAYOUT_SLOT_OUTSIDE_BOUNDS_Title" value="Некоторые slots будут удалены" />
+      <add key="EDIT_LAYOUT_NL_ON_EDIT_LAYOUT_SLOT_OUTSIDE_BOUNDS_Message" value="Slots с красной обводкой либо выходят за границы экрана, либо перекрываются с другими slots и будут удалены. Продолжить?" />
+      <add key="EDIT_LAYOUT_NL_Label_Stack_Tables_In_Ar_Slot" value="Складывать столы в AR slot по мере наступления вашего хода за каждым из них" />
+      <add key="EDIT_LAYOUT_Tooltip_Title_In_Hand" value="In Hand slots" />
+      <add key="EDIT_LAYOUT_Tooltip_Body_In_Hand" value="In Hand slots — лучший способ сфокусироваться только на важных раздачах, столы будут перемещаться сюда при вашем VPIP. Это поведение можно настроить в конфигурации каждого сайта" />
+    </sub>
+    <sub id="3" name="Page - Create Automatically">
+      <add key="CREATE_NEW_LAYOUT_AUTOMATICALLY_NL_Title_Create_New_Layout_Automatically" value="Создать новый layout автоматически" />
+      <add key="CREATE_NEW_LAYOUT_AUTOMATICALLY_NL_Button_Prev" value="Назад" />
+      <add key="CREATE_NEW_LAYOUT_AUTOMATICALLY_NL_Button_Next" value="Вперед" />
+      <add key="CREATE_NEW_LAYOUT_AUTOMATICALLY_NL_Button_Done" value="Готово" />
+      <add key="CREATE_NEW_LAYOUT_AUTOMATICALLY_NL_Button_Restart" value="Перезапустить" />
+      <add key="CREATE_NEW_LAYOUT_AUTOMATICALLY_NL_Label_Define_Your_Slot" value="Определите ваш slot" />
+      <add key="CREATE_NEW_LAYOUT_AUTOMATICALLY_NL_Label_Select_Size_Of_Slot_You_Want" value="Выберите размер slot, который хотите" />
+      <add key="CREATE_NEW_LAYOUT_AUTOMATICALLY_NL_Label_Outer_Color_Represents_Padding_Between_Slots_And_Inner_Color_Size_Of_Slots" value="Внешний цвет показывает отступы между slots, внутренний — размер самих slots" />
+      <add key="CREATE_NEW_LAYOUT_AUTOMATICALLY_NL_Label_You_Can_Drag_And_From_Corner_Drop_To_Modify_Sizes" value="Вы можете тащить и отпускать за угол для изменения размера" />
+      <add key="CREATE_NEW_LAYOUT_AUTOMATICALLY_NL_Label_Avaliable_Slots" value="Доступные Slots" />
+      <add key="CREATE_NEW_LAYOUT_AUTOMATICALLY_NL_Label_Replay_Slots" value="Replay Slots" />
+      <add key="CREATE_NEW_LAYOUT_AUTOMATICALLY_NL_Label_Playing_Slots" value="Playing Slots" />
+      <add key="CREATE_NEW_LAYOUT_AUTOMATICALLY_NL_Label_Observer_Slots" value="Observer Slots" />
+      <add key="CREATE_NEW_LAYOUT_AUTOMATICALLY_NL_Label_Slot_Sizes_And_Maximum_Slots_Segment_1" value="Для размера SLOT " />
+      <add key="CREATE_NEW_LAYOUT_AUTOMATICALLY_NL_Label_Slot_Sizes_And_Maximum_Slots_Segment_2" value="который вы выбрали, вы сможете использовать МАКСИМУМ " />
+      <add key="CREATE_NEW_LAYOUT_AUTOMATICALLY_NL_Label_Slot_Sizes_And_Maximum_Slots_Segment_3" value=" slots" />
+      <add key="CREATE_NEW_LAYOUT_AUTOMATICALLY_NL_Label_Slot_Sizes_And_Maximum_Slots_Segment_4" value="Если хотите изменить размер slot или экрана, вернитесь назад." />
+      <add key="CREATE_NEW_LAYOUT_AUTOMATICALLY_NL_Label_Last_Step" value="Последний шаг" />
+      <add key="CREATE_NEW_LAYOUT_AUTOMATICALLY_NL_Label_Click_On_Arrow_If_You_Want_To_Change_Slot_Position" value="Нажмите стрелку, если хотите изменить позицию slot" />
+      <add key="CREATE_NEW_LAYOUT_AUTOMATICALLY_NL_Once_You_Are_Finished_Click_On_Done" value="Когда закончите, нажмите Готово" />
+    </sub>
+    <sub id="4" name="UserControl - Monitor Selection">
+      <add key="SWITCH_LAYOUT_Label_Choose" value="ВЫБЕРИТЕ" />
+      <add key="MONITOR_SELECTION_Label_Click_Your_Desired_Monitor" value="Нажмите на нужный монитор" />
+      <add key="SWITCH_LAYOUT_Label_If_There_Are" value="ЕСЛИ ЕСТЬ" />
+      <add key="SWITCH_LAYOUT_Open_Tables" value="ОТКРЫТЫЕ СТОЛЫ" />
+      <add key="SWITCH_LAYOUT_Activate_The_Layout" value="АКТИВИРОВАТЬ LAYOUT" />
+      <add key="SWITCH_LAYOUT_Check_Disable_Switch" value="ОТКЛЮЧИТЬ ПЕРЕКЛЮЧЕНИЕ" />
+      <add key="SWITCH_LAYOUT_Button_Save" value="СОХРАНИТЬ" />
+      <add key="SWITCH_LAYOUT_Button_Discard" value="ОТМЕНА" />
+      <add key="SWITCH_LAYOUT_Label_Tables" value="столы" />
+    </sub>
+    <sub id="5" name="Page - Create From Preset">
+      <add key="CREATE_NEW_LAYOUT_FROM_PRESET_NL_Title_Create_New_Layout_From_Preset" value="Создать новый layout из шаблона" />
+    </sub>
+    <sub id="6" name="Page - Create New Layout From Existing">
+      <add key="CREATE_NEW_LAYOUT_FROM_EXISTING_NL_Title_Clone_Layout" value="Клонировать layout" />
+      <add key="CREATE_NEW_LAYOUT_FROM_EXISTING_NL_Label_Select_A_Layout_To_Clone" value="Выберите layout для клонирования" />
+      <add key="CREATE_NEW_LAYOUT_FROM_EXISTING_NL_Label_Write_A_Name_For_The_Layout" value="Введите имя для layout" />
+      <add key="CREATE_NEW_LAYOUT_FROM_EXISTING_NL_Button_Save" value="Сохранить" />
+    </sub>
+    <sub id="7" name="Dialog - Delete Layout">
+      <add key="DIALOG_DELETE_LAYOUT_NL_Title_Delete_Layout" value="Удалить layout" />
+      <add key="DIALOG_DELETE_LAYOUT_NL_Body_Are_You_Sure_Deleteting" value="Вы уверены, что хотите удалить " />
+      <add key="DIALOG_DELETE_LAYOUT_NL_Button_Delete" value="Удалить" />
+      <add key="DIALOG_DELETE_LAYOUT_NL_Button_Cancel" value="Отмена" />
+    </sub>
+    <sub id="8" name="Dialog - Max Slots Reached">
+      <add key="DIALOG_MAX_SLOTS_REACHED_NL_Title_Oops_You_Reached_The_Maximum" value="Упс! Вы достигли максимума" />
+      <add key="DIALOG_MAX_SLOTS_REACHED_NL_Body_Segment1" value="Вы уже использовали все ваши Slots/Layouts. Активируйте " />
+      <add key="DIALOG_MAX_SLOTS_REACHED_NL_Body_Segment2" value="Tilling Bundle" />
+      <add key="DIALOG_MAX_SLOTS_REACHED_NL_Body_Segment3" value=", чтобы получить неограниченное количество Slots/Layouts!" />
+      <add key="DIALOG_MAX_SLOTS_REACHED_NL_Button_Activate_Now" value="Активировать сейчас" />
+      <add key="DIALOG_MAX_SLOTS_REACHED_NL_Link_I_Dont_Want_This_Awesome_Feature" value="Я не хочу эту классную функцию" />
+      <add key="DIALOG_ACTIVATE_LAYOUT_PAYWALL_NL_Title" value="Free Mode — 1 Layout" />
+      <add key="DIALOG_ACTIVATE_LAYOUT_PAYWALL_NL_Body" value="Free Mode не покрывает активацию нескольких Layout. Вы можете редактировать текущий активный Layout. Активируйте, чтобы разблокировать!" />
+    </sub>
+    <sub id="9" name="Dialog - Auto Layout Switch">
+      <add key="DIALOG_AUTO_LAYOUT_SWITCH_NL_Title" value="АВТОМАТИЧЕСКОЕ ПЕРЕКЛЮЧЕНИЕ LAYOUT" />
+      <add key="DIALOG_AUTO_LAYOUT_SWITCH_NL_Body" value="Ручное включение layout отключит автоматическое переключение layouts. Вы уверены, что хотите отключить эту функцию и активировать этот layout?" />
+    </sub>
+    <sub id="10" name="Faulty Layout Messages">
+      <add key="ON_LAYOUT_FAULT_1" value="В layout нет сохранённой информации о дисплее. Рекомендуем отредактировать хотя бы один раз для сохранения данных." />
+      <add key="ON_LAYOUT_FAULT_2" value="Конфигурация дисплеев изменилась с момента создания этого layout. Пожалуйста, отредактируйте или удалите его." />
+      <add key="ON_LAYOUT_FAULT_4" value="Вы изменили DPI% после создания этого layout. Пожалуйста, отредактируйте или удалите его." />
+      <add key="ON_LAYOUT_FAULT_8" value="Ваши дисплеи отличаются от тех, что были при создании этого layout. Этот layout может работать некорректно." />
+      <add key="ON_LAYOUT_FAULT_16" value="В layout есть неисправные slots. Рекомендуем отредактировать его сейчас." />
+      <add key="ON_SLOT_FAULT_1" value="" />
+      <add key="ON_SLOT_FAULT_2" value="" />
+      <add key="ON_SLOT_FAULT_4" value="" />
+    </sub>
+    <sub id="11" name="Dialog - Confirm Swap">
+      <add key="DIALOG_CONFIRM_SWAP_Title" value="Подтвердить замену" />
+      <add key="DIALOG_CONFIRM_SWAP_Body_Do_You_Want_To_Swap" value="Вы хотите поменять местами" />
+      <add key="DIALOG_CONFIRM_SWAP_Body_With" value="с" />
+    </sub>
+  </area>
+  <area id="104" name="Page - Site Configuration Details">
+    <add key="SITE_CONFIGURATION_DETAILS_NL_Title_Site_Configuration" value="Конфигурация сайта" />
+    <add key="SITE_CONFIGURATION_DETAILS_NL_Button_Save_Changes" value="Сохранить изменения" />
+    <sub id="0" name="Tab - Table Positioning">
+      <add key="SITE_CONFIGURATION_DETAILS_NL_Tab_Header_Table_Positioning" value="Позиционирование столов" />
+      <add key="SITE_CONFIGURATION_DETAILS_NL_Check_Autoplay_On_Start" value="Автозапуск при старте" />
+      <add key="SITE_CONFIGURATION_DETAILS_NL_Toggle_Tiling_Enabled" value="Tiling включен" />
+      <add key="SITE_CONFIGURATION_DETAILS_NL_Toggle_Tiling_Disabled" value="Tiling отключен" />
+      <add key="SITE_CONFIGURATION_DETAILS_NL_Label_New_Table_Detected" value="Обнаружен новый стол" />
+      <add key="SITE_CONFIGURATION_DETAILS_NL_Label_When_A_Table_Is_Detected" value="Когда обнаружен стол..." />
+      <add key="SITE_CONFIGURATION_DETAILS_NL_Option_Send_Tables_To_Playing_Area" value="Отправлять столы в зону игры" />
+      <add key="SITE_CONFIGURATION_DETAILS_NL_Option_Send_Tables_To_Observer_Area" value="Отправлять столы в зону наблюдения" />
+      <add key="SITE_CONFIGURATION_DETAILS_NL_Option_Do_Nothing" value="Ничего не делать" />
+      <add key="SITE_CONFIGURATION_DETAILS_NL_Label_Action_Required" value="Требуется действие" />
+      <add key="SITE_CONFIGURATION_DETAILS_NL_Label_When_My_Turn_Ended_At_A_Table_In_Action_Required_Slot" value="Когда мой ход закончился за столом в слоте Action Required..." />
+      <add key="SITE_CONFIGURATION_DETAILS_NL_Option_Send_The_Table_To_The_Area_Where_It_Was_Before" value="Отправлять стол в slot, где он был раньше" />
+      <add key="SITE_CONFIGURATION_DETAILS_NL_Label_In_Hand_Slots" value="In Hand slots" />
+      <add key="SITE_CONFIGURATION_DETAILS_NL_Label_When_Should_Table_Be_Moved_To_In_Hand_Slots" value="Когда стол должен перемещаться в In Hand slots?" />
+      <add key="SITE_CONFIGURATION_DETAILS_NL_Option_Move_Table_To_Slot_Whenever_I_Start_A_New_Hand" value="Перемещать стол в slot при начале новой раздачи" />
+      <add key="SITE_CONFIGURATION_DETAILS_NL_Option_Move_Table_To_Slot_Only_If_I_Voluntarily_Put_Money_In_The_Hand" value="Перемещать стол в slot только если я добровольно вложил деньги в раздачу" />
+      <add key="SITE_CONFIGURATION_DETAILS_NL_Option_Move_Table_To_Slot_When_Flop_Is_Shown" value="Перемещать стол в slot при первом ходу героя в раздаче" />
+      <add key="SITE_CONFIGURATION_DETAILS_NL_Label_After_Hand_Has_Ended" value="После окончания раздачи..." />
+      <add key="SITE_CONFIGURATION_DETAILS_NL_Option_Move_Table_To_Slot_Only_When_Preflop_Starts" value="Перемещать стол в slot при начале префлопа" />
+    </sub>
+    <sub id="1" name="Tab - Comfort Features">
+      <add key="SITE_CONFIGURATION_DETAILS_NL_Tab_Header_Confort_Features" value="Удобства" />
+      <add key="SITE_CONFIGURATION_DETAILS_NL_Label_BB_Conversion" value="Конвертация BB" />
+      <add key="SITE_CONFIGURATION_DETAILS_NL_Label_Show_BB_On_Stacks" value="Показывать “BB” на стеках" />
+      <add key="SITE_CONFIGURATION_DETAILS_NL_Check_Add_BB_To_Stacks" value="Добавить &quot;BB&quot; к стекам" />
+      <add key="SITE_CONFIGURATION_DETAILS_NL_Dont_Add_BB_To_Stacks" value="Не добавлять “BB” к стекам" />
+      <add key="SITE_CONFIGURATION_DETAILS_NL_Label_Ammount_Of_Decimals" value="Количество десятичных знаков" />
+      <add key="SITE_CONFIGURATION_DETAILS_NL_Show_One_Decimal" value="Показывать один десятичный знак" />
+      <add key="SITE_CONFIGURATION_DETAILS_NL_Show_Two_Decimals" value="Показывать два десятичных знака" />
+      <add key="SITE_CONFIGURATION_DETAILS_NL_Label_Font_Size" value="Размер шрифта" />
+      <add key="SITE_CONFIGURATION_DETAILS_NL_Label_Auto_Timebank" value="Автоматический таймбанк" />
+      <add key="SITE_CONFIGURATION_DETAILS_NL_Label_Avoid_Sitting_Out" value="Избегать отсутствия за столом" />
+      <add key="SITE_CONFIGURATION_DETAILS_NL_Tooltip_Title_Avoid_Sitting_Out" value="Избегать отсутствия" />
+      <add key="SITE_CONFIGURATION_DETAILS_NL_Tooltip_Body_Avoid_Sitting_Out" value="Если у вас заканчивается время, включая таймбанк или нет, эта функция автоматически сообщит покерной комнате, что вы вернулись за стол." />
+      <add key="SITE_CONFIGURATION_DETAILS_NL_Label_Keep_The_Spins_Rolling" value="Продолжать вращение Spins" />
+      <add key="SITE_CONFIGURATION_DETAILS_NL_Label_Hide_Hero_Balance" value="Скрыть баланс героя" />
+      <add key="SITE_CONFIGURATION_DETAILS_NL_Tooltip_Title_Hide_Hero_Balance" value="Скрыть баланс" />
+      <add key="SITE_CONFIGURATION_DETAILS_NL_Tooltip_Body_Hide_Hero_Balance" value="С этой функцией вы можете скрыть свой банкролл на покерном сайте, рядом с балансом появится кликаемое глазное изображение для переключения видимости" />
+      <add key="SITE_CONFIGURATION_DETAILS_NL_Tooltip_Title_Keep_Spins_Rolling" value="Продолжайте вращения" />
+      <add key="SITE_CONFIGURATION_DETAILS_NL_Tooltip_Body_Keep_Spins_Rolling" value="После окончания спина Jurojin купит вам еще один билет, чтобы сразу начать новый! Не забудьте отключить эту функцию после игры!" />
+      <add key="SITE_CONFIGURATION_DETAILS_NL_Label_Copy_Player_Name" value="Копировать имя игрока" />
+      <add key="SITE_CONFIGURATION_DETAILS_NL_Label_Dont_Remove" value="Не удаляйте &lt;&gt; вокруг &lt;PLAYER&gt; для работы этой функции" />
+      <add key="SITE_CONFIGURATION_DETAILS_NL_Label_Custom_Link" value="Пользовательская ссылка" />
+      <add key="SITE_CONFIGURATION_DETAILS_NL_Label_Copy_Player_Name_To_Clipboard_Double_Clicking_Player_Seat_Stack" value="Копировать имя игрока в буфер при двойном клике по стаку игрока" />
+      <add key="SITE_CONFIGURATION_DETAILS_NL_Label_Hide_Board_If_All_In" value="Скрывать борд при all in" />
+      <add key="SITE_CONFIGURATION_DETAILS_NL_Tooltip_Title_Hide_Board" value="Скрыть борд" />
+      <add key="SITE_CONFIGURATION_DETAILS_NL_Tooltip_Body_Hide_Board" value="Вы можете скрыть борд при all in, чтобы избежать тильта и нервов" />
+      <add key="SITE_CONFIGURATION_DETAILS_NL_Label_Color_Stacks" value="Цветные стаканы" />
+      <add key="SITE_CONFIGURATION_DETAILS_NL_Set_A_Specific_Color_On_Stacks_Based_On_Amount" value="Установить конкретный цвет на стак игрока в зависимости от размера стакана" />
+      <add key="SITE_CONFIGURATION_DETAILS_NL_Tooltip_Title_BB_Conversion" value="Конвертация BB" />
+      <add key="SITE_CONFIGURATION_DETAILS_NL_Tooltip_Body_BB_Conversion" value="С этой функцией вы можете конвертировать стеки и размеры ставок в значения BB. Нажимая на свой стак, можно переключаться между ними и задавать разное количество знаков после запятой. Отключите встроенную конвертацию в Bodog, если хотите использовать эту!" />
+    </sub>
+    <sub id="2" name="Tab - Hoytkeys Baypassing">
+      <add key="SITE_CONFIGURATION_DETAILS_NL_Tab_Header_Hoytkeys_Baypassing" value="Обход Hoytkeys" />
+      <add key="SITE_CONFIGURATION_DETAILS_NL_Label_Tell_Jurojin_Your_Hotkey_Bindings" value="Сообщите Jurojin ваши назначенные горячие клавиши" />
+      <add key="SITE_CONFIGURATION_DETAILS_NL_Description_Proxying_Hotkeys" value="Хотите играть на этом сайте с контроллером или просто использовать мышь для fold/check/bet? Просто сообщите Jurojin горячие клавиши, которые вы настроили в покерной комнате, и мы эмулируем нажатия клавиш для вас." />
+      <add key="SITE_CONFIGURATION_DETAILS_NL_Label_Fold" value="Фолд" />
+      <add key="SITE_CONFIGURATION_DETAILS_NL_Label_Check_Call" value="Чек/Колл" />
+      <add key="SITE_CONFIGURATION_DETAILS_NL_Label_Toggle_BB_Mode" value="Переключить режим BB" />
+      <add key="SITE_CONFIGURATION_DETAILS_NL_Label_Increment_Decrement_Bet" value="Увеличить/Уменьшить ставку" />
+      <add key="SITE_CONFIGURATION_DETAILS_NL_Label_Increment" value="Увеличить/Уменьшить ставку" />
+      <add key="SITE_CONFIGURATION_DETAILS_NL_Label_Decrement" value="Уменьшить" />
+      <add key="SITE_CONFIGURATION_DETAILS_NL_Label_Bet_Raise" value="Ставка/Рейз" />
+      <add key="SITE_CONFIGURATION_DETAILS_NL_Label_All_In" value="Все фишки" />
+      <add key="SITE_CONFIGURATION_DETAILS_NL_Label_Button1" value="КНОПКА 1" />
+      <add key="SITE_CONFIGURATION_DETAILS_NL_Label_Button2" value="КНОПКА 2" />
+      <add key="SITE_CONFIGURATION_DETAILS_NL_Label_Button3" value="КНОПКА 3" />
+      <add key="SITE_CONFIGURATION_DETAILS_NL_Label_Button4" value="КНОПКА 4" />
+    </sub>
+    <sub id="3" name="Tab - Rebuy Topup">
+      <add key="SITE_CONFIGURATION_DETAILS_NL_Tab_Header_Rebuy_Topup" value="Ребай/Топап" />
+      <add key="SITE_CONFIGURATION_DETAILS_NL_Toggle_Auto_Top-Up_For_Cash_Games" value="Автоматический топап для кеш-игр" />
+      <add key="SITE_CONFIGURATION_DETAILS_NL_Label_Auto_Top-Up_For_Cash_Games" value="Автоматический топап для кеш-игр" />
+      <add key="SITE_CONFIGURATION_DETAILS_NL_Description_Auto_TopUp" value="Устали кликать кнопку ребая? Не давайте стеку опуститься! С помощью этой функции вы сможете оставаться сильным за столом. Просто дайте Jurojin указания, когда и сколько ребаить!" />
+      <add key="SITE_CONFIGURATION_DETAILS_NL_Label_Auto_Top_Up_Back_To" value="Автоматический топап до" />
+      <add key="SITE_CONFIGURATION_DETAILS_NL_Label_Blinds_When_My_Stack_Goes_Below" value="блайнды, когда мой стек опускается ниже" />
+      <add key="SITE_CONFIGURATION_DETAILS_NL_Label_When_I_Run_Out_Of_Chips_On_Table_Rebuy_With" value="Когда у меня заканчиваются фишки за столом, ребай с" />
+      <add key="SITE_CONFIGURATION_DETAILS_NL_Label_Blinds" value="блайнды, когда мой стек опускается ниже" />
+      <add key="SITE_CONFIGURATION_DETAILS_NL_Tooltip_Title_Auto_Top-Up_For_Cash_Games" value="Ребай/Топап" />
+      <add key="SITE_CONFIGURATION_DETAILS_NL_Tooltip_Body_Auto_Top-Up_For_Cash_Games" value="Используйте эту функцию для автоматического ребая или топапа за столами. Если вы играете в Zoom, топап произойдет только при нажатии горячей клавиши fold от Jurojin с заданной задержкой" />
+      <add key="SITE_CONFIGURATION_DETAILS_NL_Toaster_Content_If_You_Play_Zone_Topup_Will_Happen_Only_With_Fold_Hotkey" value="Если вы играете в Zone, топап будет происходить только с горячей клавишей fold от Jurojin" />
+    </sub>
+    <sub id="4" name="UserControl - Color Stacks">
+      <add key="SITE_CONFIGURATION_DETAILS_COLOR_STACKS_Title_Color_Stacks" value="Цветные стаканы" />
+      <add key="SITE_CONFIGURATION_DETAILS_COLOR_STACKS_Label_Border_According_To_Value" value="Граница в зависимости от значения" />
+      <add key="SITE_CONFIGURATION_DETAILS_COLOR_STACKS_Label_Less_Than" value="Меньше чем" />
+      <add key="SITE_CONFIGURATION_DETAILS_COLOR_STACKS_Label_Greater_Than" value="Больше чем" />
+    </sub>
+    <sub id="5" name="Tab - Popup Handling">
+      <add key="SITE_CONFIGURATION_DETAILS_NL_Tab_Header_Popup_Handling" value="Обработка всплывающих окон" />
+      <add key="SITE_CONFIGURATION_DETAILS_NL_Label_Advanced_Configuration" value="Расширенная настройка" />
+      <add key="SITE_CONFIGURATION_DETAILS_NL_Label_Close_Or_Accept_All_Popups_With_A_Single_Option" value="Закрыть или принять все всплывающие окна одним действием" />
+      <add key="SITE_CONFIGURATION_DETAILS_NL_Label_Jurojin_Will_Close_Any_Popup_That_Appears_Which_Only_Has_One_Option_To_Take" value="Jurojin закроет любое всплывающее окно с одним доступным действием. Учтите, что окна не фильтруются и Jurojin не знает, что будет нажато. Используйте с осторожностью." />
+      <add key="SITE_CONFIGURATION_DETAILS_NL_Label_My_Popups" value="Мои всплывающие окна" />
+      <add key="SITE_CONFIGURATION_DETAILS_NL_Label_Search_By_Text" value="Поиск по тексту" />
+      <add key="SITE_CONFIGURATION_DETAILS_NL_No_Popup_Rules_Set_Yet" value="" />
+      <add key="SITE_CONFIGURATION_DETAILS_NL_Choose_How_Popups_Should_Behave_Automatically" value="" />
+      <add key="SITE_CONFIGURATION_DETAILS_NL_Label_Popup_Text" value="Текст всплывающего окна" />
+      <add key="SITE_CONFIGURATION_DETAILS_NL_Label_Action_To_Take" value="Действие" />
+      <add key="SITE_CONFIGURATION_DETAILS_NL_Label_Actions" value="Действия" />
+      <add key="SITE_CONFIGURATION_DETAILS_MODAL_Title_Edit_Popup_Action" value="Редактировать действие всплывающего окна" />
+      <add key="SITE_CONFIGURATION_DETAILS_MODAL_Label_General_Configuration" value="Общие настройки" />
+      <add key="SITE_CONFIGURATION_DETAILS_MODAL_Label_Action_To_Take" value="Действие" />
+      <add key="SITE_CONFIGURATION_DETAILS_MODAL_Label_Action_To_Advanced_Configuration" value="Расширенные настройки" />
+      <add key="SITE_CONFIGURATION_DETAILS_MODAL_Label_Filter_All_Modals_That_Contain" value="Фильтровать все модальные окна, содержащие..." />
+      <add key="SITE_CONFIGURATION_DETAILS_MODAL_Button_Ok" value="Ок" />
+      <add key="SITE_CONFIGURATION_DETAILS_MODAL_Button_Cancel" value="Отмена" />
+    </sub>
+    <sub id="6" name="Dialog - Edit popup dangerous">
+      <add key="DIALOG_EDIT_POPUP_DANGEROUS_Label_This_Is_A_Very_Dangerous_Feature" value="Это очень опасная функция!" />
+      <add key="DIALOG_EDIT_POPUP_DANGEROUS_Label_Modifying_The_Popup" value="Изменение правил идентификации всплывающих окон может привести к действиям Jurojin с окнами, которые вы не хотели бы. Используйте с осторожностью." />
+      <add key="DIALOG_EDIT_POPUP_DANGEROUS_Button_Continue" value="Продолжить" />
+      <add key="DIALOG_EDIT_POPUP_DANGEROUS_Button_Go_Back" value="Назад" />
+    </sub>
+    <sub id="7" name="Popup - Handling">
+      <add key="SITES_POPUP_HANDLING_Title_Popup_Handling" value="Обработка всплывающих окон" />
+      <add key="SITES_POPUP_HANDLING_Label_Select_An_Option" value="Выберите опцию:" />
+      <add key="SITES_POPUP_HANDLING_Button_Accept" value="Принять" />
+      <add key="SITES_POPUP_HANDLING_Button_Cancel" value="Отмена" />
+      <add key="SITES_POPUP_HANDLING_Caption_Option_You_Choose_Will_Be_Remembered" value="Выбранная вами опция будет запомнена при следующем появлении этого окна." />
+    </sub>
+  </area>
+  <area id="105" name="Page - Settings">
+    <add key="SETTINGS_NL_Tab_Title" value="Настройки" />
+    <add key="SETTINGS_NL_Tab_Header_Global_Setting" value="Глобальные настройки" />
+    <add key="SETTINGS_NL_CheckBox_Magnetize_Playing_Area" value="Магнитить игровую зону" />
+    <add key="SETTINGS_NL_Tooltip_Title_Magnetize_Playing_Area" value="Магнитить игровую зону и slots" />
+    <add key="SETTINGS_NL_Tooltip_Body_Magnetize_Playing_Area" value="Игровая зона может быть магнитена, это значит, что вы можете перетаскивать столы, и они будут сразу притягиваться к slots. Также можно перетаскивать при нажатом CTRL, чтобы избежать обмена столов, и они будут стековаться" />
+    <add key="SETTINGS_NL_CheckBox_Magnetize_Observer_Area" value="Магнитить зону наблюдателя" />
+    <add key="SETTINGS_NL_Tooltip_Title_Magnetize_Observer_Area" value="Магнитить зону наблюдателя и slots" />
+    <add key="SETTINGS_NL_Tooltip_Body_Magnetize_Observer_Area" value="Slots зоны наблюдателя также могут быть магнитены" />
+    <add key="SETTINGS_NL_CheckBox_Magnetize_Lobby_Slots" value="Магнитить Lobby slots" />
+    <add key="SETTINGS_NL_Tooltip_Title_Magnetize_Lobby_Slots" value="Магнитить lobby slots" />
+    <add key="SETTINGS_NL_Tooltip_Body_Magnetize_Lobby_Slots" value="Также и lobby slots. Если в lobby slots включена опция stack sites" />
+    <add key="SETTINGS_NL_CheckBox_Invert_Ctrl_Key" value="Инвертировать использование CTRL для магнитизации" />
+    <add key="SETTINGS_NL_CheckBox_Reorder_Observer_Area_When_Table_Closed" value="Переставлять зону наблюдателя при закрытии стола" />
+    <add key="SETTINGS_NL_Tooltip_Title_Reoder_Observer_Area_When_Table_Closed" value="Переставлять зону наблюдателя при закрытии стола" />
+    <add key="SETTINGS_NL_Tooltip_Body_Reoder_Observer_Area_When_Table_Closed" value="Вы можете сделать так, чтобы столы переставлялись в observer slots, когда один из них закрывается" />
+    <add key="SETTINGS_NL_CheckBox_Reorder_Playing_Area_When_Table_Closed" value="Переставлять игровую зону при закрытии стола" />
+    <add key="SETTINGS_NL_Tooltip_Title_Reorder_Playing_Area_When_Table_Closed" value="Переставлять игровую зону при закрытии стола" />
+    <add key="SETTINGS_NL_Tooltip_Body_Reorder_Playing_Area_When_Table_Closed" value="Вы можете сделать так, чтобы столы переставлялись в playing slots, когда один из них закрывается" />
+    <add key="SETTINGS_NL_CheckBox_Keep_Most_Urgent_On_Top" value="Управлять срочностью стека" />
+    <add key="SETTINGS_NL_Tooltip_Title_Keep_Most_Urgent_On_Top" value="Управлять срочностью стека" />
+    <add key="SETTINGS_NL_Tooltip_Body_Keep_Most_Urgent_On_Top" value="Когда столы делят один слот (стек), Jurojin поднимает самый срочный стол (меньше всего времени на действие). Это только видимость в стеке — фокус клавиатуры не перемещается." />
+    <add key="SETTINGS_NL_CheckBox_Auto_Focus_Most_Urgent_Always" value="Всегда автофокус на самый срочный стол" />
+    <add key="SETTINGS_NL_Tooltip_Title_Auto_Focus_Most_Urgent_Always" value="Всегда автофокус на самый срочный стол" />
+    <add key="SETTINGS_NL_Tooltip_Body_Auto_Focus_Most_Urgent_Always" value="Когда первый стол требует действия (или после вашего действия остаётся другой), Jurojin глобально фокусирует самый срочный стол, чтобы играть без мыши." />
+    <add key="SETTINGS_NL_CheckBox_Also_Force_Move_Mouse" value="Также принудительно двигать мышь" />
+    <add key="SETTINGS_NL_Tooltip_Title_Also_Force_Move_Mouse" value="Также принудительно двигать мышь" />
+    <add key="SETTINGS_NL_Tooltip_Body_Also_Force_Move_Mouse" value="Также перемещает курсор мыши на стол в фокусе. Полезно для геймпада или сайтов, где курсор должен быть над столом." />
+    <add key="SETTINGS_NL_CheckBox_Minimize_App_To_System_Tray" value="Сворачивать приложение в системный трей" />
+    <add key="SETTINGS_NL_CheckBox_Save_Jurojin_Location_On_Close" value="" />
+    <add key="SETTINGS_NL_Tooltip_Title_Alarm_For_Action_Required" value="" />
+    <add key="SETTINGS_NL_Tooltip_Title_Delayed_Alarm_Action_Enabled" value="Отложенная тревога для действия" />
+    <add key="SETTINGS_NL_Tooltip_Subtitle_Delayed_Alarm_Action_Enabled" value="Звучит через 10 секунд после начала вашего хода" />
+    <add key="SETTINGS_NL_Tooltip_Body_Delayed_Alarm_Action_Required" value="Вы можете настроить Jurojin так, чтобы сигнал тревоги звучал через заданное количество секунд после начала вашего хода, пока действие всё еще требуется." />
+    <add key="SETTINGS_NL_Tooltip_Body_Minimize_Application_To_System_Tray" value="При нажатии на кнопку свернуть с включённой этой функцией, приложение уйдет в системный трей в правом нижнем углу Windows." />
+    <add key="SETTINGS_NL_Tooltip_Title_Minimize_Application_To_System_Tray" value="Сворачивать в трей" />
+    <add key="SETTINGS_NL_CheckBox_Show_RNG" value="Показывать RNG" />
+    <add key="SETTINGS_NL_CheckBox_Sub_Show_RNG" value="Генератор случайных чисел" />
+    <add key="SETTINGS_NL_Tooltip_Title_Show_Random_Number_Generator" value="ГСЧ" />
+    <add key="SETTINGS_NL_Tooltip_Body_Show_Random_Number_Generator" value="Это покажет ГСЧ на экране (не поверх столов, независимый элемент!)" />
+    <add key="SETTINGS_NL_CheckBox_Drag_Table_Clicking_Anywhere" value="Перетаскивать стол кликом по любой области" />
+    <add key="SETTINGS_NL_CheckBox_Focus_Table_Under_Mouse" value="Фокусировать стол под мышью" />
+    <add key="SETTINGS_NL_Tooltip_Title_Focus_Table_Under_Mouse" value="Фокусировать стол под мышью" />
+    <add key="SETTINGS_NL_Tooltip_Body_Focus_Table_Under_Mouse" value="Эта функция выводит стол на передний план при наведении мыши" />
+    <add key="SETTINGS_NL_CheckBox_Bring_Only_Tables_In_Playing_Slot_To_Front" value="Выводить на передний план только столы в игровом слоте" />
+    <add key="SETTINGS_NL_Tab_Header_Global_Hotkeys" value="Глобальные горячие клавиши" />
+    <add key="SETTINGS_NL_Label_Reorder_Playing_Area" value="Переставить игровую зону" />
+    <add key="SETTINGS_NL_Label_Reorder_Observer_Area" value="Перестроить Observer Area" />
+    <add key="SETTINGS_NL_Label_Send_Table_To_Playing_Area" value="Отправить стол в Playing Area" />
+    <add key="SETTINGS_NL_Tooltip_Title_Send_Table_To_Playing_Area" value="ОТПРАВИТЬ СТОЛЫ В PLAYING SLOTS" />
+    <add key="SETTINGS_NL_Tooltip_Body_Send_Table_To_Playing_Area" value="Когда вы наведете мышь на стол и нажмете эту горячую клавишу, он переместится в следующий доступный playing slot. Также работает на неподдерживаемых сайтах и эмуляторах! Не забудьте сообщить о неподдерживаемых сайтах на наших форумах!" />
+    <add key="SETTINGS_NL_Label_Send_Table_To_Observer_Area" value="Отправить стол в Observer Area" />
+    <add key="SETTINGS_NL_Move_Tables_Clicking_Anywhere" value="Перемещать столы, кликая в любом месте клиентской области" />
+    <add key="SETTINGS_NL_Tooltip_Title_Move_Tables_Clicking_Anywhere" value="Перемещать столы кликом в любом месте" />
+    <add key="SETTINGS_NL_Tooltip_Body_Move_Tables_Clicking_Anywhere" value="Эта функция позволит вам перетаскивать стол, не обязательно кликая по заголовку окна. Убедитесь, что вы кликаете именно по столу, а не по его дочерним элементам, например HUD. Нижние 20% области стола не работают, чтобы избежать проблем с встроенными слайдерами ставок на покерных сайтах" />
+    <add key="SETTINGS_NL_Hide_Title_Bar_Of_Tables" value="Скрыть панель заголовка столов" />
+    <add key="SETTINGS_NL_Tooltip_Title_Send_Table_To_Observer_Area" value="ОТПРАВИТЬ СТОЛЫ В OBSERVE SLOTS" />
+    <add key="SETTINGS_NL_Tooltip_Body_Send_Table_To_Observer_Area" value="Когда вы наведете мышь на стол и нажмете эту горячую клавишу, он будет перемещён в следующий доступный observe slot. Также работает на неподдерживаемых сайтах и эмуляторах! Не забудьте сообщить о неподдерживаемых сайтах на наших форумах!" />
+    <add key="SETTINGS_NL_Label_Preview_Active_Layout" value="Предпросмотр активного layout" />
+    <add key="SETTINGS_NL_Label_Cycle_Through_Tables" value="Переключение между столами в slot" />
+    <add key="SETTINGS_NL_Label_Disable_All_Hotkeys" value="Отключить все горячие клавиши" />
+    <add key="SETTINGS_NL_Label_Focus_Most_Urgent_Table" value="Фокус на самый срочный стол" />
+    <add key="SETTINGS_NL_Label_Close_Table" value="Закрыть стол" />
+    <add key="SETTINGS_NL_Label_Minimize_Table" value="Свёрнуть стол" />
+    <add key="SETTINGS_NL_Label_Focus_Table_On_Next_Slot" value="Фокус на стол в следующем slot" />
+    <add key="SETTINGS_NL_Label_Focus_Table_On_Previous_Slot" value="Фокус на стол в предыдущем slot" />
+    <add key="SETTINGS_NL_Label_Sitout_Next_Hand" value="Пропустить следующую раздачу" />
+    <add key="SETTINGS_NL_Label_Sitout_Next_BB" value="Пропустить следующий big blind" />
+    <add key="SETTINGS_NL_Label_Sit_Out_At_All_Tables" value="Пропускать ход на всех столах" />
+    <add key="SETTINGS_NL_Label_Sit_Back_Into_The_Table" value="Вернуться за стол" />
+    <add key="SETTINGS_NL_Info_Hotkeys_Will_Only_Work_Once_You_Leave_This_View" value="Горячие клавиши будут работать только после выхода из этого вида" />
+    <add key="SETTINGS_NL_Tab_Header_Table_Border" value="Граница стола" />
+    <add key="SETTINGS_NL_Check_Show_Border_When_Its_Your_Turn_To_Play" value="Показывать границу, когда ваш ход" />
+    <add key="SETTINGS_NL_Radio_Use_Color_Transition" value="Использовать цветовой переход" />
+    <add key="SETTINGS_NL_Label_The_Color_Will_Gradually_Change_Form_Green_Yellow_To_Red" value="(Цвет будет постепенно меняться от зелёного, жёлтого к красному)" />
+    <add key="SETTINGS_NL_Radio_Choose_Colors" value="Выбрать цвета" />
+    <add key="SETTINGS_NL_Label_At_The_Start_Of_My_Turn" value="В начале моего хода" />
+    <add key="SETTINGS_NL_Label_In_The_Last_Seconds_Segment1" value="В последние" />
+    <add key="SETTINGS_NL_Label_In_The_Last_Seconds_Segment2" value="секунд" />
+    <add key="SETTINGS_NL_Check_Blink_Border" value="Мигание границы" />
+    <add key="SETTINGS_NL_Check_Only_Show_On_Most_Urgent_Table" value="Показывать только на самом срочном столе" />
+    <add key="SETTINGS_NL_Check_Highlight_Focused_Table" value="Подсвечивать фокусированный стол" />
+    <add key="SETTINGS_NL_Label_Border_Size" value="Размер границы" />
+    <add key="SETTINGS_NL_Label_Size" value="Размер: " />
+    <add key="SETTINGS_NL_Button_Save_Changes" value="Сохранить изменения" />
+    <add key="SETTINGS_NL_Button_Tooltip_Export_Settings" value="Экспорт настроек" />
+    <add key="SETTINGS_NL_Button_Tooltip_Import_Settings" value="Импорт настроек" />
+    <add key="SETTINGS_NL_CheckBox_Show_Random_Number_Generator" value="" />
+    <add key="SETTINGS_NL_Button_Settings_File" value="Файлы настроек" />
+    <sub id="0" name="Dialog - Import Settings">
+      <add key="IMPORT_SETTINGS_DIALOG_NL_Title_Import_Settings" value="Импорт настроек" />
+      <add key="IMPORT_SETTINGS_DIALOG_NL_Label_Choose_Zip_File" value="Выберите zip файл" />
+      <add key="IMPORT_SETTINGS_DIALOG_NL_Button_Import_Settings" value="Импорт настроек" />
+    </sub>
+    <sub id="1" name="Dialog - Export Settings">
+      <add key="EXPORT_SETTINGS_DIALOG_NL_Title_Export_Settings" value="Экспорт настроек" />
+      <add key="EXPORT_SETTINGS_DIALOG_NL_Label_Choose_Export_Location" value="Выберите место для экспорта" />
+      <add key="EXPORT_SETTINGS_DIALOG_NL_Button_Export_Settings" value="Экспорт настроек" />
+    </sub>
+    <sub id="2" name="Import/Export Status">
+      <add key="IMPORT_EXPORT_SETTINGS_NL_Status_Title" value="Импорт/Экспорт настроек" />
+      <add key="IMPORT_EXPORT_SETTINGS_NL_Status_Success" value="Операция успешно завершена" />
+      <add key="IMPORT_EXPORT_SETTINGS_NL_Status_Failure" value="Что-то пошло не так" />
+      <add key="IMPORT_EXPORT_SETTINGS_NL_Button_Export" value="Экспорт" />
+      <add key="IMPORT_EXPORT_SETTINGS_NL_Button_Import" value="Импорт" />
+    </sub>
+    <sub id="3" name="Dialog - Alarm for AR">
+      <add key="ALARM_FOR_AR_Label_Ring_Bell" value="" />
+      <add key="ALARM_FOR_AR_Label_Volume" value="" />
+      <add key="ALARM_FOR_AR_Button_Test_Sound" value="" />
+    </sub>
+    <sub id="4" name="Dialog - Delayed Alarm for AR">
+      <add key="DELAYED_ALARM_FOR_AR_Label_Sounds_After" value="Звук через" />
+      <add key="DELAYED_ALARM_FOR_AR_Label_Seconds_Of_Turn_Start" value="Секунд с начала хода" />
+      <add key="DELAYED_ALARM_FOR_AR_Label_Ring_Bell" value="Ring-bell" />
+      <add key="DELAYED_ALARM_FOR_AR_Label_Volume" value="Volume" />
+    </sub>
+  </area>
+  <area id="106" name="Page - Hotkeys">
+    <add key="HOTKEYS_NL_Title_Table_Hotkeys" value="Горячие клавиши" />
+    <add key="HOTKEYS_NL_Button_Save_Changes" value="Сохранить изменения" />
+    <sub id="0" name="Tab - Bet Buttons">
+      <add key="HOTKEYS_NL_Tab_Header_Bet_Buttons" value="Кнопки ставок" />
+      <add key="HOTKEYS_NL_Label_Fold" value="ФОЛД/ЧЕК" />
+      <add key="HOTKEYS_NL_Label_Suggested_Key" value="РЕКОМЕНДУЕМАЯ КЛАВИША:" />
+      <add key="HOTKEYS_NL_Label_Check_Call" value="КОЛЛ" />
+      <add key="HOTKEYS_NL_Label_All_In" value="ОЛЛ-ИН" />
+      <add key="HOTKEYS_NL_Label_Bet_Raise" value="СТАВКА/РЕЙЗ" />
+      <add key="HOTKEYS_NL_Label_Increment" value="УВЕЛИЧИТЬ" />
+      <add key="HOTKEYS_NL_Label_Decrement" value="УМЕНЬШИТЬ" />
+      <add key="HOTKEYS_NL_Label_Button1" value="КНОПКА 1" />
+      <add key="HOTKEYS_NL_Label_Button2" value="КНОПКА 2" />
+      <add key="HOTKEYS_NL_Label_Button3" value="КНОПКА 3" />
+      <add key="HOTKEYS_NL_Label_Button4" value="КНОПКА 4" />
+      <add key="HOTKEYS_NL_Label_Button5" value="КНОПКА 5" />
+      <add key="HOTKEYS_NL_Label_Button6" value="КНОПКА 6" />
+      <add key="HOTKEYS_NL_Label_Button7" value="КНОПКА 7" />
+      <add key="HOTKEYS_NL_Label_Button8" value="КНОПКА 8" />
+      <add key="HOTKEYS_NL_Label_Button9" value="КНОПКА 9" />
+      <add key="HOTKEYS_NL_Label_Button10" value="КНОПКА 10" />
+      <add key="HOTKEYS_NL_Label_Button11" value="КНОПКА 11" />
+      <add key="HOTKEYS_NL_Label_Button12" value="КНОПКА 12" />
+      <add key="HOTKEYS_NL_Label_Button13" value="КНОПКА 13" />
+      <add key="HOTKEYS_NL_Label_Button14" value="КНОПКА 14" />
+      <add key="HOTKEYS_NL_Label_Button15" value="КНОПКА 15" />
+      <add key="HOTKEYS_NL_Label_Button16" value="КНОПКА 16" />
+      <add key="DIALOG_SET_HOTKEY_Title" value="Назначить клавишу" />
+      <add key="DIALOG_SET_HOTKEY_Hint" isFormatted="true" value="&lt;p&gt;Нажмите &lt;span style=&quot;font-weight: 700;&quot;&gt;Enter&lt;/span&gt;, чтобы сохранить.&lt;/p&gt;&lt;p&gt;Нажмите &lt;span style=&quot;font-weight: 700;&quot;&gt;Esc&lt;/span&gt;, чтобы сбросить (снимает клавишу).&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;text-decoration: underline;&quot;&gt;Закройте окно, чтобы снова заработали горячие клавиши.&lt;/span&gt;&lt;/p&gt;" />
+      <add key="HOTKEYS_NL_Check_Prioritize_Times_Bet_Fields_On_Preflop" value="Приоритизировать поля ставок на preflop при ответе на ставку" />
+      <add key="HOTKEYS_NL_Prioritize_Times_Bet_Fields_On_Postflop" value="Также приоритизировать поля ставок на postflop" />
+      <add key="HOTKEYS_NL_Label_Your_Bet_Buttons_Overlay_Will_Use_These_Betsizes" value="Оверлей использует эти размеры" />
+      <add key="HOTKEYS_NL_Label_The_Hotkeys_Will_Only_Work_Once_You_Leave_This_View" value="Горячие клавиши будут работать только после выхода из этого вида" />
+      <add key="HOTKEYS_NL_Label_Use_Ctrl_Key_To_Switch_Between_Button_Groups" value="Ctrl переключает группы кнопок" />
+      <add key="HOTKEYS_NL_Label_Preflop_Bet" value="" />
+      <add key="HOTKEYS_NL_Label_Big_Blind_Or_Button_Blind" value="" />
+      <add key="HOTKEYS_NL_Label_Normal_Bet_Size" value="" />
+      <add key="HOTKEYS_NL_Label_Percent_Of_Pot" value="" />
+      <add key="HOTKEYS_NL_Label_Previous_Bet_Multiplier" value="" />
+      <add key="HOTKEYS_NL_X_Times_Previous_Bet_Raise" value="" />
+      <add key="HOTKEYS_NL_Help_If_You_Leave_The_One_Of_The_Betsizes_Multiplier_Jurojin_Will_Use_The_Bb" value="" />
+      <add key="HOTKEYS_NL_Label_Customize_Raise_Mode" value="Режим рейза" />
+      <add key="HOTKEYS_NL_Help_Customize_Raise_Mode_Title" value="Режимы рейза" />
+      <add key="HOTKEYS_NL_Help_Customize_Raise_Mode_Body" value="Выберите поведение горячих клавиш и кнопок ставок при ответе на ставку на префлопе и постфлопе" />
+    </sub>
+    <sub id="1" name="Tab - Hotkey Configuration">
+      <add key="HOTKEYS_NL_Tab_Header_Hotkey_Configuration" value="Настройки" />
+      <add key="HOTKEYS_NL_Label_Send_The_Hotkey_To" value="Отправить горячую клавишу в" />
+      <add key="HOTKEYS_NL_Check_Table_Below_Mouse_Pointer" value="Стол под курсором мыши" />
+      <add key="HOTKEYS_NL_Check_Focused_Table" value="Фокус на стол" />
+      <add key="HOTKEYS_NL_Label_Override_Poker_Site_Wheel_Betting" value="Регулировка ставки колёсиком" />
+      <add key="HOTKEYS_NL_Tooltip_Wheel_Betting_Title" value="РЕГУЛИРОВКА СТАВКИ КОЛЁСИКОМ" />
+      <add key="HOTKEYS_NL_Tooltip_Wheel_Betting_Body" value="Можно включить, чтобы Jurojin регулировал размер ставки колёсиком мыши. Вы можете выбрать движение слайдера по BB или SB. Выбранный вариант также повлияет на поведение горячих клавиш Увеличить и Уменьшить." />
+      <add key="HOTKEYS_NL_Label_Small_Blinds" value="Малые блайнды" />
+      <add key="HOTKEYS_NL_Label_Big_Blinds" value="Большие блайнды" />
+      <add key="HOTKEYS_NL_Label_Toggle_BB_Mode" value="Переключить режим BB" />
+      <add key="HOTKEYS_NL_Label_BB_Convertion_On_Bodog_Bovada" value="Конвертация BB на Bodog/Iggy" />
+      <add key="HOTKEYS_NL_Button_Click_Here" value="Нажмите здесь" />
+      <add key="HOTKEYS_NL_Label_Instantly_Shove_Bet_When_Pressing_Hotkey" value="При использовании горячей клавиши размера ставки" />
+      <add key="HOTKEYS_NL_Label_Also_Instantly_Shove_When_Using_Betting_Overlay" value="При использовании кнопки размера ставки на Betting HUD" />
+      <add key="HOTKEYS_NL_Label_Instant_Shove_Only_All_In" value="" />
+      <add key="HOTKEYS_NL_Label_AutoBet" value="Мгновенно делать ставку фишками" />
+      <add key="HOTKEYS_NL_Label_Geometric_Betsizing" value="Геометрический размер ставки" />
+      <add key="HOTKEYS_NL_Label_Convert_This_Betsize_Into_A_Geometric_Bet_Size" value="Преобразовать эту кнопку размера ставки в геометрический размер ставки (2e, 3e)" />
+      <add key="HOTKEYS_NL_Banner_When_Using_Betsize_Overlay_You_Can_Use_Ctrl_Key" value="При использовании оверлея размеров ставок можно нажимать CTRL для выбора между 3e и 2e" />
+      <add key="HOTKEYS_NL_Tooltip_Geometric_Betsizing_Title" value="ГЕОМЕТРИЧЕСКИЙ РАЗМЕР СТАВКИ" />
+      <add key="HOTKEYS_NL_Tooltip_Geometric_Betsizing_Body" value="С этой функцией вы можете настроить кнопку размера ставки, чтобы она вела себя как геометрическая ставка. Геометрические размеры ставки позволяют сделать ставку на флопе/терне так, что, ставя тот же процент на следующей улице, вы достигнете олл-ина на ривере" />
+    </sub>
+    <sub id="2" name="Feature Lock">
+      <add key="FEATURE_LOCK_LABEL_HOTKEYS_NL_Label_Your_Hotkeys_Will_Only_Work_At_One_Table" value="Ваши горячие клавиши будут работать только за одним Highstake столом!" />
+      <add key="FEATURE_LOCK_LABEL_HOTKEYS_NL_Label_Hotkeys_Will_Only_Work_On_Microstakes" value="" />
+      <add key="FEATURE_LOCK_LABEL_HOTKEYS_PAGE_NL_Label_Hotkeys_Only_Microstakes" value="Hotkeys только на Microstakes" />
+      <add key="FEATURE_LOCK_LABEL_HOTKEYS_PAGE_NL_Label_Hotkeys_Low_Stakes_Complimentary" value="Hotkeys только на Low-Stakes" />
+      <add key="FEATURE_LOCK_LABEL_HOTKEYS_NL_Button_Unlock_Em_For_All_Tables" value="Разблокировать для всех столов!" />
+    </sub>
+    <sub id="3" name="Dialog - Dangerous Feature">
+      <add key="DIALOG_HOTKEY_DANGEROUS_FEATURE_Title_This_Is_A_Very_Dangerous_Feature" value="Делайте на свой страх и риск" />
+      <add key="DIALOG_HOTKEY_DANGEROUS_FEATURE_Label_Are_You_Sure_Want_To_Continue_Turning_Feature_On" isFormatted="true" value="Включив эту функцию, у вас не будет времени проверить итоговый размер ставки. Если Jurojin заметит, что данные раздачи повреждены, он предотвратит авто олл-ин" />
+      <add key="DIALOG_HOTKEY_DANGEROUS_FEATURE_Button_Turn_Feature_On" value="Включить функцию" />
+      <add key="DIALOG_HOTKEY_DANGEROUS_FEATURE_Button_Cancel" value="Отмена" />
+    </sub>
+    <sub id="4" name="Tab - Auto Bet Sizing">
+      <add key="HOTKEYS_AUTOBET_Tab_Header_Auto_Bet_Sizing" value="Авто-ставки" />
+      <add key="HOTKEYS_AUTOBET_Label_Cash" value="Кэш" />
+      <add key="HOTKEYS_AUTOBET_Label_Tournaments" value="Турниры" />
+      <add key="HOTKEYS_AUTOBET_Label_Spins" value="Спины" />
+      <add key="HOTKEYS_AUTOBET_Button_Back" value="Назад" />
+      <add key="HOTKEYS_AUTOBET_Button_Continue" value="Продолжить" />
+      <add key="HOTKEYS_AUTOBET_Button_Save" value="Сохранить" />
+      <add key="HOTKEYS_AUTOBET_Toast_Settings_Successfully_Saved" value="Настройки успешно сохранены!" />
+      <add key="HOTKEYS_AUTOBET_Button_Read_Guide_Line1" value="Не знаете, с чего начать?" />
+      <add key="HOTKEYS_AUTOBET_Button_Read_Guide_Line2" value="Ознакомьтесь с руководством" />
+      <add key="HOTKEYS_AUTOBET_Toastr_You_Configured_The_Betsizes_For_N_Dealt_Players" value="Вы настроили размеры ставок для {0} раздаваемых игроков, но не настроили {1}." />
+    </sub>
+    <sub id="5" name="User Control - Players">
+      <add key="AUTOBET_PLAYERS_Title_Amount_Of_Dealt_Players" value="Выберите количество игроков, участвующих в раздаче" />
+      <add key="AUTOBET_PLAYERS_Label_Clone_This_Config" value="Клонировать эту настройку" />
+      <add key="AUTOBET_PLAYERS_Toastr_Remember_This_Represents_The_Players" value="Помните, это относится к игрокам, получившим карты в начале раздачи, а не к игрокам за столом" />
+    </sub>
+    <sub id="6" name="User Control - Ranges">
+      <add key="AUTOBET_RANGES_Title_Effective_Stack_Ranges" value="Интервалы эффективного стека" />
+      <add key="AUTOBET_RANGES_Sub_Each_Effective_Stack_Range_Will_Accompany_You" value="Каждый интервал эффективного стека будет сопровождать вас на протяжении этапов турнира, убедитесь, что вы заполнили все интервалы для правильной настройки стратегии" />
+      <add key="AUTOBET_RANGES_Label_Use_Only_This_Range_Configuration" value="Использовать только эту конфигурацию интервала" />
+      <add key="AUTOBET_RANGES_Label_Clone_To_Other_Range" value="Клонировать в другой интервал" />
+      <add key="AUTOBET_RANGES_Title_Set_Ranges" value="" />
+    </sub>
+    <sub id="7" name="User Control - Bet Raise Type">
+      <add key="AUTOBET_BET_RAISE_TYPE_Title_Table_Flop_State" value="Состояние флопа на столе" />
+      <add key="AUTOBET_BET_RAISE_TYPE_Label_PreFlop" value="До флопа" />
+      <add key="AUTOBET_BET_RAISE_TYPE_Label_PostFlop" value="После флопа" />
+      <add key="AUTOBET_BET_RAISE_TYPE_Title_Select_The_Bet_Raise_Type" value="" />
+    </sub>
+    <sub id="8" name="User Control - PreFlop">
+      <add key="AUTOBET_PREFLOP_Title_Your_Betsize_Strategy" value="Ваша стратегия размера ставки" />
+      <add key="AUTOBET_PREFLOP_Label_Multiply_X_Times_When_Hero_Out_Of_Position" value="Умножить X раз открывающий рейз, когда герой вне позиции" />
+      <add key="AUTOBET_PREFLOP_Label_Multiply_X_Times_When_Hero_Ip" value="Умножить X раз открывающий рейз, когда герой в позиции" />
+      <add key="AUTOBET_PREFLOP_Label_Multiply_X_Times_The_3Bet_When_Hero_Out_Of_Position" value="Умножить X раз 3бет, когда герой вне позиции" />
+      <add key="AUTOBET_PREFLOP_Label_Multiply_X_Times_3Bet_When_Hero_Ip" value="Умножить X раз 3бет, когда герой в позиции" />
+      <add key="AUTOBET_PREFLOP_Label_Add_Bbs_Per_Per_Limper" value="Добавить BB за каждого лимпера" />
+      <add key="AUTOBET_PREFLOP_Label_Add_X_Times_Per_Cold_Caller" value="Добавить X раз за каждого коллера" />
+      <add key="AUTOBET_PREFLOP_Title_Set_The_Hotkeys" value="" />
+      <add key="AUTOBET_PREFLOP_Label_Times_The_Previous_Open_Raise" value="" />
+      <add key="AUTOBET_PREFLOP_Label_Added_Times_Oop_Open_Raise" value="" />
+      <add key="AUTOBET_PREFLOP_Label_Times_The_Previous_3Bet" value="" />
+      <add key="AUTOBET_PREFLOP_Label_Added_Times_If_Out_Of_Position_Previous_3Bet" value="" />
+      <add key="AUTOBET_PREFLOP_Label_Per_Limper" value="" />
+      <add key="AUTOBET_PREFLOP_Label_Times_Added_Cold_Callers" value="" />
+      <add key="AUTOBET_PREFLOP_Add_BBs_Limper_Help_Title" value="За каждого лимпера" />
+      <add key="AUTOBET_PREFLOP_Add_BBs_Limper_Help_Body" value="Лимпер — это игрок, который только что заплатил BB, чтобы увидеть флоп, все, что выше, считается коллом, а не лимпом. За каждого лимпера общая сумма умножается на значение в этом поле" />
+      <add key="AUTOBET_PREFLOP_Add_X_Times_Cold_Caller_Help_Title" value="За каждого коллера" />
+      <add key="AUTOBET_PREFLOP_Add_X_Times_Cold_Caller_Help_Body" value="Колд колл — это колл после двух или более рейзов, или ставки и рейза. За каждого колд коллера общая сумма умножается на значение в этом поле" />
+      <add key="AUTOBET_PREFLOP_Label_Multiply_X_Times_Open_Raise" value="Умножить X раз открывающий рейз" />
+      <add key="AUTOBET_PREFLOP_Label_Multiply_X_Times_3Bet" value="Умножить X раз 3бет, когда герой в позиции" />
+      <add key="AUTOBET_PREFLOP_Tab_All_Sites" value="Все сайты" />
+    </sub>
+    <sub id="9" name="User Control - PostFlop">
+      <add key="AUTOBET_POSTFLOP_Title_Your_Betsize_Strategy" value="Ваша стратегия размера ставки" />
+      <add key="AUTOBET_POSTFLOP_Label_X_Times_The_Previous_Bet" value="X раз от предыдущей ставки" />
+      <add key="AUTOBET_POSTFLOP_Label_X_Times_The_Previous_Raise" value="X раз от предыдущего рейза" />
+      <add key="AUTOBET_POSTFLOP_Title_Set_The_Hotkeys" value="" />
+      <add key="AUTOBET_POSTFLOP_Label_Times_The_Previous_Bet" value="" />
+      <add key="AUTOBET_POSTFLOP_Label_Times_The_Previous_Raise" value="" />
+      <add key="AUTOBET_POSTFLOP_Label_Multiply_X_Times_Previous_Bet" value="Умножить X раз предыдущую ставку" />
+      <add key="AUTOBET_POSTFLOP_Label_Multiply_X_Times_Previous_Raise" value="Умножить X раз предыдущий рейз" />
+    </sub>
+    <sub id="10" name="Dialog - AutoBet Clone Settings">
+      <add key="DIALOG_AUTO_BET_CLONE_SETTINGS_Title" value="Клонировать настройки" />
+      <add key="DIALOG_AUTO_BET_CLONE_SETTINGS_Label_Select_On_Which_Range_You_Want_To_Clone_These_Values" value="Выберите интервал, на который хотите клонировать эти значения" />
+      <add key="DIALOG_AUTO_BET_CLONE_SETTINGS_Label_Select_On_Which_Palyers_You_Want_To_Clone_These_Values" value="Выберите игроков, на которых хотите клонировать эти значения" />
+      <add key="DIALOG_AUTO_BET_CLONE_SETTINGS_Button_Ok" value="Ок" />
+      <add key="DIALOG_AUTO_BET_CLONE_SETTINGS_Button_Cancel" value="Отмена" />
+    </sub>
+    <sub id="11" name="Dialog - AutoBet Clone Settings Confirmation">
+      <add key="DIALOG_AUTO_BET_CLONE_SETTINGS_CONFIRMATION_Body_For_Ranges" value="Вы уверены, что хотите клонировать значения? Вы потеряете все значения на целевом интервале." />
+      <add key="DIALOG_AUTO_BET_CLONE_SETTINGS_CONFIRMATION_Body_For_Players" value="Вы уверены, что хотите клонировать значения? Вы потеряете все значения для целевых игроков." />
+      <add key="DIALOG_AUTO_BET_CLONE_SETTINGS_CONFIRMATION_Button_Ok" value="Ок" />
+      <add key="DIALOG_AUTO_BET_CLONE_SETTINGS_CONFIRMATION_Button_Cancel" value="Отмена" />
+    </sub>
+    <sub id="12" name="Dialog - AutoBet Players Error config for N players">
+      <add key="DIALOG_AUTO_BET_CONFIG_FOR_N_PLAYERS_Message" value="Вы настроили размеры ставок для {0} игроков в раздаче, но не настроили {1}. Помните, что нужно настроить все возможные количества игроков для правильной работы autobet." />
+    </sub>
+    <sub id="13" name="Dialog - Autobet Range Error config">
+      <add key="DIALOG_AUTO_BET_CONFIG_FOR_N_RANGES_Message" value="Вы отредактировали только {0} интервал эффективного стека, пожалуйста, отредактируйте все четыре для более точной стратегии в турнирах." />
+    </sub>
+    <sub id="14" name="Config - Bet Size">
+      <add key="CONFIG_BET_SIZE_Title" value="Настройка размера ставки" />
+      <add key="CONFIG_BET_SIZE_Label_Preflop_Bet" value="Ставка до флопа" />
+      <add key="CONFIG_BET_SIZE_Label_Big_Blind_Or_Button_Blind" value="(Большой блайнд или кнопочный блайнд)" />
+      <add key="CONFIG_BET_SIZE_Label_Normal_Bet_Size" value="Обычный размер ставки" />
+      <add key="CONFIG_BET_SIZE_Label_Percent_Of_Pot" value="(% от банка)" />
+      <add key="CONFIG_BET_SIZE_Label_Previous_Bet_Multiplier" value="Множитель предыдущей ставки" />
+      <add key="CONFIG_BET_SIZE_Label_X_Times_Previous_Bet_Raise" value="(X раз предыдущей ставки/рейза)" />
+      <add key="CONFIG_BET_SIZE_Help_If_You_Leave_The_One_Of_The_Betsizes_Multiplier_Jurojin_Will_Use_The_Bb" value="Если оставить один из множителей размера ставки пустым, Jurojin будет использовать BB или % соответственно. При отключенных переключателях приоритета множители игнорируются" />
+    </sub>
+    <sub id="15" name="Config - Raise Mode">
+      <add key="CONFIG_RAISE_MODE_Title" value="Режим рейза" />
+      <add key="CONFIG_RAISE_MODE_Label_When_Facing_A_Bet_Raise_Prefop" value="При ответе на ставку/рейз на префлопе" />
+      <add key="CONFIG_RAISE_MODE_Radio_When_Preflop_Use_BB" value="Использовать BB" />
+      <add key="CONFIG_RAISE_MODE_Radio_When_Preflop_Use_PSB" value="Использовать PSB%" />
+      <add key="CONFIG_RAISE_MODE_Radio_When_Preflop_Use_Times_Bet" value="Использовать множитель X" />
+      <add key="CONFIG_RAISE_MODE_Label_When_Facing_A_Bet_Raise_Postflop" value="При ответе на ставку/рейз на постфлопе" />
+      <add key="CONFIG_RAISE_MODE_Radio_When_Postflop_Use_PSB" value="Использовать PSB%" />
+      <add key="CONFIG_RAISE_MODE_Radio_When_Postflop_Use_Multiplier" value="Использовать множитель X" />
+    </sub>
+  </area>
+  <area id="107" name="Page - Overlays">
+    <add key="OVERLAY_SETTINGS_PAGE_NL_Title_Overlay" value="Оверлей" />
+    <add key="OVERLAY_SETTINGS_PAGE_NL_Tab_Header_Table_Overlays" value="Оверлеи стола" />
+    <add key="OVERLAY_SETTINGS_PAGE_NL_Tab_Header_Seats_Overlays" value="Оверлеи сидений" />
+    <add key="OVERLAY_SETTINGS_PAGE_NL_Tab_Header_Table_Counters" value="Счетчики стола" />
+    <add key="OVERLAY_SETTINGS_PAGE_NL_Label_Save_Overlay_Locations_Hotkey" value="Горячая клавиша сохранения расположения оверлея" />
+    <add key="OVERLAY_SETTINGS_PAGE_NL_Label_Move_With_Ctrl" value="Move С Ctrl" />
+    <add key="OVERLAY_SETTINGS_PAGE_NL_Label_Move_Overlays_Only_When_Holding_Ctrl" value="Move Overlays Solo Con Ctrl" />
+    <add key="OVERLAY_SETTINGS_PAGE_NL_Label_Set_Sizes_For_This_Overlay_In_Hotkeys_Section" value="Настройте размеры overlay в разделе Hotkeys" />
+    <add key="OVERLAY_SETTINGS_PAGE_NL_Button_Set_Sizes" value="Go To" />
+    <add key="OVERLAY_SETTINGS_PAGE_NL_Label_Remember_To_Configure_Seat_Centering" value="Не забудьте настроить центрирование сидений" />
+    <add key="OVERLAY_SETTINGS_PAGE_NL_Button_Save_Changes" value="Сохранить изменения" />
+    <add key="OVERLAY_SETTINGS_PAGE_NL_Overlay_Settings_Title_RNG" value="RNG" />
+    <add key="OVERLAY_SETTINGS_PAGE_NL_Overlay_Settings_Title_Report_Table" value="Таблица отчетов" />
+    <add key="OVERLAY_SETTINGS_PAGE_NL_Overlay_Settings_Title_Pot_Odds" value="Вероятности банка" />
+    <add key="OVERLAY_SETTINGS_PAGE_NL_Pot_Odds_Tooltip_Title" value="Вероятности банка" />
+    <add key="OVERLAY_SETTINGS_PAGE_NL_Pot_Odds_Tooltip_Body" value="С этим оверлеем вы сможете видеть соотношение риска и вознаграждения. Оно выражается как математическое отношение выигрыш:риск или в процентах." />
+    <add key="OVERLAY_SETTINGS_PAGE_NL_Overlay_Settings_Title_Stack_To_Pot_Ratio" value="SPR" />
+    <add key="OVERLAY_SETTINGS_PAGE_NL_SPR_Tooltip_Title" value="SPR" />
+    <add key="OVERLAY_SETTINGS_PAGE_NL_SPR_Tooltip_Body" value="С этим оверлеем вы увидите соотношение эффективного стека (стека игрока с наименьшим количеством фишек) к размеру банка." />
+    <add key="OVERLAY_SETTINGS_PAGE_NL_Overlay_Settings_Title_Effective_Stack" value="EFFECTIVE STACK" />
+    <add key="OVERLAY_SETTINGS_PAGE_NL_EFFS_Tooltip_Title" value="ЭФФ. СТ." />
+    <add key="OVERLAY_SETTINGS_PAGE_NL_EFFS_Tooltip_Body" value="С этим оверлеем вы увидите, сколько фишек у игрока с наименьшим стеком в раздаче" />
+    <add key="OVERLAY_SETTINGS_PAGE_NL_Overlay_Settings_Title_Bet_Buttons" value="КНОПКИ СТАВОК" />
+    <add key="OVERLAY_SETTINGS_PAGE_NL_Bet_Buttons_Tooltip_Title" value="КНОПКИ СТАВОК" />
+    <add key="OVERLAY_SETTINGS_PAGE_NL_Bet_Buttons_Tooltip_Body" value="Этот оверлей отображает значения ставок, настроенные для горячих клавиш на странице Hotkeys/Betsizes! Если нажать CTRL на оверлее, вы увидите остальные восемь размеров ставок" />
+    <add key="OVERLAY_SETTINGS_PAGE_NL_Overlay_Settings_Title_Action_History" value="ИСТОРИЯ ДЕЙСТВИЙ" />
+    <add key="OVERLAY_SETTINGS_PAGE_NL_Action_History_Tooltip_Title" value="ОВЕРЛЕЙ ИСТОРИИ ДЕЙСТВИЙ" />
+    <add key="OVERLAY_SETTINGS_PAGE_NL_Action_History_Tooltip_Body" value="Этот оверлей поможет вам заметить намерения оппонентов во время игры, вы увидите каждое их действие в раздаче" />
+    <add key="OVERLAY_SETTINGS_PAGE_NL_Overlay_Settings_Title_Position" value="ПОЗИЦИИ" />
+    <add key="OVERLAY_SETTINGS_PAGE_NL_Positions_Tooltip_Title" value="ОВЕРЛЕЙ ПОЗИЦИЙ" />
+    <add key="OVERLAY_SETTINGS_PAGE_NL_Positions_Tooltip_Body" value="С этим оверлеем вы сможете видеть позицию каждого игрока за столом" />
+    <add key="OVERLAY_SETTINGS_PAGE_NL_Overlay_Settings_Title_AR_Tables_Counter" value="СЧЕТЧИК СТОЛОВ С ДЕЙСТВИЕМ" />
+    <add key="OVERLAY_SETTINGS_PAGE_NL_Overlay_Settings_Title_Hand_Tables_Counter" value="" />
+    <add key="OVERLAY_SETTINGS_PAGE_NL_Overlay_Settings_Title_ST_Tables_Counter" value="СЧЕТЧИК СКОПЛЕНИЯ СТОЛОВ" />
+    <add key="OVERLAY_SETTINGS_PAGE_NL_TOASTER_Check_Guide" value="В вашем браузере откроется руководство по оверлеям, основанным на местах, чтобы вы могли правильно настроить все. Убедитесь, что на всех сайтах настроено центрирование сидений перед тестированием функции!" />
+    <add key="OVERLAY_SETTINGS_PAGE_NL_Overlay_Settings_Title_SPR_Next_Street" value="SPR N.S." />
+    <add key="OVERLAY_SETTINGS_PAGE_NL_Overlay_Settings_Title_POT_Next_Street" value="POT N.S." />
+    <add key="OVERLAY_SETTINGS_PAGE_NL_SPR_Next_Street_Tooltip_Title" value="Оверлей SPR следующей улицы" />
+    <add key="OVERLAY_SETTINGS_PAGE_NL_SPR_Next_Street_Tooltip_Body" value="Этот оверлей считывает значение вашей ставки и предполагает, что оппонент сделает колл, затем рассчитывает SPR на следующей улице" />
+    <add key="OVERLAY_SETTINGS_PAGE_NL_ON_DISABLE_Actions_Title" value="Отключить оверлей" />
+    <add key="OVERLAY_SETTINGS_PAGE_NL_ON_DISABLE_Actions_Message" value="Вы уверены? При отключении этого оверлея вы можете потерять возможность сообщать о проблемах со столом или раздачей." />
+    <add key="OVERLAY_SETTINGS_PAGE_NL_AR_Counter_Tooltip_Title" value="Счетчик столов, требующих действия" />
+    <add key="OVERLAY_SETTINGS_PAGE_NL_AR_Counter_Tooltip_Body" value="Этот оверлей покажет, сколько столов требуют действия в данный момент на этом конкретном slot. Кнопка цикла будет переключаться только между столами, требующими действия" />
+    <add key="OVERLAY_SETTINGS_PAGE_NL_ST_Counter_Tooltip_Title" value="Счётчик Stacked Tables" />
+    <add key="OVERLAY_SETTINGS_PAGE_NL_ST_Counter_Tooltip_Body" value="Используйте этот оверлей, чтобы узнать, сколько столов на конкретном slot" />
+    <add key="OVERLAY_SETTINGS_PAGE_NL_Hand_Counter_Tooltip_Title" value="" />
+    <add key="OVERLAY_SETTINGS_PAGE_NL_Hand_Counter_Tooltip_Body" value="" />
+    <add key="OVERLAY_SETTINGS_PAGE_NL_Save_Location_Title" value="Сохранить расположение" />
+    <add key="OVERLAY_SETTINGS_PAGE_NL_Save_Location_Body" value="Убедитесь, что вы на главном экране Jurojin, затем разместите ваши overlays в нужных местах, кликая по пунктирной области. После нажмите горячую клавишу над этим столом" />
+    <add key="OVERLAY_SETTINGS_PAGE_NL_Overlay_Settings_Title_Minimum_Outs" value="MINIMUM OUTS" />
+    <add key="OVERLAY_SETTINGS_PAGE_NL_Minimum_Outs_Tooltip_Title" value="МИНИМАЛЬНОЕ КОЛ-ВО OUTS" />
+    <add key="OVERLAY_SETTINGS_PAGE_NL_Overlay_Settings_Title_Minimum_Defense_Frequency" value="MDF" />
+    <add key="OVERLAY_SETTINGS_PAGE_NL_Overlay_Settings_Title_Minimum_Defense_Frequency_Tooltip_Title" value="МИНИМАЛЬНАЯ ЧАСТОТА ЗАЩИТЫ" />
+    <add key="OVERLAY_SETTINGS_PAGE_NL_Overlay_Settings_Title_Minimum_Defense_Frequency_Tooltip_Body" value="Этот оверлей показывает минимальный % рук, на который вы должны сделать колл определённого размера ставки от оппонента, чтобы не быть эксплуатируемым" />
+    <add key="OVERLAY_SETTINGS_PAGE_NL_Overlay_Settings_Title_Bluff_Equity" value="BLUFF EQUITY" />
+    <add key="OVERLAY_SETTINGS_PAGE_NL_Overlay_Settings_Title_Bluff_Equity_Tooltip_Title" value="BLUFF EQUITY" />
+    <add key="OVERLAY_SETTINGS_PAGE_NL_Overlay_Settings_Title_Bluff_Equity_Tooltip_Body" value="Отражает, учитывая размер ставки (считанный из вашего betbox перед ставкой), как часто ваш соперник должен сбрасывать карты, исходя из вашего знания его стиля игры, в данной ситуации, чтобы ставка была выгодной для вас, особенно полезно при блефе" />
+    <add key="OVERLAY_SETTINGS_PAGE_NL_POT_Next_Street_Tooltip_Title" value="Оверлей POT для следующей улицы" />
+    <add key="OVERLAY_SETTINGS_PAGE_NL_POT_Next_Street_Tooltip_Body" value="Этот HUD автоматически рассчитывает ожидаемый размер банка для следующего раунда ставок, учитывая текущее значение в bet-box (до подтверждения рейза) и предполагая колл оппонента." />
+    <add key="OVERLAY_SETTINGS_PAGE_NL_Minimum_Outs_Tooltip_Body" value="" />
+    <add key="OVERLAY_SETTINGS_PAGE_NL_Overlay_Settings_Title_Take_Screenshot" value="СДЕЛАТЬ СНИМОК ЭКРАНА" />
+    <sub id="1" name="Dialog - Disable Report">
+      <add key="OVERLAY_SETTINGS_PAGE_DISABLE_REPORT_NL_Title" value="Отключить оверлей" />
+      <add key="OVERLAY_SETTINGS_PAGE_DISABLE_REPORT_NL_Message" value="Вы уверены? Вы можете потерять возможность сообщать о проблемах со столом или рукой, если этот Overlay отключить." />
+      <add key="OVERLAY_SETTINGS_PAGE_DISABLE_REPORT_NL_Button_Disable" value="Отключить" />
+      <add key="OVERLAY_SETTINGS_PAGE_DISABLE_REPORT_NL_Button_Cancel" value="Отмена" />
+    </sub>
+    <sub id="2" name="Config - Common">
+      <add key="OVERLAY_SETTINGS_PAGE_NL_Label_Theme" value="Тема" />
+      <add key="OVERLAY_SETTINGS_PAGE_NL_Label_Show_Prefix" value="Показывать префикс" />
+      <add key="OVERLAY_SETTINGS_PAGE_NL_Label_Show_Drag_Dots" value="Показывать точки перетаскивания" />
+      <add key="OVERLAY_SETTINGS_PAGE_NL_Label_Position" value="Позиция" />
+      <add key="OVERLAY_SETTINGS_PAGE_NL_Label_Opacity" value="Прозрачность" />
+      <add key="OVERLAY_SETTINGS_PAGE_NL_Label_Size" value="Размер" />
+      <add key="OVERLAY_SETTINGS_PAGE_NL_Label_Small" value="Маленький" />
+      <add key="OVERLAY_SETTINGS_PAGE_NL_Label_Medium" value="Средний" />
+      <add key="OVERLAY_SETTINGS_PAGE_NL_Label_Big" value="Большой" />
+      <add key="OVERLAY_SETTINGS_PAGE_NL_Label_Overlay_Color" value="Цвет оверлея" />
+      <add key="OVERLAY_SETTINGS_PAGE_NL_Label_Text_Color" value="Цвет текста" />
+      <add key="OVERLAY_SETTINGS_PAGE_NL_Label_Text_Background" value="Фон текста" />
+      <add key="OVERLAY_SETTINGS_PAGE_NL_Label_Text_Background_Default" value="По умолчанию" />
+      <add key="OVERLAY_SETTINGS_PAGE_NL_Label_Text_Background_Custom" value="Пользовательский" />
+      <add key="OVERLAY_SETTINGS_PAGE_NL_Label_Border_According_To_Value" value="Граница в зависимости от значения" />
+      <add key="OVERLAY_SETTINGS_PAGE_NL_Label_Less_Than" value="Меньше или равно" />
+      <add key="OVERLAY_SETTINGS_PAGE_NL_Label_Greater_Than" value="Больше чем" />
+      <add key="OVERLAY_SETTINGS_PAGE_NL_Button_Save" value="Сохранить изменения" />
+      <add key="OVERLAY_SETTINGS_PAGE_NL_Button_Cancel" value="Отмена" />
+      <add key="OVERLAY_SETTINGS_PAGE_NL_Button_Reset_Positions_To_Default" value="Сбросить позиции к умолчанию" />
+    </sub>
+    <sub id="3" name="Config - RNG">
+      <add key="OVERLAY_SETTINGS_PAGE_NL_RNG_Title" value="RNG" />
+      <add key="OVERLAY_SETTINGS_PAGE_NL_RNG_Label_Range" value="Диапазон" />
+      <add key="OVERLAY_SETTINGS_PAGE_NL_RNG_Label_To" value="до" />
+      <add key="OVERLAY_SETTINGS_PAGE_NL_RNG_Label_Frequency" value="Частота" />
+      <add key="OVERLAY_SETTINGS_PAGE_NL_RNG_Label_Refresh_After" value="Обновлять через" />
+      <add key="OVERLAY_SETTINGS_PAGE_NL_RNG_Label_Seconds" value="секунд" />
+      <add key="OVERLAY_SETTINGS_PAGE_NL_RNG_Label_Roll_On" value="Запускать по" />
+      <add key="OVERLAY_SETTINGS_PAGE_NL_RNG_Radio_RollOn_Time" value="Времени" />
+      <add key="OVERLAY_SETTINGS_PAGE_NL_RNG_Radio_RollOn_My_Turn" value="Мой ход" />
+      <add key="OVERLAY_SETTINGS_PAGE_NL_RNG_Radio_RollOn_Hand" value="Раздача" />
+      <add key="OVERLAY_SETTINGS_PAGE_NL_RNG_Radio_RollOn_Streets" value="Улицы" />
+      <add key="OVERLAY_SETTINGS_PAGE_NL_RNG_Radio_RollOn_Any_Player_Acted" value="Любой игрок сделал действие" />
+    </sub>
+    <sub id="4" name="Config - Report Table">
+      <add key="OVERLAY_SETTINGS_PAGE_NL_Report_Table_Title" value="Отчёт о столе" />
+      <add key="OVERLAY_REPORT_Label_Remeber_To_Report_With_App_Title" value="Проблема Отправлена!" />
+      <add key="OVERLAY_REPORT_Label_Remeber_To_Report_With_App" value="Эта проблема была отправлена нашей команде, и мы свяжемся с вами как можно скорее." />
+    </sub>
+    <sub id="5" name="Config - Pot Odds">
+      <add key="OVERLAY_SETTINGS_PAGE_NL_Pot_Odds_Title" value="Pot Odds" />
+      <add key="OVERLAY_SETTINGS_PAGE_NL_Pot_Odds_Label_Display_As" value="Отображать как" />
+      <add key="OVERLAY_SETTINGS_PAGE_NL_Pot_Odds_Display_As_Option_Check_Percentage" value="Проценты (%)" />
+      <add key="OVERLAY_SETTINGS_PAGE_NL_Pot_Odds_Display_As_Option_Check_Ratio" value="Соотношение (3:2)" />
+    </sub>
+    <sub id="6" name="Config - Stack To Pot Ratio">
+      <add key="OVERLAY_SETTINGS_PAGE_NL_SPR_Title" value="Stack To Pot Ratio" />
+    </sub>
+    <sub id="7" name="Config - Effective Stack">
+      <add key="OVERLAY_SETTINGS_PAGE_NL_EFFS_Title" value="Effective Stack" />
+      <add key="OVERLAY_SETTINGS_PAGE_NL_EFFS_Switch_Consider_Stacks_From_Beggining_Of_Hand_Only" value="Учитывать стеки только с начала раздачи" />
+    </sub>
+    <sub id="8" name="Config - Bet Buttons">
+      <add key="OVERLAY_SETTINGS_PAGE_NL_Bet_Buttons_Title" value="Кнопки ставок" />
+      <add key="OVERLAY_SETTINGS_PAGE_NL_Bet_Buttons_Label_Show" value="Показывать" />
+      <add key="OVERLAY_SETTINGS_PAGE_NL_Bet_Buttons_Show_Option_Full_Overlay" value="Полный oверлей" />
+      <add key="OVERLAY_SETTINGS_PAGE_NL_Bet_Buttons_Show_Option_Just_Custom_BetBox" value="Только пользовательский betbox" />
+      <add key="OVERLAY_SETTINGS_PAGE_NL_Bet_Buttons_Show_Option_Just_Betsizes" value="Только размеры ставок" />
+      <add key="OVERLAY_SETTINGS_PAGE_NL_Bet_Buttons_Label_Buttons" value="Кнопки" />
+      <add key="OVERLAY_SETTINGS_PAGE_NL_Bet_Buttons_Buttons_Option_4_Buttons" value="4 кнопки" />
+      <add key="OVERLAY_SETTINGS_PAGE_NL_Bet_Buttons_Buttons_Option_8_Buttons" value="8 кнопок" />
+      <add key="OVERLAY_SETTINGS_PAGE_NL_Label_Convert_The_Last_Bet_Button_Into_An_All_In_Max" value="Преобразовать последнюю кнопку ставки в All-In/Максимальную ставку" />
+      <add key="OVERLAY_SETTINGS_PAGE_NL_Label_Keep_Bet_Buttons_Visible_Even_When_Its_Not_Hero_Turn" value="Держать кнопки ставок видимыми, даже если ход не за героем" />
+    </sub>
+    <sub id="9" name="Config - Action History">
+      <add key="OVERLAY_SETTINGS_PAGE_NL_Action_History_Label_Background_Color" value="Цвет фона" />
+      <add key="OVERLAY_SETTINGS_PAGE_NL_Action_History_Label_Color_Coded_Actions" value="Действия с цветовой маркировкой" />
+      <add key="OVERLAY_SETTINGS_PAGE_NL_Action_History_Label_Color" value="Цвет" />
+      <add key="OVERLAY_SETTINGS_PAGE_NL_Action_History_Label_Show_Preflop_Sizes" value="Показывать размеры на префлопе" />
+      <add key="OVERLAY_SETTINGS_PAGE_NL_Action_History_Label_Preflop_3Bet_As" value="Префлоп 3-бет в" />
+      <add key="OVERLAY_SETTINGS_PAGE_NL_Action_History_Label_Show_Postflop_Sizes" value="Показывать размеры на постфлопе" />
+      <add key="OVERLAY_SETTINGS_PAGE_NL_Action_History_Label_Bets_As" value="Ставки в" />
+      <add key="OVERLAY_SETTINGS_PAGE_NL_Action_History_Label_Raises_As" value="Рейзы в" />
+      <add key="OVERLAY_SETTINGS_PAGE_NL_Action_History_Label_Show_Timings_On_Hover" value="Показывать тайминги при наведении" />
+      <add key="OVERLAY_SETTINGS_PAGE_NL_Action_History_Title" value="История действий" />
+      <add key="OVERLAY_SETTINGS_PAGE_NL_Action_History_Label_Show_Actions" value="Показывать действия" />
+      <add key="OVERLAY_SETTINGS_PAGE_NL_Action_History_Show_Action_Option_From_Whole_Hand" value="С начала всей раздачи" />
+      <add key="OVERLAY_SETTINGS_PAGE_NL_Action_History_Show_Action_Option_From_Current_Street" value="С текущей улицы" />
+      <add key="OVERLAY_SETTINGS_PAGE_NL_Action_History_Label_Display" value="Отображение" />
+      <add key="OVERLAY_SETTINGS_PAGE_NL_Action_History_Display_Option_Full_Size" value="Полный размер" />
+      <add key="OVERLAY_SETTINGS_PAGE_NL_Action_History_Display_Option_Collapsed_With_Mouse_Hover" value="Свернуто с появлением при наведении мыши" />
+      <add key="OVERLAY_SETTINGS_PAGE_NL_Action_History_Label_Show_Action_Amount" value="Показывать количество действий" />
+      <add key="OVERLAY_SETTINGS_PAGE_NL_Action_History_Label_Show_Raises_As_Percentage" value="Показывать рейзы в процентах" />
+      <add key="OVERLAY_SETTINGS_PAGE_NL_Action_History_Label_Show_Preflop_Amounts_As_Percentage" value="Показывать префлоповые суммы в процентах" />
+      <add key="OVERLAY_SETTINGS_PAGE_NL_Action_History_Label_Show_Opponents_Timing_For_Each_Action" value="Показывать время оппонентов для каждого действия" />
+    </sub>
+   <sub id="10" name="Config - Positions">
+      <add key="OVERLAY_SETTINGS_PAGE_NL_Position_Label_2_Max" value="2 max" />
+      <add key="OVERLAY_SETTINGS_PAGE_NL_Position_Label_3_Max" value="3 max" />
+      <add key="OVERLAY_SETTINGS_PAGE_NL_Position_Label_4_Max" value="4 max" />
+      <add key="OVERLAY_SETTINGS_PAGE_NL_Position_Label_5_Max" value="5 max" />
+      <add key="OVERLAY_SETTINGS_PAGE_NL_Position_Label_6_Max" value="6 max" />
+      <add key="OVERLAY_SETTINGS_PAGE_NL_Position_Label_7_Max" value="7 max" />
+      <add key="OVERLAY_SETTINGS_PAGE_NL_Position_Label_8_Max" value="8 max" />
+      <add key="OVERLAY_SETTINGS_PAGE_NL_Position_Label_9_Max" value="9 max" />
+      <add key="OVERLAY_SETTINGS_PAGE_NL_Position_Label_10_Max" value="10 max" />
+      <add key="OVERLAY_SETTINGS_PAGE_NL_Position_Title" value="Позиции" />
+      <add key="OVERLAY_SETTINGS_PAGE_NL_Position_Switch_Show_Actions_Performed" value="Показывать выполненные действия" />
+      <add key="OVERLAY_SETTINGS_PAGE_NL_Label_Font" value="Шрифт" />
+      <add key="OVERLAY_SETTINGS_PAGE_NL_Label_Select_One_Or_More_Positions_To_Edit_Them" value="Выберите одну или несколько позиций для редактирования" />
+      <add key="OVERLAY_SETTINGS_PAGE_NL_Label_Customization" value="Настройка" />
+      <add key="OVERLAY_SETTINGS_PAGE_NL_Button_Switch_To_Custom_Mode" value="Переключиться в пользовательский режим" />
+      <add key="OVERLAY_SETTINGS_PAGE_NL_Button_Switch_To_Default_Mode" value="Переключиться в режим по умолчанию" />
+      <add key="OVERLAY_SETTINGS_PAGE_NL_Button_Select_Same_Type" value="Выбрать такого же типа" />
+      <add key="OVERLAY_SETTINGS_PAGE_NL_Button_Unselect" value="Снять выбор" />
+      <add key="OVERLAY_SETTINGS_PAGE_NL_Button_Customize" value="Настроить" />
+      <add key="OVERLAY_SETTINGS_PAGE_NL_Label_Show_A_Single_Position" value="" />
+      <add key="OVERLAY_SETTINGS_PAGE_NL_Option_Show_Only_Hero_Position" value="" />
+      <add key="OVERLAY_SETTINGS_PAGE_NL_Option_Show_Only_Btn_Position" value="" />
+    </sub>
+    <sub id="11" name="Dialog - Reset Overlay Position">
+      <add key="OVERLAY_SETTINGS_PAGE_RESET_OVERLAY_POSITION_Title" value="Сбросить позиции" />
+      <add key="OVERLAY_SETTINGS_PAGE_RESET_OVERLAY_POSITION_Message" value="" />
+      <add key="OVERLAY_SETTINGS_PAGE_RESET_OVERLAY_POSITION_Label_Select_Site" value="" />
+      <add key="OVERLAY_SETTINGS_PAGE_RESET_OVERLAY_POSITION_Button_Reset" value="Сбросить" />
+      <add key="OVERLAY_SETTINGS_PAGE_RESET_OVERLAY_POSITION_Button_Cancel" value="Отмена" />
+    </sub>
+    <sub id="12" name="Feature Lock">
+      <add key="FEATURE_LOCK_LABEL_OVERLAY_NL_Label_Overlays_Will_Only_Work_On_Microstakes" value="" />
+      <add key="FEATURE_LOCK_LABEL_OVERLAYS_PAGE_NL_Label_Huds_Only_Microstakes" value="HUDs только на Microstakes" />
+      <add key="FEATURE_LOCK_LABEL_OVERLAYS_PAGE_NL_Label_Huds_Low_Stakes_Complimentary" value="HUDs только на Low-Stakes" />
+      <add key="FEATURE_LOCK_LABEL_LAYOUTS_PAGE_NL_Label_Tiling_Only_Microstakes" value="Tiling только на Microstakes" />
+      <add key="FEATURE_LOCK_LABEL_LAYOUTS_PAGE_NL_Label_Tiling_Low_Stakes_Complimentary" value="Tiling только на Low-Stakes" />
+      <add key="FEATURE_LOCK_LABEL_OVERLAY_NL_Label_Your_Overlays_Will_Only_Work_At_One_Table" value="Ваши overlays будут работать только за одним столом с высокими ставками!" />
+      <add key="FEATURE_LOCK_LABEL_OVERLAY_NL_Button_Unlock_Em_For_All_Tables" value="Разблокировать для всех столов!" />
+    </sub>
+    <sub id="13" name="Config - AR Counter">
+      <add key="OVERLAY_SETTINGS_PAGE_NL_AR_Counter_Title" value="Счётчик AR" />
+    </sub>
+    <sub id="14" name="Config - ST Counter">
+      <add key="OVERLAY_SETTINGS_PAGE_NL_ST_Counter_Title" value="Счётчик ST" />
+    </sub>
+    <sub id="15" name="Config - Hide Board">
+      <add key="OVERLAY_SETTINGS_PAGE_Hide_Board_Title" value="Скрыть доску" />
+      <add key="OVERLAY_SETTINGS_PAGE_Hide_Board_Label_Design" value="Дизайн" />
+      <add key="OVERLAY_SETTINGS_PAGE_Hide_Board_Label_Size" value="Размер" />
+      <add key="OVERLAY_SETTINGS_PAGE_Hide_Board_Size_Just_Board" value="Только борд" />
+      <add key="OVERLAY_SETTINGS_PAGE_Hide_Board_Size_Bigger" value="Больше" />
+      <add key="OVERLAY_SETTINGS_PAGE_Hide_Board_Size_Dont_Let_Me_See" value="Ничего не видно" />
+      <add key="OVERLAY_SETTINGS_PAGE_Hide_Board_Label_Hotkey" value="Горячая клавиша" />
+      <add key="OVERLAY_SETTINGS_PAGE_Hide_Board_Label_Hide_Board_Whenever_You_Want" value="Скрывайте доску когда хотите, кроме шоудаунов/олл-инов, нажимая эту горячую клавишу" />
+    </sub>
+    <sub id="16" name="Config - Outs">
+      <add key="OVERLAY_SETTINGS_PAGE_OUTS_Title" value="Минимум outs" />
+    </sub>
+    <sub id="17" name="Config - Mdf">
+      <add key="OVERLAY_SETTINGS_PAGE_MDF_Title" value="Минимальная частота защиты" />
+    </sub>
+    <sub id="18" name="Config - Bluff Equity">
+      <add key="OVERLAY_SETTINGS_PAGE_BLUFF_EQUITY_Title" value="Эквити блефа" />
+    </sub>
+    <sub id="19" name="Config - SPRNS">
+      <add key="OVERLAY_SETTINGS_PAGE_NL_SPR_Next_Street_Title" value="SPR следующей улицы" />
+    </sub>
+    <sub id="20" name="Config - POTNS">
+      <add key="OVERLAY_SETTINGS_PAGE_NL_POT_Next_Street_Title" value="POT следующей улицы" />
+    </sub>
+    <sub id="21" name="Dialog - Save Overlay Location">
+      <add key="OVERLAY_SETTINGS_DIALOG_SAVE_OVERLAY_LOCATION_Title_Overlay_Locations_Hotkeys" value="Hotkeys Pos. Overlay" />
+      <add key="OVERLAY_SETTINGS_DIALOG_SAVE_OVERLAY_LOCATION_Moving_Overlays_With_Alt_Pressed_Will_Not_Save" value="При перемещении overlays с Alt позиция не сохранится для будущих столов" />
+      <add key="OVERLAY_SETTINGS_DIALOG_SAVE_OVERLAY_LOCATION_Label_Save_Overlay_Locations_Hotkey" value="Горячая клавиша сохранения местоположений overlay" />
+      <add key="OVERLAY_SETTINGS_DIALOG_SAVE_OVERLAY_LOCATION_Label_New_Hotkey" value="Новая горячая клавиша" />
+      <add key="OVERLAY_SETTINGS_DIALOG_SAVE_OVERLAY_LOCATION_Button_Ok" value="Ок" />
+      <add key="OVERLAY_SETTINGS_DIALOG_SAVE_OVERLAY_LOCATION_Button_Cancel" value="Отмена" />
+      <add key="OVERLAY_SETTINGS_DIALOG_SAVE_OVERLAY_LOCATION_Label_Only_Move_Oerlays_Hotkey" value="" />
+      <add key="OVERLAY_SETTINGS_DIALOG_SAVE_OVERLAY_LOCATION_Title_Save_Overlay_Locations_Hotkey" value="" />
+    </sub>
+    <sub id="22" name="Dialog - Custom Position">
+      <add key="OVERLAY_SETTINGS_PAGE_CUSTOM_POSITION_Title" value="Пользовательская позиция" />
+      <add key="OVERLAY_SETTINGS_PAGE_CUSTOM_POSITION_Label_Label_Text" value="Текст метки" />
+      <add key="OVERLAY_SETTINGS_PAGE_CUSTOM_POSITION_Label_Text_Color" value="Цвет текста" />
+      <add key="OVERLAY_SETTINGS_PAGE_CUSTOM_POSITION_Label_Background" value="Фон" />
+      <add key="OVERLAY_SETTINGS_PAGE_CUSTOM_POSITION_Warning_You_Are_About_To_Modify_Positions_With_Different_Names" value="Вы собираетесь изменить позиции с разными значениями меток, использование одинакового значения для всех может вызвать путаницу в раздаче" />
+    </sub>
+    <sub id="23" name="Config - Screenshot">
+      <add key="OVERLAY_SETTINGS_PAGE_NL_Screenshot_Title" value="Сделать скриншот" />
+      <add key="OVERLAY_SETTINGS_PAGE_NL_Screenshot_Label_Save_Screenshots_To_Following_Folder" value="Сохранять скриншоты в следующую папку" />
+    </sub>
+    <sub id="24" name="Config - Hand Counter">
+      <add key="OVERLAY_SETTINGS_PAGE_NL_Hand_Counter_Title" value="" />
+    </sub>
+    <sub id="25" name="Dialog - Sync Overlay Settings">
+      <add key="OVERLAY_SETTINGS_SYNC_SIMILAR_Body" value="Какие настройки применить? Размер применяется к текущей теме." />
+      <add key="OVERLAY_SETTINGS_SYNC_SIMILAR_Label_Theme" value="Тема (все тематические оверлеи)" />
+      <add key="OVERLAY_SETTINGS_SYNC_SIMILAR_Legacy_Hint" value="Префикс и точки для перетаскивания можно синхронизировать только из тем Reduced или Minimal." />
+      <add key="OVERLAY_SETTINGS_SYNC_SIMILAR_Button_Apply" value="Применить к похожим" />
+      <add key="OVERLAY_SETTINGS_SYNC_SIMILAR_Button_Apply_To_All" value="Применить ко всем" />
+      <add key="OVERLAY_SETTINGS_SYNC_SIMILAR_Button_Only_This_Overlay" value="Только этот" />
+    </sub>
+  </area>
+  <area id="108" name="Page - Controller">
+    <add key="CONTROLLER_PAGE_NL_Title_Controller_Support" value="Поддержка контроллера" />
+    <add key="CONTROLLER_PAGE_NL_Label_The_Controller_Will_Use_Betsizes_You_Configure_On_Hotkeys_Section" value="Контроллер будет использовать размеры ставок, которые вы настраиваете в разделе горячих клавиш!" />
+    <add key="CONTROLLER_PAGE_NL_Label_Vibrate_When_Its_My_Turn_To_Play" value="Вибрировать, когда мой ход" />
+    <add key="CONTROLLER_PAGE_NL_Label_Press_To_Show_Cursor" value="Нажмите, чтобы показать курсор" />
+    <add key="CONTROLLER_PAGE_NL_Label_You_Can_Press_The_Analog_Stick_To_Make_Juro_Cursor_Appear" value="Вы можете нажать на аналоговый стик, чтобы появился курсор Juro на экране и взаимодействовать с любыми элементами" />
+    <add key="CONTROLLER_PAGE_NL_Label_Really_Slow" value="Очень медленно" />
+    <add key="CONTROLLER_PAGE_NL_Label_Super_Fast" value="Очень быстро" />
+    <add key="CONTROLLER_PAGE_NL_Button_Detect_Controller" value="Обнаружить контроллер" />
+    <add key="CONTROLLER_PAGE_NL_Label_Connecting" value="Подключение..." />
+    <add key="CONTROLLER_PAGE_NL_Button_Disconnet_Controller" value="Отключить" />
+    <add key="CONTROLLER_PAGE_NL_Label_Controller_Linked" value="Контроллер подключен" />
+    <add key="CONTROLLER_PAGE_NL_Label_All_In" value="Алл-ин" />
+    <add key="CONTROLLER_PAGE_NL_Label_Decrement_Bet" value="Уменьшить ставку" />
+    <add key="CONTROLLER_PAGE_NL_Label_Cycle_Through_Stacked_Tables" value="Переключаться между вкладками сложенных столов" />
+    <add key="CONTROLLER_PAGE_NL_Label_Change_Selected_Table" value="Сменить выбранный стол" />
+    <add key="CONTROLLER_PAGE_NL_Label_Bet_Buttons_From_Left_To_Down" value="Кнопки ставок с 1 (слева) по 4 (снизу)" />
+    <add key="CONTROLLER_PAGE_NL_Label_Custom_Betsizes_From_5_To_8" value="Пользовательские размеры ставок с 5 по 8" />
+    <add key="CONTROLLER_PAGE_NL_Label_Custom_Betsizes_From_9_To_12" value="Пользовательские размеры ставок с 9 по 12" />
+    <add key="CONTROLLER_PAGE_NL_Label_Custom_Betsizes_From_13_To_16" value="Пользовательские размеры ставок с 13 по 16" />
+    <add key="CONTROLLER_PAGE_NL_Label_Moves_And_Swaps_The_Tables" value="Перемещает и меняет столы местами" />
+    <add key="CONTROLLER_PAGE_NL_Label_Move_Left_And_Right_To_Move_A_Table" value="Двигайте влево и вправо для перемещения стола" />
+    <add key="CONTROLLER_PAGE_NL_Label_Fold" value="Фолд" />
+    <add key="CONTROLLER_PAGE_NL_Label_Check_Call" value="Чек/Колл" />
+    <add key="CONTROLLER_PAGE_NL_Label_Toggle_BB_Mode" value="Переключить режим BB" />
+    <add key="CONTROLLER_PAGE_NL_Label_Bet_Raise" value="Ставка/Рейз" />
+    <add key="CONTROLLER_PAGE_NL_Label_Go_To_Most_Urgent" value="Перейти к самой срочной" />
+    <add key="CONTROLLER_PAGE_NL_Label_Increment_Bet" value="Увеличить ставку" />
+    <add key="CONTROLLER_PAGE_NL_Label_Quick_Actions_Menu" value="Меню быстрых действий" />
+    <sub id="0" name="Toasters">
+      <add key="CONTROLLER_PAGE_TOASTER_CONTROLLER_CONNECTED_NL" value="Контроллер подключен!" />
+      <add key="CONTROLLER_PAGE_TOASTER_CONTROLLER_DISCONNECTED_NL" value="Контроллер отключен!" />
+      <add key="CONTROLLER_PAGE_TOASTER_HOTKEYS_MODE_UNDER_MOUSE_NL" value="Обязательно используйте режим &quot;Focused Table&quot; на странице горячих клавиш, если собираетесь использовать контроллер!" />
+    </sub>
+    <sub id="1" name="Dialog - No Controllers Detected">
+      <add key="DIALOG_NO_CONTROLLERS_DETECTED_NL_Title" value="Контроллеры не обнаружены" />
+      <add key="DIALOG_NO_CONTROLLERS_DETECTED_NL_Body" value="Пожалуйста, подключите официальный контроллер Windows и попробуйте снова!" />
+      <add key="DIALOG_NO_CONTROLLERS_DETECTED_NL_Button_Got_It" value="Понятно" />
+    </sub>
+    <sub id="2" name="Feature Lock">
+      <add key="FEATURE_LOCK_LABEL_CONTROLLER_NL_Label_Your_Controller_Will_Only_Work_At_One_Table" value="Ваш контроллер будет работать только на microstakes" />
+      <add key="FEATURE_LOCK_LABEL_CONTROLLER_NL_Button_Unlock_Em_For_All_Tables" value="Откройте для всех столов!" />
+    </sub>
+  </area>
+  <area id="109" name="Page - Session Time">
+    <add key="SESSION_TIME_PAGE_NL_Title_Session_Time" value="Время сессии" />
+    <add key="SESSION_TIME_PAGE_NL_Button_Save_Changes" value="СОХРАНИТЬ ИЗМЕНЕНИЯ" />
+    <sub id="0" name="Dialogs - Deletion Confirmation">
+      <add key="SESSION_TIME_PAGE_NL_DIALOG_DELETE_SESSION_Title" value="Удалить сессии" />
+      <add key="SESSION_TIME_PAGE_NL_DIALOG_DELETE_SESSION_Body" value="Вы уверены, что хотите удалить сессию(и)?" />
+    </sub>
+    <sub id="1" name="Toasts">
+      <add key="SESSION_TIME_PAGE_NL_TOAST_Session_Saved" value="Ваша сессия сохранена!" />
+      <add key="SESSION_TIME_PAGE_NL_TOAST_You_Have_Played_N_Hands" value="Вы уже сыграли #hands# раздач!" />
+      <add key="SESSION_TIME_PAGE_NL_TOAST_You_Have_Been_Playing_For_More_Than" value="" />
+    </sub>
+    <sub id="3" name="Tab - Previous Session">
+      <add key="SESSION_TIME_PAGE_NL_Tab_Header_Previous_Sessions" value="Предыдущие сессии" />
+      <add key="SESSION_TIME_PAGE_NL_Button_Clear_Sessions" value="Очистить сессии" />
+      <add key="SESSION_TIME_PAGE_NL_Label_Date" value="Дата" />
+      <add key="SESSION_TIME_PAGE_NL_Duration" value="Длительность" />
+      <add key="SESSION_TIME_PAGE_NL_Open_Tables" value="Открытые столы" />
+      <add key="SESSION_TIME_PAGE_NL_Hands" value="Раздачи" />
+      <add key="SESSION_TIME_PAGE_NL_Actions" value="Действия" />
+      <add key="SESSION_TIME_PAGE_NL_Label_No_Sessions_Saved" value="Сессии не сохранены!" />
+      <add key="SESSION_TIME_PAGE_NL_Label_Filters" value="Фильтры" />
+      <add key="SESSION_TIME_PAGE_NL_Button_Reset" value="Сбросить" />
+      <add key="SESSION_TIME_PAGE_NL_Label_From" value="С" />
+      <add key="SESSION_TIME_PAGE_NL_Label_To" value="По" />
+      <add key="SESSION_TIME_PAGE_NL_Button_Download" value="" />
+    </sub>
+    <sub id="4" name="Tab - Session Notifications">
+      <add key="SESSION_TIME_PAGE_NL_Tab_Header_Session_Notifications" value="Уведомления сессии" />
+      <add key="SESSION_TIME_PAGE_NL_Info_This_Options_Can_Only_Be_Used_When_Session_Timer_Is_Active" value="Эти опции доступны только при активном таймере сессии" />
+      <add key="SESSION_TIME_PAGE_NL_Label_Notify_Me_After_I_Have_Played" value="Уведомлять меня после того, как я сыграл" />
+      <add key="SESSION_TIME_PAGE_NL_Label_Minutes" value="" />
+      <add key="SESSION_TIME_PAGE_NL_Label_Hands" value="раздач" />
+      <add key="SESSION_TIME_PAGE_NL_Label_Notify_Me_After_I_Have_Opened" value="Уведомлять меня после открытия" />
+      <add key="SESSION_TIME_PAGE_NL_Label_Tables" value="столов" />
+      <add key="SESSION_HANDS_PLAYED_NOTIFICATION" value="Достигнуто количество сыгранных раздач!" />
+      <add key="SESSION_TIME_PAGE_NL_Label_Hours" value="" />
+    </sub>
+    <sub id="2" name="Tab - Session Widgets">
+      <add key="SESSION_TIME_PAGE_NL_Tab_Header_Session_Widgets" value="Виджеты сессии" />
+      <add key="SESSION_TIME_PAGE_NL_Label_Show_Open_Tables_Counter_Widget" value="Счётчик открытых столов" />
+      <add key="SESSION_TIME_PAGE_NL_Tab_Header_Session_Timer_Help_Content" value="Таймер сессии — это плавающий виджет, который поможет отслеживать вашу текущую сессию." />
+      <add key="SESSION_TIME_PAGE_NL_Switch_Session_Time" value="Время сессии" />
+      <add key="SESSION_TIME_PAGE_NL_Switch_Show_Session_Timer_Widget" value="Показать виджет таймера сессии" />
+      <add key="SESSION_TIME_PAGE_NL_Switch_Stop_Session_Timer_Automatically_When_All_Tables_Are_Closed" value="Автоматически останавливать таймер сессии, когда все столы закрыты" />
+      <add key="SESSION_TIME_PAGE_NL_Switch_Consider_That_I_Have_Closed_All_Tables_After_5_Minutes" value="Считать, что я закрыл все столы через 5 минут" />
+      <add key="SESSION_TIME_PAGE_NL_Label_Ideal_For_Spin_Players" value="Идеально для игроков Spin!" />
+      <add key="SESSION_TIME_PAGE_NL_Label_Start_Counting_Time" value="Начать отсчет времени" />
+      <add key="SESSION_TIME_PAGE_NL_Radio_When_I_Am_Dealt_Cards_At_First_Table" value="Когда мне раздают карты за первым столом" />
+      <add key="SESSION_TIME_PAGE_NL_Radio_When_First_Table_In_Any_Room_Opens" value="Когда открывается первый стол в любой комнате" />
+      <add key="SESSION_TIME_PAGE_NL_Radio_Manually_Using_Jurojin_Widget" value="Вручную с помощью виджета Jurojin" />
+      <add key="SESSION_TIME_PAGE_NL_Label_Minimize_The_Session_Time_Widget_When_Starting_The_Timer" value="Сворачивать виджет времени сессии при старте таймера" />
+      <add key="SESSION_TIME_PAGE_NL_Tab_Header_Session_Timer" value="Таймер сессии — это плавающий виджет, который поможет отслеживать вашу текущую сессию." />
+      <add key="SESSION_TIME_PAGE_NL_Switch_Minimize_Session_Time_Widget_When_Starting_Timer" value="" />
+      <add key="SESSION_TIME_PAGE_NL_Label_Show_Widget" value="Показать виджет" />
+      <add key="SESSION_TIME_PAGE_NL_Label_Show_Ar_Tables_Widget" value="Счётчик AR столов" />
+      <add key="SESSION_TIME_PAGE_NL_Label_Count_Specific_Type" value="Считать определенный тип" />
+      <add key="SESSION_TIME_PAGE_NL_Label_Show_Hands_Played_Widget" value="Счётчик сыгранных раздач" />
+      <add key="SESSION_TIME_PAGE_NL_Option_Count_All_Tables" value="Все столы" />
+      <add key="SESSION_TIME_PAGE_NL_Option_Count_Spin_Tables_Only" value="Только Spin столы" />
+      <add key="SESSION_TIME_PAGE_NL_Option_Count_Tournament_Tables_Only" value="Только турнирные столы" />
+      <add key="SESSION_TIME_PAGE_NL_Option_Count_Cash_Tables_Only" value="Только наличные столы" />
+    </sub>
+  </area>
+  <area id="110" name="Page - Chanelog">
+    <add key="CHANGELOG_PAGE_NL_Title_Whats_New" value="Что нового" />
+    <add key="CHANGELOG_PAGE_NL_Label_New_Functionalities" value="Новые функции" />
+    <add key="CHANGELOG_PAGE_NL_Label_General_Changes" value="Общие изменения" />
+    <add key="CHANGELOG_PAGE_NL_Label_Fixed_Bugs" value="Исправленные ошибки" />
+  </area>
+  <area id="111" name="Page - Help">
+    <add key="HELP_NL_Label_We_Love_Poker" value="Мы любим Покер" />
+    <add key="HELP_NL_Label_Our_Goal_Is_To_Boost_The_Online_Poker_Experience_In_All_Its_Forms" value="Наша цель — улучшить опыт онлайн-покера во всех его проявлениях." />
+    <add key="HELP_NL_Button_Read_Our_Blog" value="" />
+    <add key="HELP_NL_Label_Got_Questions" value="" />
+    <add key="HELP_NL_Everything_You_Need_To_Know_All_In_One_Place" value="" />
+    <add key="HELP_NL_Button_Visit_FAQ" value="" />
+    <add key="HELP_NL_Label_Your_Input_Shapes_Our_Future" value="" />
+    <add key="HELP_NL_Button_Join_Our_Discord" value="Присоединяйтесь к нашему Discord" />
+    <add key="HELP_NL_Label_Want_A_Full_Breakdown" value="" />
+    <add key="HELP_NL_Button_Explore_All_Features" value="" />
+    <add key="HELP_NL_Button_Lets_Chat" value="Давайте пообщаемся" />
+    <add key="HELP_NL_Label_Talk_To_Your_AI_Assistant_Now" value="Поговорите с вашим AI-ассистентом прямо сейчас" />
+    <add key="HELP_NL_Label_Get_Quick_Personalized_Answers_To_Resolve_Your_Issue" value="Получите быстрые, персонализированные ответы для решения вашей проблемы." />
+    <add key="HELP_NL_Button_Chat_With_AI" value="Общайтесь с AI" />
+    <add key="HELP_NL_Label_Join_Our_Discord" value="" />
+    <add key="HELP_NL_Label_Your_Input_Shapes_Our_Future_Together_We_Create_Jurojin" value="" />
+  </area>
+  <area id="112" name="Pages - Accounts">
+    <sub id="0" name="Page - Account Setup">
+      <add key="USER_ACCOUNT_SETUP_PAGE_NL_Title_Welcome_To_Jurojin" value="Добро пожаловать в Jurojin" />
+      <add key="USER_ACCOUNT_SETUP_PAGE_NL_Button_Login_With_Twitch" value="Войти через Twitch" />
+      <add key="USER_ACCOUNT_SETUP_PAGE_NL_Button_Login_With_Discord" value="Войти через Discord" />
+      <add key="USER_ACCOUNT_SETUP_PAGE_NL_Label_Login_With_Your_Username" value="Войти с вашим именем пользователя" />
+      <add key="USER_ACCOUNT_SETUP_PAGE_NL_Label_User_Name" value="Имя пользователя" />
+      <add key="USER_ACCOUNT_SETUP_PAGE_NL_Placeholder_Enter_Your_Username_Or_Email" value="Введите имя пользователя или email" />
+      <add key="USER_ACCOUNT_SETUP_PAGE_NL_Label_Password" value="Пароль" />
+      <add key="USER_ACCOUNT_SETUP_PAGE_NL_Button_Login" value="Войти через Twitch" />
+      <add key="USER_ACCOUNT_SETUP_PAGE_NL_Button_Logging_In" value="Вход в систему" />
+      <add key="USER_ACCOUNT_SETUP_PAGE_NL_Link_Have_You_Lost_Your_Password" value="Вы потеряли пароль?" />
+      <add key="USER_ACCOUNT_SETUP_PAGE_NL_Label_Create_New_Account" value="Создать новый аккаунт" />
+      <add key="USER_ACCOUNT_SETUP_PAGE_NL_Label_New_User_Name" value="Имя пользователя" />
+      <add key="USER_ACCOUNT_SETUP_PAGE_NL_Placeholder_New_Enter_Your_Username" value="Введите имя пользователя" />
+      <add key="USER_ACCOUNT_SETUP_PAGE_NL_Label_New_Password" value="Пароль" />
+      <add key="USER_ACCOUNT_SETUP_PAGE_NL_Label_New_Repeat_Password" value="Повторите пароль" />
+      <add key="USER_ACCOUNT_SETUP_PAGE_NL_Label_New_Email" value="Email" />
+      <add key="USER_ACCOUNT_SETUP_PAGE_NL_Placeholder_New_Email" value="Введите email" />
+      <add key="USER_ACCOUNT_SETUP_PAGE_NL_Label_New_Repeat_Email" value="Повторите email" />
+      <add key="USER_ACCOUNT_SETUP_PAGE_NL_Placeholder_New_Repeat_Your_Email" value="Повторите ваш email" />
+      <add key="USER_ACCOUNT_SETUP_PAGE_NL_Button_Create_Account" value="Создать аккаунт" />
+      <add key="USER_ACCOUNT_SETUP_PAGE_NL_Button_Creating_Account" value="Создание аккаунта" />
+    </sub>
+    <sub id="1" name="Page - Account Information">
+      <add key="USER_ACCOUNT_INFORMATION_NL_Title_My_Account" value="Мой аккаунт" />
+      <add key="USER_ACCOUNT_INFORMATION_NL_Tab_Header_User_Information" value="Информация о пользователе" />
+      <add key="USER_ACCOUNT_INFORMATION_NL_Label_Username" value="Имя пользователя" />
+      <add key="USER_ACCOUNT_INFORMATION_NL_Label_Email_Address" value="Адрес электронной почты" />
+      <add key="USER_ACCOUNT_INFORMATION_NL_Label_Request_Email_Change" value="" />
+      <add key="USER_ACCOUNT_INFORMATION_NL_Button_Send_Email" value="" />
+      <add key="USER_ACCOUNT_INFORMATION_NL_Label_Discord" value="Discord" />
+      <add key="USER_ACCOUNT_INFORMATION_NL_Label_Not_Linked" value="Не привязан" />
+      <add key="USER_ACCOUNT_INFORMATION_NL_Button_Link" value="" />
+      <add key="USER_ACCOUNT_INFORMATION_NL_Button_Connecting" value="" />
+      <add key="USER_ACCOUNT_INFORMATION_NL_Label_Linked_Accounts" value="" />
+      <add key="USER_ACCOUNT_INFORMATION_NL_Label_GTO_Wizard" value="" />
+      <add key="USER_ACCOUNT_INFORMATION_NL_Label_Manage_Subscription" value="" />
+      <add key="USER_ACCOUNT_INFORMATION_NL_Label_Stripe" value="" />
+      <add key="USER_ACCOUNT_INFORMATION_NL_Label_Only_For_Recurrent_Subscribers" value="Доступно только для аккаунтов, которые использовали Stripe при оплате" />
+      <add key="USER_ACCOUNT_INFORMATION_NL_Button_Manage" value="" />
+      <add key="USER_ACCOUNT_INFORMATION_NL_Tooltip_Manage_Stripe_Only_For_Stripe_Purchasers" value="" />
+      <add key="USER_ACCOUNT_INFORMATION_NL_Tab_Header_Change_Password" value="Изменить пароль" />
+      <add key="USER_ACCOUNT_INFORMATION_NL_Tab_Header_My_Products" value="Мои продукты" />
+      <add key="USER_ACCOUNT_INFORMATION_NL_Label_Enter_Your_Current_Password" value="Введите текущий пароль" />
+      <add key="USER_ACCOUNT_INFORMATION_NL_Label_Enter_Your_New_Password" value="Введите новый пароль" />
+      <add key="USER_ACCOUNT_INFORMATION_NL_Label_Repeat_Your_New_Password" value="Повторите новый пароль" />
+      <add key="USER_ACCOUNT_INFORMATION_NL_Button_Save_changes" value="Сохранить изменения" />
+      <add key="USER_ACCOUNT_INFORMATION_NL_Button_Renew" value="Обновить" />
+      <add key="USER_ACCOUNT_INFORMATION_NL_Label_Bonus_Days" value="Бонусные дни" />
+      <add key="DIALOG_CANCEL_SUBSCRIPTION_Title" value="Отменить автопродление?" />
+      <add key="DIALOG_CANCEL_SUBSCRIPTION_Body" value="Ваша подписка не продлится в конце текущего платёжного периода. Полный доступ сохранится до этой даты. Бонусные дни на вашем аккаунте останутся активными до истечения срока." />
+      <add key="DIALOG_CANCEL_SUBSCRIPTION_Button_Confirm" value="Отмена" />
+      <add key="DIALOG_CANCEL_SUBSCRIPTION_Button_Keep" value="Оставить" />
+      <add key="USER_ACCOUNT_INFORMATION_NL_Label_JuroPanel" value="" />
+      <add key="USER_ACCOUNT_INFORMATION_NL_Label_Earn_Jurotokens_And_Redeem_For_Cash_1" value="" />
+      <add key="USER_ACCOUNT_INFORMATION_NL_Label_Earn_Jurotokens_And_Redeem_For_Cash_2" value="" />
+      <add key="USER_ACCOUNT_INFORMATION_NL_Label_Earn_Jurotokens_And_Redeem_For_Cash_3" value="" />
+      <add key="USER_ACCOUNT_INFORMATION_NL_Button_Go_To_Panel" value="" />
+      <add key="USER_ACCOUNT_INFORMATION_NL_Tab_Header_Settings_Backup" value="" />
+      <add key="USER_ACCOUNT_INFORMATION_NL_Section_Title_Cloud_Settings_Backup" value="" />
+      <add key="USER_ACCOUNT_INFORMATION_NL_Label_Last_Backup" value="" />
+      <add key="USER_ACCOUNT_INFORMATION_NL_Button_Backup_Now" value="" />
+      <add key="USER_ACCOUNT_INFORMATION_NL_Button_Restore_Backup" value="" />
+      <add key="USER_ACCOUNT_INFORMATION_NL_Section_Title_Manual_Settings_Backup" value="" />
+      <add key="USER_ACCOUNT_INFORMATION_NL_Button_Import" value="" />
+      <add key="USER_ACCOUNT_INFORMATION_NL_Button_Export" value="" />
+      <add key="USER_ACCOUNT_INFORMATION_NL_Button_Open_Settings_Folder" value="" />
+      <add key="USER_ACCOUNT_INFORMATION_NL_Label_You_Dont_Own_Any_Products_Yet" value="" />
+      <add key="USER_ACCOUNT_INFORMATION_NL_Label_Unlock_Powerful_Combos_That_Give_You_A_Real_Edge_At_The_Tables" value="" />
+      <add key="USER_ACCOUNT_INFORMATION_NL_Button_Go_To_Store" value="" />
+    </sub>
+    <sub id="2" name="Error Messages">
+      <add key="ON_USER_LOGIN_ERROR_NL_Title" value="Ошибка входа" />
+      <add key="LOGIN_WRONG_USER_NAME_OR_PASSWORD" value="Неверное имя пользователя или пароль." />
+      <add key="LOGIN_INVALID_INPUT" value="Неверный ввод." />
+      <add key="LOGIN_USER_NOT_ENABLED" value="Извините. Этот пользователь не активирован." />
+      <add key="LOGIN_SOMETHING_WENT_WRONG" value="Что-то пошло не так. Не удалось войти." />
+      <add key="ON_RESET_PASSWORD_ERROR_NL_Title" value="Сброс пароля не удался" />
+      <add key="RESET_PASSWORD_INVALID_INPUT" value="Неверный ввод" />
+      <add key="RESET_PASSWORD_CLIENT_NOT_FOUND" value="Пользователь с таким email не найден" />
+      <add key="RESET_PASSWORD_CLIENT_NOT_ENABLED" value="Пользователь отключен администратором" />
+      <add key="RESET_PASSWORD_INVALID_CODE" value="Вы ввели неверный код. Пожалуйста, проверьте входящие письма (в том числе спам) и попробуйте снова" />
+      <add key="RESET_PASSWORD_EXPIRED_CODE" value="Код истёк. Попробуйте снова" />
+      <add key="RESET_PASSWORD_EXPIRED_SESSION" value="Вы слишком долго меняли пароль! Пожалуйста, попробуйте снова" />
+      <add key="RESET_PASSWORD_WRONG_PASSWORD" value="Неверный пароль" />
+      <add key="ON_USER_REGISTRATION_ERROR_NL_Title" value="Регистрация не удалась" />
+      <add key="ON_USER_REGISTRATION_ERROR_128" value="Сервер по какой-то причине не принимает данные." />
+      <add key="REGISTERATION_INVALID_INPUT" value="Неверный ввод." />
+      <add key="REGISTERATION_USER_ALREADY_EXISTS" value="Выбранное имя пользователя уже занято. Пожалуйста, выберите другое" />
+      <add key="REGISTERATION_EMAIL_ALREADY_EXISTS" value="Этот email уже был использован для создания аккаунта." />
+      <add key="ON_USER_REGISTRATION_ERROR_255" value="Что-то пошло не так. Не удалось зарегистрироваться." />
+    </sub>
+    <sub id="3" name="Error">
+      <add key="USER_ACCOUNT_SETUP_ERROR_DIALOG_NL_Title" value="ОШИБКА ВХОДА" />
+      <add key="USER_ACCOUNT_SETUP_ERROR_DIALOG_NL_Error_Non_Success_Code" value="Сервер вернул ошибку! Пожалуйста, свяжитесь с нами! Статус: " />
+      <add key="USER_ACCOUNT_SETUP_ERROR_DIALOG_NL_Error_No_Response" value="Что-то пошло не так. Нет ответа от сервера. Пожалуйста, свяжитесь с нами!" />
+    </sub>
+    <sub id="4" name="Email For Code">
+      <add key="DIALOG_ACCOUNT_EMAIL_FOR_CODE_NL_Label_Enter_Your_Email_To_Verify_Your_Account" value="Введите ваш Email, чтобы подтвердить аккаунт. Мы отправим вам код активации." />
+      <add key="DIALOG_ACCOUNT_EMAIL_FOR_CODE_NL_Label_Email" value="Email" />
+      <add key="DIALOG_ACCOUNT_EMAIL_FOR_CODE_NL_Placeholder_Enter_Your_Email" value="Введите email" />
+      <add key="DIALOG_ACCOUNT_EMAIL_FOR_CODE_NL_Button_Send_Email" value="Отправить Email" />
+    </sub>
+    <sub id="5" name="Activation Code">
+      <add key="DIALOG_ACCOUNT_ACTIVATION_CODE_NL_Label_We_Sent_You_A_Code_Check_Your_Email" value="Мы отправили вам код. Пожалуйста, проверьте вашу почту." />
+      <add key="DIALOG_ACCOUNT_ACTIVATION_CODE_NL_Label_Activation_Code" value="Код активации" />
+      <add key="DIALOG_USER_ACCOUNT_CODE_NL_Button_Activate_Account" value="Активировать аккаунт" />
+    </sub>
+    <sub id="6" name="Change Password">
+      <add key="DIALOG_CHANGE_YOUR_PASSWORD_NL_Title_Change_Your_Password" value="Измените ваш пароль" />
+      <add key="DIALOG_CHANGE_YOUR_PASSWORD_NL_Label_New_Password" value="Новый пароль" />
+      <add key="DIALOG_CHANGE_YOUR_PASSWORD_NL_Label_Repeat_New_Password" value="Повторите новый пароль" />
+      <add key="DIALOG_CHANGE_YOUR_PASSWORD_NL_Button_Change_Password" value="Изменить пароль" />
+    </sub>
+    <sub id="7" name="Verify Email">
+      <add key="DIALOG_VERIFY_EMAIL_NL_Title_We_Need_To_Verify_Your_Email" value="Нужно подтвердить ваш Email" />
+      <add key="DIALOG_VERIFY_EMAIL_NL_Label_Please_Enter_Your_Email_Address_To_Verify_Your_Account" value="Пожалуйста, введите ваш Email для подтверждения аккаунта. Скоро вы получите письмо" />
+      <add key="DIALOG_VERIFY_EMAIL_NL_Hint_Enter_Your_Email" value="Введите email" />
+      <add key="DIALOG_VERIFY_EMAIL_NL_Button_Verify_Email" value="Подтвердить Email" />
+      <add key="DIALOG_VERIFY_EMAIL_NL_Button_Sending_Email" value="Отправка Email" />
+    </sub>
+    <sub id="8" name="Verify Email Sent">
+      <add key="DIALOG_VERIFY_EMAIL_SENT_NL_Title_We_Have_Sent_You_An_Email" value="Мы отправили вам письмо" />
+      <add key="DIALOG_VERIFY_EMAIL_SENT_NL_Label_An_Email_Was_Sent_To_Please_Click_On_The_Link_Segment1" value="Письмо отправлено на " />
+      <add key="DIALOG_VERIFY_EMAIL_SENT_NL_Label_An_Email_Was_Sent_To_Please_Click_On_The_Link_Segment2" value=" .Пожалуйста, перейдите по ссылке в письме, чтобы подтвердить аккаунт." />
+      <add key="DIALOG_VERIFY_EMAIL_SENT_NL_Title_Havent_Recieved_The_Email" value="Не получили письмо?" />
+      <add key="DIALOG_VERIFY_EMAIL_SENT_NL_Label_Check_Your_Spam_Folder_Segment1" value="Проверьте папку Спам. Если вы не получили письмо " />
+      <add key="DIALOG_VERIFY_EMAIL_SENT_NL_Label_Check_Your_Spam_Folder_Segment2" value=" для повторной отправки подтверждения." />
+      <add key="DIALOG_VERIFY_EMAIL_SENT_NL_Button_Click_Here" value="Нажмите здесь" />
+    </sub>
+    <sub id="9" name="After Login Enjoy Jurojin">
+      <add key="DIALOG_START_ENJOYING_JUROJIN_Title_Your_Are_Very_Close_To_Start_Enjoying_Jurojin" value="Вы очень близки к тому, чтобы начать пользоваться Jurojin" />
+      <add key="DIALOG_START_ENJOYING_JUROJIN_Label_A_New_Tab_Will_Open_In_Your_Browser_Where_You_Can_Login" value="В вашем браузере откроется новая вкладка, где вы сможете войти." />
+      <add key="DIALOG_START_ENJOYING_JUROJIN_Label_This_Screen_Will_Be_Closed_Automatically_Once_You_Are_Logged" value="Этот экран закроется автоматически после входа." />
+      <add key="DIALOG_START_ENJOYING_JUROJIN_Button_Cancel_Login" value="Отменить вход" />
+    </sub>
+    <sub id="10" name="Discord Connected To Another Account">
+      <add key="DIALOG_DISCORD_CONNECTED_TO_ANOTHER_ACCOUNT_NL_Title_Your_Discord_Account_Appears_To_Be_Linked_To_Another_Jurojin_Account" value="Ваш Discord аккаунт, похоже, привязан к другому аккаунту Jurojin!" />
+      <add key="DIALOG_DISCORD_CONNECTED_TO_ANOTHER_ACCOUNT_NL_Label_We_Recommend_You_Logging_Out_And_Pressing_On_Login_With_Discord" value="Рекомендуем вам выйти из аккаунта и нажать «Login with Discord»" />
+      <add key="DIALOG_DISCORD_CONNECTED_TO_ANOTHER_ACCOUNT_NL_Button_Ok" value="Ок" />
+    </sub>
+    <sub id="11" name="Discord Linked">
+      <add key="DIALOG_DISCORD_LINKED_Title_Discord_Linked" value="Discord подключён" />
+      <add key="DIALOG_DISCORD_LINKED_Details_You_Can_Now_Request_A_Full_Trial_1" value="Теперь вы можете запросить полнофункциональную пробную версию:" />
+      <add key="DIALOG_DISCORD_LINKED_Details_You_Can_Now_Request_A_Full_Trial_2" value="• Присоединитесь к нашему Discord-серверу" />
+      <add key="DIALOG_DISCORD_LINKED_Details_You_Can_Now_Request_A_Full_Trial_3" value="• Перейдите в канал " />
+      <add key="DIALOG_DISCORD_LINKED_Details_You_Can_Now_Request_A_Full_Trial_Channel" value="#trial" />
+      <add key="DIALOG_DISCORD_LINKED_Details_You_Can_Now_Request_A_Full_Trial_4" value="• Отправьте сообщение" />
+      <add key="DIALOG_DISCORD_LINKED_Button_Go_To_Discord_Community" value="Перейти в Discord-сообщество" />
+      <add key="DIALOG_DISCORD_LINKED_Details_Great_Your_Account_Is_Connected" value="Отлично! Ваш аккаунт теперь подключён к Discord. Вы можете присоединиться к сообществу — общайтесь и знакомьтесь с другими участниками сервера." />
+    </sub>
+    <sub id="12" name="Restore Cloud Backup">
+      <add key="RESTORE_CLOUD_BACKUP_DIALOG_Title" value="" />
+      <add key="RESTORE_CLOUD_BACKUP_DIALOG_Body_Line1" value="" />
+      <add key="RESTORE_CLOUD_BACKUP_DIALOG_Body_Line2" value="" />
+      <add key="RESTORE_CLOUD_BACKUP_DIALOG_Button_Restore" value="" />
+      <add key="RESTORE_CLOUD_BACKUP_DIALOG_Button_Cancel" value="" />
+      <add key="RESTORE_CLOUD_BACKUP_DIALOG_Title_Something_Went_Wrong" value="" />
+      <add key="RESTORE_CLOUD_BACKUP_DIALOG_Title_Unlock_Cloud_Backup" value="" />
+      <add key="RESTORE_CLOUD_BACKUP_DIALOG_Body_Cloud_Backup_Only_Available_To_Paid_Customers" value="" />
+      <add key="RESTORE_CLOUD_BACKUP_DIALOG_Button_Get_A_Bundle" value="" />
+      <add key="RESTORE_CLOUD_BACKUP_DIALOG_SUCCESS" value="" />
+      <add key="RESTORE_CLOUD_BACKUP_DIALOG_RESTORE_SUCCESS" value="" />
+    </sub>
+    <sub id="13" name="Reset Email Entry">
+      <add key="DIALOG_RESET_EMAIL_ENTRY_NL_Title_Enter_Your_New_Email" value="" />
+      <add key="DIALOG_RESET_EMAIL_ENTRY_NL_Hint_Your_Email" value="" />
+      <add key="DIALOG_RESET_EMAIL_ENTRY_NL_Button_Request_Email_Change" value="" />
+    </sub>
+    <sub id="14" name="Reset Email Confirmation">
+      <add key="DIALOG_RESET_EMAIL_CONFIRMATION_NL_Title" value="" />
+      <add key="DIALOG_RESET_EMAIL_CONFIRMATION_NL_Button_Confirm" value="" />
+    </sub>
+  </area>
+  <area id="113" name="Dialogs - Miscellaneous">
+    <sub id="3" name="Interference Detected">
+      <add key="DIALOG_INTEFERENCE_DETECTED_NL_Title_We_Detected_Some_Interference" value="Обнаружены помехи" />
+      <add key="DIALOG_INTEFERENCE_DETECTED_NL_Label_It_Seems_Some_Other_Program_Is_Interfering_With_Jurojin" value="Похоже, что другая программа мешает работе Jurojin. Из-за этого некоторые функции могут работать некорректно." />
+      <add key="DIALOG_INTEFERENCE_DETECTED_NL_Button_Got_It" value="Понятно" />
+    </sub>
+    <sub id="4" name="Generic Info">
+      <add key="DIALOG_GENERIC_INFO_NL_Button_Got_It" value="Понятно" />
+      <add key="TEAM_MESSAGE_DIALOG_Title" value="Сообщение от команды Jurojin" />
+      <add key="TEAM_MESSAGE_RECEIVED_TOASTR" value="Команда Jurojin отправила вам сообщение, проверьте приложение." />
+      <add key="DIALOG_GENERIC_INFO_NL_WELCOME_AFFI_TITLE" value="Пробная версия готова" />
+      <add key="DIALOG_GENERIC_INFO_NL_WELCOME_BODY" value="Спасибо за создание аккаунта в #affi#! Наслаждайтесь одним месяцем полнофункционального доступа" />
+    </sub>
+    <sub id="2" name="Yes no Ok Cancel">
+      <add key="DIALOG_YES_NO_Button_Yes" value="Да" />
+      <add key="DIALOG_YES_NO_Button_No" value="Нет" />
+      <add key="DIALOG_YES_NO_Button_Ok" value="Ок" />
+      <add key="DIALOG_YES_NO_Button_Cancel" value="Отмена" />
+    </sub>
+    <sub id="5" name="Misc">
+      <add key="DIALOG_MISC_Title_Thank_You" value="Спасибо!" />
+      <add key="DIALOG_MISC_Body_With_Your_Help_Jurojin_Grows_Better_Each_Day" value="С вашей помощью Jurojin становится лучше с каждым днём!" />
+      <add key="DIALOG_MISC_Title_Whoops" value="Упс!" />
+      <add key="DIALOG_MISC_Body_Something_Went_Wrong,_Please_Try_Agian_Later" value="Что-то пошло не так, попробуйте позже!" />
+      <add key="DIALOG_MISC_Label_Dont_Show_Again" value="Не показывать снова" />
+      <add key="BODOG_TABLES_OVERLAPPED_MESSAGE" value="Наложение столов Bodog/Bovada приводит к тому, что содержимое столов не обновляется, не накладывайте столы Bodog!" />
+      <add key="SITE_VALIDATION_OPEN_BEFORE_SCANNING" value="Пожалуйста, откройте покерный сайт перед тем, как начать обнаружение столов с помощью Jurojin." />
+      <add key="SITE_VALIDATION_COINPOKER_HUD_INTERFERENCE_DETECTED" value="Продукты EliteHUD мешают Jurojin работать эффективно на CoinPoker, влияя на исходный поток выполнения казино. Направляйте жалобы в их службу поддержки." />
+      <add key="SITE_VALIDATION_CLUBGG_HUD_INTERFERENCE_DETECTED" value="Продукты EliteHUD мешают Jurojin работать эффективно на ClubGG, влияя на исходный поток выполнения казино. Направляйте жалобы в их службу поддержки." />
+      <add key="RESIZE_BELOW_SITE_MINSIZE" value="Минимальный размер стола #game# больше вашего slot. Он был автоматически увеличен #game#." />
+      <add key="DIALOG_MISC_Button_Got_It" value="Понял!" />
+      <add key="DIALOG_MISC_LAYOUT_BLOCKED_NO_ACCESS_TITLE" value="" />
+      <add key="DIALOG_MISC_LAYOUT_BLOCKED_NO_ACCESS_BODY" value="" />
+    </sub>
+    <sub id="6" name="Validators">
+      <add key="DOUBLE_VALIDATION_RULE_Characters_Cannot_Be_Converted_To_Number" value="Символы не могут быть преобразованы в число" />
+      <add key="DOUBLE_VALIDATION_RULE_Enter_Value_In_Range" value="Пожалуйста, введите значение в пределах диапазона" />
+      <add key="DOUBLE_VALIDATION_RULE_Max_Fractional_Digits" value="" />
+    </sub>
+    <sub id="7" name="Subscribe to Newsletter">
+      <add key="DIALOG_EULA_Title_Dont_Miss_Out" value="Не пропустите — получайте лучшие предложения и обновления!" />
+      <add key="DIALOG_EULA_Label_Subscribing_To_Our_Newsletter" value="Подписка на нашу рассылку — единственный способ получить доступ к эксклюзивным скидкам и оставаться в курсе новостей и предложений Jurojin." />
+      <add key="DIALOG_EULA_Button_Subscribe_Now" value="Подписаться сейчас" />
+    </sub>
+    <sub id="8" name="Known Issues">
+      <add key="DIALOG_KNOWN_ISSUES_Title_We_Are_Experiencing_Issues_In_These_Poker_Sites" value="Выявленные известные проблемы" />
+      <add key="DIALOG_KNOWN_ISSUES_Label_Weve_Identified_Problem_Working_On_Fix" value="Мы выявили проблему и работаем над её устранением" />
+      <add key="DIALOG_KNOWN_ISSUES_Status_Processing" value="Обработка" />
+      <add key="DIALOG_KNOWN_ISSUES_Status_Known_Issues" value="Известная проблема" />
+      <add key="DIALOG_KNOWN_ISSUES_Button_Learn_More" value="Подробнее" />
+      <add key="DIALOG_KNOWN_ISSUES_Button_Cancel" value="Отмена" />
+      <add key="DIALOG_KNOWN_ISSUES_Button_Ignore" value="Игнорировать эти проблемы" />
+    </sub>
+  </area>
+  <area id="114" name="Feature Lock">
+    <add key="FEATURE_LOCK_Label_Coming_Soon" value="СКОРО БУДЕТ" />
+    <add key="FEATURE_LOCK_Label_Watch_On_TouTube" value="СМОТРИТЕ В ДЕЙСТВИИ НА YOUTUBE" />
+    <add key="FEATURE_LOCK_NL_Label_This_Feature_Is_Locked" value="Эта функция заблокирована!" />
+    <add key="FEATURE_LOCK_Label_Request_Access_In_Discord" value="ЗАПРОСИТЕ ДОСТУП К ЭТОЙ БЕТА-ФУНКЦИИ В НАШЕМ DISCORD!" />
+    <add key="FEATURE_LOCK_NL_Button_Unlock_Now" value="Разблокировать сейчас" />
+    <add key="FEATURE_LOCK_NL_Button_Learn_More" value="Подробнее" />
+    <add key="FEATURE_LOCK_LABEL_NL_Label_Tiling_Sub_Not_Cover_Betting_Tools_Huds" value="Tiling Sub doesn't cover Betting Tools/Huds" />
+  </area>
+  <area id="115" name="Walkthrough">
+    <sub id="0" name="Intro">
+      <add key="WALK_INTRO_SKIP_OPTION_Label_Intro" value="Прохождение было прервано. Хотите начать заново?" />
+      <add key="WALK_INTRO_SKIP_OPTION_Label_Button_Skip" value="ПРОПУСТИТЬ" />
+      <add key="WALK_INTRO_SKIP_OPTION_Label_Button_Continue" value="НАЧАТЬ" />
+    </sub>
+    <sub id="1" name="Language Selection">
+      <add key="WALK_INTRO_LANGUAGE_SELECTION_Label_Welcome" value="ДОБРО ПОЖАЛОВАТЬ!" />
+      <add key="WALK_INTRO_LANGUAGE_SELECTION_Label_Intro" value="Сейчас мы проведем вас по основным настройкам и расскажем, как их настроить" />
+      <add key="WALK_INTRO_LANGUAGE_SELECTION_Label_Choose_Language" value="ВЫБЕРИТЕ ЯЗЫК" />
+      <add key="WALK_INTRO_FINISH_Label_Button_LetsStart" value="НАЧНЕМ!" />
+    </sub>
+    <sub id="2" name="Finish">
+      <add key="WALK_INTRO_FINISH_Label_Welcome" value="ЗАВЕРШЕНО" />
+      <add key="WALK_INTRO_FINISH_Label_Line1" value="Отлично! Теперь вы можете использовать Jurojin" />
+      <add key="WALK_INTRO_FINISH_Label_Line2" value="Играйте и наслаждайтесь! Удачи за столами!" />
+      <add key="WALK_INTRO_FINISH_Label_Button_PlayNow" value="ИГРАТЬ СЕЙЧАС" />
+    </sub>
+    <sub id="3" name="Layouts">
+      <add key="WALK_SCENARIO_LAYOUTS_HAMBURGER_MENU_ITEM_Layout" value="Начнем с настройки Layout. Нажмите пункт меню конфигурации Layout" />
+      <add key="WALK_SCENARIO_LAYOUTS_LAYOUT_CONFIG_Create_New_Layout" value="Layout — это способ сказать Jurojin, куда отправлять ваши столы. Нажмите здесь, чтобы создать новый Layout" />
+      <add key="WALK_SCENARIO_LAYOUTS_CREATE_NEW_LAYOUT_Create_Manually_Intro" value="Этот вариант позволяет создать layout вручную" />
+      <add key="WALK_SCENARIO_LAYOUTS_CREATE_NEW_LAYOUT_Create_Automatically" value="Если хотите быстро создать layout, можете воспользоваться функцией автоматического создания" />
+      <add key="WALK_SCENARIO_LAYOUTS_CREATE_NEW_LAYOUT_Create_From_Preset" value="Или выберите вариант из наших шаблонов layouts" />
+      <add key="WALK_SCENARIO_LAYOUTS_CREATE_NEW_LAYOUT_Clone_Existing" value="Или можете клонировать существующий layout. Это удобно для создания похожего layout и экономии времени." />
+      <add key="WALK_SCENARIO_LAYOUTS_CREATE_NEW_LAYOUT_Create_Manually_Action" value="Давайте сейчас сделаем вручную, чтобы вы познакомились со всеми опциями" />
+      <add key="WALK_SCENARIO_LAYOUTS_EDIT_LAYOUT_PAGE_Add_Playing_Slot" value="Эта кнопка добавляет Playing slot. Ваши столы будут отправляться сюда по умолчанию" />
+      <add key="WALK_SCENARIO_LAYOUTS_EDIT_LAYOUT_PAGE_Add_Observer_Slot" value="Аналогично, вы можете добавить Observer slot. Их используют для наблюдения за столами, где вы не играете" />
+      <add key="WALK_SCENARIO_LAYOUTS_EDIT_LAYOUT_PAGE_Add_Replay_Slot" value="Replay slots предназначены только для повторов раздач (не все сайты поддерживают эту функцию)" />
+      <add key="WALK_SCENARIO_LAYOUTS_EDIT_LAYOUT_PAGE_Add_Lobby_Slot" value="Lobby окна также распознаются Jurojin и могут быть отправлены в lobby slot. Обратите внимание, что lobby окна не масштабируются как столы, поэтому можно только задать их расположение" />
+      <add key="WALK_SCENARIO_LAYOUTS_SLOT_AREA_CopyBottom" value="Нажмите эту кнопку, чтобы создать новый slot того же размера прямо под текущим" />
+      <add key="WALK_SCENARIO_LAYOUTS_SLOT_AREA_DeleteSlot" value="Если нужно удалить slot, просто нажмите на корзину. Удалить этот slot" />
+      <add key="WALK_SCENARIO_LAYOUTS_EDIT_LAYOUT_PAGE_Add_Slots_Create_Layout" value="Теперь, когда вы знаете, как добавлять slots, создайте свой layout. После окончания нажмите кнопку, чтобы продолжить и сохранить layout" />
+      <add key="WALK_SCENARIO_LAYOUTS_EDIT_LAYOUT_PAGE_Save_Layout" value="Всё готово! Сохраните ваш layout, чтобы продолжить" />
+      <add key="WALK_SCENARIO_LAYOUTS_HAMBURGER_MENU_ITEM_Back" value="Теперь вернемся и посмотрим другие функции" />
+      <add key="WALK_SCENARIO_LAYOUTS_CONFIG_Tab_Header_Automatic_Layout_Switch" value="Здесь можно настроить автоматическую смену layouts в Jurojin" />
+      <add key="WALK_SCENARIO_LAYOUTS_CONFIG_Select_Automatic_Layout_Options" value="Настройте автоматическую смену layouts как хотите!" />
+      <add key="WALK_SCENARIO_LAYOUTS_EDIT_LAYOUT_PAGE_Add_Playing_Or_Observer_Slot" value="С этими кнопками можно добавлять playing или observer slots в layout, с функцией Keep Most Urgent on top из общих настроек вы можете складывать столы в одном slot, и они будут появляться по очереди!" />
+      <add key="WALK_SCENARIO_LAYOUTS_EDIT_LAYOUT_PAGE_Add_Dynamic_Slots" value="С этими двумя кнопками можно добавить dynamic slots, можно выбрать только один из двух типов для вашего layout, так как они предлагают разный поток столов" />
+      <add key="WALK_SCENARIO_LAYOUTS_EDIT_LAYOUT_PAGE_Add_Action_Required_Slots" value="С action required slot столы будут перемещаться туда каждый раз, когда приходит ваш ход" />
+      <add key="WALK_SCENARIO_LAYOUTS_EDIT_LAYOUT_PAGE_Add_InHand_Slots" value="С in hand slot столы будут перемещаться при входе в раздачу, vpip, посте блайнда и т.п. Это настраивается в конфигурации каждого сайта" />
+      <add key="WALK_SCENARIO_LAYOUTS_LAYOUT_CONFIG_Layout_Hotkeys_Tab" value="Теперь посмотрим вкладку горячих клавиш layout..." />
+      <add key="WALK_SCENARIO_LAYOUTS_LAYOUT_CONFIG_Layout_Hotkeys" value="Теперь посмотрим вкладку горячих клавиш layout..." />
+      <add key="WALK_SCENARIO_LAYOUTS_LAYOUT_CONFIG_Layout_Hotkey_Dynamic_Slots" value="С этой горячей клавишей вы можете зафиксировать стол вне потока dynamic slots, чтобы он оставался на месте. Очень полезно при больших раздачах или финальных столах" />
+    </sub>
+    <sub id="4" name="Sites Config">
+      <add key="WALK_SCENARIO_SITECONFIG_HAMBURGER_MENU_ITEM_Sites" value="Нажмите здесь, чтобы перейти к настройкам сайтов" />
+      <add key="WALK_SCENARIO_SITECONFIG_SITE_CONFIGURATIONS_Party_Poker_Hex" value="Нажмите, чтобы увидеть доступные настройки для Pokerstars (если вы не играете в Stars, не волнуйтесь. Настроить ваши сайты вы сможете позже)" />
+      <add key="WALK_SCENARIO_SITECONFIG_SITE_CONFIGURATION_DETAILS_Toggle_Tiling_Status" value="Этой кнопкой можно включить/выключить tiling (только для этого сайта)." />
+      <add key="WALK_SCENARIO_SITECONFIG_SITE_CONFIGURATION_DETAILS_Tiling_Options_Details" value="Здесь вы сможете настроить, как столы автоматически перемещаются/укладываются для конкретного покерного сайта." />
+      <add key="WALK_SCENARIO_SITECONFIG_SITE_CONFIGURATION_DETAILS_Check_Auto_Play_On_Launch" value="Если включено, при запуске Jurojin все столы будут перемещены согласно указанным настройкам. Это экономит время — не надо вручную нажимать PLAY для обнаружения столов. Мы настоятельно рекомендуем использовать эту функцию." />
+      <add key="WALK_SCENARIO_SITECONFIG_SITE_CONFIGURATION_DETAILS_Save_Settings" value="Если нужно что-то сохранить, сделайте это сейчас! Если нет — просто нажмите пропустить" />
+      <add key="WALK_SCENARIO_SITECONFIG_HAMBURGER_MENU_ITEM_Back" value="Вернемся назад и посмотрим другие функции" />
+    </sub>
+    <sub id="5" name="General Configuration">
+      <add key="WALK_SCENARIO_GENCONFIG_HAMBURGER_MENU_ITEM_Configuration" value="Эта кнопка ведет в Общие настройки" />
+      <add key="WALK_SCENARIO_GENCONFIG_GENERAL_CONFIGURATION_Check_Magnetize_Playing_Area" value="Игровая зона может быть намагничена: вы можете перетаскивать столы, и они будут мгновенно «прилипать» к slots. Также, удерживая CTRL при перетаскивании, столы не будут меняться местами, а будут складываться." />
+      <add key="WALK_SCENARIO_GENCONFIG_GENERAL_CONFIGURATION_Check_Magnetize_Observer_Area" value="Observer slots тоже могут быть намагничены" />
+      <add key="WALK_SCENARIO_GENCONFIG_GENERAL_CONFIGURATION_Tooltip_Magnetize_Playing_Area" value="Этот значок предоставляет краткое объяснение каждой функции" />
+      <add key="WALK_SCENARIO_GENCONFIG_GENERAL_CONFIGURATION_Check_Magnetize_Lobby_Slots" value="Так же и lobby slots. При условии, что у них включена опция stack sites" />
+      <add key="WALK_SCENARIO_GENCONFIG_GENERAL_CONFIGURATION_Check_Reorder_Observer_Area_Table_Closed" value="Вы можете настроить перестановку столов в observer slots при закрытии одного из них" />
+      <add key="WALK_SCENARIO_GENCONFIG_GENERAL_CONFIGURATION_Check_Reorder_Playing_Area_Table_Closed" value="Вы можете настроить перестановку столов в playing slots при закрытии одного из них" />
+      <add key="WALK_SCENARIO_GENCONFIG_GENERAL_CONFIGURATION_Check_Focus_Table_Under_Mouse" value="Эта функция выводит стол вперёд при наведении мыши" />
+      <add key="WALK_SCENARIO_GENCONFIG_GENERAL_CONFIGURATION_Check_Highlight_Table_Under_Focus" value="Подсвечивает рамку активного стола." />
+      <add key="WALK_SCENARIO_GENCONFIG_GENERAL_CONFIGURATION_Check_Show_Random_Number_Generator" value="Это отобразит генератор случайных чисел при запуске приложения. Если оставить эту функцию включённой, RNG появится сразу после завершения этого руководства!" />
+      <add key="WALK_SCENARIO_GENCONFIG_GENERAL_CONFIGURATION_Check_Minimize_To_System_Tray" value="При нажатии на минимизацию приложение будет сворачиваться только в системный трей (маленькие иконки в правом нижнем углу Windows)" />
+      <add key="WALK_SCENARIO_GENCONFIG_GENERAL_CONFIGURATION_Check_Keep_Most_Urgent_On_Top" value="Когда в одном slot наложено несколько столов, Jurojin будет держать самый срочный сверху. После вашего действия следующий по срочности поднимется наверх." />
+      <add key="WALK_SCENARIO_GENCONFIG_GENERAL_CONFIGURATION_WorksFor_Keep_Most_Urgent_On_Top" value="Некоторые функции работают не на всех сайтах! С помощью этого значка вы можете проверить, какие поддерживаются!" />
+      <add key="WALK_SCENARIO_GENCONFIG_GENERAL_CONFIGURATION_Configure_Global" value="Вы можете включать или отключать эти опции, чтобы сделать Jurojin идеальным!" />
+      <add key="WALK_SCENARIO_GENCONFIG_GENERAL_CONFIGURATION_Tab_Global_Hotkeys" value="Здесь доступны общие горячие клавиши в Jurojin" />
+      <add key="WALK_SCENARIO_GENCONFIG_GENERAL_CONFIGURATION_Set_HotKeys" value="Вы можете установить горячие клавиши, выбрав поле и нажав сочетание на клавиатуре" />
+      <add key="WALK_SCENARIO_GENCONFIG_GENERAL_CONFIGURATION_Tab_Table_Border" value="Здесь вы можете настроить цветные рамки для ваших столов! В некоторых разделах есть такие вкладки, не забудьте проверить!" />
+      <add key="WALK_SCENARIO_GENCONFIG_GENERAL_CONFIGURATION_Configure_Table_Border" value="Вы можете включить эту опцию, чтобы видеть фиолетовую рамку вокруг активного стола" />
+      <add key="WALK_SCENARIO_GENCONFIG_GENERAL_CONFIGURATION_Save_Changes" value="Сохраните настройки или просто нажмите пропустить сохранение" />
+    </sub>
+    <sub id="6" name="HotKeys Config">
+      <add key="WALK_SCENARIO_HOTKEYSCONFIG_HAMBURGER_MENU_ITEM_HotKeys" value="Здесь вы сможете назначить горячие клавиши для действий за столами, таких как чек/фолд/бет/рейз!" />
+      <add key="WALK_SCENARIO_HOTKEYSCONFIG_Page_Intro" value="Настройте горячие клавиши мышью или клавиатурой для ваших размеров ставок и действий! Некоторые сайты, например GGPoker, требуют дополнительной настройки, смотрите FAQ для подробностей!" />
+      <add key="WALK_SCENARIO_HOTKEYSCONFIG_Page_Discord_Intro" value="Похоже, у вас нет доступа к этой функции! Нажав эту кнопку, вы можете запросить доступ, оставив свой username в Jurojin в чате" />
+    </sub>
+    <sub id="7" name="Controller Config">
+      <add key="WALK_SCENARIO_CONTROLLER_HAMBURGER_MENU_ITEM_Controller" value="Мы также добавили поддержку контроллеров для некоторых покерных сайтов!" />
+      <add key="WALK_SCENARIO_CONTROLLER_Page_Intro" value="Возьмите пива, сядьте на диван и наслаждайтесь спинами с нашей новой поддержкой контроллера!" />
+    </sub>
+    <sub id="8" name="Overlays Config">
+      <add key="WALK_SCENARIO_OVERLAYS_CONFIG_HAMBURGER_MENU_ITEM_Overlays" value="В этом разделе вы можете настроить наложения, которые появляются над вашими столами!" />
+      <add key="WALK_SCENARIO_OVERLAYS_CONFIG_Page_Intro" value="Любой элемент, который появляется над каждым столом, находится здесь. Вы можете включать и выключать их, а также настраивать некоторые параметры!" />
+      <add key="WALK_SCENARIO_OVERLAYS_CONFIG_Table_Overlays_Contents" value="Здесь вы можете настроить наложения, которые появляются внутри столов. Наложения показывают полезную статистику в игре. Нажмите «узнать больше» рядом с каждым наложением, чтобы увидеть инструкцию" />
+      <add key="WALK_SCENARIO_OVERLAYS_CONFIG_Tab_Seats_Overlays_Intro" value="Перейдём к разделу наложений мест" />
+      <add key="WALK_SCENARIO_OVERLAYS_CONFIG_Seats_Overlays_Contents" value="Наложения мест всегда закреплены рядом с местом игрока и показывают такие вещи, как позиция и линия действий. Убедитесь, что герой центрирован в настройках сайта" />
+      <add key="WALK_SCENARIO_OVERLAYS_CONFIG_Tab_Table_Counters_Intro" value="Теперь давайте посмотрим наложения счётчиков" />
+      <add key="WALK_SCENARIO_OVERLAYS_CONFIG_Table_Counters_Contents" value="Наложения счётчиков отображают информацию о столах в slot, где расположен стол (если такой есть)" />
+    </sub>
+    <sub id="9" name="Changelog">
+      <add key="WALK_SCENARIO_CHANGELOG_HAMBURGER_MENU_ITEM_Changelog" value="В этом разделе вы сможете читать последние новости приложения! Он становится красным, когда появляются новые обновления!" />
+      <add key="WALK_SCENARIO_CHANGELOG_Page_Intro" value="Узнайте здесь последние новости!" />
+    </sub>
+    <sub id="10" name="Outro">
+      <add key="WALK_SCENARIO_GENOUTRO_REPORT_ISSUE" value="Если у вас есть проблемы, используйте кнопку отчёта, чтобы мы могли помочь, или присоединяйтесь к нашему Discord-каналу!" />
+      <add key="WALK_SCENARIO_GENOUTRO_WALKTHROUGH_ON_DEMAND" value="Вы можете посмотреть это руководство снова в любое время, нажав эту кнопку." />
+    </sub>
+    <sub id="11" name="Others">
+      <add key="WALK_Common_Label_User_Action_Complete" value="ВСЁ ГОТОВО!" />
+      <add key="WALK_Common_Label_User_Intro_Acknowledge" value="ПОНЯЛ" />
+      <add key="WALK_Common_Skip_Saving" value="Пропустить сохранение" />
+      <add key="WALK_Button_See_Walkthrough_Again" value="ПОСМОТРЕТЬ РУКОВОДСТВО ЕЩЁ РАЗ" />
+      <add key="WALK_Button_Guide" value="РУКОВОДСТВО" />
+      <add key="WALK_Button_Skip_To_End" value="Я закончу это руководство позже" />
+    </sub>
+  </area>
+  <area id="116" name="Walkthrough V2">
+    <sub id="0" name="Intro">
+      <add key="WALKV2_INTRO_Title_Welcome_To_Jurojin_Poker" value="Добро пожаловать в Jurojin Poker!" />
+      <add key="WALKV2_INTRO_Label_Choose_Your_Language_To_Begin" value="Выберите язык для начала" />
+      <add key="WALKV2_INTRO_Button_Lets_Start" value="Начнём" />
+    </sub>
+    <sub id="1" name="Mini Intro">
+      <add key="WALKV2_MINI_INTRO_Title_Lets_Learn_The_Basics" value="Давайте изучим основы..." />
+      <add key="WALKV2_MINI_INTRO_Description_I_Will_Be_Guiding_You_Through_The_App" value="Я проведу вас по приложению, чтобы вы узнали о наших самых важных функциях! В Jurojin есть три основных функции. Вы можете нажать на любую из них, чтобы узнать больше." />
+      <add key="WALKV2_MINI_INTRO_Button_Tiling" value="Tiling" />
+      <add key="WALKV2_MINI_INTRO_Button_Hotkeys" value="Горячие клавиши" />
+      <add key="WALKV2_MINI_INTRO_Button_Overlays" value="Overlays" />
+      <add key="WALKV2_MINI_INTRO_Button_I_Will_Go_Through_Jurojin_Myself" value="Я пройдусь по Jurojin сам" />
+    </sub>
+    <sub id="2" name="Mini Finish">
+      <add key="WALKV2_MINI_FINISH_Title_Well_Done" value="Отлично!" />
+      <add key="WALKV2_MINI_FINISH_Description_Great_You_Finished_One_Of_Our_Miniguides" value="Отлично! Вы прошли один из наших мини-руководств! Если хотите посмотреть другое или повторить это, вы можете сделать это прямо сейчас!" />
+      <add key="WALKV2_MINI_FINISH_Button_Tiling" value="Tiling" />
+      <add key="WALKV2_MINI_FINISH_Button_Hotkeys" value="Горячие клавиши" />
+      <add key="WALKV2_MINI_FINISH_Button_Overlays" value="Overlays" />
+      <add key="WALKV2_MINI_FINISH_Button_I_Will_Go_Through_Jurojin_Myself" value="Я пройдусь по Jurojin сам" />
+    </sub>
+  </area>
+  <area id="117" name="HotKeys Friendly Names">
+    <add key="HOTKEY_Friendly_Name_0" value="Сменить layout" />
+    <add key="HOTKEY_Friendly_Name_1" value="Перестроить зону игры" />
+    <add key="HOTKEY_Friendly_Name_2" value="Перестроить зону наблюдения" />
+    <add key="HOTKEY_Friendly_Name_3" value="Отправить стол в зону игры" />
+    <add key="HOTKEY_Friendly_Name_4" value="Отправить стол в зону наблюдения" />
+    <add key="HOTKEY_Friendly_Name_5" value="Просмотреть активный layout" />
+    <add key="HOTKEY_Friendly_Name_6" value="Переместить RNG к указателю мыши" />
+    <add key="HOTKEY_Friendly_Name_7" value="Переключаться между столами в slot" />
+    <add key="HOTKEY_Friendly_Name_8" value="Действие за столом: Фолд" />
+    <add key="HOTKEY_Friendly_Name_9" value="Действие за столом: Чек" />
+    <add key="HOTKEY_Friendly_Name_10" value="Действие за столом: Рейз/Бет" />
+    <add key="HOTKEY_Friendly_Name_11" value="Действие за столом: Кнопка1" />
+    <add key="HOTKEY_Friendly_Name_12" value="Действие за столом: Кнопка2" />
+    <add key="HOTKEY_Friendly_Name_13" value="Действие за столом: Кнопка3" />
+    <add key="HOTKEY_Friendly_Name_14" value="Действие за столом: Кнопка4" />
+    <add key="HOTKEY_Friendly_Name_15" value="Действие за столом: Олл-ин" />
+    <add key="HOTKEY_Friendly_Name_16" value="Действие за столом: Уменьшить ставку" />
+    <add key="HOTKEY_Friendly_Name_17" value="Действие за столом: Увеличить ставку" />
+    <add key="HOTKEY_Friendly_Name_18" value="Показать следующий стол на переднем плане" />
+    <add key="HOTKEY_Friendly_Name_19" value="Показать предыдущий стол на переднем плане" />
+    <add key="HOTKEY_Friendly_Name_20" value="Переместить стол в следующий slot" />
+    <add key="HOTKEY_Friendly_Name_21" value="Переместить стол в предыдущий slot" />
+    <add key="HOTKEY_Friendly_Name_22" value="Переместить стол в следующий slot с обменом" />
+    <add key="HOTKEY_Friendly_Name_23" value="Переместить стол в предыдущий slot с обменом" />
+    <add key="HOTKEY_Friendly_Name_24" value="Сфокусироваться на самом срочном столе" />
+    <add key="HOTKEY_Friendly_Name_25" value="Открыть меню" />
+    <add key="HOTKEY_Friendly_Name_26" value="Отключить все горячие клавиши" />
+    <add key="HOTKEY_Friendly_Name_27" value="Сохранить позиции наложений" />
+    <add key="HOTKEY_Friendly_Name_28" value="Переключить режим BB" />
+    <add key="HOTKEY_Friendly_Name_29" value="Кнопка размера ставки №5" />
+    <add key="HOTKEY_Friendly_Name_30" value="Кнопка размера ставки №6" />
+    <add key="HOTKEY_Friendly_Name_31" value="Кнопка размера ставки №7" />
+    <add key="HOTKEY_Friendly_Name_32" value="Кнопка размера ставки №8" />
+    <add key="HOTKEY_Friendly_Name_34" value="Свернуть стол" />
+    <add key="HOTKEY_Friendly_Name_35" value="Закрыть стол" />
+    <add key="HOTKEY_Friendly_Name_36" value="" />
+    <add key="HOTKEY_Friendly_Name_37" value="" />
+    <add key="HOTKEY_Friendly_Name_38" value="" />
+    <add key="HOTKEY_Friendly_Name_39" value="" />
+    <add key="HOTKEY_Friendly_Name_40" value="" />
+    <add key="HOTKEY_Friendly_Name_41" value="" />
+    <add key="HOTKEY_Friendly_Name_42" value="" />
+    <add key="HOTKEY_Friendly_Name_43" value="" />
+    <add key="HOTKEY_Friendly_Name_44" value="" />
+    <add key="HOTKEY_Friendly_Name_45" value="Отправить стол в Playing slot №1" />
+    <add key="HOTKEY_Friendly_Name_46" value="Отправить стол в Playing slot №2" />
+    <add key="HOTKEY_Friendly_Name_47" value="Отправить стол в Playing slot №3" />
+    <add key="HOTKEY_Friendly_Name_48" value="Отправить стол в Playing slot №4" />
+    <add key="HOTKEY_Friendly_Name_49" value="Отправить стол в Playing slot №5" />
+    <add key="HOTKEY_Friendly_Name_50" value="Отправить стол в Observer slot №1" />
+    <add key="HOTKEY_Friendly_Name_51" value="Отправить стол в Observer slot №2" />
+    <add key="HOTKEY_Friendly_Name_52" value="Отправить стол в Observer slot №3" />
+    <add key="HOTKEY_Friendly_Name_53" value="Отправить стол в Observer slot №4" />
+    <add key="HOTKEY_Friendly_Name_54" value="Отправить стол в Observer slot №5" />
+    <add key="HOTKEY_Friendly_Name_55" value="Заблокировать стол от Dynamic Flow" />
+    <add key="HOTKEY_Friendly_Name_56" value="Кнопка размера ставки №9" />
+    <add key="HOTKEY_Friendly_Name_57" value="Кнопка размера ставки №10" />
+    <add key="HOTKEY_Friendly_Name_58" value="Кнопка размера ставки №11" />
+    <add key="HOTKEY_Friendly_Name_59" value="Кнопка размера ставки №12" />
+    <add key="HOTKEY_Friendly_Name_60" value="Кнопка размера ставки №13" />
+    <add key="HOTKEY_Friendly_Name_61" value="Кнопка размера ставки №14" />
+    <add key="HOTKEY_Friendly_Name_62" value="Кнопка размера ставки №15" />
+    <add key="HOTKEY_Friendly_Name_63" value="Кнопка размера ставки №16" />
+    <add key="HOTKEY_Friendly_Name_64" value="" />
+    <add key="HOTKEY_Error_Entry_0" value="Системные зарезервированные клавиши недопустимы." />
+    <add key="HOTKEY_Error_Entry_1" value="Не указан модификатор клавиши (Ctrl/Alt/Shift)." />
+    <add key="HOTKEY_Error_Entry_2" value="Пожалуйста, используйте горячую клавишу с хотя бы одним модификатором (Ctrl, Shift, Alt) и одной буквой или цифрой." />
+    <add key="HOTKEY_Error_Entry_3" value="Это сочетание не разрешено. Пожалуйста, попробуйте другое значение." />
+    <add key="PROXY_HOTKEY_Friendly_Name_0" value="Фолд" />
+    <add key="PROXY_HOTKEY_Friendly_Name_1" value="Чек" />
+    <add key="PROXY_HOTKEY_Friendly_Name_2" value="Переключить BB" />
+    <add key="PROXY_HOTKEY_Friendly_Name_3" value="Увеличить ставку" />
+    <add key="PROXY_HOTKEY_Friendly_Name_4" value="Уменьшить ставку" />
+    <add key="PROXY_HOTKEY_Friendly_Name_5" value="Рейз/Бет" />
+    <add key="PROXY_HOTKEY_Friendly_Name_6" value="Кнопка1" />
+    <add key="PROXY_HOTKEY_Friendly_Name_7" value="Кнопка2" />
+    <add key="PROXY_HOTKEY_Friendly_Name_8" value="Кнопка3" />
+    <add key="PROXY_HOTKEY_Friendly_Name_9" value="Кнопка4" />
+    <add key="PROXY_HOTKEY_Friendly_Name_10" value="Олл-ин" />
+    <add key="HOTKEY_Error_Collision" value="Назначение горячей клавиши для этого сочетания уже существует. Конфликт с: " />
+    <add key="PROXY_HOTKEY_Error_Collision" value="Назначение горячей клавиши для этого сочетания уже существует. Конфликт с: " />
+    <add key="HOTKEY_Error_Duplicated_Entries" value="Дублирующиеся записи горячих клавиш. Пожалуйста, выберите уникальное значение для каждой горячей клавиши." />
+    <add key="HOTKEYS_USAGE_ON_VIEW_LOADED" value="Горячие клавиши будут работать только после покидания этого вида!" />
+    <add key="HOTKEYS_USAGE_ON_VIEW_UNLOADED" value="Горячие клавиши теперь доступны!" />
+    <add key="HOTKEY_COLLISION_Label_Keybinding_Is_Conflicting_With" value="сочетание клавиш конфликтует с" />
+  </area>
+  <area id="118" name="Windows">
+    <sub id="0" name="Window - RNG Settings">
+      <add key="RNG_SETTINGS_Title_Standalone_RNG" value="Standalone RNG" />
+      <add key="RNG_SETTINGS_Label_Size" value="Размер" />
+      <add key="RNG_SETTINGS_Check_Use_Smaller_Version" value="Использовать уменьшенную версию" />
+      <add key="RNG_SETTINGS_Label_Range" value="Диапазон" />
+      <add key="RNG_SETTINGS_Label_To" value="до" />
+      <add key="RNG_SETTINGS_Title_Frequency" value="Частота" />
+      <add key="RNG_SETTINGS_Label_Refresh_After" value="Обновлять после" />
+      <add key="RNG_SETTINGS_Label_Seconds" value="секунд" />
+      <add key="RNG_SETTINGS_Label_Bind_Hotkey" value="Назначить горячую клавишу" />
+      <add key="RNG_SETTINGS_Label_Move_To_Mouse_Pointer" value="Переместить к указателю мыши" />
+      <add key="RNG_SETTINGS_Check_Move_To_Previous_Location_Before_Pressing_Hotkey" value="Переместиться в предыдущее место перед нажатием горячей клавиши" />
+      <add key="RNG_SETTINGS_Button_Save" value="Сохранить" />
+      <add key="RNG_SETTINGS_Button_Cancel" value="Отмена" />
+    </sub>
+    <sub id="1" name="Slot Positions Selector">
+      <add key="SLOT_POSITION_ITEM_Label_Move" value="ПЕРЕМЕСТИТЬ" />
+      <add key="SLOT_POSITION_ITEM_Label_Swap" value="ПОМЕНЯТЬ" />
+    </sub>
+    <sub id="2" name="Window - Slot Size Selection">
+      <add key="SLOT_SIZE_SELECTION_WINDOW_Title" value="ЗАГОЛОВОК ОКНА" />
+      <add key="SLOT_SIZE_SELECTION_WINDOW_Label_Slot_Size" value="РАЗМЕР SLOT" />
+      <add key="SLOT_SIZE_SELECTION_WINDOW_Label_Width" value="Ширина" />
+      <add key="SLOT_SIZE_SELECTION_WINDOW_Label_Height" value="Высота" />
+      <add key="SLOT_SIZE_SELECTION_WINDOW_Label_Slot_Padding" value="ОТСТУП SLOT" />
+    </sub>
+    <sub id="3" name="Slot Area Window">
+      <add key="SLOT_AREA_WINDOW_Label_PosX" value="Позиция X" />
+      <add key="SLOT_AREA_WINDOW_Label_PosY" value="Позиция Y" />
+      <add key="SLOT_AREA_WINDOW_Label_Width" value="Ширина" />
+      <add key="SLOT_AREA_WINDOW_Label_Height" value="Высота" />
+      <add key="SLOT_AREA_WINDOW_Label_Lock_Aspect_Ratio" value="Зафиксировать соотношение сторон" />
+      <add key="SLOT_AREA_WINDOW_Label_Only_Work_For_These_Sites" value="РАБОТАЕТ ТОЛЬКО ДЛЯ ЭТИХ САЙТОВ" />
+      <add key="SLOT_AREA_WINDOW_Tooltip_Swap" value="Нажмите 'Swap' на двух slots для обмена позициями." />
+    </sub>
+    <sub id="4" name="Lobby Slot Area">
+      <add key="LOBBY_SLOT_AREA_WINDOW_Label_Stack_In_Slot" value="Сгруппировать лобби в этом slot" />
+      <add key="LOBBY_SLOT_AREA_WINDOW_Label_Select_Site" value="Выбрать сайт" />
+      <add key="LOBBY_SLOT_AREA_WINDOW_Label_Disclaimer" value="Этот slot не отображает размер лобби! Он показывает только позицию (X, Y) на экране" />
+    </sub>
+    <sub id="5" name="Joystick Menu">
+      <add key="JOYSTICK_MENU_Title_Menu" value="МЕНЮ" />
+      <add key="JOYSTICK_MENU_Button_Close" value="ЗАКРЫТЬ" />
+      <add key="CONTROLLER_MENU_REORDER_OBSERVE_AREA" value="ПЕРЕУПОРЯДОЧИТЬ OBSERVER AREA" />
+      <add key="CONTROLLER_MENU_REORDER_PLAYING_AREA" value="ПЕРЕУПОРЯДОЧИТЬ PLAYING AREA" />
+    </sub>
+    <sub id="6" name="Eula">
+      <add key="EULA_Title_Terms_And_Conditions" value="Условия и положения" />
+      <add key="EULA_Sub_Please_Read_And_Accept_Conditions_Of_Use" value="Пожалуйста, прочитайте и примите условия использования" />
+      <add key="EULA_Check_I_Accept_Terms_And_Conditions" value="Я принимаю условия и положения Jurojin" />
+      <add key="EULA_Button_Scroll_To_End" value="" />
+      <add key="EULA_Button_Accept_And_Continue" value="Принять и продолжить" />
+      <add key="EULA_Button_Resign_And_Close" value="Отказаться и закрыть" />
+      <add key="EULA_Text_You_Cannot_Use_The_App_Until_Terms_Conditions" value="К сожалению, вы не можете использовать приложение, пока не примете условия" />
+      <add key="EULA_Text_You_Cannot_Create_Account_Until_Terms_Conditions" value="К сожалению, вы не можете создать аккаунт, если не примете условия." />
+      <add key="EULA_Text_There_Was_A_Problem" value="Проблема с соединением с сервером для подписания условий, попробуйте позже или свяжитесь с нами!" />
+      <add key="EULA_Check_Join_Jurojin_Newsletter_1" value="Подпишитесь на рассылку Jurojin для" />
+      <add key="EULA_Check_Join_Jurojin_Newsletter_2" value="Эксклюзивных скидок и новостей приложения" />
+    </sub>
+    <sub id="7" name="News">
+      <add key="NEWS_WINDOW_Title_Limited_Time_Offer" value="ОГРАНИЧЕННОЕ ПРЕДЛОЖЕНИЕ" />
+      <add key="NEWS_WINDOW_Label_We_Have_An_Insane_Offer_For_All_Annual_Bundles" value="У нас СУМАСШЕДШЕЕ предложение на все годовые пакеты!" />
+      <add key="NEWS_WINDOW_Label_Get_Off_1" value="Получите скидку" />
+      <add key="NEWS_WINDOW_Label_Get_Off_2" value="на любой из наших годовых пакетов! Начиная с 00 часов GMT с кодом" />
+      <add key="NEWS_WINDOW_Button_Unlock_Discount" value="Активировать скидку" />
+      <add key="NEWS_WINDOW_Label_Limited_Time_Offer" value="ОГРАНИЧЕННОЕ ПРЕДЛОЖЕНИЕ" />
+    </sub>
+  </area>
+  <area id="119" name="Custom Controls">
+    <add key="WORKS_FOR_SITES_CONTROL_Title" value="Эта функция работает только для" />
+    <add key="ENABLE_FOR_SITES_CONTROL_Title" value="ПЕРЕТАЩИТЕ САЙТЫ ДЛЯ ВКЛЮЧЕНИЯ/ВЫКЛЮЧЕНИЯ" />
+    <add key="ENABLE_FOR_SITES_CONTROL_Popup_Body" value="Нажмите, чтобы включить эту функцию для выбранных сайтов" />
+    <add key="ACTIVATE_SLOT_FEATURE_TOOL_TIP_Title" value="УПС! ВЫ ДОСТИГЛИ МАКСИМУМА" />
+    <add key="ACTIVATE_SLOT_FEATURE_TOOL_TIP_Body" isFormatted="true" value="&lt;p style=&quot;font-weight: 700;&quot;&gt;Вы уже использовали все разрешённые slots.&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-weight: 600;&quot;&gt;АКТИВИРУЙТЕ&lt;/span&gt; &lt;span style=&quot;font-weight: 600;&quot;&gt;BUNDLE FULL TILLING&lt;/span&gt;, чтобы иметь возможность добавлять &lt;span style=&quot;font-weight: 600;&quot;&gt;БЕСКОНЕЧНЫЕ SLOTS!&lt;/span&gt;&lt;/p&gt;" />
+    <add key="LEARN_MORE_Text_Learn_More_About_This_Subject" value="Нажмите, чтобы узнать больше!" />
+    <add key="ENABLE_FOR_SITES_CONTROL_Button_Save" value="Сохранить" />
+    <add key="WORKS_FOR_SITES_CONTROL_Button_Cancel" value="Отмена" />
+    <add key="SITE_HEX_CONTROL_Label_Read_Review" value="Читать обзор" />
+  </area>
+  <area id="120" name="Toasters">
+    <add key="ACTIVE_LAYOUT_TOASTER_TEXT" value="АКТИВНЫЙ LAYOUT: " />
+    <add key="NO_ACCESS_TO_FEATURE_MESSAGE" value="Нет доступа к #name# в #game#! Пожалуйста, обратитесь в наше сообщество Discord!" />
+    <add key="HOTKEYS_DISABLED_FOR_SITE" value="Помните, вы отключили горячие клавиши для сайта #game#! Вы можете включить их в разделе горячих клавиш!" />
+    <add key="OVERLAYS_POSITION_SAVED" value="Позиции ваших оверлеев теперь сохранены!" />
+    <add key="APP_LOCATION_RESTORED" value="Положение приложения восстановлено" />
+    <add key="INJECTION_AVOIDED_VIA_BACKOFFICE_NOTIF" value="Пожалуйста, перезапустите приложение! Один из ваших покер-румов сейчас в режиме диагностики, и всем нужно перезапустить приложение для быстрого решения проблемы!" />
+    <add key="INJECTION_AVOIDED_VIA_BACKOFFICE" value="Пожалуйста, перезапустите приложение! Один из ваших покер-румов сейчас в режиме диагностики, и всем нужно перезапустить приложение для быстрого решения проблемы!" />
+    <add key="HOSTS_FILE_BLOCKS_HELP_REPORT" value="Помощь заблокирована файлом hosts. Обратитесь в поддержку." />
+    <add key="COINPOKER_ALT_STUCK_UNJAMMED" value="CoinPoker Alt Stucked was Unjammed" />
+    <add key="NEW_APP_VERSION_NOTIFICATION" value="У вас есть новое ожидаемое обновление! Рекомендуем перезапустить Jurojin, чтобы получить последнюю версию!" />
+    <add key="MOVE_ARROUND_HOTKEYS_DISCLAIMER" value="Обязательно отключите &quot;Focus Table Under Mouse&quot; или оставьте указатель мыши в углу, если собираетесь играть с клавиатурой!" />
+    <add key="SPACEBAR_NOT_RECOMMENDED" value="Не стоит использовать пробел как горячую клавишу в #game#, так как это вызывает несколько ошибок!" />
+    <add key="KEEP_MOST_URGENT_MESSAGE" value="Мы открыли руководство в вашем браузере, чтобы вы могли правильно настроить каждый сайт для функции Keep Most Urgent on Top" />
+    <add key="AUTO_FOCUS_MOUSE_FREE_DIALOG_TITLE" value="Играть без мыши?" />
+    <add key="AUTO_FOCUS_MOUSE_FREE_DIALOG_BODY" value="Auto Focus переносит фокус клавиатуры на самый срочный стол. Чтобы fold, check или bet без мыши, хоткеи стола должны действовать на стол в фокусе." />
+    <add key="AUTO_FOCUS_MOUSE_FREE_DIALOG_YES" value="Да, изменить" />
+    <add key="AUTO_FOCUS_MOUSE_FREE_DIALOG_IGNORE" value="Игнорировать" />
+    <add key="ONE_TABLE_HOTKEYS_MESSAGE" value="Вы можете использовать горячие клавиши только на одном столе одновременно! Пожалуйста, посетите наш магазин, если хотите использовать их на всех столах!" />
+    <add key="CONNECTION_COLLIDED" value="Приложение может работать только на одном ПК одновременно, ваше приложение останется открытым на другом ПК" />
+    <add key="PACIFIC_POKER_X64" value="У вас x64 версия 888Poker, где работает только tiling. Следуйте нашему руководству, установка версии x86 решит проблему." />
+    <add key="PACIFIC_POKER_X64_WORKING" value="Jurojin теперь полностью поддерживает версию 888 (x64), пожалуйста, скачайте и установите последнее ПО 888 для вашего региона. Поддержка x86 устарела." />
+    <add key="TABLE_BURIED_IN_STACK_DIALOG" value="У вас срочные столы зарыты в стеке! После закрытия этого окна в вашем браузере откроется полезная статья, пожалуйста, включите функцию 'Keep Most Urgent on Top'" />
+    <add key="TABLE_BURIED_IN_STACK_TOASTER" value="У вас срочные столы в стеке, рассмотрите возможность включения функции 'Keep Most Urgent on Top'." />
+    <add key="STACK_GUIDANCE_STACKING_OFF" value="Упс — у вас несколько столов в одном слоте, а функции stacking выключены. Покажем, как это исправить. При закрытии этого окна откроется руководство в браузере." />
+    <add key="STACK_GUIDANCE_ENHANCE_STACK" value="Вы на верном пути со стеками. Покажем ещё несколько функций, которые сильно помогут. При закрытии этого окна откроется руководство в браузере." />
+    <add key="APP_LIMITATIONS_FREE_TIER_STAKE_NOT_COVERED" value="Тариф Free Tier не покрывает этот стол из-за ставок. Подпишитесь и разблокируйте!" />
+    <add key="APP_LIMITATIONS_FREE_TIER_STAKE_NOT_COVERED_ACTION" value="Подпишитесь и разблокируйте!" />
+    <add key="APP_LIMITATIONS_FREE_TIER_EXEMPT_ROOM_NOT_COVERED" value="Столы #game# не поддерживаются на тарифе Free." />
+    <add key="APP_LIMITATIONS_FREE_TIER_EXEMPT_ROOM_NOT_COVERED_ACTION" value="Подписаться на Tiling" />
+    <add key="APP_LIMITATIONS_LOW_STAKES_QUOTA_REACHED" value="Упс, вы достигли квоты выше Low-Stakes. Обновите план, чтобы разблокировать!" />
+    <add key="APP_LIMITATIONS_LOW_STAKES_QUOTA_REACHED_ACTION" value="Обновите план, чтобы разблокировать!" />
+    <add key="APP_LIMITATIONS_CLUBGG_FULL_ACCESS_ONLY" value="ClubGG доступен только в Full Access" />
+    <add key="APP_LIMITATIONS_CLUBGG_FULL_ACCESS_ONLY_ACTION" value="Получить Full Access" />
+    <add key="APP_LIMIATIONS_MAX_TILED_TABLES_REACHED" value="Можно разместить только два стола более высоких лимитов и неограниченно — если они микролимиты!" />
+    <add key="APP_LIMIATIONS_MAX_TILED_TABLES_REACHED_ACTION" value="Получить Bundle Tiling" />
+    <add key="APP_LIMITATIONS_NEW_TABLE_GAINED_HOTKEY_RIGHTS" value="Теперь это стол более высоких лимитов, где доступны бесплатные хоткеи!" />
+    <add key="APP_LIMITATIONS_NEW_TABLE_GAINED_HOTKEY_RIGHTS_ACTION" value="Включить хоткеи для всех столов" />
+    <add key="APP_LIMITATIONS_TABLE_DOESNT_HAVE_HOTKEY_RIGHTS" value="На этом столе нельзя использовать хоткеи" />
+    <add key="APP_LIMITATIONS_TABLE_DOESNT_HAVE_HOTKEY_RIGHTS_ACTION" value="Включить хоткеи для всех столов" />
+    <add key="APP_LIMITATIONS_TABLE_DOESNT_HAVE_HOTKEY_RIGHTS_SHOW_FREE_TABLE" value="Это стол более высоких лимитов, где доступны бесплатные хоткеи!" />
+    <add key="APP_LIMITATIONS_NEW_TABLE_GAINED_OVERLAY_RIGHTS" value="Теперь это стол с бесплатными оверлеями" />
+    <add key="APP_LIMITATIONS_NEW_TABLE_GAINED_OVERLAY_RIGHTS_ACTION" value="Разблокировать оверлеи для всех столов" />
+    <add key="APP_LIMITATIONS_TABLE_DOESNT_HAVE_OVERLAY_RIGHTS" value="У этого стола не будет оверлеев! Только один стол более высоких лимитов может их иметь!" />
+    <add key="APP_LIMITATIONS_TABLE_DOESNT_HAVE_OVERLAY_RIGHTS_ACTION" value="Разблокировать оверлеи для всех столов" />
+    <add key="ERROR_PLAYGROUND" value="Никакие функции не будут работать в Winamax, если включён режим Playground! Обязательно отключите его" />
+    <add key="WINAMAX_OLD" value="" />
+    <add key="DEACTIVATE_TABLE_UNDER_MOUSE" value="Обязательно отключите &quot;Focus Table Under Mouse&quot;, если собираетесь управлять столами через контроллер или клавиатуру" />
+  </area>
+  <area id="121" name="Pages - Store">
+    <sub id="0" name="Page - Jurojin Store">
+      <add key="STORE_NL_Title_Jurojin_Store" value="Магазин Jurojin" />
+      <add key="STORE_NL_Section_Your_Products" value="Ваши продукты" />
+      <add key="STORE_NL_Section_Explore_All_Bundles" value="Изучите все layouts" />
+      <add key="STORE_NL_Button_Checkout" value="Оформить заказ" />
+      <add key="STORE_NL_Label_I_Have_A_Gift_Card_Line1" value="У меня есть" />
+      <add key="STORE_NL_Label_I_Have_A_Gift_Card_Line2" value="Подарочная карта" />
+      <add key="STORE_NL_Label_I_Have_A_Gift_Card_Redeem" value="Активировать сейчас" />
+      <add key="STORE_NL_Label_Upgrade_Your_Active_Plan_Pay_Only_The_Difference" value="УЛУЧШИТЕ АКТИВНЫЙ ПЛАН И ПЛАТИТЕ ТОЛЬКО РАЗНИЦУ" />
+    </sub>
+    <sub id="1" name="Page - Fill Cart">
+      <add key="FILL_CART_NL_Title_Jurojin_Store" value="Магазин Jurojin" />
+      <add key="FILL_CART_NL_Button_Proceed_To_Payment" value="Перейти к оплате" />
+      <add key="FILL_CART_NL_Button_Continue" value="Продолжить" />
+      <add key="FILL_CART_NL_Label_We_Noticed_Your_Selection_More_Expensive_Do_You_Want_Only_Full_Access" value="Мы заметили, что ваш выбор дороже полного пакета с полным доступом, который стоит дешевле и включает все функции. Хотите изменить корзину, оставив только полный пакет?" />
+      <add key="FILL_CART_NL_Label_Remaining_Months" value="Оставшиеся месяцы" />
+      <add key="FILL_CART_NL_Label_Regular_Price" value="ОБЫЧНАЯ ЦЕНА" />
+      <add key="FILL_CART_NL_Label_Pay_Only_The_Difference" value="ПЛАТИТЕ ТОЛЬКО РАЗНИЦУ" />
+      <add key="FILL_CART_NL_Label_One_Time_Payment" value="Единовременный платеж" />
+      <add key="FILL_CART_NL_Label_Days_Of_Upgrade" value="" />
+      <add key="FILL_CART_NL_Error_Message_Fail_To" value="" />
+    </sub>
+    <sub id="2" name="UserControl - Purchase Summary">
+      <add key="PURCHASE_SUMMARY_NL_Title_Purchase_Summary" value="Сводка покупки" />
+      <add key="PURCHASE_SUMMARY_NL_Label_Total" value="ИТОГО" />
+      <add key="PURCHASE_SUMMARY_NL_Label_Without_The_Network_Fee" value="*без учета сетевой комиссии" />
+    </sub>
+    <sub id="3" name="Dialog - Your Trial Ending Soon">
+      <add key="DIALOG_YOUR_TRIAL_ENDING_SOON_Title" value="Ваш пробный период скоро закончится!" />
+      <add key="DIALOG_YOUR_TRIAL_ENDING_SOON_Details" value="Вы решили? Если готовы, можете перейти в магазин и получить любимые функции" />
+      <add key="DIALOG_YOUR_TRIAL_ENDING_SOON_Button_Reopen_Checkout_In_Browser" value="Открыть оплату в браузере" />
+      <add key="DIALOG_YOUR_TRIAL_ENDING_SOON_Button_Reopen_Checkout_In_Browser_Description" value="Если вы случайно закрыли страницу оплаты" />
+      <add key="DIALOG_YOUR_TRIAL_ENDING_SOON_Button_Finish_Purchase" value="Завершить покупку" />
+      <add key="DIALOG_YOUR_TRIAL_ENDING_SOON_Button_Finish_Purchase_Description" value="Если вы уже получили подтверждение оплаты по электронной почте" />
+      <add key="DIALOG_YOUR_TRIAL_ENDING_SOON_Button_Go_To_Discord" value="Перейти в Discord" />
+      <add key="DIALOG_YOUR_TRIAL_ENDING_SOON_Button_Go_To_Jurojin_Store" value="Перейти в магазин Jurojin" />
+    </sub>
+    <sub id="4" name="Dialog - Continue Browsing And Come Back Here">
+      <add key="DIALOG_CONTINUE_BROWSING_AND_COME_BACK_AGAIN_Title" value="" />
+      <add key="DIALOG_CONTINUE_BROWSING_AND_COME_BACK_AGAIN_Details" value="" />
+      <add key="DIALOG_CONTINUE_BROWSING_AND_COME_BACK_AGAIN_Button_Reopen_Checkout_In_Browser" value="Открыть оплату в браузере" />
+      <add key="DIALOG_CONTINUE_BROWSING_AND_COME_BACK_AGAIN_Button_Reopen_Checkout_In_Browser_Description" value="Если вы случайно закрыли страницу оплаты" />
+      <add key="DIALOG_CONTINUE_BROWSING_AND_COME_BACK_AGAIN_Button_Finish_Purchase" value="Завершить покупку" />
+      <add key="DIALOG_CONTINUE_BROWSING_AND_COME_BACK_AGAIN_Button_Finish_Purchase_Description" value="Если вы уже получили подтверждение оплаты по электронной почте" />
+    </sub>
+    <sub id="5" name="Dialog - Everything is Ready to Go!">
+      <add key="DIALOG_EVERYTHING_IS_READY_TO_GO_Title" value="Всё готово к работе!" />
+      <add key="DIALOG_EVERYTHING_IS_READY_TO_GO_Label_We_Hope_You_Enjoy_Your_New_Features" value="Надеемся, вам понравятся новые функции!" />
+      <add key="DIALOG_EVERYTHING_IS_READY_TO_GO_Button_Got_It" value="Понял" />
+      <add key="DIALOG_EVERYTHING_IS_READY_TO_GO_Label_Your_Bundle_Is_Now_Active" isFormatted="true" value="&lt;p&gt;Ваш &lt;span style=&quot;font-weight: 700;&quot;&gt;{0}&lt;/span&gt; теперь активен!&lt;/p&gt;" />
+      <add key="DIALOG_BUNDLE_RAN_OUT_OF_JUICE_Title" value="Доступ истёк" />
+      <add key="DIALOG_BUNDLE_RAN_OUT_OF_JUICE_Label_Body" isFormatted="true" value="&lt;p&gt;Срок действия вашего bundle &lt;span style=&quot;font-weight: 700;&quot;&gt;{0}&lt;/span&gt; истёк во время этой сессии. Продлите подписку в Store, чтобы восстановить доступ и продолжить с того места, где остановились.&lt;/p&gt;" />
+      <add key="DIALOG_BUNDLE_RAN_OUT_OF_JUICE_Button_Got_It" value="Перейти в Store" />
+    </sub>
+    <sub id="6" name="Dialog - We Havent Received Payment Our End Yet">
+      <add key="DIALOG_WE_HAVENT_RECEIVED_PAYMENT_YET_Title" value="Мы ещё не получили оплату" />
+      <add key="DIALOG_WE_HAVENT_RECEIVED_PAYMENT_YET_Details" value="Пожалуйста, ждите письма от команды Jurojin с подтверждением оплаты и попробуйте снова. Если вы уже получили письмо, повторите попытку или свяжитесь с поддержкой" />
+      <add key="DIALOG_WE_HAVENT_RECEIVED_PAYMENT_YET_Button_Got_It" value="Понял" />
+    </sub>
+    <sub id="7" name="UserControl - Bundle Card">
+      <add key="BUNDLE_CARD_Button_Read_More" value="Читать далее" />
+      <add key="BUNDLE_CARD_Button_Add_To_Cart" value="Добавить в корзину" />
+      <add key="BUNDLE_CARD_Label_Active_Bundle" value="АКТИВНЫЙ ПАКЕТ" />
+      <add key="BUNDLE_CARD_Label_Time_Remaining" value="Оставшееся время" />
+      <add key="BUNDLE_CARD_Label_Renews_In" value="" />
+      <add key="BUNDLE_CARD_Label_Remaining" value="" />
+      <add key="BUNDLE_CARD_Button_Cancel" value="" />
+      <add key="BUNDLE_CARD_Label_Cancelled" value="" />
+      <add key="BUNDLE_CARD_Label_Already_Subscribed" value="" />
+    </sub>
+    <sub id="8" name="UserControl - Your Products">
+      <add key="YOUR_PRODUCTS_Label_Time_Remaining" value="Оставшееся время" />
+      <add key="YOUR_PRODUCTS_Button_Add_To_Cart" value="Добавить дни" />
+    </sub>
+    <sub id="9" name="Store - Top Menu">
+      <add key="STORE_TOP_MENU_Label_Link_With_Discord_Access_Full_Pack_1" value="Свяжите Discord, чтобы получить" />
+      <add key="STORE_TOP_MENU_Label_Link_With_Discord_Access_Full_Pack_2" value="15-дневную пробную версию полного пакета" />
+      <add key="STORE_TOP_MENU_Button_Link_Now" value="Связать сейчас" />
+      <add key="STORE_TOP_MENU_Label_Your_Trial_Period_Is_Ending" value="Ваш пробный период заканчивается!" />
+      <add key="STORE_TOP_MENU_Label_Dont_Miss_The_Fun" value="Не пропустите веселье!" />
+      <add key="STORE_TOP_MENU_Button_Learn_More" value="Узнать больше" />
+      <add key="STORE_TOP_MENU_Label_Trial_Days" value="ДНИ ПРОБЫ" />
+      <add key="STORE_TOP_MENU_Label_One_Of_Your_Products_Is_About_To_Expire" value="Продукт скоро истекает!" />
+      <add key="STORE_TOP_MENU_Button_Renew_Now" value="ПРОДЛИТЬ СЕЙЧАС" />
+      <add key="STORE_TOP_MENU_Label_Claim_Your_Free_Full_Pack_1" value="Заберите свой бесплатный" />
+      <add key="STORE_TOP_MENU_Label_Claim_Your_Free_Full_Pack_2" value="15-дневный пробный Full Pack" />
+      <add key="STORE_TOP_MENU_Button_Claim_Now" value="Забрать сейчас" />
+      <add key="STORE_TOP_MENU_Label_Limited_Offer" value="ограниченное предложение" />
+      <add key="COUPON_RECEIVED_Toast_Limited_Time_Offer" value="Вы разблокировали ограниченную скидку Early Bird. Она применяется к любому выбранному вами плану." />
+      <add key="STORE_TOP_MENU_Button_Get_Discount" value="Получить скидку" />
+      <add key="STORE_TOP_MENU_Label_You_Are_On_Free_Mode_Line1" value="Вы на бесплатном режиме!" />
+      <add key="STORE_TOP_MENU_Label_You_Are_On_Free_Mode_Line2" value="и испытываете некоторые ограничения" />
+    </sub>
+    <sub id="10" name="Dialog - Jurojin Store Checkout Platform">
+      <add key="DIALOG_STORE_CHECKOUT_PLATFORM_Title_Jurojin_Store_Checkout" value="Оплата в магазине Jurojin" />
+      <add key="DIALOG_STORE_CHECKOUT_PLATFORM_Label_Amount_To_Pay" value="Сумма к оплате" />
+      <add key="DIALOG_STORE_CHECKOUT_PLATFORM_Label_Choose_A_Payment_Platform" value="Выберите платежную систему" />
+      <add key="DIALOG_STORE_CHECKOUT_PLATFORM_Label_Credit_Card_Fiat_Wallets_Others" value="Кредитная карта, кошельки Fiat, подарочные карты и другие" />
+      <add key="DIALOG_STORE_CHECKOUT_PLATFORM_Label_Crypto_Payment" value="Криптоплатеж (USDT/USDC/BTC)" />
+      <add key="DIALOG_STORE_CHECKOUT_PLATFORM_Toast_You_Wont_Be_Charged_Until_Last_Step" value="С вас не спишут деньги до последнего шага" />
+      <add key="DIALOG_STORE_CHECKOUT_PLATFORM_Label_Card_Title" value="" />
+      <add key="DIALOG_STORE_CHECKOUT_PLATFORM_Label_Card_Providers" value="" />
+      <add key="DIALOG_STORE_CHECKOUT_PLATFORM_Label_Card_Type" value="" />
+      <add key="DIALOG_STORE_CHECKOUT_PLATFORM_Label_Crypto_Title" value="" />
+      <add key="DIALOG_STORE_CHECKOUT_PLATFORM_Label_Crypto_Providers" value="" />
+      <add key="DIALOG_STORE_CHECKOUT_PLATFORM_Label_One_Time_Purchase" value="Разовая покупка" />
+      <add key="DIALOG_STORE_CHECKOUT_PLATFORM_Label_EWallet_Title" value="" />
+      <add key="DIALOG_STORE_CHECKOUT_PLATFORM_Label_EWallet_Providers" value="" />
+      <add key="DIALOG_STORE_CHECKOUT_PLATFORM_Button_Go_To_Payment" value="Перейти к оплате" />
+      <add key="DIALOG_STORE_CHECKOUT_PLATFORM_Button_Cancel" value="Отмена" />
+      <add key="DIALOG_STORE_CHECKOUT_PLATFORM_Warning_Title_Important" value="Важно" />
+      <add key="DIALOG_STORE_CHECKOUT_PLATFORM_Warning_Body_Due_Higher_Fees" value="Из-за высоких комиссий в криптонетях с вас спишут дополнительную сумму, соответствующую этим сборам" />
+      <add key="DIALOG_STORE_CHECKOUT_PLATFORM_Tooltip_Cant_Subscribe_To_More_Than_One_With_Stripe" value="" />
+    </sub>
+    <sub id="11" name="Dialog - Store Checkout Crypto">
+      <add key="DIALOG_STORE_CHECKOUT_CRYPTO_Title_Jurojin_Store_Checkout" value="Оплата в магазине Jurojin" />
+      <add key="DIALOG_STORE_CHECKOUT_CRYPTO_Label_Amount_To_Pay" value="Сумма к оплате" />
+      <add key="DIALOG_STORE_CHECKOUT_CRYPTO_Label_Choose_A_Network" value="Выберите сеть" />
+      <add key="DIALOG_STORE_CHECKOUT_CRYPTO_Label_Choose_A_Cryptocurrency" value="Выберите криптовалюту" />
+      <add key="DIALOG_STORE_CHECKOUT_CRYPTO_Button_Continue" value="Продолжить" />
+      <add key="DIALOG_STORE_CHECKOUT_CRYPTO_Button_Cancel" value="Отмена" />
+      <add key="DIALOG_STORE_CHECKOUT_CRYPTO_ERROR_EXPIRED" value="Купон, который вы пытаетесь использовать, просрочен" />
+      <add key="DIALOG_STORE_CHECKOUT_CRYPTO_ERROR_NOT_FOUND" value="Купон, который вы пытаетесь использовать, не найден" />
+      <add key="DIALOG_STORE_CHECKOUT_CRYPTO_ERROR_NO_PRODUCTS" value="Купон, который вы пытаетесь использовать, не даёт скидок для выбранных продуктов" />
+      <add key="DIALOG_STORE_CHECKOUT_CRYPTO_ERROR_ANNUAL_ONLY" value="Этот купон действует только для годовой версии этого продукта" />
+      <add key="DIALOG_STORE_CHECKOUT_CRYPTO_NO_PAYMENT_OPTIONS" value="Произошла ошибка при получении криптоопций оплаты. Пожалуйста, свяжитесь с поддержкой или оплатите через Verifone" />
+      <add key="DIALOG_STORE_CHECKOUT_STRIPE_Error_Occurred" value="" />
+    </sub>
+    <sub id="12" name="Dialog - Store Payment Info">
+      <add key="DIALOG_STORE_PAYMENT_INFO_Title_Payment_Info" value="Информация об оплате" />
+      <add key="DIALOG_STORE_PAYMENT_INFO_Label_Amount_To_Be_Sent" value="Сумма для отправки" />
+      <add key="DIALOG_STORE_PAYMENT_INFO_Label_Send_To_Address" value="Отправить на адрес" />
+      <add key="DIALOG_STORE_PAYMENT_INFO_Label_Remaining_Time" value="Оставшееся время" />
+      <add key="DIALOG_STORE_PAYMENT_INFO_Toast_Only_Send_To_This_Address_1" value="Отправляйте только на этот адрес, если вы убедились, что находитесь в" />
+      <add key="DIALOG_STORE_PAYMENT_INFO_Toast_Only_Send_To_This_Address_2" value="сети" />
+      <add key="DIALOG_STORE_PAYMENT_INFO_Toast_You_Will_Receive_A_Confirmation_Email" value="Подтверждение оплаты может занять до 30 минут! Вы получите письмо с подтверждением. После этого нажмите кнопку ниже, чтобы пользоваться новыми функциями. Пожалуйста, не оплачивайте несколько раз" />
+      <add key="DIALOG_STORE_PAYMENT_INFO_Toast_Check_Amount_You_Need_To_Send_As_Gas_Fees_Added_To_Final_Price" value="Проверьте сумму для отправки, так как комиссия сети добавляется к итоговой цене" />
+      <add key="DIALOG_STORE_PAYMENT_INFO_Button_Ive_Received_My_Confirmation_Email" value="Я получил письмо с подтверждением" />
+    </sub>
+    <sub id="13" name="Dialog - Store Checkout Coupon ">
+      <add key="DIALOG_STORE_CHECKOUT_COUPON_Title_Jurojin_Store_Checkout" value="Оплата в магазине Jurojin" />
+      <add key="DIALOG_STORE_CHECKOUT_COUPON_Label_I_Have_Discount_Coupon" value="У меня есть купон на скидку" />
+      <add key="DIALOG_STORE_CHECKOUT_COUPON_Label_Type_In_Your_Coupon" value="Введите ваш купон" />
+      <add key="DIALOG_STORE_CHECKOUT_COUPON_Button_Redeem" value="Применить" />
+      <add key="DIALOG_STORE_CHECKOUT_COUPON_Toast_Coupon_Applied_Succesfully" value="Купон успешно применён!" />
+      <add key="DIALOG_STORE_CHECKOUT_COUPON_Button_Continue" value="Продолжить" />
+      <add key="DIALOG_STORE_CHECKOUT_COUPON_Button_Cancel" value="Отмена" />
+      <add key="DIALOG_STORE_CHECKOUT_COUPON_Error_The_Coupon_Was_Not_Applied" value="Купон не был применён. Пожалуйста, попробуйте другой код." />
+      <add key="DIALOG_STORE_CHECKOUT_COUPON_Error_HundredForSome" value="Введённый вами купон — это подарочная карта на 100% стоимости одного из продуктов в корзине, пожалуйста, используйте кнопку redeem giftcard" />
+    </sub>
+    <sub id="14" name="Dialog - Store Redeem Gift Card">
+      <add key="DIALOG_STORE_REDEEM_GIFT_CARD_Title_Redeem_Your_Gift_Card" value="Подарочная карта" />
+      <add key="DIALOG_STORE_REDEEM_GIFT_CARD_Placeholder_Type_In_Your_Gift_Card_Code" value="Введите код вашей подарочной карты" />
+      <add key="DIALOG_STORE_REDEEM_GIFT_CARD_Button_Redeem" value="Применить" />
+      <add key="DIALOG_STORE_REDEEM_GIFT_CARD_Button_Cancel" value="Отмена" />
+      <add key="DIALOG_STORE_REDEEM_GIFT_CARD_Error_Coupon_Was_Not_Applied_Try_Again" value="Купон не был применён. Пожалуйста, попробуйте другой код." />
+      <add key="DIALOG_STORE_REDEEM_GIFT_CARD_ERROR_NOT_FOUND" value="Введённый код не найден" />
+      <add key="DIALOG_STORE_REDEEM_GIFT_CARD_ERROR_EXPIRED" value="Введённый код истёк" />
+      <add key="DIALOG_STORE_REDEEM_GIFT_CARD_ERROR_NO_PRODUCTS" value="Введённый код не соответствует ни одному продукту, свяжитесь с продавцом" />
+      <add key="DIALOG_STORE_REDEEM_GIFT_CARD_ERROR_NOTHUNDRED" value="Введённый код — это скидка, а не подарочная карта, убедитесь, что вы используете его на store checkout" />
+      <add key="DIALOG_STORE_REDEEM_GIFT_CARD_ERROR_BADREQUEST" value="С введённым кодом возникла проблема, свяжитесь со службой поддержки" />
+    </sub>
+    <sub id="15" name="Dialog - Store Binance Warning">
+      <add key="DIALOG_STORE_BINANCE_WARNING_Title" value="Почти готово..." />
+      <add key="DIALOG_STORE_BINANCE_WARNING_Body" isFormatted="true" value="&lt;p&gt;Если вы собираетесь вывести средства с &lt;span style=&quot;font-weight: 700;&quot;&gt;Binance&lt;/span&gt;, вам нужно &lt;span style=&quot;font-weight: 700;&quot;&gt;добавить 1 дополнительный USDT к выводу&lt;/span&gt;. Если используете другую платформу, проверьте их комиссии за вывод перед отправкой USDT нам, чтобы избежать частичных платежей.&lt;/p&gt;" />
+      <add key="DIALOG_STORE_BINANCE_WARNING_Button_Continue" value="Продолжить" />
+      <add key="DIALOG_STORE_BINANCE_WARNING_Button_Cancel" value="Отмена" />
+      <add key="DIALOG_STORE_BINANCE_WARNING_Btc_Body" value="При прямом выводе с бирж взимается комиссия. Убедитесь, что вы отправляете правильную сумму на адрес! В Binance нужно нажать эту кнопку, чтобы подтвердить сумму вывода, иначе мы получим недостаточно средств, и ваши продукты не будут активированы." />
+    </sub>
+    <sub id="16" name="Dialog - WelcomeTo31DaysTrial">
+      <add key="DIALOG_WELCOME_31_DAYS_TRIAL_Title" value="Ваш пробный период начался!" />
+      <add key="DIALOG_WELCOME_31_DAYS_TRIAL_Label_Welcome_To_Jurojin" value="Добро пожаловать в Jurojin!" />
+      <add key="DIALOG_WELCOME_31_DAYS_TRIAL_Label_Thanks_For_Registering" value="Спасибо за регистрацию через #affi# — ваш бесплатный 31-дневный пробный период только что начался. Наслаждайтесь всеми возможностями JurojinPoker" />
+      <add key="DIALOG_WELCOME_31_DAYS_TRIAL_Button_Get_Started" value="Начать" />
+    </sub>
+    <sub id="17" name="Dialog - WelcomeTo15DaysTrial">
+      <add key="DIALOG_WELCOME_15_DAYS_TRIAL_Title" value="Ваш пробный период начался!" />
+      <add key="DIALOG_WELCOME_15_DAYS_TRIAL_Label_Welcome_To_Jurojin" value="Добро пожаловать в Jurojin!" />
+      <add key="DIALOG_WELCOME_15_DAYS_TRIAL_Label_Your_15_Day_Free_Trial_Started" value="Ваш бесплатный 15-дневный пробный период только что начался. Наслаждайтесь всеми возможностями JurojinPoker" />
+      <add key="DIALOG_WELCOME_15_DAYS_TRIAL_Button_Get_Started" value="Начать" />
+    </sub>
+    <sub id="18" name="Dialog - Get All Power of Jurojin">
+      <add key="DIALOG_GET_ALL_POWER_OF_JUROJIN_Title_Get_All_The_Power_Of_Jurojin" value="Получите всю мощь Jurojin" />
+      <add key="DIALOG_GET_ALL_POWER_OF_JUROJIN_Label_Ready_For_The_Full_Jurojin_Experiene" value="Готовы к полному опыту Jurojin? Начните играть сейчас!" />
+      <add key="DIALOG_GET_ALL_POWER_OF_JUROJIN_Label_Visit_Our_Store_And_Get_Any_Bundles" value="Посетите наш Store и получите любые bundles. Выберите лучший план и отменяйте в любое время" />
+      <add key="DIALOG_GET_ALL_POWER_OF_JUROJIN_Button_Visit_Jurojin_Store" value="Перейти в Jurojin Store" />
+      <add key="DIALOG_GET_ALL_POWER_OF_JUROJIN_Label_Ask_Juro_Bot_How_To_Use_Jurojin_For_Free" value="Спросите Juro Bot, как пользоваться Jurojin бесплатно на microstakes — все функции разблокированы!" />
+      <add key="DIALOG_GET_ALL_POWER_OF_JUROJIN_Button_Learn_More" value="Узнать больше" />
+    </sub>
+    <sub id="19" name="Dialog - Trial Alredy Used">
+      <add key="DIALOG_TRIAL_ALREADY_USED_Title" value="Пробный период уже использован" />
+      <add key="DIALOG_TRIAL_ALREADY_USED_Body" isFormatted="true" value="&lt;p&gt;Упс, вы уже использовали пробный период на другом устройстве/аккаунте. Если нужен новый, отправьте письмо на &lt;a href=&quot;mailto:support@jurojinpoker.com&quot;&gt;help@jurojinpoker.com&lt;/a&gt;&lt;/p&gt;" />
+    </sub>
+    <sub id="20" name="Dialog - Store Network Fees">
+      <add key="DIALOG_STORE_NETWORK_FEES_Title_This_Is_Your_Final_Amount" value="Это ваша конечная сумма. Если всё верно, нажмите продолжить." />
+      <add key="DIALOG_STORE_NETWORK_FEES_Label_Network_Fees" value="Комиссия сети:" />
+      <add key="DIALOG_STORE_NETWORK_FEES_Label_We_Recommend_Purchasing_Annual_Bundles" value="Рекомендуем покупать annual bundles, чтобы максимально сэкономить на комиссиях сети, или использовать Verifone с нашими разными не крипто способами оплаты." />
+      <add key="DIALOG_STORE_NETWORK_FEES_Button_Continue" value="Продолжить" />
+      <add key="DIALOG_STORE_NETWORK_FEES_Button_Cancel" value="Отмена" />
+    </sub>
+    <sub id="21" name="Dialog - Store upgrade item warning">
+      <add key="DIALOG_STORE_UPGRADE_CART_Warning_Title" value="" />
+      <add key="DIALOG_STORE_UPGRADE_CART_Warning_Upgrade_Product_Will_Be_Removed" value="" />
+      <add key="DIALOG_STORE_UPGRADE_CART_Warning_Other_Products_Will_Be_Removed" value="" />
+    </sub>
+    <sub id="22" name="Dialog - Store upgrade payment url error">
+      <add key="DIALOG_STORE_UPGRADE_PAYMENT_URL_Error_Body" value="" />
+    </sub>
+  </area>
+  <area id="122" name="Dialogs - Report Issue">
+    <sub id="0" name="Dialog - Report Issue">
+      <add key="DIALOG_REPORT_ISSUE_NL_Title" value="Сообщить о проблеме" />
+      <add key="DIALOG_REPORT_ISSUE_NL_Label_Thank_You_For_Your_Help" value="Спасибо за вашу помощь!" />
+      <add key="DIALOG_REPORT_ISSUE_NL_Label_Write_The_Issue_Here" value="Опишите проблему здесь..." />
+      <add key="DIALOG_REPORT_ISSUE_NL_Button_Send_Report_To_Jurojin_Servers" value="Отправить отчёт на серверы Jurojin" />
+      <add key="DIALOG_REPORT_ISSUE_NL_Button_Sending" value="Отправка..." />
+      <add key="DIALOG_REPORT_ISSUE_NL_Button_Add_Hand_To_Report" value="Отправить руку" />
+    </sub>
+    <sub id="1" name="Dialog - Replied Issue">
+      <add key="DIALOG_REPLIED_ISSUE_NL_Title" value="Мы ответили на ваш отчёт о проблеме" />
+      <add key="DIALOG_REPLIED_ISSUE_NL_Label_Your_Report" value="Ваш отчёт" />
+      <add key="DIALOG_REPLIED_ISSUE_NL_Button_Close" value="Закрыть" />
+    </sub>
+    <sub id="2" name="Dialog - Follow up issue">
+      <add key="DIALOG_FOLLOW_UP_ISSUE_NL_Title" value="Хотите продолжить общение с нами по этой проблеме?" />
+      <add key="DIALOG_FOLLOW_UP_ISSUE_NL_Label_Reply_To_The_Email_We_Sent_You" value="Ответьте на письмо, которое мы вам отправили" />
+      <add key="DIALOG_FOLLOW_UP_ISSUE_NL_Label_Just_Reply_To_Our_Email_And_We_Will_Answer_You_As_Soon_As_Possible" value="Просто ответьте на наше письмо, и мы ответим как можно скорее" />
+      <add key="DIALOG_FOLLOW_UP_ISSUE_NL_Button_Got_It" value="Понял" />
+      <add key="DIALOG_FOLLOW_UP_ISSUE_NL_Label_Join_Our_Discord_Community" value="Присоединяйтесь к нашему сообществу в Discord" />
+      <add key="DIALOG_FOLLOW_UP_ISSUE_NL_Label_Where_You_Can_Talk_About_This_Issue_And_Many_Other_Things" value="Где вы можете обсудить эту проблему и многие другие вопросы" />
+      <add key="DIALOG_FOLLOW_UP_ISSUE_NL_Join_Discord" value="Присоединиться к Discord" />
+    </sub>
+    <sub id="3" name="Dialog - Pending Reports">
+      <add key="DIALOG_PENDING_REPORTS_Title" value="Ожидающие отчёты" />
+      <add key="DIALOG_PENDING_REPORTS_Body_1" value="Подождите! У вас есть" />
+      <add key="DIALOG_PENDING_REPORTS_Body_2" value="ожидающие отчёты по рукам, которые не были отправлены на наши серверы! Хотите отправить их перед закрытием приложения?" />
+      <add key="DIALOG_PENDING_REPORTS_Button_Send_Reports" value="Да, отправить отчёты" />
+      <add key="DIALOG_PENDING_REPORTS_Button_Sending_Reports" value="Отправка отчётов" />
+      <add key="DIALOG_PENDING_REPORTS_Button_Exit_Jurojin" value="Нет, выйти из Jurojin" />
+    </sub>
+    <sub id="4" name="Dialog - Get AI Help Report Issue">
+      <add key="DIALOG_AI_HELP_REPORT_ISSUE_Title" value="Получить помощь или сообщить о проблеме — что вам удобнее?" />
+      <add key="DIALOG_AI_HELP_REPORT_ISSUE_Label_Talk_To_Your_Ai_Assistant" value="Поговорите с вашим AI-ассистентом сейчас" />
+      <add key="DIALOG_AI_HELP_REPORT_ISSUE_Get_Quick_Personalized_Answers_To_Resolve_Issue" value="Получите быстрые, персонализированные ответы для решения вашей проблемы." />
+      <add key="DIALOG_AI_HELP_REPORT_ISSUE_Button_Chat_With_AI" value="Чат с AI" />
+      <add key="DIALOG_AI_HELP_REPORT_ISSUE_Label_Contact_The_Jurojin_Team_Directly" value="Связаться напрямую с командой Jurojin" />
+      <add key="DIALOG_AI_HELP_REPORT_ISSUE_Label_Report_Issue_To_Our_Team_We_Handle_It_ASAP" value="Сообщите о проблеме напрямую нашей команде, и мы решим её как можно скорее." />
+      <add key="DIALOG_AI_HELP_REPORT_ISSUE_Button_Report_Issue" value="Сообщить о проблеме" />
+    </sub>
+  </area>
+  <area id="123" name="Feature Showcase">
+    <sub id="0" name="Highlight Callouts">
+      <add key="FEATURE_SHOWCASE_NL_Body_Action_History_Settings" value="Оцените новые стильные темы. Спойлер: &quot;Minimal&quot; станет вашей новой любимой!" />
+      <add key="FEATURE_SHOWCASE_NL_Body_Keep_Most_Urgent_On_Top" value="Включите &quot;Управлять срочностью стека&quot;, чтобы Jurojin держал самый срочный стол сверху, когда вы складываете несколько столов в один слот. Также отключите встроенную функцию фокуса/срочности столов в вашем руме, чтобы она не конфликтовала с Jurojin." />
+      <add key="FEATURE_SHOWCASE_NL_Body_Auto_Focus_Most_Urgent" value="Включите &quot;Всегда автофокус на самый срочный стол&quot;, и Jurojin всегда будет держать самый срочный стол сверху, даже если столы перекрываются. Также отключите встроенную функцию фокуса/срочности столов в вашем руме, чтобы она не конфликтовала с Jurojin." />
+      <add key="FEATURE_SHOWCASE_TOAST_Configuration_Suggestion" value="У Jurojin есть для вас совет по настройке!" />
+    </sub>
+  </area>
+</locale>

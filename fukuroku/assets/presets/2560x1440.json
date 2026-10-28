@@ -1,0 +1,380 @@
+[
+  {
+    "Layout": {
+      "Slots": [
+        {
+          "Id": 1,
+          "Bounds": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Width": 928.0,
+            "Height": 696.0
+          },
+          "SlotType": "Playing",
+          "IsAspectRatioLocked": true
+        },
+        {
+          "Id": 2,
+          "Bounds": {
+            "X": 0.0,
+            "Y": 696.0,
+            "Width": 928.0,
+            "Height": 696.0
+          },
+          "SlotType": "Playing",
+          "IsAspectRatioLocked": true
+        },
+        {
+          "Id": 3,
+          "Bounds": {
+            "X": 928.0,
+            "Y": 0.0,
+            "Width": 928.0,
+            "Height": 696.0
+          },
+          "SlotType": "Playing",
+          "IsAspectRatioLocked": true
+        },
+        {
+          "Id": 4,
+          "Bounds": {
+            "X": 928.0,
+            "Y": 696.0,
+            "Width": 928.0,
+            "Height": 696.0
+          },
+          "SlotType": "Playing",
+          "IsAspectRatioLocked": true
+        },
+        {
+          "Id": 1,
+          "Bounds": {
+            "X": 1860.0,
+            "Y": 377.0,
+            "Width": 696.0,
+            "Height": 522.0
+          },
+          "SlotType": "Replay",
+          "IsAspectRatioLocked": true
+        }
+      ]
+    },
+    "DisplayRequirements": {
+      "Size": "2560, 1440",
+      "DpiX": 96,
+      "DpiY": 96
+    },
+    "Description": "4 big playing slots + 1 replay mosaic grid"
+  },
+  {
+    "Layout": {
+      "Slots": [
+        {
+          "Id": 1,
+          "Bounds": {
+            "X": 10.0,
+            "Y": 13.0,
+            "Width": 501.0,
+            "Height": 376.0
+          },
+          "SlotType": "Playing",
+          "IsAspectRatioLocked": true
+        },
+        {
+          "Id": 2,
+          "Bounds": {
+            "X": 511.0,
+            "Y": 13.0,
+            "Width": 501.0,
+            "Height": 376.0
+          },
+          "SlotType": "Playing",
+          "IsAspectRatioLocked": true
+        },
+        {
+          "Id": 3,
+          "Bounds": {
+            "X": 1012.0,
+            "Y": 13.0,
+            "Width": 501.0,
+            "Height": 376.0
+          },
+          "SlotType": "Playing",
+          "IsAspectRatioLocked": true
+        },
+        {
+          "Id": 4,
+          "Bounds": {
+            "X": 10.0,
+            "Y": 389.0,
+            "Width": 501.0,
+            "Height": 376.0
+          },
+          "SlotType": "Playing",
+          "IsAspectRatioLocked": true
+        },
+        {
+          "Id": 5,
+          "Bounds": {
+            "X": 511.0,
+            "Y": 389.0,
+            "Width": 501.0,
+            "Height": 376.0
+          },
+          "SlotType": "Playing",
+          "IsAspectRatioLocked": true
+        },
+        {
+          "Id": 6,
+          "Bounds": {
+            "X": 1012.0,
+            "Y": 389.0,
+            "Width": 501.0,
+            "Height": 376.0
+          },
+          "SlotType": "Playing",
+          "IsAspectRatioLocked": true
+        },
+        {
+          "Id": 1,
+          "Bounds": {
+            "X": 1514.0,
+            "Y": 11.0,
+            "Width": 946.0,
+            "Height": 709.0
+          },
+          "SlotType": "ActionRequired",
+          "IsAspectRatioLocked": true
+        },
+        {
+          "Id": 1,
+          "Bounds": {
+            "X": 13.0,
+            "Y": 767.0,
+            "Width": 757.0,
+            "Height": 569.0
+          },
+          "SlotType": "ActionRequired",
+          "IsAspectRatioLocked": true
+        },
+        {
+          "Id": 2,
+          "Bounds": {
+            "X": 1514.0,
+            "Y": 720.0,
+            "Width": 946.0,
+            "Height": 709.0
+          },
+          "SlotType": "ActionRequired",
+          "IsAspectRatioLocked": true
+        },
+        {
+          "Id": 2,
+          "Bounds": {
+            "X": 770.0,
+            "Y": 767.0,
+            "Width": 757.0,
+            "Height": 569.0
+          },
+          "SlotType": "ActionRequired",
+          "IsAspectRatioLocked": true
+        }
+      ]
+    },
+    "DisplayRequirements": {
+      "Size": "2560, 1440",
+      "DpiX": 96,
+      "DpiY": 96
+    },
+    "Description": "4 action required slots + 6 small playing slots mosaic grid"
+  },
+  {
+    "Layout": {
+      "Slots": [
+        {
+          "Id": 1,
+          "Bounds": {
+            "X": 3.0,
+            "Y": 3.0,
+            "Width": 638.0,
+            "Height": 478.0
+          },
+          "SlotType": "Playing",
+          "IsAspectRatioLocked": true
+        },
+        {
+          "Id": 2,
+          "Bounds": {
+            "X": 641.0,
+            "Y": 3.0,
+            "Width": 638.0,
+            "Height": 478.0
+          },
+          "SlotType": "Playing",
+          "IsAspectRatioLocked": true
+        },
+        {
+          "Id": 3,
+          "Bounds": {
+            "X": 1279.0,
+            "Y": 3.0,
+            "Width": 638.0,
+            "Height": 478.0
+          },
+          "SlotType": "Playing",
+          "IsAspectRatioLocked": true
+        },
+        {
+          "Id": 4,
+          "Bounds": {
+            "X": 1917.0,
+            "Y": 3.0,
+            "Width": 638.0,
+            "Height": 478.0
+          },
+          "SlotType": "Playing",
+          "IsAspectRatioLocked": true
+        },
+        {
+          "Id": 5,
+          "Bounds": {
+            "X": 3.0,
+            "Y": 481.0,
+            "Width": 638.0,
+            "Height": 478.0
+          },
+          "SlotType": "Playing",
+          "IsAspectRatioLocked": true
+        },
+        {
+          "Id": 6,
+          "Bounds": {
+            "X": 641.0,
+            "Y": 481.0,
+            "Width": 638.0,
+            "Height": 478.0
+          },
+          "SlotType": "Playing",
+          "IsAspectRatioLocked": true
+        },
+        {
+          "Id": 7,
+          "Bounds": {
+            "X": 1279.0,
+            "Y": 481.0,
+            "Width": 638.0,
+            "Height": 478.0
+          },
+          "SlotType": "Playing",
+          "IsAspectRatioLocked": true
+        },
+        {
+          "Id": 8,
+          "Bounds": {
+            "X": 1917.0,
+            "Y": 481.0,
+            "Width": 638.0,
+            "Height": 478.0
+          },
+          "SlotType": "Playing",
+          "IsAspectRatioLocked": true
+        }
+      ]
+    },
+    "DisplayRequirements": {
+      "Size": "2560, 1440",
+      "DpiX": 96,
+      "DpiY": 96
+    },
+    "Description": "8 playing slots mosaic grid"
+  },
+  {
+    "Layout": {
+      "Slots": [
+        {
+          "Id": 1,
+          "Bounds": {
+            "X": 4.0,
+            "Y": 384.0,
+            "Width": 501.0,
+            "Height": 376.0
+          },
+          "SlotType": "Replay",
+          "IsAspectRatioLocked": true
+        },
+        {
+          "Id": 1,
+          "Bounds": {
+            "X": 6.0,
+            "Y": 5.0,
+            "Width": 501.0,
+            "Height": 376.0
+          },
+          "SlotType": "Playing",
+          "IsAspectRatioLocked": true
+        },
+        {
+          "Id": 1,
+          "Bounds": {
+            "X": 248.0,
+            "Y": 762.0,
+            "Width": 501.0,
+            "Height": 376.0
+          },
+          "SlotType": "Observer",
+          "IsAspectRatioLocked": true
+        },
+        {
+          "Id": 2,
+          "Bounds": {
+            "X": 507.0,
+            "Y": 5.0,
+            "Width": 501.0,
+            "Height": 376.0
+          },
+          "SlotType": "Playing",
+          "IsAspectRatioLocked": true
+        },
+        {
+          "Id": 2,
+          "Bounds": {
+            "X": 505.0,
+            "Y": 384.0,
+            "Width": 501.0,
+            "Height": 376.0
+          },
+          "SlotType": "Replay",
+          "IsAspectRatioLocked": true
+        },
+        {
+          "Id": 1,
+          "Bounds": {
+            "X": 1038.0,
+            "Y": 35.0,
+            "Width": 658.0,
+            "Height": 493.0
+          },
+          "SlotType": "InHand",
+          "IsAspectRatioLocked": true
+        },
+        {
+          "Id": 2,
+          "Bounds": {
+            "X": 1552.0,
+            "Y": 610.0,
+            "Width": 658.0,
+            "Height": 493.0
+          },
+          "SlotType": "InHand",
+          "IsAspectRatioLocked": true
+        }
+      ]
+    },
+    "DisplayRequirements": {
+      "Size": "2560, 1440",
+      "DpiX": 96,
+      "DpiY": 96
+    },
+    "Description": "1 big in hand + 2 playing slots + 2 replay slots mosaic grid"
+  }
+]

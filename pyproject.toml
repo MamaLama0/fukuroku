@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "fukuroku"
+version = "2.0.0"
+description = "Gestionnaire de tables de poker libre et multiplateforme (Windows, Linux, macOS), sans serveur ni télémétrie"
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.10"
+dependencies = [
+    "pynput>=1.7",   # raccourcis clavier/souris globaux
+    "pillow>=10",    # sonde pixel « action requise »
+]
+
+[project.optional-dependencies]
+gamepad = ["pygame>=2.5"]  # manette sous Linux/macOS (XInput natif sous Windows)
+tray = ["pystray>=0.19"]    # réduction dans la barre système
+
+[project.scripts]
+fukuroku = "fukuroku.__main__:main"
+
+[project.gui-scripts]
+fukuroku-gui = "fukuroku.__main__:main"
+
+[tool.setuptools.packages.find]
+include = ["fukuroku*"]
+
+[tool.setuptools.package-data]
+"fukuroku.assets" = ["**/*"]

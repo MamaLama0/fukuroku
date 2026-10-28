@@ -1,0 +1,45 @@
+name: build
+
+on:
+  push:
+    branches: [main]
+    tags: ["v*"]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [windows-latest, ubuntu-22.04, macos-latest]
+    runs-on: ${{ matrix.os }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Dependencies
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install pyinstaller pillow pynput pystray
+      - name: Linux Tk
+        if: runner.os == 'Linux'
+        run: sudo apt-get update && sudo apt-get install -y python3-tk
+      - name: Tests
+        run: python -m unittest discover -s tests -t .
+      - name: Build
+        id: build
+        run: python packaging/build.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: Fukuroku-${{ runner.os }}
+          path: ${{ steps.build.outputs.archive }}
+      - name: Release
+        if: startsWith(github.ref, 'refs/tags/v')
+        uses: softprops/action-gh-release@v2
+        with:
+          files: ${{ steps.build.outputs.archive }}

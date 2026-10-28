@@ -1,0 +1,1903 @@
+<?xml version="1.0" encoding="utf-8"?>
+<locale xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://jurojinpoker.com/locale">
+  <area id="100" name="App Window">
+    <add key="APP_WINDOW_NL_Popup_Signup_Title" value="साइन अप" />
+    <add key="APP_WINDOW_NL_Popup_Signup_Subtitle" value="अपना फ्री ट्रायल शुरू करें!!" />
+    <add key="APP_WINDOW_NL_" value="साइन अप" />
+    <sub id="0" name="Error Messages">
+      <add key="ON_ACTIVE_LAYOUT_SLOTS_OUTSIDE_WORKING_AREA_NL_MESSAGE" value="हमने आपके डिस्प्ले कॉन्फ़िगरेशन में बदलाव का पता लगाया है और आपका वर्तमान सक्रिय layout में slots सीमा के बाहर हैं। क्या आप अभी Active Layout संपादित करना चाहते हैं?" />
+      <add key="ON_APPLICATION_ERROR_Title" value="सर्वर त्रुटि" />
+      <add key="ON_SERVER_FATAL_ERROR_MESSAGE" value="कनेक्शन खो गया। अपने इंटरनेट कनेक्शन की जांच करें।" />
+      <add key="ON_ERROR" value="सर्वर त्रुटि" />
+      <add key="ON_APPLICATION_MAINTENANCE_Title" value="सर्वर रखरखाव" />
+      <add key="ON_APPLICATION_MAINTENANCE_Text" value="हमें अभी आपको Jurojin पुनः खोलने की आवश्यकता है, पुनः खोलने के बाद आप संभवतः एप में सामान्य उपयोगकर्ता के रूप में वापस आ जाएंगे!" />
+      <add key="DLL_MISSING_ERROR_TITLE" value="फ़ाइलें गायब हैं" />
+      <add key="DLL_MISSING_ERROR_MESSAGE" value="आपके पास कुछ आवश्यक फ़ाइलें गायब हैं जो एप्लिकेशन चलाने के लिए ज़रूरी हैं! यह आमतौर पर एंटीवायरस द्वारा हटाए जाने के कारण होता है! कृपया अपने एंटीवायरस या Windows Defender में Jurojin इंस्टॉलेशन फोल्डर को अप्रत्याशित के रूप में जोड़ें और फिर से ऐप का उपयोग करने का प्रयास करें। यदि इसके बाद भी यह त्रुटि संदेश आता रहे, तो कृपया हमारा नवीनतम इंस्टॉलर https://jurojinpoker.com/download?v=345789/ से डाउनलोड करें।" />
+      <add key="INSTALLATION_INTEGRITY_ERROR_TITLE" value="इंस्टॉलेशन में बदलाव" />
+      <add key="INSTALLATION_INTEGRITY_ERROR_MESSAGE" value="Jurojin ने आपकी इंस्टॉलेशन फ़ाइलों में अप्रत्याशित बदलाव पाया। आपकी सुरक्षा के लिए ऐप बंद हो जाएगा। कृपया https://jurojinpoker.com/download से पुनः इंस्टॉल करें।" />
+      <add key="UNHANDLED_EX_ERROR_OUTOFMEMORY" value="आपके PC में प्रोग्राम चलाने के लिए RAM या GPU मेमोरी खत्म हो गई है। कुछ अनइस्तेमाल किए गए ऐप्स जैसे ब्राउज़र बंद करने पर विचार करें, या शायद अपने PC को अपग्रेड करें।" />
+      <add key="GLOBALFEATURE_ERROR" value="आपकी Comfort Features में से एक को सक्रिय करने में त्रुटि हुई है, कृपया इस जानकारी के साथ सपोर्ट से संपर्क करें: #ex#" />
+      <add key="PLAYINGSESSIONHANDLER_ERROR" value="आपके layout में टेबल्स की जानकारी सहेजने में समस्या आई है, कृपया इस जानकारी के साथ सपोर्ट से संपर्क करें: #ex#" />
+      <add key="HOOKCONTROLLER_ERROR" value="आपके कंट्रोलर से कनेक्ट करने में समस्या आई है, कृपया इस जानकारी के साथ सपोर्ट से संपर्क करें: #ex#" />
+      <add key="EMERGENCY_SHUTDOWN_CANNOT_CONNECT_TO_SERVERS_MESSAGE" value="" />
+      <add key="KEEP_ALIVE_RECONNECT_ENTITLEMENTS_REVOKED_TOAST" value="आपका PC अभी हमारे सर्वर से कनेक्ट नहीं हो पा रहा। इंटरनेट कनेक्शन और फ़ायरवॉल/एंटीवायरस जाँचें" />
+      <add key="DIALOG_CONNECTIVITY_ENTITLEMENTS_REVOKED_Title" value="कनेक्शन समस्या" />
+      <add key="DIALOG_CONNECTIVITY_ENTITLEMENTS_REVOKED_Body" isFormatted="true" value="&lt;p&gt;आपकी सदस्यता अभी भी सक्रिय है, लेकिन Jurojin आपके PC से हमारे सर्वर तक नहीं पहुँच पा रहा। सुरक्षा के लिए सुविधाएँ अस्थायी रूप से बंद कर दी गई हैं।&lt;/p&gt;&lt;p&gt;अपना इंटरनेट कनेक्शन, फ़ायरवॉल और एंटीवायरस जाँचें, फिर Jurojin के स्वचालित रूप से फिर से कनेक्ट होने की प्रतीक्षा करें।&lt;/p&gt;" />
+      <add key="DIALOG_CONNECTIVITY_ENTITLEMENTS_REVOKED_Button_Open_Guide" value="समस्या निवारण गाइड खोलें" />
+      <add key="DIALOG_CONNECTIVITY_ENTITLEMENTS_REVOKED_Button_Got_It" value="समझ गया" />
+    </sub>
+    <sub id="1" name="User Control - Active Sites">
+      <add key="APP_WINDOW_ACTIVE_SITES_NL_Title_Active_Poker_Sites" value="सक्रिय Poker Sites" />
+      <add key="APP_WINDOW_ACTIVE_SITES_NL_Label_No_Sites_Running" value="कोई Sites सक्रिय नहीं हैं" />
+      <add key="APP_WINDOW_ACTIVE_SITES_NL_Label_Open_Your_Sites_To_Start_Enjoying_Jurojin" value="Jurojin का आनंद लेना शुरू करने के लिए अपनी साइट्स खोलें" />
+    </sub>
+    <sub id="2" name="User Control - Account Actions">
+      <add key="APP_WINDOW_ACTIVE_SITES_NL_Button_Go_To_My_Profile" value="मेरे प्रोफाइल पर जाएं" />
+      <add key="APP_WINDOW_ACTIVE_SITES_NL_Button_Logout" value="लॉग आउट" />
+    </sub>
+    <sub id="3" name="App Status bar">
+      <add key="APP_WINDOW_STATUS_BAR_NL_Button_Open_Guide" value="गाइड खोलें" />
+      <add key="APP_WINDOW_STATUS_BAR_NL_Button_Collaborate" value="सहयोग करें" />
+      <add key="APP_WINDOW_STATUS_BAR_NL_Button_Report_Issue" value="समस्या रिपोर्ट करें" />
+      <add key="APP_WINDOW_STATUS_BAR_NL_Button_Streamer_Contact" value="स्ट्रीमर संपर्क" />
+    </sub>
+  </area>
+  <area id="101" name="Hamburger Menu">
+    <add key="APP_HAMBURGER_MENU_ITEM_Title_Account" value="खाता" />
+    <add key="APP_HAMBURGER_MENU_ITEM_ToolTip_Account" value="" />
+    <add key="APP_HAMBURGER_MENU_ITEM_Title_Back" value="वापस जाएं" />
+    <add key="APP_HAMBURGER_MENU_ITEM_ToolTip_Back" value="" />
+    <add key="APP_HAMBURGER_MENU_ITEM_Title_Configuration" value="सामान्य कॉन्फ़िगरेशन" />
+    <add key="APP_HAMBURGER_MENU_ITEM_ToolTip_Configuration" value="" />
+    <add key="APP_HAMBURGER_MENU_ITEM_Title_Help" value="मदद" />
+    <add key="APP_HAMBURGER_MENU_ITEM_ToolTip_Help" value="" />
+    <add key="APP_HAMBURGER_MENU_ITEM_Title_Home" value="होम" />
+    <add key="APP_HAMBURGER_MENU_ITEM_ToolTip_Home" value="" />
+    <add key="APP_HAMBURGER_MENU_ITEM_Title_Layout" value="टेबल्स कॉन्फ़िगरेशन" />
+    <add key="APP_HAMBURGER_MENU_ITEM_ToolTip_Layout" value="" />
+    <add key="APP_HAMBURGER_MENU_ITEM_Title_Shop" value="स्टोर" />
+    <add key="APP_HAMBURGER_MENU_ITEM_Title_Sites" value="Sites कॉन्फ़िगरेशन" />
+    <add key="APP_HAMBURGER_MENU_ITEM_ToolTip_Sites" value="" />
+    <add key="APP_HAMBURGER_MENU_ITEM_Title_Changelog" value="चेंजलॉग" />
+    <add key="APP_HAMBURGER_MENU_ITEM_ToolTip_Changelog" value="" />
+    <add key="APP_HAMBURGER_MENU_ITEM_Title_HotKeys" value="हॉटकीज़" />
+    <add key="APP_HAMBURGER_MENU_ITEM_ToolTip_HotKeys" value="" />
+    <add key="APP_HAMBURGER_MENU_ITEM_Title_Controller" value="कंट्रोलर" />
+    <add key="APP_HAMBURGER_MENU_ITEM_ToolTip_Controller" value="" />
+    <add key="APP_HAMBURGER_MENU_ITEM_Title_Overlays" value="टेबल्स के लिए ओवरले" />
+    <add key="APP_HAMBURGER_MENU_ITEM_ToolTip_Overlays" value="" />
+    <add key="APP_HAMBURGER_MENU_ITEM_Title_SessionTime" value="सेशन समय" />
+    <add key="APP_HAMBURGER_MENU_ITEM_ToolTip_SessionTime" value="" />
+    <add key="APP_HAMBURGER_MENU_ITEM_Title_Store" value="स्टोर" />
+    <add key="APP_HAMBURGER_MENU_ITEM_ToolTip_Store" value="" />
+  </area>
+  <area id="102" name="Page - Home">
+    <add key="HOME_NL_Label_Be_Part_Of_Our_Community" value="हमारे समुदाय का हिस्सा बनें" />
+    <add key="HOME_NL_Button_Join_Us_On_Discord" value="Discord पर हमारे साथ जुड़ें!" />
+    <add key="HOME_NL_Button_Follow_Us" value="हमें फॉलो करें" />
+    <add key="HOME_NL_Label_Chill_Out_Poker_Music" value="LoFi Chill 100% फोकस Poker म्यूजिक" />
+    <sub id="0" name="UserControl - Streamers">
+      <add key="HOME_NL_Juro_Streamers" value="" />
+      <add key="HOME_NL_It_Seems_There_Are_No_Streamers" value="ऐसा लगता है कि कोई Streamers ऑनलाइन नहीं हैं" />
+    </sub>
+  </area>
+  <area id="103" name="Pages - Layout">
+    <sub id="0" name="Page - Layout Configuration">
+      <add key="LAYOUT_CONFIGURATION_NL_Tab_Title" value="Layout कॉन्फ़िगरेशन" />
+      <add key="LAYOUT_CONFIGURATION_NL_Tab_Header_Configuration" value="कॉन्फ़िगरेशन" />
+      <add key="LAYOUT_CONFIGURATION_NL_Label_Active_Layout" value="सक्रिय LAYOUT:" />
+      <add key="LAYOUT_CONFIGURATION_NL_Label_Select_Layout" value="Layout चुनें" />
+      <add key="LAYOUT_CONFIGURATION_NL_Label_Layout_Preview" value="Layout पूर्वावलोकन" />
+      <add key="LAYOUT_CONFIGURATION_NL_Layout_Layout_Actions" value="Layout क्रियाएं" />
+      <add key="LAYOUT_CONFIGURATION_NL_Button_Activate_Layout" value="Layout सक्रिय करें" />
+      <add key="LAYOUT_CONFIGURATION_NL_Button_Edit_Layout" value="Layout संपादित करें" />
+      <add key="LAYOUT_CONFIGURATION_NL_Button_Delete_Layout" value="Layout हटाएँ" />
+      <add key="LAYOUT_CONFIGURATION_NL_Button_Create_New_Layout" value="नया Layout बनाएं" />
+      <add key="LAYOUT_CONFIGURATION_NL_Tab_Header_Automatic_Layout_Switch" value="स्वचालित Layout स्विच" />
+      <add key="LAYOUT_CONFIGURATION_NL_Switch_Feature_Enabled" value="फीचर सक्षम" />
+      <add key="LAYOUT_CONFIGURATION_NL_Switch_Feature_Disabled" value="फीचर अक्षम" />
+      <add key="LAYOUT_CONFIGURATION_NL_Label_Auto_Switch_Options" value="स्वचालित स्विच विकल्प" />
+      <add key="LAYOUT_CONFIGURATION_NL_Label_Initial_Layout" value="प्रारंभिक" />
+      <add key="LAYOUT_CONFIGURATION_NL_Label_Go_Back_To_Previous_Layout_If_Table_Decrease" value="यदि टेबल कम हो तो पिछले layout पर वापस जाएं" />
+      <add key="LAYOUT_CONFIGURATION_NL_Label_Ask_Before_Switching_Layout_Automatically" value="स्वचालित रूप से layout स्विच करने से पहले पूछें" />
+      <add key="LAYOUT_CONFIGURATION_NL_Info_Automatically_Switch_From_An_Initial_Layout" value="Jurojin का उपयोग करते हुए हमेशा एक सक्रिय layout होगा, हालांकि हम आपको प्रारंभिक layout से स्वचालित रूप से स्विच करने की सुविधा भी देते हैं।" />
+      <add key="LAYOUT_CONFIGURATION_NL_Button_Save_Changes" value="परिवर्तन सहेजें" />
+      <add key="LAYOUT_CONFIGURATION_NL_ON_LAYOUT_SWITCH_Title" value="LAYOUT स्विच करें" />
+      <add key="LAYOUT_CONFIGURATION_NL_ON_LAYOUT_SWITCH_Message" value="क्या आप स्वचालित रूप से इस LAYOUT पर स्विच करना चाहते हैं " />
+      <add key="LAYOUT_CONFIGURATION_NL_Help_Layout_Switch_Title" value="स्वचालित Layout स्विच" />
+      <add key="LAYOUT_CONFIGURATION_NL_Help_Layout_Switch_Body" value="यह फीचर खुले हुए टेबल्स की संख्या के आधार पर सक्रिय layout को स्वचालित रूप से बदल देगा। शुरू करने के लिए पहले layout स्विच के नीचे पेंसिल आइकन पर क्लिक करें।" />
+      <add key="LAYOUT_CONFIGURATION_NL_ON_TABLES_LAYOUT_CONFIGURATION_Auto_Swap_Caption" value="स्वचालित Layout स्विच" />
+      <add key="LAYOUT_CONFIGURATION_NL_ON_TABLES_LAYOUT_CONFIGURATION_Auto_Swap_Message" value="मैन्युअली Layout सक्रिय करने से Automatic Layout Switch अक्षम हो जाएगा। क्या आप सुनिश्चित हैं कि आप यह फीचर बंद करके यह Layout सक्रिय करना चाहते हैं?" />
+      <add key="LAYOUT_CONFIGURATION_NL_ON_ACTIVE_LAYOUT_SLOTS_OUTSIDE_WORKING_AREA_Title" value="चेतावनी!" />
+      <add key="LAYOUT_CONFIGURATION_NL_ON_ACTIVE_LAYOUT_SLOTS_OUTSIDE_WORKING_AREA_Message" value="हमने आपके डिस्प्ले कॉन्फ़िगरेशन में बदलाव का पता लगाया है और आपका वर्तमान सक्रिय layout में slots सीमा के बाहर हैं। क्या आप अभी Active Layout संपादित करना चाहते हैं?" />
+      <add key="LAYOUT_CONFIGURATION_NL_Tab_Header_Layout_Hotkeys" value="Layout हॉटकीज़" />
+      <add key="LAYOUT_CONFIGURATION_NL_HOTKEYS_Label_Playing_Slot" value="Playing Slot" />
+      <add key="LAYOUT_CONFIGURATION_NL_HOTKEYS_Label_Send_Table_To_Playing_Slot" value="टेबल को एक playing slot में भेजें" />
+      <add key="LAYOUT_CONFIGURATION_NL_HOTKEYS_Label_Observer_Slot" value="Observer Slot" />
+      <add key="LAYOUT_CONFIGURATION_NL_HOTKEYS_Label_Send_Table_To_Observer_Slot" value="टेबल को एक observer slot में भेजें" />
+      <add key="LAYOUT_CONFIGURATION_NL_HOTKEYS_Label_Playing_Slot_No" value="Playing Slot #" />
+      <add key="LAYOUT_CONFIGURATION_NL_Hotkeys_Label_Observer_Slot_No" value="Observer Slot #" />
+      <add key="LAYOUT_CONFIGURATION_NL_HOTKEYS_Label_Lock_Table_Of_Dynamic_Flow" value="डायनामिक फ्लो से बाहर टेबल लॉक करें" />
+      <add key="LAYOUT_CONFIGURATION_NL_HOTKEYS_Label_Move_Table_To_Next_Slot" value="टेबल को अगले slot में ले जाएं" />
+      <add key="LAYOUT_CONFIGURATION_NL_HOTKEYS_Label_Move_Table_To_Previous_Slot" value="टेबल को पिछले slot में ले जाएं" />
+      <add key="LAYOUT_CONFIGURATION_NL_HOTKEYS_Help_Title_Lock_Table" value="टेबल लॉक/पुनः डालें" />
+      <add key="LAYOUT_CONFIGURATION_NL_HOTKEYS_Help_Body_Lock_Table" value="इस हॉटकी का उपयोग डायनेमिक slots फ्लो (AR/In Hand) से टेबल को निकालने या पुनः डालने के लिए करें। मूल रूप से, आपकी टेबल जिस भी slot में है, वहाँ बनी रहेगी। आप इस टेबल पर हॉटकी फिर से दबाकर डायनेमिक फ्लो में वापस जा सकते हैं।" />
+    </sub>
+    <sub id="1" name="Page - Create New Layout">
+      <add key="CREATE_NEW_LAYOUT_NL_Title_Create_New_Layout" value="नया Layout बनाएं" />
+      <add key="CREATE_NEW_LAYOUT_NL_Button_Create_Manually" value="मैन्युअली बनाएं" />
+      <add key="CREATE_NEW_LAYOUT_NL_Button_Create_Automatically" value="स्वचालित रूप से बनाएं" />
+      <add key="CREATE_NEW_LAYOUT_NL_Button_Start_Form_Preset_Layout" value="PRESET LAYOUT से प्रारंभ करें" />
+      <add key="CREATE_NEW_LAYOUT_NL_Button_Clone_Existing_Layout" value="मौजूदा LAYOUT क्लोन करें" />
+      <add key="CREATE_NEW_LAYOUT_NL_Help_Option_Unavaliable_For_Your_Screen_Resolution" value="यह विकल्प आपकी स्क्रीन रिज़ॉल्यूशन के लिए उपलब्ध नहीं है" />
+    </sub>
+    <sub id="2" name="Page - Edit Layout">
+      <add key="EDIT_LAYOUT_NL_Title_Edit_Layout" value="Layout संपादित करें" />
+      <add key="EDIT_LAYOUT_NL_Label_Layout_Name" value="Layout नाम" />
+      <add key="EDIT_LAYOUT_NL_Label_Hotkey_To_Switch_Layout_During_Session" value="सेशन के दौरान Layout बदलने के लिए हॉटकी" />
+      <add key="EDIT_LAYOUT_NL_Label_Dynamic_Slots" value="Dynamic Slots" />
+      <add key="EDIT_LAYOUT_NL_Label_Resize_Every_Slot" value="हर slot का आकार बदलें" />
+      <add key="EDIT_LAYOUT_NL_Label_Scale" value="स्केल:" />
+      <add key="EDIT_LAYOUT_NL_Button_Add_Playing_Area_Slot" value="PLAYING Slot जोड़ें" />
+      <add key="EDIT_LAYOUT_NL_Button_Add_Observer_Area_Slot" value="OBSERVER Slot जोड़ें" />
+      <add key="EDIT_LAYOUT_NL_Button_Add_Replay_Area_Slot" value="REPLAY Slot जोड़ें" />
+      <add key="EDIT_LAYOUT_NL_Button_Add_Lobby_Slot" value="LOBBY Slot जोड़ें" />
+      <add key="EDIT_LAYOUT_NL_Button_Add_Action_Required_Slot" value="ACTION REQUIRED Slot जोड़ें" />
+      <add key="EDIT_LAYOUT_NL_Tooltip_Title_Action_Required" value="कार्रवाई आवश्यक" />
+      <add key="EDIT_LAYOUT_NL_Tooltip_Body_Action_Required" value="यह slots स्क्रीन के उस क्षेत्र का प्रतिनिधित्व करते हैं जहां टेबल तब जाएंगी जब आपका खेलने का समय होगा। इस प्रकार के slots में एक समय में केवल एक टेबल होगी, जब ये सभी slots टेबल से भरे होंगे, तो टेबल Queue slots में चले जाएंगे, और जैसे ही action required slot खाली होगा, सबसे जरूरी टेबल Queue slot से भेजी जाएगी।" />
+      <add key="EDIT_LAYOUT_NL_Button_Add_Queue_Slot" value="QUEUE Slot जोड़ें" />
+      <add key="EDIT_LAYOUT_NL_Button_Add_In_Hand_Slot" value="IN HAND Slot जोड़ें" />
+      <add key="EDIT_LAYOUT_NL_Button_Save_Changes" value="परिवर्तन सहेजें" />
+      <add key="EDIT_LAYOUT_NL_ON_EDIT_LAYOUT_SLOT_OUTSIDE_BOUNDS_Title" value="कुछ slots हटाए जाएँगे" />
+      <add key="EDIT_LAYOUT_NL_ON_EDIT_LAYOUT_SLOT_OUTSIDE_BOUNDS_Message" value="लाल बॉर्डर्स वाले slots डिस्प्ले की सीमा के बाहर हैं या अन्य slots के साथ ओवरलैप कर रहे हैं और इन्हें हटा दिया जाएगा। क्या आप जारी रखना चाहते हैं?" />
+      <add key="EDIT_LAYOUT_NL_Label_Stack_Tables_In_Ar_Slot" value="जैसे ही आपकी बारी आती है, AR Slot में टेबल्स को स्टैक करें" />
+      <add key="EDIT_LAYOUT_Tooltip_Title_In_Hand" value="In Hand Slots" />
+      <add key="EDIT_LAYOUT_Tooltip_Body_In_Hand" value="In Hand Slots महत्वपूर्ण हाथों पर ध्यान केंद्रित करने का सबसे अच्छा तरीका हैं, जब आप VPIP करेंगे तो टेबल्स यहाँ आ जाएँगी। आप इस व्यवहार को प्रत्येक साइट कॉन्फ़िगरेशन में सेट कर सकते हैं।" />
+    </sub>
+    <sub id="3" name="Page - Create Automatically">
+      <add key="CREATE_NEW_LAYOUT_AUTOMATICALLY_NL_Title_Create_New_Layout_Automatically" value="नई Layout स्वचालित रूप से बनाएं" />
+      <add key="CREATE_NEW_LAYOUT_AUTOMATICALLY_NL_Button_Prev" value="बैक" />
+      <add key="CREATE_NEW_LAYOUT_AUTOMATICALLY_NL_Button_Next" value="आगे" />
+      <add key="CREATE_NEW_LAYOUT_AUTOMATICALLY_NL_Button_Done" value="समाप्त" />
+      <add key="CREATE_NEW_LAYOUT_AUTOMATICALLY_NL_Button_Restart" value="फिर से शुरू करें" />
+      <add key="CREATE_NEW_LAYOUT_AUTOMATICALLY_NL_Label_Define_Your_Slot" value="अपना Slot परिभाषित करें" />
+      <add key="CREATE_NEW_LAYOUT_AUTOMATICALLY_NL_Label_Select_Size_Of_Slot_You_Want" value="अपनी पसंद का slot आकार चुनें" />
+      <add key="CREATE_NEW_LAYOUT_AUTOMATICALLY_NL_Label_Outer_Color_Represents_Padding_Between_Slots_And_Inner_Color_Size_Of_Slots" value="बाहरी रंग slots के बीच padding दर्शाता है और आंतरिक रंग slots के आकार को दर्शाता है" />
+      <add key="CREATE_NEW_LAYOUT_AUTOMATICALLY_NL_Label_You_Can_Drag_And_From_Corner_Drop_To_Modify_Sizes" value="आप आकार बदलने के लिए कोने से ड्रैग और ड्रॉप कर सकते हैं" />
+      <add key="CREATE_NEW_LAYOUT_AUTOMATICALLY_NL_Label_Avaliable_Slots" value="उपलब्ध Slots" />
+      <add key="CREATE_NEW_LAYOUT_AUTOMATICALLY_NL_Label_Replay_Slots" value="Replay Slots" />
+      <add key="CREATE_NEW_LAYOUT_AUTOMATICALLY_NL_Label_Playing_Slots" value="Playing Slots" />
+      <add key="CREATE_NEW_LAYOUT_AUTOMATICALLY_NL_Label_Observer_Slots" value="Observer Slots" />
+      <add key="CREATE_NEW_LAYOUT_AUTOMATICALLY_NL_Label_Slot_Sizes_And_Maximum_Slots_Segment_1" value="निम्न SLOT SIZE के लिए " />
+      <add key="CREATE_NEW_LAYOUT_AUTOMATICALLY_NL_Label_Slot_Sizes_And_Maximum_Slots_Segment_2" value=" जिसे आपने चुना है, आपके पास अधिकतम होगा " />
+      <add key="CREATE_NEW_LAYOUT_AUTOMATICALLY_NL_Label_Slot_Sizes_And_Maximum_Slots_Segment_3" value=" slots" />
+      <add key="CREATE_NEW_LAYOUT_AUTOMATICALLY_NL_Label_Slot_Sizes_And_Maximum_Slots_Segment_4" value="अगर आप slot या स्क्रीन का आकार बदलना चाहते हैं तो कृपया वापस जाएं।" />
+      <add key="CREATE_NEW_LAYOUT_AUTOMATICALLY_NL_Label_Last_Step" value="अंतिम चरण" />
+      <add key="CREATE_NEW_LAYOUT_AUTOMATICALLY_NL_Label_Click_On_Arrow_If_You_Want_To_Change_Slot_Position" value="अगर आप slot की स्थिति बदलना चाहते हैं तो तीर पर क्लिक करें" />
+      <add key="CREATE_NEW_LAYOUT_AUTOMATICALLY_NL_Once_You_Are_Finished_Click_On_Done" value="जब आप समाप्त कर लें तो Done पर क्लिक करें" />
+    </sub>
+    <sub id="4" name="UserControl - Monitor Selection">
+      <add key="SWITCH_LAYOUT_Label_Choose" value="चुनें" />
+      <add key="MONITOR_SELECTION_Label_Click_Your_Desired_Monitor" value="अपना पसंदीदा मॉनिटर क्लिक करें" />
+      <add key="SWITCH_LAYOUT_Label_If_There_Are" value="अगर वहाँ हैं" />
+      <add key="SWITCH_LAYOUT_Open_Tables" value="OPEN TABLES" />
+      <add key="SWITCH_LAYOUT_Activate_The_Layout" value="LAYOUT को सक्रिय करें" />
+      <add key="SWITCH_LAYOUT_Check_Disable_Switch" value="स्विच बंद करें" />
+      <add key="SWITCH_LAYOUT_Button_Save" value="सहेजें" />
+      <add key="SWITCH_LAYOUT_Button_Discard" value="रद्द करें" />
+      <add key="SWITCH_LAYOUT_Label_Tables" value="tables" />
+    </sub>
+    <sub id="5" name="Page - Create From Preset">
+      <add key="CREATE_NEW_LAYOUT_FROM_PRESET_NL_Title_Create_New_Layout_From_Preset" value="Preset से नई Layout बनाएं" />
+    </sub>
+    <sub id="6" name="Page - Create New Layout From Existing">
+      <add key="CREATE_NEW_LAYOUT_FROM_EXISTING_NL_Title_Clone_Layout" value="Layout क्लोन करें" />
+      <add key="CREATE_NEW_LAYOUT_FROM_EXISTING_NL_Label_Select_A_Layout_To_Clone" value="क्लोन करने के लिए Layout चुनें" />
+      <add key="CREATE_NEW_LAYOUT_FROM_EXISTING_NL_Label_Write_A_Name_For_The_Layout" value="Layout के लिए नाम लिखें" />
+      <add key="CREATE_NEW_LAYOUT_FROM_EXISTING_NL_Button_Save" value="सहेजें" />
+    </sub>
+    <sub id="7" name="Dialog - Delete Layout">
+      <add key="DIALOG_DELETE_LAYOUT_NL_Title_Delete_Layout" value="Layout हटाएं" />
+      <add key="DIALOG_DELETE_LAYOUT_NL_Body_Are_You_Sure_Deleteting" value="क्या आप वाकई हटाना चाहते हैं " />
+      <add key="DIALOG_DELETE_LAYOUT_NL_Button_Delete" value="हटाएं" />
+      <add key="DIALOG_DELETE_LAYOUT_NL_Button_Cancel" value="रद्द करें" />
+    </sub>
+    <sub id="8" name="Dialog - Max Slots Reached">
+      <add key="DIALOG_MAX_SLOTS_REACHED_NL_Title_Oops_You_Reached_The_Maximum" value="उफ़! आपने अधिकतम सीमा पहुँच ली है" />
+      <add key="DIALOG_MAX_SLOTS_REACHED_NL_Body_Segment1" value="आपने अपने सभी Slots/Layouts का उपयोग कर लिया है। सक्रिय करें " />
+      <add key="DIALOG_MAX_SLOTS_REACHED_NL_Body_Segment2" value="Tilling Bundle" />
+      <add key="DIALOG_MAX_SLOTS_REACHED_NL_Body_Segment3" value=" अभी ताकि आपके पास अनंत Slots/Layouts हों!" />
+      <add key="DIALOG_MAX_SLOTS_REACHED_NL_Button_Activate_Now" value="अभी सक्रिय करें" />
+      <add key="DIALOG_MAX_SLOTS_REACHED_NL_Link_I_Dont_Want_This_Awesome_Feature" value="मुझे यह शानदार फीचर नहीं चाहिए" />
+      <add key="DIALOG_ACTIVATE_LAYOUT_PAYWALL_NL_Title" value="Free Mode - 1 Layout" />
+      <add key="DIALOG_ACTIVATE_LAYOUT_PAYWALL_NL_Body" value="Free Mode कई Layout सक्रिय करने को कवर नहीं करता। आप अपना वर्तमान Active Layout संपादित कर सकते हैं। अनलॉक करने के लिए सक्रिय करें!" />
+    </sub>
+    <sub id="9" name="Dialog - Auto Layout Switch">
+      <add key="DIALOG_AUTO_LAYOUT_SWITCH_NL_Title" value="स्वचालित Layout स्विच" />
+      <add key="DIALOG_AUTO_LAYOUT_SWITCH_NL_Body" value="मैन्युअली Layout सक्रिय करने से स्वचालित Layout स्विच बंद हो जाएगा। क्या आप वाकई यह फीचर बंद करके यह Layout सक्रिय करना चाहते हैं?" />
+    </sub>
+    <sub id="10" name="Faulty Layout Messages">
+      <add key="ON_LAYOUT_FAULT_1" value="इस Layout में कोई डिस्प्ले जानकारी सहेजी नहीं गई है। हम सुझाव देते हैं कि आप इसे कम से कम एक बार संपादित करें ताकि डिस्प्ले जानकारी सहेज ली जाए।" />
+      <add key="ON_LAYOUT_FAULT_2" value="आपके डिस्प्ले कॉन्फ़िगरेशन इस Layout को बनाने के बाद से बदल गए हैं। कृपया इसे संपादित करें या हटा दें।" />
+      <add key="ON_LAYOUT_FAULT_4" value="इस Layout को बनाने के बाद आपने अपना DPI% बदला है। कृपया इसे संपादित करें या हटा दें।" />
+      <add key="ON_LAYOUT_FAULT_8" value="आपके डिस्प्ले उस समय से बदल गए हैं जब आपने यह Layout बनाया था। यह Layout ठीक से काम नहीं कर सकता।" />
+      <add key="ON_LAYOUT_FAULT_16" value="Layout में कुछ त्रुटिपूर्ण slots हैं। हम सुझाव देते हैं कि आप इसे अब संपादित करें।" />
+      <add key="ON_SLOT_FAULT_1" value="" />
+      <add key="ON_SLOT_FAULT_2" value="" />
+      <add key="ON_SLOT_FAULT_4" value="" />
+    </sub>
+    <sub id="11" name="Dialog - Confirm Swap">
+      <add key="DIALOG_CONFIRM_SWAP_Title" value="स्वैप की पुष्टि करें" />
+      <add key="DIALOG_CONFIRM_SWAP_Body_Do_You_Want_To_Swap" value="क्या आप स्वैप करना चाहते हैं" />
+      <add key="DIALOG_CONFIRM_SWAP_Body_With" value="के साथ" />
+    </sub>
+  </area>
+  <area id="104" name="Page - Site Configuration Details">
+    <add key="SITE_CONFIGURATION_DETAILS_NL_Title_Site_Configuration" value="साइट कॉन्फ़िगरेशन" />
+    <add key="SITE_CONFIGURATION_DETAILS_NL_Button_Save_Changes" value="परिवर्तन सहेजें" />
+    <sub id="0" name="Tab - Table Positioning">
+      <add key="SITE_CONFIGURATION_DETAILS_NL_Tab_Header_Table_Positioning" value="टेबल पोजीショिनिंग" />
+      <add key="SITE_CONFIGURATION_DETAILS_NL_Check_Autoplay_On_Start" value="शुरुआत में ऑटो-प्ले" />
+      <add key="SITE_CONFIGURATION_DETAILS_NL_Toggle_Tiling_Enabled" value="Tiling सक्षम है" />
+      <add key="SITE_CONFIGURATION_DETAILS_NL_Toggle_Tiling_Disabled" value="Tiling अक्षम है" />
+      <add key="SITE_CONFIGURATION_DETAILS_NL_Label_New_Table_Detected" value="नई टेबल मिली" />
+      <add key="SITE_CONFIGURATION_DETAILS_NL_Label_When_A_Table_Is_Detected" value="जब टेबल मिली..." />
+      <add key="SITE_CONFIGURATION_DETAILS_NL_Option_Send_Tables_To_Playing_Area" value="टेबल्स को Playing Area में भेजें" />
+      <add key="SITE_CONFIGURATION_DETAILS_NL_Option_Send_Tables_To_Observer_Area" value="टेबल्स को Observer Area में भेजें" />
+      <add key="SITE_CONFIGURATION_DETAILS_NL_Option_Do_Nothing" value="कुछ न करें" />
+      <add key="SITE_CONFIGURATION_DETAILS_NL_Label_Action_Required" value="कार्रवाई आवश्यक" />
+      <add key="SITE_CONFIGURATION_DETAILS_NL_Label_When_My_Turn_Ended_At_A_Table_In_Action_Required_Slot" value="जब मेरी बारी Action Required slot में किसी टेबल पर खत्म हुई..." />
+      <add key="SITE_CONFIGURATION_DETAILS_NL_Option_Send_The_Table_To_The_Area_Where_It_Was_Before" value="टेबल को उस slot में भेजें जहाँ यह पहले था" />
+      <add key="SITE_CONFIGURATION_DETAILS_NL_Label_In_Hand_Slots" value="In Hand Slots" />
+      <add key="SITE_CONFIGURATION_DETAILS_NL_Label_When_Should_Table_Be_Moved_To_In_Hand_Slots" value="टेबल को In Hand Slots में कब स्थानांतरित किया जाना चाहिए?" />
+      <add key="SITE_CONFIGURATION_DETAILS_NL_Option_Move_Table_To_Slot_Whenever_I_Start_A_New_Hand" value="जब भी मैं नया हाथ शुरू करता हूँ, टेबल को slot में ले जाएं" />
+      <add key="SITE_CONFIGURATION_DETAILS_NL_Option_Move_Table_To_Slot_Only_If_I_Voluntarily_Put_Money_In_The_Hand" value="केवल तब टेबल को slot में ले जाएं जब मैं स्वेच्छा से हाथ में पैसे डालूं" />
+      <add key="SITE_CONFIGURATION_DETAILS_NL_Option_Move_Table_To_Slot_When_Flop_Is_Shown" value="हाथ में पहले hero के टर्न पर टेबल को slot में ले जाएं" />
+      <add key="SITE_CONFIGURATION_DETAILS_NL_Label_After_Hand_Has_Ended" value="जब हाथ समाप्त हो चुका हो..." />
+      <add key="SITE_CONFIGURATION_DETAILS_NL_Option_Move_Table_To_Slot_Only_When_Preflop_Starts" value="जब प्रीफ्लॉप शुरू हो, टेबल को slot में ले जाएं" />
+    </sub>
+    <sub id="1" name="Tab - Comfort Features">
+      <add key="SITE_CONFIGURATION_DETAILS_NL_Tab_Header_Confort_Features" value="सुविधा सुविधाएँ" />
+      <add key="SITE_CONFIGURATION_DETAILS_NL_Label_BB_Conversion" value="BB रूपांतरण" />
+      <add key="SITE_CONFIGURATION_DETAILS_NL_Label_Show_BB_On_Stacks" value="Stacks पर “BB” दिखाएं" />
+      <add key="SITE_CONFIGURATION_DETAILS_NL_Check_Add_BB_To_Stacks" value="Stacks में &quot;BB&quot; जोड़ें" />
+      <add key="SITE_CONFIGURATION_DETAILS_NL_Dont_Add_BB_To_Stacks" value="Stacks में “BB” न जोड़ें" />
+      <add key="SITE_CONFIGURATION_DETAILS_NL_Label_Ammount_Of_Decimals" value="दशमलव की संख्या" />
+      <add key="SITE_CONFIGURATION_DETAILS_NL_Show_One_Decimal" value="एक दशमलव दिखाएं" />
+      <add key="SITE_CONFIGURATION_DETAILS_NL_Show_Two_Decimals" value="दो दशमलव दिखाएं" />
+      <add key="SITE_CONFIGURATION_DETAILS_NL_Label_Font_Size" value="फ़ॉन्ट आकार" />
+      <add key="SITE_CONFIGURATION_DETAILS_NL_Label_Auto_Timebank" value="Auto Timebank" />
+      <add key="SITE_CONFIGURATION_DETAILS_NL_Label_Avoid_Sitting_Out" value="बैठने से बचें" />
+      <add key="SITE_CONFIGURATION_DETAILS_NL_Tooltip_Title_Avoid_Sitting_Out" value="बैठने से बचें" />
+      <add key="SITE_CONFIGURATION_DETAILS_NL_Tooltip_Body_Avoid_Sitting_Out" value="यदि आपका समय खत्म हो जाता है, चाहे आपका timebank हो या न हो, यह फीचर अपने आप पोकर रूम को बताएगा कि आप टेबल पर वापस आ गए हैं।" />
+      <add key="SITE_CONFIGURATION_DETAILS_NL_Label_Keep_The_Spins_Rolling" value="Spins को चालू रखें" />
+      <add key="SITE_CONFIGURATION_DETAILS_NL_Label_Hide_Hero_Balance" value="Hero Balance छिपाएं" />
+      <add key="SITE_CONFIGURATION_DETAILS_NL_Tooltip_Title_Hide_Hero_Balance" value="Balance छिपाएं" />
+      <add key="SITE_CONFIGURATION_DETAILS_NL_Tooltip_Body_Hide_Hero_Balance" value="इस फीचर के साथ आप पोकर साइट पर अपनी बैंकрол छिपा सकते हैं, आपकी बैलेंस के बगल में एक क्लिक करने योग्य आइकन दिखेगा जिससे आप इसकी दृश्यता चालू या बंद कर सकते हैं।" />
+      <add key="SITE_CONFIGURATION_DETAILS_NL_Tooltip_Title_Keep_Spins_Rolling" value="स्पिन्स को चलते रहना" />
+      <add key="SITE_CONFIGURATION_DETAILS_NL_Tooltip_Body_Keep_Spins_Rolling" value="एक स्पिन खत्म होने के बाद, Jurojin तुरंत नया स्पिन शुरू करने के लिए आपके लिए एक और टिकट खरीद लेगा! खेल खत्म होने पर इसे बंद करना न भूलें!" />
+      <add key="SITE_CONFIGURATION_DETAILS_NL_Label_Copy_Player_Name" value="प्लेयर का नाम कॉपी करें" />
+      <add key="SITE_CONFIGURATION_DETAILS_NL_Label_Dont_Remove" value="इस फंक्शन के काम करने के लिए &lt;PLAYER&gt; में &lt;&gt; को न हटाएं" />
+      <add key="SITE_CONFIGURATION_DETAILS_NL_Label_Custom_Link" value="कस्टम लिंक" />
+      <add key="SITE_CONFIGURATION_DETAILS_NL_Label_Copy_Player_Name_To_Clipboard_Double_Clicking_Player_Seat_Stack" value="प्लेयर के सीट स्टैक पर डबल क्लिक करने पर प्लेयर का नाम क्लिपबोर्ड पर कॉपी करें" />
+      <add key="SITE_CONFIGURATION_DETAILS_NL_Label_Hide_Board_If_All_In" value="अगर ऑल इन हो तो बोर्ड छुपाएं" />
+      <add key="SITE_CONFIGURATION_DETAILS_NL_Tooltip_Title_Hide_Board" value="बोर्ड छुपाएं" />
+      <add key="SITE_CONFIGURATION_DETAILS_NL_Tooltip_Body_Hide_Board" value="टिल्ट और घबराहट से बचने के लिए जब आप ऑल इन जाएं तो बोर्ड छुपा सकते हैं" />
+      <add key="SITE_CONFIGURATION_DETAILS_NL_Label_Color_Stacks" value="स्टैक्स को रंग दें" />
+      <add key="SITE_CONFIGURATION_DETAILS_NL_Set_A_Specific_Color_On_Stacks_Based_On_Amount" value="प्लेयर के स्टैक साइज के आधार पर स्टैक्स पर एक विशिष्ट रंग सेट करें" />
+      <add key="SITE_CONFIGURATION_DETAILS_NL_Tooltip_Title_BB_Conversion" value="BB कन्वर्शन" />
+      <add key="SITE_CONFIGURATION_DETAILS_NL_Tooltip_Body_BB_Conversion" value="इस फीचर से आप स्टैक्स और बेटसाइज़ को BB वैल्यूज़ में बदल सकते हैं। अपने स्टैक पर क्लिक करके इन्हें स्विच कर सकते हैं, और वैल्यू में दशमलव की संख्या भी बदल सकते हैं। इस फीचर का उपयोग करने के लिए Bodog की बिल्ट-इन कन्वर्शन बंद करें!" />
+    </sub>
+    <sub id="2" name="Tab - Hoytkeys Baypassing">
+      <add key="SITE_CONFIGURATION_DETAILS_NL_Tab_Header_Hoytkeys_Baypassing" value="Hoytkeys बायपासिंग" />
+      <add key="SITE_CONFIGURATION_DETAILS_NL_Label_Tell_Jurojin_Your_Hotkey_Bindings" value="Jurojin को अपने होटकी बाइंडिंग्स बताएं" />
+      <add key="SITE_CONFIGURATION_DETAILS_NL_Description_Proxying_Hotkeys" value="क्या आप इस साइट पर कंट्रोलर से खेलना चाहते हैं, या माउस से fold/check/bet करना चाहते हैं? बस Jurojin को अपने पोकर रूम में सेट किए गए होटकी बताएं और हम कीबोर्ड स्ट्रोक्स आपके लिए सिम्यूलेट करेंगे।" />
+      <add key="SITE_CONFIGURATION_DETAILS_NL_Label_Fold" value="FOLD" />
+      <add key="SITE_CONFIGURATION_DETAILS_NL_Label_Check_Call" value="CHECK/CALL" />
+      <add key="SITE_CONFIGURATION_DETAILS_NL_Label_Toggle_BB_Mode" value="BB मोड चालू/बंद करें" />
+      <add key="SITE_CONFIGURATION_DETAILS_NL_Label_Increment_Decrement_Bet" value="बाठी बढ़ाएँ/घटाएँ" />
+      <add key="SITE_CONFIGURATION_DETAILS_NL_Label_Increment" value="बाठी बढ़ाएँ/घटाएँ" />
+      <add key="SITE_CONFIGURATION_DETAILS_NL_Label_Decrement" value="घटाएँ" />
+      <add key="SITE_CONFIGURATION_DETAILS_NL_Label_Bet_Raise" value="BET/RAISE" />
+      <add key="SITE_CONFIGURATION_DETAILS_NL_Label_All_In" value="ALL IN" />
+      <add key="SITE_CONFIGURATION_DETAILS_NL_Label_Button1" value="BUTTON 1" />
+      <add key="SITE_CONFIGURATION_DETAILS_NL_Label_Button2" value="BUTTON 2" />
+      <add key="SITE_CONFIGURATION_DETAILS_NL_Label_Button3" value="BUTTON 3" />
+      <add key="SITE_CONFIGURATION_DETAILS_NL_Label_Button4" value="BUTTON 4" />
+    </sub>
+    <sub id="3" name="Tab - Rebuy Topup">
+      <add key="SITE_CONFIGURATION_DETAILS_NL_Tab_Header_Rebuy_Topup" value="रीबाय/टॉपअप" />
+      <add key="SITE_CONFIGURATION_DETAILS_NL_Toggle_Auto_Top-Up_For_Cash_Games" value="कैश गेम्स के लिए ऑटो टॉप-अप" />
+      <add key="SITE_CONFIGURATION_DETAILS_NL_Label_Auto_Top-Up_For_Cash_Games" value="कैश गेम्स के लिए ऑटो टॉप-अप" />
+      <add key="SITE_CONFIGURATION_DETAILS_NL_Description_Auto_TopUp" value="रीबाय बटन क्लिक करने से थक गए हैं? अपने स्टैक को कम न होने दें! इस फीचर से आप टेबल पर मजबूत बने रहेंगे। बस Jurojin को बताएं कब और कितना रीबाय करना है!" />
+      <add key="SITE_CONFIGURATION_DETAILS_NL_Label_Auto_Top_Up_Back_To" value="स्वचालित टॉप-अप वापस" />
+      <add key="SITE_CONFIGURATION_DETAILS_NL_Label_Blinds_When_My_Stack_Goes_Below" value="जब मेरा स्टैक नीचे चला जाए तब blinds" />
+      <add key="SITE_CONFIGURATION_DETAILS_NL_Label_When_I_Run_Out_Of_Chips_On_Table_Rebuy_With" value="जब टेबल पर चिप्स खत्म हो जाएं, रीबाय करें" />
+      <add key="SITE_CONFIGURATION_DETAILS_NL_Label_Blinds" value="जब मेरा स्टैक नीचे चला जाए तब blinds" />
+      <add key="SITE_CONFIGURATION_DETAILS_NL_Tooltip_Title_Auto_Top-Up_For_Cash_Games" value="रीबाय/टॉपअप" />
+      <add key="SITE_CONFIGURATION_DETAILS_NL_Tooltip_Body_Auto_Top-Up_For_Cash_Games" value="इस फीचर से आप अपने टेबल पर स्वतः रीबाय या टॉपअप कर सकते हैं। अगर आप Zoom खेलते हैं, तो टॉपअप तभी होगा जब Jurojin fold hotkey दबाया जाएगा जिसमें देरी शामिल है।" />
+      <add key="SITE_CONFIGURATION_DETAILS_NL_Toaster_Content_If_You_Play_Zone_Topup_Will_Happen_Only_With_Fold_Hotkey" value="यदि आप zone खेलते हैं, तो टॉपअप केवल Jurojin के fold hotkey के साथ होगा" />
+    </sub>
+    <sub id="4" name="UserControl - Color Stacks">
+      <add key="SITE_CONFIGURATION_DETAILS_COLOR_STACKS_Title_Color_Stacks" value="स्टैक्स को रंग दें" />
+      <add key="SITE_CONFIGURATION_DETAILS_COLOR_STACKS_Label_Border_According_To_Value" value="मूल्य के अनुसार बॉर्डर" />
+      <add key="SITE_CONFIGURATION_DETAILS_COLOR_STACKS_Label_Less_Than" value="से कम" />
+      <add key="SITE_CONFIGURATION_DETAILS_COLOR_STACKS_Label_Greater_Than" value="से अधिक" />
+    </sub>
+    <sub id="5" name="Tab - Popup Handling">
+      <add key="SITE_CONFIGURATION_DETAILS_NL_Tab_Header_Popup_Handling" value="पॉपअप हैंडलिंग" />
+      <add key="SITE_CONFIGURATION_DETAILS_NL_Label_Advanced_Configuration" value="उन्नत कॉन्फ़िगरेशन" />
+      <add key="SITE_CONFIGURATION_DETAILS_NL_Label_Close_Or_Accept_All_Popups_With_A_Single_Option" value="सभी पॉपअप्स को एक विकल्प से बंद या स्वीकार करें" />
+      <add key="SITE_CONFIGURATION_DETAILS_NL_Label_Jurojin_Will_Close_Any_Popup_That_Appears_Which_Only_Has_One_Option_To_Take" value="Jurojin किसी भी पॉपअप को बंद कर देगा जिसमें केवल एक विकल्प हो। ध्यान दें कि कोई पॉपअप फ़िल्टर नहीं होगा और Jurojin को पता नहीं होगा कि क्या दबाया जाएगा। इसे सावधानी से उपयोग करें।" />
+      <add key="SITE_CONFIGURATION_DETAILS_NL_Label_My_Popups" value="मेरे पॉपअप्स" />
+      <add key="SITE_CONFIGURATION_DETAILS_NL_Label_Search_By_Text" value="टेक्स्ट द्वारा खोजें" />
+      <add key="SITE_CONFIGURATION_DETAILS_NL_No_Popup_Rules_Set_Yet" value="" />
+      <add key="SITE_CONFIGURATION_DETAILS_NL_Choose_How_Popups_Should_Behave_Automatically" value="" />
+      <add key="SITE_CONFIGURATION_DETAILS_NL_Label_Popup_Text" value="पॉपअप टेक्स्ट" />
+      <add key="SITE_CONFIGURATION_DETAILS_NL_Label_Action_To_Take" value="लेने के लिए कार्रवाई" />
+      <add key="SITE_CONFIGURATION_DETAILS_NL_Label_Actions" value="कार्रवाइयाँ" />
+      <add key="SITE_CONFIGURATION_DETAILS_MODAL_Title_Edit_Popup_Action" value="पॉपअप कार्रवाई संपादित करें" />
+      <add key="SITE_CONFIGURATION_DETAILS_MODAL_Label_General_Configuration" value="सामान्य कॉन्फ़िगरेशन" />
+      <add key="SITE_CONFIGURATION_DETAILS_MODAL_Label_Action_To_Take" value="लेने के लिए कार्रवाई" />
+      <add key="SITE_CONFIGURATION_DETAILS_MODAL_Label_Action_To_Advanced_Configuration" value="उन्नत कॉन्फ़िगरेशन" />
+      <add key="SITE_CONFIGURATION_DETAILS_MODAL_Label_Filter_All_Modals_That_Contain" value="सभी मोडल्स फ़िल्टर करें जो शामिल करते हैं..." />
+      <add key="SITE_CONFIGURATION_DETAILS_MODAL_Button_Ok" value="ठीक है" />
+      <add key="SITE_CONFIGURATION_DETAILS_MODAL_Button_Cancel" value="रद्द करें" />
+    </sub>
+    <sub id="6" name="Dialog - Edit popup dangerous">
+      <add key="DIALOG_EDIT_POPUP_DANGEROUS_Label_This_Is_A_Very_Dangerous_Feature" value="यह एक बहुत ही खतरनाक फीचर है!" />
+      <add key="DIALOG_EDIT_POPUP_DANGEROUS_Label_Modifying_The_Popup" value="पॉपअप पहचान नियम में बदलाव करने से Jurojin उन पॉपअप्स पर कार्रवाई कर सकता है जिन्हें आप नहीं चाहते। इसका उपयोग सावधानी से करें।" />
+      <add key="DIALOG_EDIT_POPUP_DANGEROUS_Button_Continue" value="जारी रखें" />
+      <add key="DIALOG_EDIT_POPUP_DANGEROUS_Button_Go_Back" value="वापस जाएं" />
+    </sub>
+    <sub id="7" name="Popup - Handling">
+      <add key="SITES_POPUP_HANDLING_Title_Popup_Handling" value="पॉपअप हैंडलिंग" />
+      <add key="SITES_POPUP_HANDLING_Label_Select_An_Option" value="एक विकल्प चुनें:" />
+      <add key="SITES_POPUP_HANDLING_Button_Accept" value="स्वीकार करें" />
+      <add key="SITES_POPUP_HANDLING_Button_Cancel" value="रद्द करें" />
+      <add key="SITES_POPUP_HANDLING_Caption_Option_You_Choose_Will_Be_Remembered" value="आपका चुना हुआ विकल्प अगले बार इस पॉपअप के खुलने पर याद रखा जाएगा।" />
+    </sub>
+  </area>
+  <area id="105" name="Page - Settings">
+    <add key="SETTINGS_NL_Tab_Title" value="सेटिंग्स" />
+    <add key="SETTINGS_NL_Tab_Header_Global_Setting" value="वैश्विक सेटिंग्स" />
+    <add key="SETTINGS_NL_CheckBox_Magnetize_Playing_Area" value="खेल क्षेत्र को मैग्नेटाइज़ करें" />
+    <add key="SETTINGS_NL_Tooltip_Title_Magnetize_Playing_Area" value="खेल क्षेत्र/slots को मैग्नेटाइज़ करें" />
+    <add key="SETTINGS_NL_Tooltip_Body_Magnetize_Playing_Area" value="खेल क्षेत्र मैग्नेटाइज़ किया जा सकता है, इसका मतलब है कि आप टेबल्स को ड्रैग और ड्रॉप कर सकते हैं और वे तुरंत slots में फिट हो जाएंगे। आप CTRL कुंजी दबाकर ड्रैग और ड्रॉप कर सकते हैं ताकि टेबल्स बदलने के बजाय वे स्टैक हों।" />
+    <add key="SETTINGS_NL_CheckBox_Magnetize_Observer_Area" value="निरीक्षक क्षेत्र को मैग्नेटाइज़ करें" />
+    <add key="SETTINGS_NL_Tooltip_Title_Magnetize_Observer_Area" value="निरीक्षक क्षेत्र/slots को मैग्नेटाइज़ करें" />
+    <add key="SETTINGS_NL_Tooltip_Body_Magnetize_Observer_Area" value="निरीक्षक slots भी मैग्नेटाइज़ किए जा सकते हैं" />
+    <add key="SETTINGS_NL_CheckBox_Magnetize_Lobby_Slots" value="लॉबी slots को मैग्नेटाइज़ करें" />
+    <add key="SETTINGS_NL_Tooltip_Title_Magnetize_Lobby_Slots" value="लॉबी slots को मैग्नेटाइज़ करें" />
+    <add key="SETTINGS_NL_Tooltip_Body_Magnetize_Lobby_Slots" value="जैसे कि लॉबी slots। जब तक लॉबी slots में स्टैक साइट्स का विकल्प हो" />
+    <add key="SETTINGS_NL_CheckBox_Invert_Ctrl_Key" value="मैग्नेटाइज़ेशन के लिए CTRL कुंजी उपयोग उलटें" />
+    <add key="SETTINGS_NL_CheckBox_Reorder_Observer_Area_When_Table_Closed" value="जब टेबल बंद हो तो निरीक्षक क्षेत्र पुन: व्यवस्थित करें" />
+    <add key="SETTINGS_NL_Tooltip_Title_Reoder_Observer_Area_When_Table_Closed" value="टेबल बंद होने पर निरीक्षक क्षेत्र पुन: व्यवस्थित करें" />
+    <add key="SETTINGS_NL_Tooltip_Body_Reoder_Observer_Area_When_Table_Closed" value="जब कोई टेबल बंद हो, तो आप निरीक्षक slots में टेबल्स को पुन: व्यवस्थित कर सकते हैं" />
+    <add key="SETTINGS_NL_CheckBox_Reorder_Playing_Area_When_Table_Closed" value="जब टेबल बंद हो तो खेल क्षेत्र पुन: व्यवस्थित करें" />
+    <add key="SETTINGS_NL_Tooltip_Title_Reorder_Playing_Area_When_Table_Closed" value="टेबल बंद होने पर खेल क्षेत्र पुन: व्यवस्थित करें" />
+    <add key="SETTINGS_NL_Tooltip_Body_Reorder_Playing_Area_When_Table_Closed" value="जब कोई टेबल बंद हो, तो आप playing slots में टेबल्स को पुन: व्यवस्थित कर सकते हैं" />
+    <add key="SETTINGS_NL_CheckBox_Keep_Most_Urgent_On_Top" value="स्टैक की तात्कालिकता प्रबंधित करें" />
+    <add key="SETTINGS_NL_Tooltip_Title_Keep_Most_Urgent_On_Top" value="स्टैक की तात्कालिकता प्रबंधित करें" />
+    <add key="SETTINGS_NL_Tooltip_Body_Keep_Most_Urgent_On_Top" value="जब टेबल एक स्लॉट (स्टैक) साझा करती हैं, Jurojin सबसे जरूरी टेबल (एक्ट करने का सबसे कम समय) को उस स्टैक के ऊपर लाता है। यह केवल स्टैक के अंदर दृश्यता प्रबंधित करता है — कीबोर्ड फ़ोकस नहीं हिलाता।" />
+    <add key="SETTINGS_NL_CheckBox_Auto_Focus_Most_Urgent_Always" value="हमेशा सबसे जरूरी टेबल पर ऑटो फ़ोकस" />
+    <add key="SETTINGS_NL_Tooltip_Title_Auto_Focus_Most_Urgent_Always" value="हमेशा सबसे जरूरी टेबल पर ऑटो फ़ोकस" />
+    <add key="SETTINGS_NL_Tooltip_Body_Auto_Focus_Most_Urgent_Always" value="जब पहली टेबल पर एक्शन चाहिए (या एक्ट के बाद भी कोई और बाकी हो), Jurojin वैश्विक रूप से सबसे जरूरी टेबल पर फ़ोकस करता है ताकि माउस के बिना खेल सकें।" />
+    <add key="SETTINGS_NL_CheckBox_Also_Force_Move_Mouse" value="माउस भी ज़बरदस्ती हिलाएँ" />
+    <add key="SETTINGS_NL_Tooltip_Title_Also_Force_Move_Mouse" value="माउस भी ज़बरदस्ती हिलाएँ" />
+    <add key="SETTINGS_NL_Tooltip_Body_Also_Force_Move_Mouse" value="फ़ोकस की गई टेबल पर माउस कर्सर भी ले जाता है। गेमपैड या उन साइटों के लिए उपयोगी जहाँ कर्सर टेबल पर होना चाहिए।" />
+    <add key="SETTINGS_NL_CheckBox_Minimize_App_To_System_Tray" value="ऐप को सिस्टम ट्रे में मिनिमाइज़ करें" />
+    <add key="SETTINGS_NL_CheckBox_Save_Jurojin_Location_On_Close" value="" />
+    <add key="SETTINGS_NL_Tooltip_Title_Alarm_For_Action_Required" value="" />
+    <add key="SETTINGS_NL_Tooltip_Title_Delayed_Alarm_Action_Enabled" value="कार्य आवश्यक होने पर विलंबित अलार्म" />
+    <add key="SETTINGS_NL_Tooltip_Subtitle_Delayed_Alarm_Action_Enabled" value="आपकी बारी शुरू होने के 10 सेकंड बाद बजता है" />
+    <add key="SETTINGS_NL_Tooltip_Body_Delayed_Alarm_Action_Required" value="आप Jurojin से आपकी बारी शुरू होने के बाद सेट किए गए सेकंड बीतने पर अलार्म बजवा सकते हैं, जब तक कार्रवाई अभी भी आवश्यक हो." />
+    <add key="SETTINGS_NL_Tooltip_Body_Minimize_Application_To_System_Tray" value="जब आप यह फीचर चालू करके मिनिमाइज़ बटन दबाएंगे, तो ऐप विंडोज के निचले दाएं कोने के सिस्टम ट्रे में चले जाएगा।" />
+    <add key="SETTINGS_NL_Tooltip_Title_Minimize_Application_To_System_Tray" value="ट्रे में मिनिमाइज़ करें" />
+    <add key="SETTINGS_NL_CheckBox_Show_RNG" value="RNG दिखाएं" />
+    <add key="SETTINGS_NL_CheckBox_Sub_Show_RNG" value="रैंडम नंबर जनरेटर" />
+    <add key="SETTINGS_NL_Tooltip_Title_Show_Random_Number_Generator" value="RNG" />
+    <add key="SETTINGS_NL_Tooltip_Body_Show_Random_Number_Generator" value="यह स्क्रीन पर एक RNG दिखाएगा (टेबल्स के ऊपर नहीं, यह स्वतंत्र है!)" />
+    <add key="SETTINGS_NL_CheckBox_Drag_Table_Clicking_Anywhere" value="टेबल को कहीं भी क्लिक करके ड्रैग करें" />
+    <add key="SETTINGS_NL_CheckBox_Focus_Table_Under_Mouse" value="माउस के नीचे टेबल पर फोकस करें" />
+    <add key="SETTINGS_NL_Tooltip_Title_Focus_Table_Under_Mouse" value="माउस के नीचे टेबल पर फोकस करें" />
+    <add key="SETTINGS_NL_Tooltip_Body_Focus_Table_Under_Mouse" value="यह फीचर माउस को टेबल पर होवर करने पर उसे सामने लाता है" />
+    <add key="SETTINGS_NL_CheckBox_Bring_Only_Tables_In_Playing_Slot_To_Front" value="सिर्फ़ playing slot में टेबल्स को सामने लाएं" />
+    <add key="SETTINGS_NL_Tab_Header_Global_Hotkeys" value="वैश्विक हॉटकीज़" />
+    <add key="SETTINGS_NL_Label_Reorder_Playing_Area" value="खेल क्षेत्र पुनः व्यवस्थित करें" />
+    <add key="SETTINGS_NL_Label_Reorder_Observer_Area" value="Observer Area को पुनः क्रमित करें" />
+    <add key="SETTINGS_NL_Label_Send_Table_To_Playing_Area" value="Table को Playing Area में भेजें" />
+    <add key="SETTINGS_NL_Tooltip_Title_Send_Table_To_Playing_Area" value="TABLES को PLAYING SLOTS में भेजें" />
+    <add key="SETTINGS_NL_Tooltip_Body_Send_Table_To_Playing_Area" value="जब आप माउस से किसी table पर hover करें और यह hotkey दबाएं, तो यह अगले उपलब्ध playing slot में चला जाएगा। यह unsupported sites और emulators के लिए भी काम करता है! unsupported sites को हमारे forums में रिपोर्ट करना न भूलें!" />
+    <add key="SETTINGS_NL_Label_Send_Table_To_Observer_Area" value="Table को Observer Area में भेजें" />
+    <add key="SETTINGS_NL_Move_Tables_Clicking_Anywhere" value="Client area में कहीं भी क्लिक कर tables को मूव करें" />
+    <add key="SETTINGS_NL_Tooltip_Title_Move_Tables_Clicking_Anywhere" value="कहीं भी क्लिक करके Tables मूव करें" />
+    <add key="SETTINGS_NL_Tooltip_Body_Move_Tables_Clicking_Anywhere" value="यह फीचर आपको बिना विंडो के title bar पर क्लिक किए table ड्रैग करने देगा। ध्यान रखें कि आप table पर क्लिक करें, HUD की किसी child पर नहीं। table area के निचले 20% हिस्से में यह काम नहीं करेगा, हमने यह पोकर साइट्स के इन-बिल्ट bet sliders की समस्याओं से बचने के लिए किया है।" />
+    <add key="SETTINGS_NL_Hide_Title_Bar_Of_Tables" value="Tables के title bar को छुपाएं" />
+    <add key="SETTINGS_NL_Tooltip_Title_Send_Table_To_Observer_Area" value="TABLES को OBSERVE SLOTS में भेजें" />
+    <add key="SETTINGS_NL_Tooltip_Body_Send_Table_To_Observer_Area" value="जब आप माउस से किसी table पर hover करें और यह hotkey दबाएं, तो यह अगले उपलब्ध observe slot में चला जाएगा। यह unsupported sites और emulators के लिए भी काम करता है! unsupported sites को हमारे forums में रिपोर्ट करना न भूलें!" />
+    <add key="SETTINGS_NL_Label_Preview_Active_Layout" value="सक्रिय layout का पूर्वावलोकन" />
+    <add key="SETTINGS_NL_Label_Cycle_Through_Tables" value="slot में tables के बीच चक्र लगाएं" />
+    <add key="SETTINGS_NL_Label_Disable_All_Hotkeys" value="सभी hotkeys को अक्षम करें" />
+    <add key="SETTINGS_NL_Label_Focus_Most_Urgent_Table" value="सबसे जरूरी table पर फोकस करें" />
+    <add key="SETTINGS_NL_Label_Close_Table" value="Table बंद करें" />
+    <add key="SETTINGS_NL_Label_Minimize_Table" value="Table मिनिमाइज़ करें" />
+    <add key="SETTINGS_NL_Label_Focus_Table_On_Next_Slot" value="अगले slot पर table पर फोकस करें" />
+    <add key="SETTINGS_NL_Label_Focus_Table_On_Previous_Slot" value="पिछले slot पर table पर फोकस करें" />
+    <add key="SETTINGS_NL_Label_Sitout_Next_Hand" value="अगले हाथ में बाहर बैठें" />
+    <add key="SETTINGS_NL_Label_Sitout_Next_BB" value="अगले big blind में बाहर बैठें" />
+    <add key="SETTINGS_NL_Label_Sit_Out_At_All_Tables" value="सभी Tables में बाहर बैठें" />
+    <add key="SETTINGS_NL_Label_Sit_Back_Into_The_Table" value="Table में वापस बैठें" />
+    <add key="SETTINGS_NL_Info_Hotkeys_Will_Only_Work_Once_You_Leave_This_View" value="यह hotkeys तभी काम करेंगे जब आप इस दृश्य से बाहर जाएं" />
+    <add key="SETTINGS_NL_Tab_Header_Table_Border" value="Table बॉर्डर" />
+    <add key="SETTINGS_NL_Check_Show_Border_When_Its_Your_Turn_To_Play" value="जब आपकी बारी हो तब बॉर्डर दिखाएं" />
+    <add key="SETTINGS_NL_Radio_Use_Color_Transition" value="रंग संक्रमण का उपयोग करें" />
+    <add key="SETTINGS_NL_Label_The_Color_Will_Gradually_Change_Form_Green_Yellow_To_Red" value="(रंग धीरे-धीरे हरे, पीले से लाल में बदलेगा)" />
+    <add key="SETTINGS_NL_Radio_Choose_Colors" value="रंग चुनें" />
+    <add key="SETTINGS_NL_Label_At_The_Start_Of_My_Turn" value="मेरी बारी की शुरुआत में" />
+    <add key="SETTINGS_NL_Label_In_The_Last_Seconds_Segment1" value="अंतिम में" />
+    <add key="SETTINGS_NL_Label_In_The_Last_Seconds_Segment2" value="सेकंड" />
+    <add key="SETTINGS_NL_Check_Blink_Border" value="बलिंक बॉर्डर" />
+    <add key="SETTINGS_NL_Check_Only_Show_On_Most_Urgent_Table" value="केवल सबसे जरूरी टेबल पर दिखाएं" />
+    <add key="SETTINGS_NL_Check_Highlight_Focused_Table" value="फोकस किया गया table हाइलाइट करें" />
+    <add key="SETTINGS_NL_Label_Border_Size" value="बॉर्डर आकार" />
+    <add key="SETTINGS_NL_Label_Size" value="आकार: " />
+    <add key="SETTINGS_NL_Button_Save_Changes" value="परिवर्तनों को सहेजें" />
+    <add key="SETTINGS_NL_Button_Tooltip_Export_Settings" value="सेटिंग्स एक्सपोर्ट करें" />
+    <add key="SETTINGS_NL_Button_Tooltip_Import_Settings" value="सेटिंग्स इम्पोर्ट करें" />
+    <add key="SETTINGS_NL_CheckBox_Show_Random_Number_Generator" value="" />
+    <add key="SETTINGS_NL_Button_Settings_File" value="सेटिंग्स फाइलें" />
+    <sub id="0" name="Dialog - Import Settings">
+      <add key="IMPORT_SETTINGS_DIALOG_NL_Title_Import_Settings" value="सेटिंग्स इम्पोर्ट करें" />
+      <add key="IMPORT_SETTINGS_DIALOG_NL_Label_Choose_Zip_File" value="ज़िप फाइल चुनें" />
+      <add key="IMPORT_SETTINGS_DIALOG_NL_Button_Import_Settings" value="सेटिंग्स इम्पोर्ट करें" />
+    </sub>
+    <sub id="1" name="Dialog - Export Settings">
+      <add key="EXPORT_SETTINGS_DIALOG_NL_Title_Export_Settings" value="सेटिंग्स एक्सपोर्ट करें" />
+      <add key="EXPORT_SETTINGS_DIALOG_NL_Label_Choose_Export_Location" value="एक्सपोर्ट स्थान चुनें" />
+      <add key="EXPORT_SETTINGS_DIALOG_NL_Button_Export_Settings" value="सेटिंग्स एक्सपोर्ट करें" />
+    </sub>
+    <sub id="2" name="Import/Export Status">
+      <add key="IMPORT_EXPORT_SETTINGS_NL_Status_Title" value="इम्पोर्ट/एक्सपोर्ट सेटिंग्स" />
+      <add key="IMPORT_EXPORT_SETTINGS_NL_Status_Success" value="ऑपरेशन सफलतापूर्वक पूरा हुआ" />
+      <add key="IMPORT_EXPORT_SETTINGS_NL_Status_Failure" value="कुछ गड़बड़ हो गई" />
+      <add key="IMPORT_EXPORT_SETTINGS_NL_Button_Export" value="एक्सपोर्ट" />
+      <add key="IMPORT_EXPORT_SETTINGS_NL_Button_Import" value="इम्पोर्ट" />
+    </sub>
+    <sub id="3" name="Dialog - Alarm for AR">
+      <add key="ALARM_FOR_AR_Label_Ring_Bell" value="" />
+      <add key="ALARM_FOR_AR_Label_Volume" value="" />
+      <add key="ALARM_FOR_AR_Button_Test_Sound" value="" />
+    </sub>
+    <sub id="4" name="Dialog - Delayed Alarm for AR">
+      <add key="DELAYED_ALARM_FOR_AR_Label_Sounds_After" value="इसके बाद ध्वनि" />
+      <add key="DELAYED_ALARM_FOR_AR_Label_Seconds_Of_Turn_Start" value="टर्न शुरू होने के सेकंड" />
+      <add key="DELAYED_ALARM_FOR_AR_Label_Ring_Bell" value="Ring-bell" />
+      <add key="DELAYED_ALARM_FOR_AR_Label_Volume" value="Volume" />
+    </sub>
+  </area>
+  <area id="106" name="Page - Hotkeys">
+    <add key="HOTKEYS_NL_Title_Table_Hotkeys" value="Table Hotkeys" />
+    <add key="HOTKEYS_NL_Button_Save_Changes" value="परिवर्तनों को सहेजें" />
+    <sub id="0" name="Tab - Bet Buttons">
+      <add key="HOTKEYS_NL_Tab_Header_Bet_Buttons" value="Bet Buttons" />
+      <add key="HOTKEYS_NL_Label_Fold" value="FOLD/CHECK" />
+      <add key="HOTKEYS_NL_Label_Suggested_Key" value="सुझाया गया key:" />
+      <add key="HOTKEYS_NL_Label_Check_Call" value="CALL" />
+      <add key="HOTKEYS_NL_Label_All_In" value="ALL IN" />
+      <add key="HOTKEYS_NL_Label_Bet_Raise" value="BET/RAISE" />
+      <add key="HOTKEYS_NL_Label_Increment" value="INCREMENT" />
+      <add key="HOTKEYS_NL_Label_Decrement" value="DECREMENT" />
+      <add key="HOTKEYS_NL_Label_Button1" value="BUTTON 1" />
+      <add key="HOTKEYS_NL_Label_Button2" value="BUTTON 2" />
+      <add key="HOTKEYS_NL_Label_Button3" value="BUTTON 3" />
+      <add key="HOTKEYS_NL_Label_Button4" value="BUTTON 4" />
+      <add key="HOTKEYS_NL_Label_Button5" value="BUTTON 5" />
+      <add key="HOTKEYS_NL_Label_Button6" value="BUTTON 6" />
+      <add key="HOTKEYS_NL_Label_Button7" value="BUTTON 7" />
+      <add key="HOTKEYS_NL_Label_Button8" value="BUTTON 8" />
+      <add key="HOTKEYS_NL_Label_Button9" value="BUTTON 9" />
+      <add key="HOTKEYS_NL_Label_Button10" value="BUTTON 10" />
+      <add key="HOTKEYS_NL_Label_Button11" value="BUTTON 11" />
+      <add key="HOTKEYS_NL_Label_Button12" value="BUTTON 12" />
+      <add key="HOTKEYS_NL_Label_Button13" value="BUTTON 13" />
+      <add key="HOTKEYS_NL_Label_Button14" value="BUTTON 14" />
+      <add key="HOTKEYS_NL_Label_Button15" value="BUTTON 15" />
+      <add key="HOTKEYS_NL_Label_Button16" value="BUTTON 16" />
+      <add key="DIALOG_SET_HOTKEY_Title" value="Set hotkey" />
+      <add key="DIALOG_SET_HOTKEY_Hint" isFormatted="true" value="&lt;p&gt;सहेजने के लिए &lt;span style=&quot;font-weight: 700;&quot;&gt;Enter&lt;/span&gt; दबाएँ।&lt;/p&gt;&lt;p&gt;रीसेट के लिए &lt;span style=&quot;font-weight: 700;&quot;&gt;Esc&lt;/span&gt; दबाएँ (की साफ़ करता है)।&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;text-decoration: underline;&quot;&gt;हॉटकी फिर से काम करने के लिए संवाद बंद करें।&lt;/span&gt;&lt;/p&gt;" />
+      <add key="HOTKEYS_NL_Check_Prioritize_Times_Bet_Fields_On_Preflop" value="Preflop में दौड़ वाले bet क्षेत्रों को प्राथमिकता दें" />
+      <add key="HOTKEYS_NL_Prioritize_Times_Bet_Fields_On_Postflop" value="Postflop में भी दौड़ वाले bet क्षेत्रों को प्राथमिकता दें" />
+      <add key="HOTKEYS_NL_Label_Your_Bet_Buttons_Overlay_Will_Use_These_Betsizes" value="आपके bet buttons overlay ये betsizes उपयोग करेंगे" />
+      <add key="HOTKEYS_NL_Label_The_Hotkeys_Will_Only_Work_Once_You_Leave_This_View" value="यह hotkeys तभी काम करेंगे जब आप इस दृश्य से बाहर जाएं" />
+      <add key="HOTKEYS_NL_Label_Use_Ctrl_Key_To_Switch_Between_Button_Groups" value="Button groups के बीच स्विच करने के लिए Ctrl key का उपयोग करें" />
+      <add key="HOTKEYS_NL_Label_Preflop_Bet" value="" />
+      <add key="HOTKEYS_NL_Label_Big_Blind_Or_Button_Blind" value="" />
+      <add key="HOTKEYS_NL_Label_Normal_Bet_Size" value="" />
+      <add key="HOTKEYS_NL_Label_Percent_Of_Pot" value="" />
+      <add key="HOTKEYS_NL_Label_Previous_Bet_Multiplier" value="" />
+      <add key="HOTKEYS_NL_X_Times_Previous_Bet_Raise" value="" />
+      <add key="HOTKEYS_NL_Help_If_You_Leave_The_One_Of_The_Betsizes_Multiplier_Jurojin_Will_Use_The_Bb" value="" />
+      <add key="HOTKEYS_NL_Label_Customize_Raise_Mode" value="रेज़ मोड अनुकूलित करें" />
+      <add key="HOTKEYS_NL_Help_Customize_Raise_Mode_Title" value="रेज़ मोड" />
+      <add key="HOTKEYS_NL_Help_Customize_Raise_Mode_Body" value="Chunen ki Jurojin preflop aur postflop par bet ka samna karte waqt aapke hotkeys aur betting buttons par kaise behave karega" />
+    </sub>
+    <sub id="1" name="Tab - Hotkey Configuration">
+      <add key="HOTKEYS_NL_Tab_Header_Hotkey_Configuration" value="Hotkey कॉन्फ़िगरेशन" />
+      <add key="HOTKEYS_NL_Label_Send_The_Hotkey_To" value="Hotkey भेजें" />
+      <add key="HOTKEYS_NL_Check_Table_Below_Mouse_Pointer" value="माउस पॉइंटर के नीचे टेबल" />
+      <add key="HOTKEYS_NL_Check_Focused_Table" value="फोकस किया गया table" />
+      <add key="HOTKEYS_NL_Label_Override_Poker_Site_Wheel_Betting" value="व्हील बेट साइज समायोजन" />
+      <add key="HOTKEYS_NL_Tooltip_Wheel_Betting_Title" value="व्हील बेट साइज समायोजन" />
+      <add key="HOTKEYS_NL_Tooltip_Wheel_Betting_Body" value="इसे ऑन करने पर Jurojin माउस व्हील से बेट साइज समायोजित कर सकता है। आप स्लाइडर को BB या SB से मूव करने का चयन कर सकते हैं। यहाँ चुनी गई विकल्प Increment और Decrement hotkeys के व्यवहार को भी प्रभावित करेगी।" />
+      <add key="HOTKEYS_NL_Label_Small_Blinds" value="Small Blinds" />
+      <add key="HOTKEYS_NL_Label_Big_Blinds" value="Big Blinds" />
+      <add key="HOTKEYS_NL_Label_Toggle_BB_Mode" value="BB Mode टॉगल करें" />
+      <add key="HOTKEYS_NL_Label_BB_Convertion_On_Bodog_Bovada" value="Bodog/Iggy पर BB कन्वर्शन" />
+      <add key="HOTKEYS_NL_Button_Click_Here" value="यहाँ क्लिक करें" />
+      <add key="HOTKEYS_NL_Label_Instantly_Shove_Bet_When_Pressing_Hotkey" value="जब Bet-Size Hotkey का उपयोग करें" />
+      <add key="HOTKEYS_NL_Label_Also_Instantly_Shove_When_Using_Betting_Overlay" value="जब Betting HUD पर Bet-Size Button का उपयोग करें" />
+      <add key="HOTKEYS_NL_Label_Instant_Shove_Only_All_In" value="" />
+      <add key="HOTKEYS_NL_Label_AutoBet" value="तुरंत चिप्स लगाएं" />
+      <add key="HOTKEYS_NL_Label_Geometric_Betsizing" value="Geometric Betsizing" />
+      <add key="HOTKEYS_NL_Label_Convert_This_Betsize_Into_A_Geometric_Bet_Size" value="इस betsize बटन को geometric bet size (2e, 3e) में बदलें" />
+      <add key="HOTKEYS_NL_Banner_When_Using_Betsize_Overlay_You_Can_Use_Ctrl_Key" value="जब betsize overlay का उपयोग करें, तो 3e और 2e के बीच चुनने के लिए CTRL key का उपयोग करें" />
+      <add key="HOTKEYS_NL_Tooltip_Geometric_Betsizing_Title" value="GEOMETRIC BETSIZING" />
+      <add key="HOTKEYS_NL_Tooltip_Geometric_Betsizing_Body" value="इस फीचर से आप betsize बटन को geometric bet की तरह व्यवहार करने के लिए बदल सकते हैं। Geometric betsizes आपको flop/turn पर इस तरह दांव लगाने देते हैं कि अगले street पर इसी % दांव लगाने पर आप River में ऑल-इन तक पहुंच सकें।" />
+    </sub>
+    <sub id="2" name="Feature Lock">
+      <add key="FEATURE_LOCK_LABEL_HOTKEYS_NL_Label_Your_Hotkeys_Will_Only_Work_At_One_Table" value="आपके Hotkeys केवल एक Highstake Table पर ही काम करेंगे!" />
+      <add key="FEATURE_LOCK_LABEL_HOTKEYS_NL_Label_Hotkeys_Will_Only_Work_On_Microstakes" value="" />
+      <add key="FEATURE_LOCK_LABEL_HOTKEYS_PAGE_NL_Label_Hotkeys_Only_Microstakes" value="Hotkeys केवल Microstakes पर" />
+      <add key="FEATURE_LOCK_LABEL_HOTKEYS_PAGE_NL_Label_Hotkeys_Low_Stakes_Complimentary" value="Hotkeys केवल Low-Stakes पर" />
+      <add key="FEATURE_LOCK_LABEL_HOTKEYS_NL_Button_Unlock_Em_For_All_Tables" value="सभी tables के लिए इन्हें अनलॉक करें!" />
+    </sub>
+    <sub id="3" name="Dialog - Dangerous Feature">
+      <add key="DIALOG_HOTKEY_DANGEROUS_FEATURE_Title_This_Is_A_Very_Dangerous_Feature" value="यह आपके अपने जोखिम पर करें" />
+      <add key="DIALOG_HOTKEY_DANGEROUS_FEATURE_Label_Are_You_Sure_Want_To_Continue_Turning_Feature_On" isFormatted="true" value="इसे चालू करने पर आप output betsize की समीक्षा नहीं कर पाएंगे। यदि Jurojin को हैण्ड डेटा खराब लगता है तो यह auto shoving से बचेगा।" />
+      <add key="DIALOG_HOTKEY_DANGEROUS_FEATURE_Button_Turn_Feature_On" value="फ़ीचर चालू करें" />
+      <add key="DIALOG_HOTKEY_DANGEROUS_FEATURE_Button_Cancel" value="रद्द करें" />
+    </sub>
+    <sub id="4" name="Tab - Auto Bet Sizing">
+      <add key="HOTKEYS_AUTOBET_Tab_Header_Auto_Bet_Sizing" value="ऑटो बेट साइजिंग" />
+      <add key="HOTKEYS_AUTOBET_Label_Cash" value="नकद" />
+      <add key="HOTKEYS_AUTOBET_Label_Tournaments" value="टूर्नामेंट्स" />
+      <add key="HOTKEYS_AUTOBET_Label_Spins" value="स्पिन्स" />
+      <add key="HOTKEYS_AUTOBET_Button_Back" value="वापस" />
+      <add key="HOTKEYS_AUTOBET_Button_Continue" value="जारी रखें" />
+      <add key="HOTKEYS_AUTOBET_Button_Save" value="सहेजें" />
+      <add key="HOTKEYS_AUTOBET_Toast_Settings_Successfully_Saved" value="सेटिंग्स सफलतापूर्वक सहेजी गईं!" />
+      <add key="HOTKEYS_AUTOBET_Button_Read_Guide_Line1" value="शुरू कहाँ से करें पता नहीं?" />
+      <add key="HOTKEYS_AUTOBET_Button_Read_Guide_Line2" value="गाइड पढ़ें" />
+      <add key="HOTKEYS_AUTOBET_Toastr_You_Configured_The_Betsizes_For_N_Dealt_Players" value="आपने {0} dealt खिलाड़ियों के लिए बेटसाइज सेट किए हैं, पर {1} को सेट नहीं किया।" />
+    </sub>
+    <sub id="5" name="User Control - Players">
+      <add key="AUTOBET_PLAYERS_Title_Amount_Of_Dealt_Players" value="हाथ में dealt खिलाड़ियों की संख्या चुनें" />
+      <add key="AUTOBET_PLAYERS_Label_Clone_This_Config" value="इस कॉन्फिग को क्लोन करें" />
+      <add key="AUTOBET_PLAYERS_Toastr_Remember_This_Represents_The_Players" value="ध्यान रखें यह हाथ की शुरुआत में dealt खिलाड़ियों को दर्शाता है, टेबल रिंग को नहीं" />
+    </sub>
+    <sub id="6" name="User Control - Ranges">
+      <add key="AUTOBET_RANGES_Title_Effective_Stack_Ranges" value="प्रभावी स्टैक अंतराल" />
+      <add key="AUTOBET_RANGES_Sub_Each_Effective_Stack_Range_Will_Accompany_You" value="प्रत्येक प्रभावी स्टैक अंतराल टूर्नामेंट के चरणों में आपके साथ रहेगा, सुनिश्चित करें कि आप हर अंतराल भरें ताकि आपकी रणनीति सही ढंग से समायोजित हो सके" />
+      <add key="AUTOBET_RANGES_Label_Use_Only_This_Range_Configuration" value="केवल इस अंतराल कॉन्फिग का उपयोग करें" />
+      <add key="AUTOBET_RANGES_Label_Clone_To_Other_Range" value="अन्य अंतराल पर क्लोन करें" />
+      <add key="AUTOBET_RANGES_Title_Set_Ranges" value="" />
+    </sub>
+    <sub id="7" name="User Control - Bet Raise Type">
+      <add key="AUTOBET_BET_RAISE_TYPE_Title_Table_Flop_State" value="टेबल फ्लॉप स्थिति" />
+      <add key="AUTOBET_BET_RAISE_TYPE_Label_PreFlop" value="प्री फ्लॉप" />
+      <add key="AUTOBET_BET_RAISE_TYPE_Label_PostFlop" value="पोस्ट फ्लॉप" />
+      <add key="AUTOBET_BET_RAISE_TYPE_Title_Select_The_Bet_Raise_Type" value="" />
+    </sub>
+    <sub id="8" name="User Control - PreFlop">
+      <add key="AUTOBET_PREFLOP_Title_Your_Betsize_Strategy" value="आपकी बेटसाइज रणनीति" />
+      <add key="AUTOBET_PREFLOP_Label_Multiply_X_Times_When_Hero_Out_Of_Position" value="जब हीरो आउट ऑफ पोजीशन हो तो ओपन राइज़ को X गुना करें" />
+      <add key="AUTOBET_PREFLOP_Label_Multiply_X_Times_When_Hero_Ip" value="जब हीरो IP हो तो ओपन राइज़ को X गुना करें" />
+      <add key="AUTOBET_PREFLOP_Label_Multiply_X_Times_The_3Bet_When_Hero_Out_Of_Position" value="जब हीरो आउट ऑफ पोजीशन हो तो 3bet को X गुना करें" />
+      <add key="AUTOBET_PREFLOP_Label_Multiply_X_Times_3Bet_When_Hero_Ip" value="जब हीरो IP हो तो 3bet को X गुना करें" />
+      <add key="AUTOBET_PREFLOP_Label_Add_Bbs_Per_Per_Limper" value="प्रत्येक लिम्पर पर BB जोड़ें" />
+      <add key="AUTOBET_PREFLOP_Label_Add_X_Times_Per_Cold_Caller" value="प्रत्येक कोल्ड कॉलर पर X गुना जोड़ें" />
+      <add key="AUTOBET_PREFLOP_Title_Set_The_Hotkeys" value="" />
+      <add key="AUTOBET_PREFLOP_Label_Times_The_Previous_Open_Raise" value="" />
+      <add key="AUTOBET_PREFLOP_Label_Added_Times_Oop_Open_Raise" value="" />
+      <add key="AUTOBET_PREFLOP_Label_Times_The_Previous_3Bet" value="" />
+      <add key="AUTOBET_PREFLOP_Label_Added_Times_If_Out_Of_Position_Previous_3Bet" value="" />
+      <add key="AUTOBET_PREFLOP_Label_Per_Limper" value="" />
+      <add key="AUTOBET_PREFLOP_Label_Times_Added_Cold_Callers" value="" />
+      <add key="AUTOBET_PREFLOP_Add_BBs_Limper_Help_Title" value="प्रति लिम्पर" />
+      <add key="AUTOBET_PREFLOP_Add_BBs_Limper_Help_Body" value="लिम्पर का मतलब है हर वह खिलाड़ी जिसने फ्लॉप देखने के लिए BB दिया, इससे ऊपर जो भी होगा वह कॉल माना जाता है, लिम्प नहीं। हर लिम्पर के लिए कुल राशि इस बॉक्स की वैल्यू से गुणा की जाएगी।" />
+      <add key="AUTOBET_PREFLOP_Add_X_Times_Cold_Caller_Help_Title" value="प्रति कोल्ड कॉलर" />
+      <add key="AUTOBET_PREFLOP_Add_X_Times_Cold_Caller_Help_Body" value="कोल्ड कॉल का मतलब है दो या अधिक राइज़ के बाद कॉल, या एक बेट और राइज़। प्रति कोल्ड कॉलर, कुल राशि इस बॉक्स के मान से गुणा होगी।" />
+      <add key="AUTOBET_PREFLOP_Label_Multiply_X_Times_Open_Raise" value="ओपन राइज़ को X गुना करें" />
+      <add key="AUTOBET_PREFLOP_Label_Multiply_X_Times_3Bet" value="जब हीरो IP हो तो 3bet को X गुना करें" />
+      <add key="AUTOBET_PREFLOP_Tab_All_Sites" value="सभी साइट्स" />
+    </sub>
+    <sub id="9" name="User Control - PostFlop">
+      <add key="AUTOBET_POSTFLOP_Title_Your_Betsize_Strategy" value="आपकी बेटसाइज रणनीति" />
+      <add key="AUTOBET_POSTFLOP_Label_X_Times_The_Previous_Bet" value="पिछली बेट का X गुना" />
+      <add key="AUTOBET_POSTFLOP_Label_X_Times_The_Previous_Raise" value="पिछली राइज़ का X गुना" />
+      <add key="AUTOBET_POSTFLOP_Title_Set_The_Hotkeys" value="" />
+      <add key="AUTOBET_POSTFLOP_Label_Times_The_Previous_Bet" value="" />
+      <add key="AUTOBET_POSTFLOP_Label_Times_The_Previous_Raise" value="" />
+      <add key="AUTOBET_POSTFLOP_Label_Multiply_X_Times_Previous_Bet" value="पिछली बेट को X गुना करें" />
+      <add key="AUTOBET_POSTFLOP_Label_Multiply_X_Times_Previous_Raise" value="पिछली राइज़ को X गुना करें" />
+    </sub>
+    <sub id="10" name="Dialog - AutoBet Clone Settings">
+      <add key="DIALOG_AUTO_BET_CLONE_SETTINGS_Title" value="सेटिंग्स क्लोन करें" />
+      <add key="DIALOG_AUTO_BET_CLONE_SETTINGS_Label_Select_On_Which_Range_You_Want_To_Clone_These_Values" value="चुनें कि आप इन मानों को किस अंतराल में क्लोन करना चाहते हैं" />
+      <add key="DIALOG_AUTO_BET_CLONE_SETTINGS_Label_Select_On_Which_Palyers_You_Want_To_Clone_These_Values" value="चुनें कि आप इन मानों को किन खिलाड़ियों पर क्लोन करना चाहते हैं" />
+      <add key="DIALOG_AUTO_BET_CLONE_SETTINGS_Button_Ok" value="ठीक है" />
+      <add key="DIALOG_AUTO_BET_CLONE_SETTINGS_Button_Cancel" value="रद्द करें" />
+    </sub>
+    <sub id="11" name="Dialog - AutoBet Clone Settings Confirmation">
+      <add key="DIALOG_AUTO_BET_CLONE_SETTINGS_CONFIRMATION_Body_For_Ranges" value="क्या आप निश्चित हैं कि आप मान क्लोन करना चाहते हैं? लक्ष्य अंतराल पर मौजूद कोई भी मान खो जाएगा।" />
+      <add key="DIALOG_AUTO_BET_CLONE_SETTINGS_CONFIRMATION_Body_For_Players" value="क्या आप सुनिश्चित हैं कि आप मान क्लोन करना चाहते हैं? लक्ष्य खिलाड़ियों पर मौजूद कोई भी मान खो जाएगा।" />
+      <add key="DIALOG_AUTO_BET_CLONE_SETTINGS_CONFIRMATION_Button_Ok" value="ठीक है" />
+      <add key="DIALOG_AUTO_BET_CLONE_SETTINGS_CONFIRMATION_Button_Cancel" value="रद्द करें" />
+    </sub>
+    <sub id="12" name="Dialog - AutoBet Players Error config for N players">
+      <add key="DIALOG_AUTO_BET_CONFIG_FOR_N_PLAYERS_Message" value="आपने {0} dealt खिलाड़ियों के लिए बेटसाइज सेट किए हैं, पर {1} को सेट नहीं किया। ध्यान रखें कि ऑटोबेट सही चलाने के लिए सभी संभावित dealt खिलाड़ी की संख्या सेट करनी जरूरी है।" />
+    </sub>
+    <sub id="13" name="Dialog - Autobet Range Error config">
+      <add key="DIALOG_AUTO_BET_CONFIG_FOR_N_RANGES_Message" value="आपने केवल प्रभावी स्टैक के {0} अंतराल को एडिट किया है, कृपया अपने टूर्नामेंट्स के दौरान अधिक कस्टम रणनीति के लिए सभी चार को एडिट करें।" />
+    </sub>
+    <sub id="14" name="Config - Bet Size">
+      <add key="CONFIG_BET_SIZE_Title" value="बेट साइज कॉन्फ़िगरेशन" />
+      <add key="CONFIG_BET_SIZE_Label_Preflop_Bet" value="प्रीफ्लॉप बेट" />
+      <add key="CONFIG_BET_SIZE_Label_Big_Blind_Or_Button_Blind" value="(बिग ब्लाइंड या बटन ब्लाइंड)" />
+      <add key="CONFIG_BET_SIZE_Label_Normal_Bet_Size" value="साधारण बेट साइज" />
+      <add key="CONFIG_BET_SIZE_Label_Percent_Of_Pot" value="(पॉट का %)" />
+      <add key="CONFIG_BET_SIZE_Label_Previous_Bet_Multiplier" value="पिछली बेट गुणक" />
+      <add key="CONFIG_BET_SIZE_Label_X_Times_Previous_Bet_Raise" value="(पिछली बेट/राइज़ का X गुना)" />
+      <add key="CONFIG_BET_SIZE_Help_If_You_Leave_The_One_Of_The_Betsizes_Multiplier_Jurojin_Will_Use_The_Bb" value="यदि आप बेटसाइज के किसी भी गुणक को खाली छोड़ देते हैं तो Jurojin BB या % साइज के अनुसार उपयोग करेगा। जब प्राथमिकता टॉगल बंद हो तो गुणक वाली बेटसाइज अनदेखी होती हैं।" />
+    </sub>
+    <sub id="15" name="Config - Raise Mode">
+      <add key="CONFIG_RAISE_MODE_Title" value="रेज़ मोड अनुकूलित करें" />
+      <add key="CONFIG_RAISE_MODE_Label_When_Facing_A_Bet_Raise_Prefop" value="Preflop par bet/raise ka samna karte waqt" />
+      <add key="CONFIG_RAISE_MODE_Radio_When_Preflop_Use_BB" value="BB use karein" />
+      <add key="CONFIG_RAISE_MODE_Radio_When_Preflop_Use_PSB" value="PSB% use karein" />
+      <add key="CONFIG_RAISE_MODE_Radio_When_Preflop_Use_Times_Bet" value="X multiplier use karein" />
+      <add key="CONFIG_RAISE_MODE_Label_When_Facing_A_Bet_Raise_Postflop" value="Postflop par bet/raise ka samna karte waqt" />
+      <add key="CONFIG_RAISE_MODE_Radio_When_Postflop_Use_PSB" value="PSB% use karein" />
+      <add key="CONFIG_RAISE_MODE_Radio_When_Postflop_Use_Multiplier" value="X multiplier use karein" />
+    </sub>
+  </area>
+  <area id="107" name="Page - Overlays">
+    <add key="OVERLAY_SETTINGS_PAGE_NL_Title_Overlay" value="ओवरले" />
+    <add key="OVERLAY_SETTINGS_PAGE_NL_Tab_Header_Table_Overlays" value="टेबल ओवरले" />
+    <add key="OVERLAY_SETTINGS_PAGE_NL_Tab_Header_Seats_Overlays" value="सीट ओवरले" />
+    <add key="OVERLAY_SETTINGS_PAGE_NL_Tab_Header_Table_Counters" value="टेबल काउंटर" />
+    <add key="OVERLAY_SETTINGS_PAGE_NL_Label_Save_Overlay_Locations_Hotkey" value="ओवरले लोकेशन सहेजने की हॉटकी" />
+    <add key="OVERLAY_SETTINGS_PAGE_NL_Label_Move_With_Ctrl" value="Ctrl Se Move Kare" />
+    <add key="OVERLAY_SETTINGS_PAGE_NL_Label_Move_Overlays_Only_When_Holding_Ctrl" value="Ctrl Dabaye Hi Overlay Move Kare" />
+    <add key="OVERLAY_SETTINGS_PAGE_NL_Label_Set_Sizes_For_This_Overlay_In_Hotkeys_Section" value="Hotkeys mein overlay sizes set karein" />
+    <add key="OVERLAY_SETTINGS_PAGE_NL_Button_Set_Sizes" value="Go To" />
+    <add key="OVERLAY_SETTINGS_PAGE_NL_Label_Remember_To_Configure_Seat_Centering" value="सीट सेंटरिंग कॉन्फिगर करना याद रखें" />
+    <add key="OVERLAY_SETTINGS_PAGE_NL_Button_Save_Changes" value="परिवर्तन सहेजें" />
+    <add key="OVERLAY_SETTINGS_PAGE_NL_Overlay_Settings_Title_RNG" value="RNG" />
+    <add key="OVERLAY_SETTINGS_PAGE_NL_Overlay_Settings_Title_Report_Table" value="रिपोर्ट टेबल" />
+    <add key="OVERLAY_SETTINGS_PAGE_NL_Overlay_Settings_Title_Pot_Odds" value="पॉट ऑड्स" />
+    <add key="OVERLAY_SETTINGS_PAGE_NL_Pot_Odds_Tooltip_Title" value="पॉट ऑड्स" />
+    <add key="OVERLAY_SETTINGS_PAGE_NL_Pot_Odds_Tooltip_Body" value="इस ओवरले के साथ आप जोखिम और इनाम के बीच संबंध जान सकेंगे। इसे गणितीय संबंध reward:risk या प्रतिशत के रूप में दर्शाया जा सकता है।" />
+    <add key="OVERLAY_SETTINGS_PAGE_NL_Overlay_Settings_Title_Stack_To_Pot_Ratio" value="SPR" />
+    <add key="OVERLAY_SETTINGS_PAGE_NL_SPR_Tooltip_Title" value="SPR" />
+    <add key="OVERLAY_SETTINGS_PAGE_NL_SPR_Tooltip_Body" value="इस ओवरले से आप प्रभावी स्टैक (सबसे कम चिप्स वाले खिलाड़ी का स्टैक) और पॉट साइज के बीच के संबंध को जान पाएंगे।" />
+    <add key="OVERLAY_SETTINGS_PAGE_NL_Overlay_Settings_Title_Effective_Stack" value="EFFECTIVE STACK" />
+    <add key="OVERLAY_SETTINGS_PAGE_NL_EFFS_Tooltip_Title" value="EFF. S" />
+    <add key="OVERLAY_SETTINGS_PAGE_NL_EFFS_Tooltip_Body" value="इस ओवरले से आप देख सकते हैं कि हाथ में सबसे कम चिप्स वाला खिलाड़ी के पास कितनी चिप्स हैं" />
+    <add key="OVERLAY_SETTINGS_PAGE_NL_Overlay_Settings_Title_Bet_Buttons" value="बेट बटन" />
+    <add key="OVERLAY_SETTINGS_PAGE_NL_Bet_Buttons_Tooltip_Title" value="बेट बटन" />
+    <add key="OVERLAY_SETTINGS_PAGE_NL_Bet_Buttons_Tooltip_Body" value="यह ओवरले आपके हॉटकीज/बेटसाइज पेज पर सेट किए गए बेट मान दिखाएगा! यदि आप CTRL दबाकर ओवरले पर क्लिक करेंगे, तो आप अन्य आठ बेटसाइज देख पाएंगे" />
+    <add key="OVERLAY_SETTINGS_PAGE_NL_Overlay_Settings_Title_Action_History" value="एक्शन इतिहास" />
+    <add key="OVERLAY_SETTINGS_PAGE_NL_Action_History_Tooltip_Title" value="एक्शन इतिहास ओवरले" />
+    <add key="OVERLAY_SETTINGS_PAGE_NL_Action_History_Tooltip_Body" value="यह ओवरले आपको खेलने के दौरान विरोधियों की मंशाओं को समझने में मदद करेगा, आप उनके हर एक्शन को देख पाएंगे" />
+    <add key="OVERLAY_SETTINGS_PAGE_NL_Overlay_Settings_Title_Position" value="पोजीशन्स" />
+    <add key="OVERLAY_SETTINGS_PAGE_NL_Positions_Tooltip_Title" value="पोजीशन्स ओवरले" />
+    <add key="OVERLAY_SETTINGS_PAGE_NL_Positions_Tooltip_Body" value="इस ओवरले से आप टेबल पर हर खिलाड़ी की स्थिति देख पाएंगे" />
+    <add key="OVERLAY_SETTINGS_PAGE_NL_Overlay_Settings_Title_AR_Tables_Counter" value="एक्शन आवश्यक टेबल काउंटर" />
+    <add key="OVERLAY_SETTINGS_PAGE_NL_Overlay_Settings_Title_Hand_Tables_Counter" value="" />
+    <add key="OVERLAY_SETTINGS_PAGE_NL_Overlay_Settings_Title_ST_Tables_Counter" value="स्टैक्ड टेबल काउंटर" />
+    <add key="OVERLAY_SETTINGS_PAGE_NL_TOASTER_Check_Guide" value="सीट आधारित ओवरले के लिए आपका ब्राउज़र में गाइड खुलेगा ताकि आप सब कुछ सही ढंग से कॉन्फिगर कर सकें। फीचर टेस्ट करने से पहले सभी साइट्स पर सीट सेंटरिंग ठीक होना सुनिश्चित करें!" />
+    <add key="OVERLAY_SETTINGS_PAGE_NL_Overlay_Settings_Title_SPR_Next_Street" value="SPR N.S." />
+    <add key="OVERLAY_SETTINGS_PAGE_NL_Overlay_Settings_Title_POT_Next_Street" value="POT N.S." />
+    <add key="OVERLAY_SETTINGS_PAGE_NL_SPR_Next_Street_Tooltip_Title" value="SPR अगली स्ट्रीट ओवरले" />
+    <add key="OVERLAY_SETTINGS_PAGE_NL_SPR_Next_Street_Tooltip_Body" value="यह ओवरले आपकी बेटफील्ड वैल्यू पढ़ेगा, और मान लेगा कि आपका विरोधी कॉल करेगा, फिर अगली स्ट्रीट का SPR कैलकुलेट करेगा" />
+    <add key="OVERLAY_SETTINGS_PAGE_NL_ON_DISABLE_Actions_Title" value="ओवरले डिसेबल करें" />
+    <add key="OVERLAY_SETTINGS_PAGE_NL_ON_DISABLE_Actions_Message" value="क्या आप सुनिश्चित हैं? यदि यह ओवरले डिसेबल किया गया तो आप टेबल या हैंड समस्याओं की रिपोर्ट नहीं कर पाएंगे।" />
+    <add key="OVERLAY_SETTINGS_PAGE_NL_AR_Counter_Tooltip_Title" value="एक्शन आवश्यक टेबल काउंटर" />
+    <add key="OVERLAY_SETTINGS_PAGE_NL_AR_Counter_Tooltip_Body" value="यह overlay आपको बताएगा कि उस specific slot पर उस समय कितनी tables को action लेने की जरूरत है। इसका cycle button केवल उन tables के बीच घूमेगा जिन्हें action की आवश्यकता है।" />
+    <add key="OVERLAY_SETTINGS_PAGE_NL_ST_Counter_Tooltip_Title" value="Stacked Tables Counter" />
+    <add key="OVERLAY_SETTINGS_PAGE_NL_ST_Counter_Tooltip_Body" value="इस overlay का उपयोग करके जानें कि किसी specific slot पर कितनी tables हैं।" />
+    <add key="OVERLAY_SETTINGS_PAGE_NL_Hand_Counter_Tooltip_Title" value="" />
+    <add key="OVERLAY_SETTINGS_PAGE_NL_Hand_Counter_Tooltip_Body" value="" />
+    <add key="OVERLAY_SETTINGS_PAGE_NL_Save_Location_Title" value="स्थान सहेजें" />
+    <add key="OVERLAY_SETTINGS_PAGE_NL_Save_Location_Body" value="सुनिश्चित करें कि आप Jurojin के home screen पर हैं और फिर अपनी overlays को डॉटेड area पर क्लिक करके जहाँ चाहें व्यवस्थित करें। फिर उस table पर hotkey दबाएं।" />
+    <add key="OVERLAY_SETTINGS_PAGE_NL_Overlay_Settings_Title_Minimum_Outs" value="MINIMUM OUTS" />
+    <add key="OVERLAY_SETTINGS_PAGE_NL_Minimum_Outs_Tooltip_Title" value="MINIMUM OUTS" />
+    <add key="OVERLAY_SETTINGS_PAGE_NL_Overlay_Settings_Title_Minimum_Defense_Frequency" value="MDF" />
+    <add key="OVERLAY_SETTINGS_PAGE_NL_Overlay_Settings_Title_Minimum_Defense_Frequency_Tooltip_Title" value="न्यूनतम रक्षा आवृत्ति" />
+    <add key="OVERLAY_SETTINGS_PAGE_NL_Overlay_Settings_Title_Minimum_Defense_Frequency_Tooltip_Body" value="यह overlay दिखाता है कि आपको अपने opponent की एक specific bet size को न्यूनतम कितने प्रतिशत हाथों में कॉल करना चाहिए ताकि आपके opponent आपको exploit न कर सकें।" />
+    <add key="OVERLAY_SETTINGS_PAGE_NL_Overlay_Settings_Title_Bluff_Equity" value="BLUFF EQUITY" />
+    <add key="OVERLAY_SETTINGS_PAGE_NL_Overlay_Settings_Title_Bluff_Equity_Tooltip_Title" value="BLUFF EQUITY" />
+    <add key="OVERLAY_SETTINGS_PAGE_NL_Overlay_Settings_Title_Bluff_Equity_Tooltip_Body" value="यह दर्शाता है, एक bet size के आधार पर (जो आपके betbox से पढ़ा जाता है किसी भी bet से पहले), कि आपके opponent को कितनी बार fold करना चाहिए आपकी उनकी खेलने की शैली की जानकारी के आधार पर, एक दिए गए स्थिति में ताकि वह bet आपके लिए लाभदायक हो, खासकर bluff करते समय उपयोगी।" />
+    <add key="OVERLAY_SETTINGS_PAGE_NL_POT_Next_Street_Tooltip_Title" value="POT Next Street Overlay" />
+    <add key="OVERLAY_SETTINGS_PAGE_NL_POT_Next_Street_Tooltip_Body" value="यह HUD स्वचालित रूप से अगले betting round के लिए अपेक्षित pot size की गणना करता है, वर्तमान bet-box value को ध्यान में रखते हुए (raise submit करने से पहले) और यह मानते हुए कि opponent कॉल करेगा।" />
+    <add key="OVERLAY_SETTINGS_PAGE_NL_Minimum_Outs_Tooltip_Body" value="" />
+    <add key="OVERLAY_SETTINGS_PAGE_NL_Overlay_Settings_Title_Take_Screenshot" value="SCREENSHOT लें" />
+    <sub id="1" name="Dialog - Disable Report">
+      <add key="OVERLAY_SETTINGS_PAGE_DISABLE_REPORT_NL_Title" value="Overlay अक्षम करें" />
+      <add key="OVERLAY_SETTINGS_PAGE_DISABLE_REPORT_NL_Message" value="क्या आप सुनिश्चित हैं? यदि यह Overlay अक्षम किया गया तो आप Table या hand की समस्याओं की रिपोर्ट नहीं कर पाएंगे।" />
+      <add key="OVERLAY_SETTINGS_PAGE_DISABLE_REPORT_NL_Button_Disable" value="अक्षम करें" />
+      <add key="OVERLAY_SETTINGS_PAGE_DISABLE_REPORT_NL_Button_Cancel" value="रद्द करें" />
+    </sub>
+    <sub id="2" name="Config - Common">
+      <add key="OVERLAY_SETTINGS_PAGE_NL_Label_Theme" value="थीम" />
+      <add key="OVERLAY_SETTINGS_PAGE_NL_Label_Show_Prefix" value="उपसर्ग दिखाएं" />
+      <add key="OVERLAY_SETTINGS_PAGE_NL_Label_Show_Drag_Dots" value="ड्रैग बिंदु दिखाएं" />
+      <add key="OVERLAY_SETTINGS_PAGE_NL_Label_Position" value="पोजीशन" />
+      <add key="OVERLAY_SETTINGS_PAGE_NL_Label_Opacity" value="पारदर्शिता" />
+      <add key="OVERLAY_SETTINGS_PAGE_NL_Label_Size" value="आकार" />
+      <add key="OVERLAY_SETTINGS_PAGE_NL_Label_Small" value="छोटा" />
+      <add key="OVERLAY_SETTINGS_PAGE_NL_Label_Medium" value="मध्यम" />
+      <add key="OVERLAY_SETTINGS_PAGE_NL_Label_Big" value="बड़ा" />
+      <add key="OVERLAY_SETTINGS_PAGE_NL_Label_Overlay_Color" value="Overlay का रंग" />
+      <add key="OVERLAY_SETTINGS_PAGE_NL_Label_Text_Color" value="पाठ रंग" />
+      <add key="OVERLAY_SETTINGS_PAGE_NL_Label_Text_Background" value="पाठ पृष्ठभूमि" />
+      <add key="OVERLAY_SETTINGS_PAGE_NL_Label_Text_Background_Default" value="डिफ़ॉल्ट" />
+      <add key="OVERLAY_SETTINGS_PAGE_NL_Label_Text_Background_Custom" value="कस्टम" />
+      <add key="OVERLAY_SETTINGS_PAGE_NL_Label_Border_According_To_Value" value="मूल्य के अनुसार सीमा" />
+      <add key="OVERLAY_SETTINGS_PAGE_NL_Label_Less_Than" value="कम या बराबर" />
+      <add key="OVERLAY_SETTINGS_PAGE_NL_Label_Greater_Than" value="से अधिक" />
+      <add key="OVERLAY_SETTINGS_PAGE_NL_Button_Save" value="परिवर्तन सहेजें" />
+      <add key="OVERLAY_SETTINGS_PAGE_NL_Button_Cancel" value="रद्द करें" />
+      <add key="OVERLAY_SETTINGS_PAGE_NL_Button_Reset_Positions_To_Default" value="स्थिति को डिफ़ॉल्ट पर पुनः सेट करें" />
+    </sub>
+    <sub id="3" name="Config - RNG">
+      <add key="OVERLAY_SETTINGS_PAGE_NL_RNG_Title" value="RNG" />
+      <add key="OVERLAY_SETTINGS_PAGE_NL_RNG_Label_Range" value="रेंज" />
+      <add key="OVERLAY_SETTINGS_PAGE_NL_RNG_Label_To" value="से" />
+      <add key="OVERLAY_SETTINGS_PAGE_NL_RNG_Label_Frequency" value="आवृत्ति" />
+      <add key="OVERLAY_SETTINGS_PAGE_NL_RNG_Label_Refresh_After" value="बाद में रीफ्रेश करें" />
+      <add key="OVERLAY_SETTINGS_PAGE_NL_RNG_Label_Seconds" value="सेकंड" />
+      <add key="OVERLAY_SETTINGS_PAGE_NL_RNG_Label_Roll_On" value="रोल ऑन" />
+      <add key="OVERLAY_SETTINGS_PAGE_NL_RNG_Radio_RollOn_Time" value="समय" />
+      <add key="OVERLAY_SETTINGS_PAGE_NL_RNG_Radio_RollOn_My_Turn" value="मेरा टर्न" />
+      <add key="OVERLAY_SETTINGS_PAGE_NL_RNG_Radio_RollOn_Hand" value="हाथ" />
+      <add key="OVERLAY_SETTINGS_PAGE_NL_RNG_Radio_RollOn_Streets" value="Streets" />
+      <add key="OVERLAY_SETTINGS_PAGE_NL_RNG_Radio_RollOn_Any_Player_Acted" value="कोई भी खिलाड़ी एक्टिव हुआ" />
+    </sub>
+    <sub id="4" name="Config - Report Table">
+      <add key="OVERLAY_SETTINGS_PAGE_NL_Report_Table_Title" value="रिपोर्ट टेबल" />
+      <add key="OVERLAY_REPORT_Label_Remeber_To_Report_With_App_Title" value="समस्या सबमिट की गई!" />
+      <add key="OVERLAY_REPORT_Label_Remeber_To_Report_With_App" value="यह समस्या हमारी टीम को भेज दी गई है और हम जल्द से जल्द आपसे संपर्क करेंगे।" />
+    </sub>
+    <sub id="5" name="Config - Pot Odds">
+      <add key="OVERLAY_SETTINGS_PAGE_NL_Pot_Odds_Title" value="Pot Odds" />
+      <add key="OVERLAY_SETTINGS_PAGE_NL_Pot_Odds_Label_Display_As" value="प्रदर्शन के रूप में" />
+      <add key="OVERLAY_SETTINGS_PAGE_NL_Pot_Odds_Display_As_Option_Check_Percentage" value="प्रतिशत (%)" />
+      <add key="OVERLAY_SETTINGS_PAGE_NL_Pot_Odds_Display_As_Option_Check_Ratio" value="अनुपात (3:2)" />
+    </sub>
+    <sub id="6" name="Config - Stack To Pot Ratio">
+      <add key="OVERLAY_SETTINGS_PAGE_NL_SPR_Title" value="Stack To Pot Ratio" />
+    </sub>
+    <sub id="7" name="Config - Effective Stack">
+      <add key="OVERLAY_SETTINGS_PAGE_NL_EFFS_Title" value="प्रभावी Stack" />
+      <add key="OVERLAY_SETTINGS_PAGE_NL_EFFS_Switch_Consider_Stacks_From_Beggining_Of_Hand_Only" value="केवल हाथ की शुरुआत से Stacks पर विचार करें" />
+    </sub>
+    <sub id="8" name="Config - Bet Buttons">
+      <add key="OVERLAY_SETTINGS_PAGE_NL_Bet_Buttons_Title" value="Bet Buttons" />
+      <add key="OVERLAY_SETTINGS_PAGE_NL_Bet_Buttons_Label_Show" value="दिखाएँ" />
+      <add key="OVERLAY_SETTINGS_PAGE_NL_Bet_Buttons_Show_Option_Full_Overlay" value="पूर्ण Overlay" />
+      <add key="OVERLAY_SETTINGS_PAGE_NL_Bet_Buttons_Show_Option_Just_Custom_BetBox" value="केवल कस्टम Betbox" />
+      <add key="OVERLAY_SETTINGS_PAGE_NL_Bet_Buttons_Show_Option_Just_Betsizes" value="केवल Betsizes" />
+      <add key="OVERLAY_SETTINGS_PAGE_NL_Bet_Buttons_Label_Buttons" value="बटन" />
+      <add key="OVERLAY_SETTINGS_PAGE_NL_Bet_Buttons_Buttons_Option_4_Buttons" value="4 बटन" />
+      <add key="OVERLAY_SETTINGS_PAGE_NL_Bet_Buttons_Buttons_Option_8_Buttons" value="8 बटन" />
+      <add key="OVERLAY_SETTINGS_PAGE_NL_Label_Convert_The_Last_Bet_Button_Into_An_All_In_Max" value="अंतिम Bet Button को All-In/Max Bet Button में बदलें" />
+      <add key="OVERLAY_SETTINGS_PAGE_NL_Label_Keep_Bet_Buttons_Visible_Even_When_Its_Not_Hero_Turn" value="bet बटन को दिखाएं रखें, भले ही यह hero का टर्न न हो" />
+    </sub>
+    <sub id="9" name="Config - Action History">
+      <add key="OVERLAY_SETTINGS_PAGE_NL_Action_History_Label_Background_Color" value="पृष्ठभूमि रंग" />
+      <add key="OVERLAY_SETTINGS_PAGE_NL_Action_History_Label_Color_Coded_Actions" value="रंग-कोडित क्रियाएं" />
+      <add key="OVERLAY_SETTINGS_PAGE_NL_Action_History_Label_Color" value="रंग" />
+      <add key="OVERLAY_SETTINGS_PAGE_NL_Action_History_Label_Show_Preflop_Sizes" value="प्रीफ्लॉप आकार दिखाएं" />
+      <add key="OVERLAY_SETTINGS_PAGE_NL_Action_History_Label_Preflop_3Bet_As" value="प्रीफ्लॉप 3Bet के रूप में" />
+      <add key="OVERLAY_SETTINGS_PAGE_NL_Action_History_Label_Show_Postflop_Sizes" value="पोस्टफ्लॉप आकार दिखाएं" />
+      <add key="OVERLAY_SETTINGS_PAGE_NL_Action_History_Label_Bets_As" value="बेट्स के रूप में" />
+      <add key="OVERLAY_SETTINGS_PAGE_NL_Action_History_Label_Raises_As" value="रेज़ के रूप में" />
+      <add key="OVERLAY_SETTINGS_PAGE_NL_Action_History_Label_Show_Timings_On_Hover" value="होवर पर समय दिखाएं" />
+      <add key="OVERLAY_SETTINGS_PAGE_NL_Action_History_Title" value="क्रियाओं का इतिहास" />
+      <add key="OVERLAY_SETTINGS_PAGE_NL_Action_History_Label_Show_Actions" value="क्रियाएँ दिखाएं" />
+      <add key="OVERLAY_SETTINGS_PAGE_NL_Action_History_Show_Action_Option_From_Whole_Hand" value="पूरे हाथ से" />
+      <add key="OVERLAY_SETTINGS_PAGE_NL_Action_History_Show_Action_Option_From_Current_Street" value="वर्तमान Street से" />
+      <add key="OVERLAY_SETTINGS_PAGE_NL_Action_History_Label_Display" value="प्रदर्शन" />
+      <add key="OVERLAY_SETTINGS_PAGE_NL_Action_History_Display_Option_Full_Size" value="पूर्ण आकार" />
+      <add key="OVERLAY_SETTINGS_PAGE_NL_Action_History_Display_Option_Collapsed_With_Mouse_Hover" value="माउस Hover पर संकुचित" />
+      <add key="OVERLAY_SETTINGS_PAGE_NL_Action_History_Label_Show_Action_Amount" value="क्रियाओं की संख्या दिखाएं" />
+      <add key="OVERLAY_SETTINGS_PAGE_NL_Action_History_Label_Show_Raises_As_Percentage" value="Raises को प्रतिशत के रूप में दिखाएं" />
+      <add key="OVERLAY_SETTINGS_PAGE_NL_Action_History_Label_Show_Preflop_Amounts_As_Percentage" value="Preflop राशि को प्रतिशत के रूप में दिखाएं" />
+      <add key="OVERLAY_SETTINGS_PAGE_NL_Action_History_Label_Show_Opponents_Timing_For_Each_Action" value="प्रत्येक क्रिया के लिए opponent के समय को दिखाएं" />
+    </sub>
+   <sub id="10" name="Config - Positions">
+      <add key="OVERLAY_SETTINGS_PAGE_NL_Position_Label_2_Max" value="2 max" />
+      <add key="OVERLAY_SETTINGS_PAGE_NL_Position_Label_3_Max" value="3 max" />
+      <add key="OVERLAY_SETTINGS_PAGE_NL_Position_Label_4_Max" value="4 max" />
+      <add key="OVERLAY_SETTINGS_PAGE_NL_Position_Label_5_Max" value="5 max" />
+      <add key="OVERLAY_SETTINGS_PAGE_NL_Position_Label_6_Max" value="6 max" />
+      <add key="OVERLAY_SETTINGS_PAGE_NL_Position_Label_7_Max" value="7 max" />
+      <add key="OVERLAY_SETTINGS_PAGE_NL_Position_Label_8_Max" value="8 max" />
+      <add key="OVERLAY_SETTINGS_PAGE_NL_Position_Label_9_Max" value="9 max" />
+      <add key="OVERLAY_SETTINGS_PAGE_NL_Position_Label_10_Max" value="10 max" />
+      <add key="OVERLAY_SETTINGS_PAGE_NL_Position_Title" value="पोजीशंस" />
+      <add key="OVERLAY_SETTINGS_PAGE_NL_Position_Switch_Show_Actions_Performed" value="किये गए क्रियाएं दिखाएं" />
+      <add key="OVERLAY_SETTINGS_PAGE_NL_Label_Font" value="फ़ॉन्ट" />
+      <add key="OVERLAY_SETTINGS_PAGE_NL_Label_Select_One_Or_More_Positions_To_Edit_Them" value="संपादन के लिए एक या अधिक पोजीशंस चुनें" />
+      <add key="OVERLAY_SETTINGS_PAGE_NL_Label_Customization" value="कस्टमाइजेशन" />
+      <add key="OVERLAY_SETTINGS_PAGE_NL_Button_Switch_To_Custom_Mode" value="कस्टम मोड में बदलें" />
+      <add key="OVERLAY_SETTINGS_PAGE_NL_Button_Switch_To_Default_Mode" value="डिफ़ॉल्ट मोड में बदलें" />
+      <add key="OVERLAY_SETTINGS_PAGE_NL_Button_Select_Same_Type" value="एक ही प्रकार चुनें" />
+      <add key="OVERLAY_SETTINGS_PAGE_NL_Button_Unselect" value="चयन हटाएं" />
+      <add key="OVERLAY_SETTINGS_PAGE_NL_Button_Customize" value="कस्टमाइज़ करें" />
+      <add key="OVERLAY_SETTINGS_PAGE_NL_Label_Show_A_Single_Position" value="" />
+      <add key="OVERLAY_SETTINGS_PAGE_NL_Option_Show_Only_Hero_Position" value="" />
+      <add key="OVERLAY_SETTINGS_PAGE_NL_Option_Show_Only_Btn_Position" value="" />
+    </sub>
+    <sub id="11" name="Dialog - Reset Overlay Position">
+      <add key="OVERLAY_SETTINGS_PAGE_RESET_OVERLAY_POSITION_Title" value="स्थिति पुनः सेट करें" />
+      <add key="OVERLAY_SETTINGS_PAGE_RESET_OVERLAY_POSITION_Message" value="" />
+      <add key="OVERLAY_SETTINGS_PAGE_RESET_OVERLAY_POSITION_Label_Select_Site" value="" />
+      <add key="OVERLAY_SETTINGS_PAGE_RESET_OVERLAY_POSITION_Button_Reset" value="पुनः सेट करें" />
+      <add key="OVERLAY_SETTINGS_PAGE_RESET_OVERLAY_POSITION_Button_Cancel" value="रद्द करें" />
+    </sub>
+    <sub id="12" name="Feature Lock">
+      <add key="FEATURE_LOCK_LABEL_OVERLAY_NL_Label_Overlays_Will_Only_Work_On_Microstakes" value="" />
+      <add key="FEATURE_LOCK_LABEL_OVERLAYS_PAGE_NL_Label_Huds_Only_Microstakes" value="HUDs केवल Microstakes पर" />
+      <add key="FEATURE_LOCK_LABEL_OVERLAYS_PAGE_NL_Label_Huds_Low_Stakes_Complimentary" value="HUDs केवल Low-Stakes पर" />
+      <add key="FEATURE_LOCK_LABEL_LAYOUTS_PAGE_NL_Label_Tiling_Only_Microstakes" value="Tiling केवल Microstakes पर" />
+      <add key="FEATURE_LOCK_LABEL_LAYOUTS_PAGE_NL_Label_Tiling_Low_Stakes_Complimentary" value="Tiling केवल Low-Stakes पर" />
+      <add key="FEATURE_LOCK_LABEL_OVERLAY_NL_Label_Your_Overlays_Will_Only_Work_At_One_Table" value="आपकी Overlays केवल एक Highstake Table पर ही काम करेंगी!" />
+      <add key="FEATURE_LOCK_LABEL_OVERLAY_NL_Button_Unlock_Em_For_All_Tables" value="सभी tables के लिए इन्हें अनलॉक करें!" />
+    </sub>
+    <sub id="13" name="Config - AR Counter">
+      <add key="OVERLAY_SETTINGS_PAGE_NL_AR_Counter_Title" value="AR Counter" />
+    </sub>
+    <sub id="14" name="Config - ST Counter">
+      <add key="OVERLAY_SETTINGS_PAGE_NL_ST_Counter_Title" value="ST Counter" />
+    </sub>
+    <sub id="15" name="Config - Hide Board">
+      <add key="OVERLAY_SETTINGS_PAGE_Hide_Board_Title" value="Board छुपाएं" />
+      <add key="OVERLAY_SETTINGS_PAGE_Hide_Board_Label_Design" value="डिज़ाइन" />
+      <add key="OVERLAY_SETTINGS_PAGE_Hide_Board_Label_Size" value="आकार" />
+      <add key="OVERLAY_SETTINGS_PAGE_Hide_Board_Size_Just_Board" value="केवल बोर्ड" />
+      <add key="OVERLAY_SETTINGS_PAGE_Hide_Board_Size_Bigger" value="बड़ा" />
+      <add key="OVERLAY_SETTINGS_PAGE_Hide_Board_Size_Dont_Let_Me_See" value="दिखने न दें" />
+      <add key="OVERLAY_SETTINGS_PAGE_Hide_Board_Label_Hotkey" value="हॉटकी" />
+      <add key="OVERLAY_SETTINGS_PAGE_Hide_Board_Label_Hide_Board_Whenever_You_Want" value="इस हॉटकी को दबाकर आप चाहें तब Board को छुपा सकते हैं, सिवाय showdowns/all-ins के।" />
+    </sub>
+    <sub id="16" name="Config - Outs">
+      <add key="OVERLAY_SETTINGS_PAGE_OUTS_Title" value="न्यूनतम आउट्स" />
+    </sub>
+    <sub id="17" name="Config - Mdf">
+      <add key="OVERLAY_SETTINGS_PAGE_MDF_Title" value="न्यूनतम रक्षा आवृत्ति" />
+    </sub>
+    <sub id="18" name="Config - Bluff Equity">
+      <add key="OVERLAY_SETTINGS_PAGE_BLUFF_EQUITY_Title" value="ब्लफ़ इक्विटी" />
+    </sub>
+    <sub id="19" name="Config - SPRNS">
+      <add key="OVERLAY_SETTINGS_PAGE_NL_SPR_Next_Street_Title" value="SPR नेक्स्ट स्ट्रीट" />
+    </sub>
+    <sub id="20" name="Config - POTNS">
+      <add key="OVERLAY_SETTINGS_PAGE_NL_POT_Next_Street_Title" value="POT नेक्स्ट स्ट्रीट" />
+    </sub>
+    <sub id="21" name="Dialog - Save Overlay Location">
+      <add key="OVERLAY_SETTINGS_DIALOG_SAVE_OVERLAY_LOCATION_Title_Overlay_Locations_Hotkeys" value="Overlay Loc Hotkeys" />
+      <add key="OVERLAY_SETTINGS_DIALOG_SAVE_OVERLAY_LOCATION_Moving_Overlays_With_Alt_Pressed_Will_Not_Save" value="Alt dabaye overlay move karne par position future tables ke liye save nahi hogi" />
+      <add key="OVERLAY_SETTINGS_DIALOG_SAVE_OVERLAY_LOCATION_Label_Save_Overlay_Locations_Hotkey" value="" />
+      <add key="OVERLAY_SETTINGS_DIALOG_SAVE_OVERLAY_LOCATION_Label_New_Hotkey" value="नई हॉटकी" />
+      <add key="OVERLAY_SETTINGS_DIALOG_SAVE_OVERLAY_LOCATION_Button_Ok" value="ठीक है" />
+      <add key="OVERLAY_SETTINGS_DIALOG_SAVE_OVERLAY_LOCATION_Button_Cancel" value="रद्द करें" />
+      <add key="OVERLAY_SETTINGS_DIALOG_SAVE_OVERLAY_LOCATION_Label_Only_Move_Oerlays_Hotkey" value="" />
+      <add key="OVERLAY_SETTINGS_DIALOG_SAVE_OVERLAY_LOCATION_Title_Save_Overlay_Locations_Hotkey" value="ओवरले लोकेशंस सेव करने की हॉटकी" />
+    </sub>
+    <sub id="22" name="Dialog - Custom Position">
+      <add key="OVERLAY_SETTINGS_PAGE_CUSTOM_POSITION_Title" value="कस्टम पोजीशन" />
+      <add key="OVERLAY_SETTINGS_PAGE_CUSTOM_POSITION_Label_Label_Text" value="लेबल टेक्स्ट" />
+      <add key="OVERLAY_SETTINGS_PAGE_CUSTOM_POSITION_Label_Text_Color" value="टेक्स्ट का रंग" />
+      <add key="OVERLAY_SETTINGS_PAGE_CUSTOM_POSITION_Label_Background" value="पृष्ठभूमि" />
+      <add key="OVERLAY_SETTINGS_PAGE_CUSTOM_POSITION_Warning_You_Are_About_To_Modify_Positions_With_Different_Names" value="आप विभिन्न लेबल मानों वाले पोजीशंस को संशोधित करने वाले हैं, सभी के लिए एक ही लेबल मान का उपयोग करने से हाथ में गलतफहमियाँ हो सकती हैं" />
+    </sub>
+    <sub id="23" name="Config - Screenshot">
+      <add key="OVERLAY_SETTINGS_PAGE_NL_Screenshot_Title" value="स्क्रीनशॉट लें" />
+      <add key="OVERLAY_SETTINGS_PAGE_NL_Screenshot_Label_Save_Screenshots_To_Following_Folder" value="स्क्रीनशॉट निम्नलिखित फ़ोल्डर में सहेजें" />
+    </sub>
+    <sub id="24" name="Config - Hand Counter">
+      <add key="OVERLAY_SETTINGS_PAGE_NL_Hand_Counter_Title" value="" />
+    </sub>
+    <sub id="25" name="Dialog - Sync Overlay Settings">
+      <add key="OVERLAY_SETTINGS_SYNC_SIMILAR_Body" value="आप कौन-सी सेटिंग लागू करना चाहते हैं? आकार वर्तमान थीम पर लागू होता है।" />
+      <add key="OVERLAY_SETTINGS_SYNC_SIMILAR_Label_Theme" value="थीम (सभी थीम वाले ओवरले)" />
+      <add key="OVERLAY_SETTINGS_SYNC_SIMILAR_Legacy_Hint" value="प्रीफ़िक्स और खींचने वाले डॉट्स केवल Reduced या Minimal थीम से सिंक किए जा सकते हैं।" />
+      <add key="OVERLAY_SETTINGS_SYNC_SIMILAR_Button_Apply" value="समान पर लागू करें" />
+      <add key="OVERLAY_SETTINGS_SYNC_SIMILAR_Button_Apply_To_All" value="सभी पर लागू करें" />
+      <add key="OVERLAY_SETTINGS_SYNC_SIMILAR_Button_Only_This_Overlay" value="सिर्फ यह ओवरले" />
+    </sub>
+  </area>
+  <area id="108" name="Page - Controller">
+    <add key="CONTROLLER_PAGE_NL_Title_Controller_Support" value="कंट्रोलर सपोर्ट" />
+    <add key="CONTROLLER_PAGE_NL_Label_The_Controller_Will_Use_Betsizes_You_Configure_On_Hotkeys_Section" value="कंट्रोलर हॉटकी सेक्शन में आप जो बेटसाइज़ सेट करते हैं, वही उपयोग करेगा!" />
+    <add key="CONTROLLER_PAGE_NL_Label_Vibrate_When_Its_My_Turn_To_Play" value="जब मेरा खेल बारी हो तो कांपे" />
+    <add key="CONTROLLER_PAGE_NL_Label_Press_To_Show_Cursor" value="कर्सर दिखाने के लिए दबाएं" />
+    <add key="CONTROLLER_PAGE_NL_Label_You_Can_Press_The_Analog_Stick_To_Make_Juro_Cursor_Appear" value="आप एनालॉग स्टिक दबाकर स्क्रीन पर Juro कर्सर ला सकते हैं ताकि आप किसी भी चीज़ से इंटरैक्ट कर सकें" />
+    <add key="CONTROLLER_PAGE_NL_Label_Really_Slow" value="बहुत धीमा" />
+    <add key="CONTROLLER_PAGE_NL_Label_Super_Fast" value="बहुत तेज़" />
+    <add key="CONTROLLER_PAGE_NL_Button_Detect_Controller" value="कंट्रोलर खोजें" />
+    <add key="CONTROLLER_PAGE_NL_Label_Connecting" value="कनेक्ट कर रहा है..." />
+    <add key="CONTROLLER_PAGE_NL_Button_Disconnet_Controller" value="डिस्कनेक्ट करें" />
+    <add key="CONTROLLER_PAGE_NL_Label_Controller_Linked" value="कंट्रोलर जुड़ा हुआ है" />
+    <add key="CONTROLLER_PAGE_NL_Label_All_In" value="ऑल इन" />
+    <add key="CONTROLLER_PAGE_NL_Label_Decrement_Bet" value="बेट घटाएं" />
+    <add key="CONTROLLER_PAGE_NL_Label_Cycle_Through_Stacked_Tables" value="स्टैक्ड टेबल्स के बीच चक्र चलाएं" />
+    <add key="CONTROLLER_PAGE_NL_Label_Change_Selected_Table" value="चयनित टेबल बदलें" />
+    <add key="CONTROLLER_PAGE_NL_Label_Bet_Buttons_From_Left_To_Down" value="बेट बटन 1 (बाएं) से 4 (नीचे) तक" />
+    <add key="CONTROLLER_PAGE_NL_Label_Custom_Betsizes_From_5_To_8" value="कस्टम बेटसाइज़ 5 से 8 तक" />
+    <add key="CONTROLLER_PAGE_NL_Label_Custom_Betsizes_From_9_To_12" value="कस्टम बेटसाइज़ 9 से 12 तक" />
+    <add key="CONTROLLER_PAGE_NL_Label_Custom_Betsizes_From_13_To_16" value="कस्टम बेटसाइज़ 13 से 16 तक" />
+    <add key="CONTROLLER_PAGE_NL_Label_Moves_And_Swaps_The_Tables" value="टेबल्स को मूव और स्वैप करें" />
+    <add key="CONTROLLER_PAGE_NL_Label_Move_Left_And_Right_To_Move_A_Table" value="टेबल को मूव करने के लिए बाएं और दाएं मूव करें" />
+    <add key="CONTROLLER_PAGE_NL_Label_Fold" value="फोल्ड करें" />
+    <add key="CONTROLLER_PAGE_NL_Label_Check_Call" value="चेक/कॉल" />
+    <add key="CONTROLLER_PAGE_NL_Label_Toggle_BB_Mode" value="BB मोड टॉगल करें" />
+    <add key="CONTROLLER_PAGE_NL_Label_Bet_Raise" value="बेट/रेज़ करें" />
+    <add key="CONTROLLER_PAGE_NL_Label_Go_To_Most_Urgent" value="सबसे जरूरी पर जाएं" />
+    <add key="CONTROLLER_PAGE_NL_Label_Increment_Bet" value="बेट बढ़ाएं" />
+    <add key="CONTROLLER_PAGE_NL_Label_Quick_Actions_Menu" value="त्वरित क्रियाओं मेनू" />
+    <sub id="0" name="Toasters">
+      <add key="CONTROLLER_PAGE_TOASTER_CONTROLLER_CONNECTED_NL" value="कंट्रोलर अब जुड़ा हुआ है!" />
+      <add key="CONTROLLER_PAGE_TOASTER_CONTROLLER_DISCONNECTED_NL" value="कंट्रोलर डिस्कनेक्ट हो गया!" />
+      <add key="CONTROLLER_PAGE_TOASTER_HOTKEYS_MODE_UNDER_MOUSE_NL" value="यदि आप कंट्रोलर उपयोग करेंगे तो हॉटकी पेज में &quot;Focused Table&quot; मोड का उपयोग सुनिश्चित करें!" />
+    </sub>
+    <sub id="1" name="Dialog - No Controllers Detected">
+      <add key="DIALOG_NO_CONTROLLERS_DETECTED_NL_Title" value="कोई कंट्रोलर नहीं मिला" />
+      <add key="DIALOG_NO_CONTROLLERS_DETECTED_NL_Body" value="कृपया अपना आधिकारिक Windows कंट्रोलर कनेक्ट करें और पुनः प्रयास करें!" />
+      <add key="DIALOG_NO_CONTROLLERS_DETECTED_NL_Button_Got_It" value="समझ गया" />
+    </sub>
+    <sub id="2" name="Feature Lock">
+      <add key="FEATURE_LOCK_LABEL_CONTROLLER_NL_Label_Your_Controller_Will_Only_Work_At_One_Table" value="आपका कंट्रोलर केवल Microstakes पर ही काम करेगा" />
+      <add key="FEATURE_LOCK_LABEL_CONTROLLER_NL_Button_Unlock_Em_For_All_Tables" value="सभी टेबल्स के लिए अनलॉक करें!" />
+    </sub>
+  </area>
+  <area id="109" name="Page - Session Time">
+    <add key="SESSION_TIME_PAGE_NL_Title_Session_Time" value="सेशन समय" />
+    <add key="SESSION_TIME_PAGE_NL_Button_Save_Changes" value="परिवर्तन सहेजें" />
+    <sub id="0" name="Dialogs - Deletion Confirmation">
+      <add key="SESSION_TIME_PAGE_NL_DIALOG_DELETE_SESSION_Title" value="सेशन हटा दें" />
+      <add key="SESSION_TIME_PAGE_NL_DIALOG_DELETE_SESSION_Body" value="क्या आप अपने सेशन/सेशंस हटाने के बारे में सुनिश्चित हैं?" />
+    </sub>
+    <sub id="1" name="Toasts">
+      <add key="SESSION_TIME_PAGE_NL_TOAST_Session_Saved" value="आपका सेशन सहेजा गया है!" />
+      <add key="SESSION_TIME_PAGE_NL_TOAST_You_Have_Played_N_Hands" value="आपने पहले ही #hands# हाथ खेले हैं!" />
+      <add key="SESSION_TIME_PAGE_NL_TOAST_You_Have_Been_Playing_For_More_Than" value="आप {0:0.#} घंटे से अधिक खेल रहे हैं" />
+    </sub>
+    <sub id="3" name="Tab - Previous Session">
+      <add key="SESSION_TIME_PAGE_NL_Tab_Header_Previous_Sessions" value="पिछले सेशंस" />
+      <add key="SESSION_TIME_PAGE_NL_Button_Clear_Sessions" value="सेशंस साफ़ करें" />
+      <add key="SESSION_TIME_PAGE_NL_Label_Date" value="तारीख" />
+      <add key="SESSION_TIME_PAGE_NL_Duration" value="अवधि" />
+      <add key="SESSION_TIME_PAGE_NL_Open_Tables" value="ओपन टेबल्स" />
+      <add key="SESSION_TIME_PAGE_NL_Hands" value="हाथ" />
+      <add key="SESSION_TIME_PAGE_NL_Actions" value="क्रियाएं" />
+      <add key="SESSION_TIME_PAGE_NL_Label_No_Sessions_Saved" value="कोई सेशन सहेजा नहीं गया!" />
+      <add key="SESSION_TIME_PAGE_NL_Label_Filters" value="फ़िल्टर्स" />
+      <add key="SESSION_TIME_PAGE_NL_Button_Reset" value="रीसेट करें" />
+      <add key="SESSION_TIME_PAGE_NL_Label_From" value="से" />
+      <add key="SESSION_TIME_PAGE_NL_Label_To" value="तक" />
+      <add key="SESSION_TIME_PAGE_NL_Button_Download" value="" />
+    </sub>
+    <sub id="4" name="Tab - Session Notifications">
+      <add key="SESSION_TIME_PAGE_NL_Tab_Header_Session_Notifications" value="सेशन सूचनाएं" />
+      <add key="SESSION_TIME_PAGE_NL_Info_This_Options_Can_Only_Be_Used_When_Session_Timer_Is_Active" value="ये विकल्प केवल तब इस्तेमाल किए जा सकते हैं जब सेशन टाइमर सक्रिय हो" />
+      <add key="SESSION_TIME_PAGE_NL_Label_Notify_Me_After_I_Have_Played" value="मुझे खेलने के बाद सूचित करें" />
+      <add key="SESSION_TIME_PAGE_NL_Label_Minutes" value="" />
+      <add key="SESSION_TIME_PAGE_NL_Label_Hands" value="हाथ" />
+      <add key="SESSION_TIME_PAGE_NL_Label_Notify_Me_After_I_Have_Opened" value="मुझे खोलने के बाद सूचित करें" />
+      <add key="SESSION_TIME_PAGE_NL_Label_Tables" value="टेबल्स" />
+      <add key="SESSION_HANDS_PLAYED_NOTIFICATION" value="खिले हुए हाथों की संख्या पूरी हुई!" />
+      <add key="SESSION_TIME_PAGE_NL_Label_Hours" value="घंटे" />
+    </sub>
+    <sub id="2" name="Tab - Session Widgets">
+      <add key="SESSION_TIME_PAGE_NL_Tab_Header_Session_Widgets" value="सेशन विजेट्स" />
+      <add key="SESSION_TIME_PAGE_NL_Label_Show_Open_Tables_Counter_Widget" value="ओपन टेबल्स काउंटर" />
+      <add key="SESSION_TIME_PAGE_NL_Tab_Header_Session_Timer_Help_Content" value="सेशन टाइमर एक फ्लोटिंग विजेट है जो आपकी वर्तमान सेशन ट्रैक करने में मदद करेगा।" />
+      <add key="SESSION_TIME_PAGE_NL_Switch_Session_Time" value="सेशन समय" />
+      <add key="SESSION_TIME_PAGE_NL_Switch_Show_Session_Timer_Widget" value="सेशन टाइमर विजेट दिखाएं" />
+      <add key="SESSION_TIME_PAGE_NL_Switch_Stop_Session_Timer_Automatically_When_All_Tables_Are_Closed" value="जब सभी टेबल बंद हों तो स्वचालित रूप से सेशन टाइमर रोकें" />
+      <add key="SESSION_TIME_PAGE_NL_Switch_Consider_That_I_Have_Closed_All_Tables_After_5_Minutes" value="माना जाए कि मैंने 5 मिनट बाद सभी टेबल बंद कर दी हैं" />
+      <add key="SESSION_TIME_PAGE_NL_Label_Ideal_For_Spin_Players" value="स्पिन प्लेयर्स के लिए आदर्श!" />
+      <add key="SESSION_TIME_PAGE_NL_Label_Start_Counting_Time" value="गिनती शुरू करें" />
+      <add key="SESSION_TIME_PAGE_NL_Radio_When_I_Am_Dealt_Cards_At_First_Table" value="जब मुझे पहले टेबल पर कार्ड बांटे जाएं" />
+      <add key="SESSION_TIME_PAGE_NL_Radio_When_First_Table_In_Any_Room_Opens" value="जब किसी भी कमरे में पहला टेबल खुले" />
+      <add key="SESSION_TIME_PAGE_NL_Radio_Manually_Using_Jurojin_Widget" value="मैन्युअली Jurojin विजेट का उपयोग करते हुए" />
+      <add key="SESSION_TIME_PAGE_NL_Label_Minimize_The_Session_Time_Widget_When_Starting_The_Timer" value="टाइमर शुरू करते समय सेशन टाइम विजेट को मिनिमाइज़ करें" />
+      <add key="SESSION_TIME_PAGE_NL_Tab_Header_Session_Timer" value="सेशन टाइमर एक फ्लोटिंग विजेट है जो आपकी वर्तमान सेशन ट्रैक करने में मदद करेगा।" />
+      <add key="SESSION_TIME_PAGE_NL_Switch_Minimize_Session_Time_Widget_When_Starting_Timer" value="" />
+      <add key="SESSION_TIME_PAGE_NL_Label_Show_Widget" value="विजेट दिखाएं" />
+      <add key="SESSION_TIME_PAGE_NL_Label_Show_Ar_Tables_Widget" value="AR टेबल्स काउंटर" />
+      <add key="SESSION_TIME_PAGE_NL_Label_Count_Specific_Type" value="विशिष्ट प्रकार गिनें" />
+      <add key="SESSION_TIME_PAGE_NL_Label_Show_Hands_Played_Widget" value="हैंड्स काउंटर" />
+      <add key="SESSION_TIME_PAGE_NL_Option_Count_All_Tables" value="सभी टेबल्स" />
+      <add key="SESSION_TIME_PAGE_NL_Option_Count_Spin_Tables_Only" value="केवल Spin टेबल्स" />
+      <add key="SESSION_TIME_PAGE_NL_Option_Count_Tournament_Tables_Only" value="केवल टूर्नामेंट टेबल्स" />
+      <add key="SESSION_TIME_PAGE_NL_Option_Count_Cash_Tables_Only" value="केवल कैश टेबल" />
+    </sub>
+  </area>
+  <area id="110" name="Page - Chanelog">
+    <add key="CHANGELOG_PAGE_NL_Title_Whats_New" value="नए क्या हैं" />
+    <add key="CHANGELOG_PAGE_NL_Label_New_Functionalities" value="नई कार्यक्षमताएं" />
+    <add key="CHANGELOG_PAGE_NL_Label_General_Changes" value="सामान्य परिवर्तन" />
+    <add key="CHANGELOG_PAGE_NL_Label_Fixed_Bugs" value="ठीक किए गए बग" />
+  </area>
+  <area id="111" name="Page - Help">
+    <add key="HELP_NL_Label_We_Love_Poker" value="हमें पोकर पसंद है" />
+    <add key="HELP_NL_Label_Our_Goal_Is_To_Boost_The_Online_Poker_Experience_In_All_Its_Forms" value="हमारा लक्ष्य ऑनलाइन पोकर अनुभव को हर रूप में बेहतर बनाना है। एक खिलाड़ी जो आराम से खेलना चाहता है, किसी नए ऑनलाइन कंटेंट की तलाश में है या उसके लिए एक पोकर टीम सही है।" />
+    <add key="HELP_NL_Button_Read_Our_Blog" value="" />
+    <add key="HELP_NL_Label_Got_Questions" value="" />
+    <add key="HELP_NL_Everything_You_Need_To_Know_All_In_One_Place" value="" />
+    <add key="HELP_NL_Button_Visit_FAQ" value="" />
+    <add key="HELP_NL_Label_Your_Input_Shapes_Our_Future" value="" />
+    <add key="HELP_NL_Button_Join_Our_Discord" value="" />
+    <add key="HELP_NL_Label_Want_A_Full_Breakdown" value="" />
+    <add key="HELP_NL_Button_Explore_All_Features" value="" />
+    <add key="HELP_NL_Button_Lets_Chat" value="चलिए चैट करें" />
+    <add key="HELP_NL_Label_Talk_To_Your_AI_Assistant_Now" value="अब अपने AI असिस्टेंट से बात करें" />
+    <add key="HELP_NL_Label_Get_Quick_Personalized_Answers_To_Resolve_Your_Issue" value="अपने मुद्दे को हल करने के लिए तेज़, व्यक्तिगत जवाब प्राप्त करें।" />
+    <add key="HELP_NL_Button_Chat_With_AI" value="AI के साथ चैट करें" />
+    <add key="HELP_NL_Label_Join_Our_Discord" value="हमारे Discord से जुड़ें" />
+    <add key="HELP_NL_Label_Your_Input_Shapes_Our_Future_Together_We_Create_Jurojin" value="आपका इनपुट हमारे भविष्य को आकार देता है। साथ में, हम Jurojin बनाते हैं।" />
+  </area>
+  <area id="112" name="Pages - Accounts">
+    <sub id="0" name="Page - Account Setup">
+      <add key="USER_ACCOUNT_SETUP_PAGE_NL_Title_Welcome_To_Jurojin" value="Jurojin में आपका स्वागत है" />
+      <add key="USER_ACCOUNT_SETUP_PAGE_NL_Button_Login_With_Twitch" value="Twitch के साथ लॉगिन करें" />
+      <add key="USER_ACCOUNT_SETUP_PAGE_NL_Button_Login_With_Discord" value="Discord के साथ लॉगिन करें" />
+      <add key="USER_ACCOUNT_SETUP_PAGE_NL_Label_Login_With_Your_Username" value="अपने यूजरनेम के साथ लॉगिन करें" />
+      <add key="USER_ACCOUNT_SETUP_PAGE_NL_Label_User_Name" value="यूजरनेम" />
+      <add key="USER_ACCOUNT_SETUP_PAGE_NL_Placeholder_Enter_Your_Username_Or_Email" value="अपना यूजरनेम या ईमेल दर्ज करें" />
+      <add key="USER_ACCOUNT_SETUP_PAGE_NL_Label_Password" value="पासवर्ड" />
+      <add key="USER_ACCOUNT_SETUP_PAGE_NL_Button_Login" value="Twitch के साथ लॉगिन करें" />
+      <add key="USER_ACCOUNT_SETUP_PAGE_NL_Button_Logging_In" value="लॉगिन किया जा रहा है" />
+      <add key="USER_ACCOUNT_SETUP_PAGE_NL_Link_Have_You_Lost_Your_Password" value="क्या आपने अपना पासवर्ड खो दिया है?" />
+      <add key="USER_ACCOUNT_SETUP_PAGE_NL_Label_Create_New_Account" value="नया अकाउंट बनाएं" />
+      <add key="USER_ACCOUNT_SETUP_PAGE_NL_Label_New_User_Name" value="यूजरनेम" />
+      <add key="USER_ACCOUNT_SETUP_PAGE_NL_Placeholder_New_Enter_Your_Username" value="अपना यूजरनेम दर्ज करें" />
+      <add key="USER_ACCOUNT_SETUP_PAGE_NL_Label_New_Password" value="पासवर्ड" />
+      <add key="USER_ACCOUNT_SETUP_PAGE_NL_Label_New_Repeat_Password" value="पासवर्ड दोहराएं" />
+      <add key="USER_ACCOUNT_SETUP_PAGE_NL_Label_New_Email" value="ईमेल" />
+      <add key="USER_ACCOUNT_SETUP_PAGE_NL_Placeholder_New_Email" value="अपना ईमेल दर्ज करें" />
+      <add key="USER_ACCOUNT_SETUP_PAGE_NL_Label_New_Repeat_Email" value="ईमेल दोहराएं" />
+      <add key="USER_ACCOUNT_SETUP_PAGE_NL_Placeholder_New_Repeat_Your_Email" value="अपना ईमेल दोहराएं" />
+      <add key="USER_ACCOUNT_SETUP_PAGE_NL_Button_Create_Account" value="खाता बनाएं" />
+      <add key="USER_ACCOUNT_SETUP_PAGE_NL_Button_Creating_Account" value="खाता बनाया जा रहा है" />
+    </sub>
+    <sub id="1" name="Page - Account Information">
+      <add key="USER_ACCOUNT_INFORMATION_NL_Title_My_Account" value="मेरा खाता" />
+      <add key="USER_ACCOUNT_INFORMATION_NL_Tab_Header_User_Information" value="उपयोगकर्ता जानकारी" />
+      <add key="USER_ACCOUNT_INFORMATION_NL_Label_Username" value="यूजरनेम" />
+      <add key="USER_ACCOUNT_INFORMATION_NL_Label_Email_Address" value="ईमेल पता" />
+      <add key="USER_ACCOUNT_INFORMATION_NL_Label_Request_Email_Change" value="" />
+      <add key="USER_ACCOUNT_INFORMATION_NL_Button_Send_Email" value="" />
+      <add key="USER_ACCOUNT_INFORMATION_NL_Label_Discord" value="Discord" />
+      <add key="USER_ACCOUNT_INFORMATION_NL_Label_Not_Linked" value="लिंक नहीं किया गया" />
+      <add key="USER_ACCOUNT_INFORMATION_NL_Button_Link" value="" />
+      <add key="USER_ACCOUNT_INFORMATION_NL_Button_Connecting" value="" />
+      <add key="USER_ACCOUNT_INFORMATION_NL_Label_Linked_Accounts" value="" />
+      <add key="USER_ACCOUNT_INFORMATION_NL_Label_GTO_Wizard" value="" />
+      <add key="USER_ACCOUNT_INFORMATION_NL_Label_Manage_Subscription" value="" />
+      <add key="USER_ACCOUNT_INFORMATION_NL_Label_Stripe" value="" />
+      <add key="USER_ACCOUNT_INFORMATION_NL_Label_Only_For_Recurrent_Subscribers" value="केवल उन खातों के लिए उपलब्ध जिन्होंने चेकआउट के दौरान Stripe का उपयोग किया" />
+      <add key="USER_ACCOUNT_INFORMATION_NL_Button_Manage" value="" />
+      <add key="USER_ACCOUNT_INFORMATION_NL_Tooltip_Manage_Stripe_Only_For_Stripe_Purchasers" value="" />
+      <add key="USER_ACCOUNT_INFORMATION_NL_Tab_Header_Change_Password" value="पासवर्ड बदलें" />
+      <add key="USER_ACCOUNT_INFORMATION_NL_Tab_Header_My_Products" value="मेरे उत्पाद" />
+      <add key="USER_ACCOUNT_INFORMATION_NL_Label_Enter_Your_Current_Password" value="अपना वर्तमान पासवर्ड दर्ज करें" />
+      <add key="USER_ACCOUNT_INFORMATION_NL_Label_Enter_Your_New_Password" value="अपना नया पासवर्ड दर्ज करें" />
+      <add key="USER_ACCOUNT_INFORMATION_NL_Label_Repeat_Your_New_Password" value="अपना नया पासवर्ड दोहराएं" />
+      <add key="USER_ACCOUNT_INFORMATION_NL_Button_Save_changes" value="परिवर्तन सहेजें" />
+      <add key="USER_ACCOUNT_INFORMATION_NL_Button_Renew" value="नवीनीकरण करें" />
+      <add key="USER_ACCOUNT_INFORMATION_NL_Label_Bonus_Days" value="बोनस दिन" />
+      <add key="DIALOG_CANCEL_SUBSCRIPTION_Title" value="ऑटो-नवीनीकरण रद्द करें?" />
+      <add key="DIALOG_CANCEL_SUBSCRIPTION_Body" value="आपकी सदस्यता वर्तमान बिलिंग अवधि के अंत में नवीनीकृत नहीं होगी। तब तक आपकी पूर्ण पहुँच बनी रहेगी। आपके खाते में मौजूद बोनस दिन समाप्ति तक सक्रिय रहेंगे।" />
+      <add key="DIALOG_CANCEL_SUBSCRIPTION_Button_Confirm" value="रद्द करें" />
+      <add key="DIALOG_CANCEL_SUBSCRIPTION_Button_Keep" value="रखें" />
+      <add key="USER_ACCOUNT_INFORMATION_NL_Label_JuroPanel" value="" />
+      <add key="USER_ACCOUNT_INFORMATION_NL_Label_Earn_Jurotokens_And_Redeem_For_Cash_1" value="" />
+      <add key="USER_ACCOUNT_INFORMATION_NL_Label_Earn_Jurotokens_And_Redeem_For_Cash_2" value="" />
+      <add key="USER_ACCOUNT_INFORMATION_NL_Label_Earn_Jurotokens_And_Redeem_For_Cash_3" value="" />
+      <add key="USER_ACCOUNT_INFORMATION_NL_Button_Go_To_Panel" value="" />
+      <add key="USER_ACCOUNT_INFORMATION_NL_Tab_Header_Settings_Backup" value="" />
+      <add key="USER_ACCOUNT_INFORMATION_NL_Section_Title_Cloud_Settings_Backup" value="" />
+      <add key="USER_ACCOUNT_INFORMATION_NL_Label_Last_Backup" value="" />
+      <add key="USER_ACCOUNT_INFORMATION_NL_Button_Backup_Now" value="" />
+      <add key="USER_ACCOUNT_INFORMATION_NL_Button_Restore_Backup" value="" />
+      <add key="USER_ACCOUNT_INFORMATION_NL_Section_Title_Manual_Settings_Backup" value="" />
+      <add key="USER_ACCOUNT_INFORMATION_NL_Button_Import" value="" />
+      <add key="USER_ACCOUNT_INFORMATION_NL_Button_Export" value="" />
+      <add key="USER_ACCOUNT_INFORMATION_NL_Button_Open_Settings_Folder" value="" />
+      <add key="USER_ACCOUNT_INFORMATION_NL_Label_You_Dont_Own_Any_Products_Yet" value="" />
+      <add key="USER_ACCOUNT_INFORMATION_NL_Label_Unlock_Powerful_Combos_That_Give_You_A_Real_Edge_At_The_Tables" value="" />
+      <add key="USER_ACCOUNT_INFORMATION_NL_Button_Go_To_Store" value="" />
+    </sub>
+    <sub id="2" name="Error Messages">
+      <add key="ON_USER_LOGIN_ERROR_NL_Title" value="लॉगिन विफल" />
+      <add key="LOGIN_WRONG_USER_NAME_OR_PASSWORD" value="अमान्य यूजरनेम या पासवर्ड।" />
+      <add key="LOGIN_INVALID_INPUT" value="अमान्य इनपुट।" />
+      <add key="LOGIN_USER_NOT_ENABLED" value="क्षमाएँ। यह उपयोगकर्ता सक्षम नहीं है।" />
+      <add key="LOGIN_SOMETHING_WENT_WRONG" value="कुछ गलत हो गया। लॉगिन नहीं हो सका।" />
+      <add key="ON_RESET_PASSWORD_ERROR_NL_Title" value="पासवर्ड रीसेट विफल" />
+      <add key="RESET_PASSWORD_INVALID_INPUT" value="अमान्य इनपुट" />
+      <add key="RESET_PASSWORD_CLIENT_NOT_FOUND" value="दिए गए ईमेल के लिए उपयोगकर्ता नहीं मिला" />
+      <add key="RESET_PASSWORD_CLIENT_NOT_ENABLED" value="उपयोगकर्ता को व्यवस्थापक द्वारा अक्षम किया गया" />
+      <add key="RESET_PASSWORD_INVALID_CODE" value="आपने अमान्य कोड डाला है। कृपया अपना ईमेल इनबॉक्स (स्पैम भी) जांचें और पुनः प्रयास करें" />
+      <add key="RESET_PASSWORD_EXPIRED_CODE" value="कोड की अवधि समाप्त हो चुकी है। पुनः प्रयास करें" />
+      <add key="RESET_PASSWORD_EXPIRED_SESSION" value="पासवर्ड बदलने में बहुत समय लग गया! कृपया पुनः प्रयास करें" />
+      <add key="RESET_PASSWORD_WRONG_PASSWORD" value="गलत पासवर्ड" />
+      <add key="ON_USER_REGISTRATION_ERROR_NL_Title" value="पंजीकरण विफल" />
+      <add key="ON_USER_REGISTRATION_ERROR_128" value="किसी कारण से सर्वर डेटा स्वीकार नहीं कर रहा।" />
+      <add key="REGISTERATION_INVALID_INPUT" value="अमान्य इनपुट।" />
+      <add key="REGISTERATION_USER_ALREADY_EXISTS" value="चयनित यूजरनेम पहले से ही लिया जा चुका है। कृपया दूसरा चुनें" />
+      <add key="REGISTERATION_EMAIL_ALREADY_EXISTS" value="यह ईमेल पहले से ही अकाउंट बनाने के लिए इस्तेमाल किया जा चुका है।" />
+      <add key="ON_USER_REGISTRATION_ERROR_255" value="कुछ गलत हो गया। पंजीकरण नहीं हो सका।" />
+    </sub>
+    <sub id="3" name="Error">
+      <add key="USER_ACCOUNT_SETUP_ERROR_DIALOG_NL_Title" value="लॉगिन त्रुटि" />
+      <add key="USER_ACCOUNT_SETUP_ERROR_DIALOG_NL_Error_Non_Success_Code" value="सर्वर ने एक त्रुटि लौटाई! कृपया हमसे संपर्क करें! स्थिति: " />
+      <add key="USER_ACCOUNT_SETUP_ERROR_DIALOG_NL_Error_No_Response" value="कुछ गलत हो गया। सर्वर से प्रतिक्रिया प्राप्त नहीं हो सकी। कृपया हमसे संपर्क करें!" />
+    </sub>
+    <sub id="4" name="Email For Code">
+      <add key="DIALOG_ACCOUNT_EMAIL_FOR_CODE_NL_Label_Enter_Your_Email_To_Verify_Your_Account" value="अपने अकाउंट को सत्यापित करने के लिए अपना ईमेल दर्ज करें। हम आपको एक सक्रियण कोड भेजेंगे।" />
+      <add key="DIALOG_ACCOUNT_EMAIL_FOR_CODE_NL_Label_Email" value="ईमेल" />
+      <add key="DIALOG_ACCOUNT_EMAIL_FOR_CODE_NL_Placeholder_Enter_Your_Email" value="अपना ईमेल दर्ज करें" />
+      <add key="DIALOG_ACCOUNT_EMAIL_FOR_CODE_NL_Button_Send_Email" value="ईमेल भेजें" />
+    </sub>
+    <sub id="5" name="Activation Code">
+      <add key="DIALOG_ACCOUNT_ACTIVATION_CODE_NL_Label_We_Sent_You_A_Code_Check_Your_Email" value="हमने आपको एक कोड भेजा है। कृपया अपना ईमेल जांचें।" />
+      <add key="DIALOG_ACCOUNT_ACTIVATION_CODE_NL_Label_Activation_Code" value="सक्रियण कोड" />
+      <add key="DIALOG_USER_ACCOUNT_CODE_NL_Button_Activate_Account" value="खाता सक्रिय करें" />
+    </sub>
+    <sub id="6" name="Change Password">
+      <add key="DIALOG_CHANGE_YOUR_PASSWORD_NL_Title_Change_Your_Password" value="अपना पासवर्ड बदलें" />
+      <add key="DIALOG_CHANGE_YOUR_PASSWORD_NL_Label_New_Password" value="नया पासवर्ड" />
+      <add key="DIALOG_CHANGE_YOUR_PASSWORD_NL_Label_Repeat_New_Password" value="नया पासवर्ड दोहराएं" />
+      <add key="DIALOG_CHANGE_YOUR_PASSWORD_NL_Button_Change_Password" value="पासवर्ड बदलें" />
+    </sub>
+    <sub id="7" name="Verify Email">
+      <add key="DIALOG_VERIFY_EMAIL_NL_Title_We_Need_To_Verify_Your_Email" value="हमें आपका ईमेल सत्यापित करना है" />
+      <add key="DIALOG_VERIFY_EMAIL_NL_Label_Please_Enter_Your_Email_Address_To_Verify_Your_Account" value="कृपया अपना ईमेल पता दर्ज करें ताकि आपका अकाउंट सत्यापित हो सके। आपको शीघ्र ही एक ईमेल मिलेगा।" />
+      <add key="DIALOG_VERIFY_EMAIL_NL_Hint_Enter_Your_Email" value="अपना ईमेल दर्ज करें" />
+      <add key="DIALOG_VERIFY_EMAIL_NL_Button_Verify_Email" value="ईमेल सत्यापित करें" />
+      <add key="DIALOG_VERIFY_EMAIL_NL_Button_Sending_Email" value="ईमेल भेजा जा रहा है" />
+    </sub>
+    <sub id="8" name="Verify Email Sent">
+      <add key="DIALOG_VERIFY_EMAIL_SENT_NL_Title_We_Have_Sent_You_An_Email" value="हमने आपको एक ईमेल भेजा है" />
+      <add key="DIALOG_VERIFY_EMAIL_SENT_NL_Label_An_Email_Was_Sent_To_Please_Click_On_The_Link_Segment1" value="एक ईमेल भेजा गया है " />
+      <add key="DIALOG_VERIFY_EMAIL_SENT_NL_Label_An_Email_Was_Sent_To_Please_Click_On_The_Link_Segment2" value=" पर। कृपया लिंक पर क्लिक करें ताकि आप अपना अकाउंट सत्यापित कर सकें।" />
+      <add key="DIALOG_VERIFY_EMAIL_SENT_NL_Title_Havent_Recieved_The_Email" value="ईमेल प्राप्त नहीं हुआ?" />
+      <add key="DIALOG_VERIFY_EMAIL_SENT_NL_Label_Check_Your_Spam_Folder_Segment1" value="अपने स्पैम फ़ोल्डर की जांच करें। यदि आपको ईमेल नहीं मिला " />
+      <add key="DIALOG_VERIFY_EMAIL_SENT_NL_Label_Check_Your_Spam_Folder_Segment2" value=" पुनः सत्यापन के लिए भेजें।" />
+      <add key="DIALOG_VERIFY_EMAIL_SENT_NL_Button_Click_Here" value="यहाँ क्लिक करें" />
+    </sub>
+    <sub id="9" name="After Login Enjoy Jurojin">
+      <add key="DIALOG_START_ENJOYING_JUROJIN_Title_Your_Are_Very_Close_To_Start_Enjoying_Jurojin" value="आप Jurojin का आनंद लेना शुरू करने के बहुत करीब हैं" />
+      <add key="DIALOG_START_ENJOYING_JUROJIN_Label_A_New_Tab_Will_Open_In_Your_Browser_Where_You_Can_Login" value="आपके ब्राउज़र में एक नया टैब खुलेगा जहाँ आप लॉगिन कर सकते हैं।" />
+      <add key="DIALOG_START_ENJOYING_JUROJIN_Label_This_Screen_Will_Be_Closed_Automatically_Once_You_Are_Logged" value="लॉगिन होने के बाद यह स्क्रीन स्वचालित रूप से बंद हो जाएगी।" />
+      <add key="DIALOG_START_ENJOYING_JUROJIN_Button_Cancel_Login" value="लॉगिन रद्द करें" />
+    </sub>
+    <sub id="10" name="Discord Connected To Another Account">
+      <add key="DIALOG_DISCORD_CONNECTED_TO_ANOTHER_ACCOUNT_NL_Title_Your_Discord_Account_Appears_To_Be_Linked_To_Another_Jurojin_Account" value="आपका Discord खाता लगता है कि दूसरे Jurojin खाते से जुड़ा हुआ है!" />
+      <add key="DIALOG_DISCORD_CONNECTED_TO_ANOTHER_ACCOUNT_NL_Label_We_Recommend_You_Logging_Out_And_Pressing_On_Login_With_Discord" value="हम आपको सलाह देते हैं कि आप लॉग आउट करें और “Login with Discord” पर क्लिक करें" />
+      <add key="DIALOG_DISCORD_CONNECTED_TO_ANOTHER_ACCOUNT_NL_Button_Ok" value="ठीक है" />
+    </sub>
+    <sub id="11" name="Discord Linked">
+      <add key="DIALOG_DISCORD_LINKED_Title_Discord_Linked" value="Discord जुड़ा हुआ" />
+      <add key="DIALOG_DISCORD_LINKED_Details_You_Can_Now_Request_A_Full_Trial_1" value="अब आप Full Access Trial के लिए अनुरोध कर सकते हैं:" />
+      <add key="DIALOG_DISCORD_LINKED_Details_You_Can_Now_Request_A_Full_Trial_2" value="• हमारे Discord सर्वर में शामिल हों" />
+      <add key="DIALOG_DISCORD_LINKED_Details_You_Can_Now_Request_A_Full_Trial_3" value="• इस चैनल पर जाएँ " />
+      <add key="DIALOG_DISCORD_LINKED_Details_You_Can_Now_Request_A_Full_Trial_Channel" value="#trial" />
+      <add key="DIALOG_DISCORD_LINKED_Details_You_Can_Now_Request_A_Full_Trial_4" value="• एक संदेश भेजें" />
+      <add key="DIALOG_DISCORD_LINKED_Button_Go_To_Discord_Community" value="Discord समुदाय में जाएं" />
+      <add key="DIALOG_DISCORD_LINKED_Details_Great_Your_Account_Is_Connected" value="बहुत अच्छा! आपका अकाउंट अब Discord से जुड़ा है। अब आप समुदाय में पहुंच सकते हैं — वार्तालाप में शामिल हों और सर्वर के अन्य सदस्यों से जुड़ें।" />
+    </sub>
+    <sub id="12" name="Restore Cloud Backup">
+      <add key="RESTORE_CLOUD_BACKUP_DIALOG_Title" value="" />
+      <add key="RESTORE_CLOUD_BACKUP_DIALOG_Body_Line1" value="" />
+      <add key="RESTORE_CLOUD_BACKUP_DIALOG_Body_Line2" value="" />
+      <add key="RESTORE_CLOUD_BACKUP_DIALOG_Button_Restore" value="" />
+      <add key="RESTORE_CLOUD_BACKUP_DIALOG_Button_Cancel" value="" />
+      <add key="RESTORE_CLOUD_BACKUP_DIALOG_Title_Something_Went_Wrong" value="" />
+      <add key="RESTORE_CLOUD_BACKUP_DIALOG_Title_Unlock_Cloud_Backup" value="" />
+      <add key="RESTORE_CLOUD_BACKUP_DIALOG_Body_Cloud_Backup_Only_Available_To_Paid_Customers" value="" />
+      <add key="RESTORE_CLOUD_BACKUP_DIALOG_Button_Get_A_Bundle" value="" />
+      <add key="RESTORE_CLOUD_BACKUP_DIALOG_SUCCESS" value="" />
+      <add key="RESTORE_CLOUD_BACKUP_DIALOG_RESTORE_SUCCESS" value="" />
+    </sub>
+    <sub id="13" name="Reset Email Entry">
+      <add key="DIALOG_RESET_EMAIL_ENTRY_NL_Title_Enter_Your_New_Email" value="" />
+      <add key="DIALOG_RESET_EMAIL_ENTRY_NL_Hint_Your_Email" value="" />
+      <add key="DIALOG_RESET_EMAIL_ENTRY_NL_Button_Request_Email_Change" value="" />
+    </sub>
+    <sub id="14" name="Reset Email Confirmation">
+      <add key="DIALOG_RESET_EMAIL_CONFIRMATION_NL_Title" value="" />
+      <add key="DIALOG_RESET_EMAIL_CONFIRMATION_NL_Button_Confirm" value="" />
+    </sub>
+  </area>
+  <area id="113" name="Dialogs - Miscellaneous">
+    <sub id="3" name="Interference Detected">
+      <add key="DIALOG_INTEFERENCE_DETECTED_NL_Title_We_Detected_Some_Interference" value="हमने कुछ बाधा पहचानी है" />
+      <add key="DIALOG_INTEFERENCE_DETECTED_NL_Label_It_Seems_Some_Other_Program_Is_Interfering_With_Jurojin" value="ऐसा लगता है कि कोई अन्य प्रोग्राम Jurojin में बाधा डाल रहा है। इसलिए, कुछ कार्यक्षमताएँ ठीक से नहीं चल सकती हैं।" />
+      <add key="DIALOG_INTEFERENCE_DETECTED_NL_Button_Got_It" value="समझ गया" />
+    </sub>
+    <sub id="4" name="Generic Info">
+      <add key="DIALOG_GENERIC_INFO_NL_Button_Got_It" value="समझ गया" />
+      <add key="TEAM_MESSAGE_DIALOG_Title" value="Jurojin टीम से संदेश" />
+      <add key="TEAM_MESSAGE_RECEIVED_TOASTR" value="Jurojin टीम ने आपको एक संदेश भेजा है, कृपया ऐप देखें।" />
+      <add key="DIALOG_GENERIC_INFO_NL_WELCOME_AFFI_TITLE" value="ट्रायल तैयार है" />
+      <add key="DIALOG_GENERIC_INFO_NL_WELCOME_BODY" value="आपका #affi# के साथ अकाउंट बनाने के लिए धन्यवाद! अपने एक महीने के Full Access ट्रायल का आनंद लें" />
+    </sub>
+    <sub id="2" name="Yes no Ok Cancel">
+      <add key="DIALOG_YES_NO_Button_Yes" value="हाँ" />
+      <add key="DIALOG_YES_NO_Button_No" value="नहीं" />
+      <add key="DIALOG_YES_NO_Button_Ok" value="ठीक है" />
+      <add key="DIALOG_YES_NO_Button_Cancel" value="रद्द करें" />
+    </sub>
+    <sub id="5" name="Misc">
+      <add key="DIALOG_MISC_Title_Thank_You" value="धन्यवाद!" />
+      <add key="DIALOG_MISC_Body_With_Your_Help_Jurojin_Grows_Better_Each_Day" value="आपकी मदद से Jurojin हर दिन बेहतर होता जा रहा है!" />
+      <add key="DIALOG_MISC_Title_Whoops" value="अरे!" />
+      <add key="DIALOG_MISC_Body_Something_Went_Wrong,_Please_Try_Agian_Later" value="कुछ गलत हो गया, कृपया बाद में पुनः प्रयास करें!" />
+      <add key="DIALOG_MISC_Label_Dont_Show_Again" value="फिर से न दिखाएं" />
+      <add key="BODOG_TABLES_OVERLAPPED_MESSAGE" value="Bodog/Bovada टेबल्स को एक साथ रखने पर टेबल की सामग्री/जानकारी रिफ्रेश नहीं होती, इसलिए Bodog टेबल्स को स्टैक न करें!" />
+      <add key="SITE_VALIDATION_OPEN_BEFORE_SCANNING" value="कृपया Jurojin से टेबल्स डिटेक्ट करने से पहले पोकऱ साइट खोल लें।" />
+      <add key="SITE_VALIDATION_COINPOKER_HUD_INTERFERENCE_DETECTED" value="EliteHUD उत्पाद CoinPoker कैसीनो के मूल निष्पादन प्रवाह को प्रभावित करके Jurojin को प्रभावी रूप से काम करने से रोकते हैं। शिकायतें उनके सहायता से संपर्क करें।" />
+      <add key="SITE_VALIDATION_CLUBGG_HUD_INTERFERENCE_DETECTED" value="EliteHUD उत्पाद ClubGG कैसीनो के मूल निष्पादन प्रवाह को प्रभावित करके Jurojin को प्रभावी रूप से काम करने से रोकते हैं। शिकायतें उनके सहायता से संपर्क करें।" />
+      <add key="RESIZE_BELOW_SITE_MINSIZE" value="#game# का न्यूनतम टेबल साइज़ आपके slot से बड़ा है। इसे #game# द्वारा स्वचालित रूप से बढ़ा दिया गया है।" />
+      <add key="DIALOG_MISC_Button_Got_It" value="समझ गया!" />
+      <add key="DIALOG_MISC_LAYOUT_BLOCKED_NO_ACCESS_TITLE" value="" />
+      <add key="DIALOG_MISC_LAYOUT_BLOCKED_NO_ACCESS_BODY" value="" />
+    </sub>
+    <sub id="6" name="Validators">
+      <add key="DOUBLE_VALIDATION_RULE_Characters_Cannot_Be_Converted_To_Number" value="अक्षरों को संख्या में परिवर्तित नहीं किया जा सकता" />
+      <add key="DOUBLE_VALIDATION_RULE_Enter_Value_In_Range" value="कृपया मान सीमा के भीतर दर्ज करें" />
+      <add key="DOUBLE_VALIDATION_RULE_Max_Fractional_Digits" value="" />
+    </sub>
+    <sub id="7" name="Subscribe to Newsletter">
+      <add key="DIALOG_EULA_Title_Dont_Miss_Out" value="कोई मौका न खोएँ — सर्वोत्तम ऑफ़र और अपडेट प्राप्त करें!" />
+      <add key="DIALOG_EULA_Label_Subscribing_To_Our_Newsletter" value="हमारे न्यूज़लेटर को सब्सक्राइब करना आपकी मात्र तरीका है हमारे विशिष्ट डिस्काउंट्स और Jurojin की खबरों व ऑफर्स तक पहुंचने का।" />
+      <add key="DIALOG_EULA_Button_Subscribe_Now" value="अभी सब्सक्राइब करें" />
+    </sub>
+    <sub id="8" name="Known Issues">
+      <add key="DIALOG_KNOWN_ISSUES_Title_We_Are_Experiencing_Issues_In_These_Poker_Sites" value="पहचाने गए ज्ञात मुद्दे" />
+      <add key="DIALOG_KNOWN_ISSUES_Label_Weve_Identified_Problem_Working_On_Fix" value="हमने समस्या का पता लगा लिया है और समाधान पर काम कर रहे हैं" />
+      <add key="DIALOG_KNOWN_ISSUES_Status_Processing" value="प्रक्रिया में" />
+      <add key="DIALOG_KNOWN_ISSUES_Status_Known_Issues" value="ज्ञात समस्या" />
+      <add key="DIALOG_KNOWN_ISSUES_Button_Learn_More" value="और जानें" />
+      <add key="DIALOG_KNOWN_ISSUES_Button_Cancel" value="रद्द करें" />
+      <add key="DIALOG_KNOWN_ISSUES_Button_Ignore" value="इन समस्याओं को अनदेखा करें" />
+    </sub>
+  </area>
+  <area id="114" name="Feature Lock">
+    <add key="FEATURE_LOCK_Label_Coming_Soon" value="जल्द आ रहा है" />
+    <add key="FEATURE_LOCK_Label_Watch_On_TouTube" value="इसे YouTube पर क्रियान्वित देखें" />
+    <add key="FEATURE_LOCK_NL_Label_This_Feature_Is_Locked" value="यह फीचर लॉक है!" />
+    <add key="FEATURE_LOCK_Label_Request_Access_In_Discord" value="इस बीटा फीचर के लिए हमारे Discord में एक्सेस का अनुरोध करें!" />
+    <add key="FEATURE_LOCK_NL_Button_Unlock_Now" value="अब अनलॉक करें" />
+    <add key="FEATURE_LOCK_NL_Button_Learn_More" value="और जानें" />
+    <add key="FEATURE_LOCK_LABEL_NL_Label_Tiling_Sub_Not_Cover_Betting_Tools_Huds" value="Tiling Sub doesn't cover Betting Tools/Huds" />
+  </area>
+  <area id="115" name="Walkthrough">
+    <sub id="0" name="Intro">
+      <add key="WALK_INTRO_SKIP_OPTION_Label_Intro" value="Walkthrough बीच में रुका। क्या आप फिर से शुरू करना चाहते हैं?" />
+      <add key="WALK_INTRO_SKIP_OPTION_Label_Button_Skip" value="छोड़ें" />
+      <add key="WALK_INTRO_SKIP_OPTION_Label_Button_Continue" value="शुरू करें" />
+    </sub>
+    <sub id="1" name="Language Selection">
+      <add key="WALK_INTRO_LANGUAGE_SELECTION_Label_Welcome" value="स्वागत है!" />
+      <add key="WALK_INTRO_LANGUAGE_SELECTION_Label_Intro" value="अब हम आपको सबसे बुनियादी सेटिंग्स और उन्हें कैसे कॉन्फ़िगर करें, यह बताएंगे" />
+      <add key="WALK_INTRO_LANGUAGE_SELECTION_Label_Choose_Language" value="अपनी भाषा चुनें" />
+      <add key="WALK_INTRO_FINISH_Label_Button_LetsStart" value="चलिए शुरू करते हैं!" />
+    </sub>
+    <sub id="2" name="Finish">
+      <add key="WALK_INTRO_FINISH_Label_Welcome" value="समाप्त" />
+      <add key="WALK_INTRO_FINISH_Label_Line1" value="बहुत बढ़िया! अब आप Jurojin का उपयोग कर सकते हैं" />
+      <add key="WALK_INTRO_FINISH_Label_Line2" value="खेलें और आनंद लें! टेबल्स पर शुभकामनाएँ!" />
+      <add key="WALK_INTRO_FINISH_Label_Button_PlayNow" value="अभी खेलें" />
+    </sub>
+    <sub id="3" name="Layouts">
+      <add key="WALK_SCENARIO_LAYOUTS_HAMBURGER_MENU_ITEM_Layout" value="चलो एक Layout कॉन्फ़िगर करके शुरू करते हैं। Layout कॉन्फ़िगरेशन मेनू आइटम पर क्लिक करें" />
+      <add key="WALK_SCENARIO_LAYOUTS_LAYOUT_CONFIG_Create_New_Layout" value="Layout आपको Jurojin को यह बताने का तरीका है कि आप अपने टेबल्स कहाँ भेजना चाहते हैं। नया Layout बनाने के लिए यहां क्लिक करें" />
+      <add key="WALK_SCENARIO_LAYOUTS_CREATE_NEW_LAYOUT_Create_Manually_Intro" value="यह विकल्प आपको मैन्युअल रूप से layout बनाने देता है" />
+      <add key="WALK_SCENARIO_LAYOUTS_CREATE_NEW_LAYOUT_Create_Automatically" value="यदि आप layout जल्दी बनाना चाहते हैं, तो आप ऑटोमैटिक क्रिएशन फीचर का उपयोग कर सकते हैं" />
+      <add key="WALK_SCENARIO_LAYOUTS_CREATE_NEW_LAYOUT_Create_From_Preset" value="या आप हमारे layout टेम्पलेट्स में से कोई विकल्प चुन सकते हैं" />
+      <add key="WALK_SCENARIO_LAYOUTS_CREATE_NEW_LAYOUT_Clone_Existing" value="या आप मौजूदा layout को क्लोन कर सकते हैं। यह पहले से बने layout जैसा बनाना और समय बचाने में उपयोगी है।" />
+      <add key="WALK_SCENARIO_LAYOUTS_CREATE_NEW_LAYOUT_Create_Manually_Action" value="अभी के लिए, आइए एक मैन्युअली बनाएं ताकि आप सभी विकल्प जान सकें" />
+      <add key="WALK_SCENARIO_LAYOUTS_EDIT_LAYOUT_PAGE_Add_Playing_Slot" value="यह बटन एक Playing Slot जोड़ता है। आपके टेबल्स डिफ़ॉल्ट रूप से यहां भेजे जाएंगे" />
+      <add key="WALK_SCENARIO_LAYOUTS_EDIT_LAYOUT_PAGE_Add_Observer_Slot" value="इसी तरह, आप एक Observer Slot जोड़ सकते हैं। आप इन slots का उपयोग उन टेबल्स को देखने के लिए कर सकते हैं जहाँ आप नहीं खेल रहे हैं" />
+      <add key="WALK_SCENARIO_LAYOUTS_EDIT_LAYOUT_PAGE_Add_Replay_Slot" value="Replay slots केवल हाथ की replay के लिए हैं (यह फीचर हर साइट पर समर्थित नहीं है)" />
+      <add key="WALK_SCENARIO_LAYOUTS_EDIT_LAYOUT_PAGE_Add_Lobby_Slot" value="Lobby विंडोज़ को भी Jurojin पहचान सकता है और उन्हें lobby slot में भेजा जा सकता है। ध्यान दें कि lobby विंडोज़ टेबल्स की तरह आकार में बदले नहीं जाते, इसलिए आप केवल उनकी जगह निर्धारित कर सकते हैं" />
+      <add key="WALK_SCENARIO_LAYOUTS_SLOT_AREA_CopyBottom" value="यह बटन दबाएं अब एक नया slot बनाने के लिए जिसका आकार मौजूदा slot के ठीक नीचे समान हो" />
+      <add key="WALK_SCENARIO_LAYOUTS_SLOT_AREA_DeleteSlot" value="यदि आपको कोई slot हटाना है, तो कूड़ेदान आइकन पर क्लिक करें। इस slot को हटाएं" />
+      <add key="WALK_SCENARIO_LAYOUTS_EDIT_LAYOUT_PAGE_Add_Slots_Create_Layout" value="अब जब आप slots जोड़ना जानते हैं, अपना layout बनाएं। खत्म करने पर, जारी रखने और layout सहेजने के लिए बटन पर क्लिक करें" />
+      <add key="WALK_SCENARIO_LAYOUTS_EDIT_LAYOUT_PAGE_Save_Layout" value="सब कुछ हो गया! अब अपना layout सहेजें ताकि हम जारी रख सकें" />
+      <add key="WALK_SCENARIO_LAYOUTS_HAMBURGER_MENU_ITEM_Back" value="अब चलिए वापस चलते हैं और कुछ और फीचर्स देखते हैं" />
+      <add key="WALK_SCENARIO_LAYOUTS_CONFIG_Tab_Header_Automatic_Layout_Switch" value="यहाँ आप Jurojin को layouts ऑटोमैटिक रूप से स्विच करने के लिए कॉन्फ़िगर कर सकते हैं" />
+      <add key="WALK_SCENARIO_LAYOUTS_CONFIG_Select_Automatic_Layout_Options" value="अब अपनी पसंद के अनुसार automatic layout switch कॉन्फ़िगर करें!" />
+      <add key="WALK_SCENARIO_LAYOUTS_EDIT_LAYOUT_PAGE_Add_Playing_Or_Observer_Slot" value="इन बटनों से आप अपने layout में playing या observer slots जोड़ सकते हैं, general settings की 'Keep Most Urgent on top' फीचर के साथ आप एक ही slot में टेबल्स को स्टैक कर सकते हैं और वे क्रम से दिखेंगे!" />
+      <add key="WALK_SCENARIO_LAYOUTS_EDIT_LAYOUT_PAGE_Add_Dynamic_Slots" value="इन दो बटनों से आप dynamic slots जोड़ सकते हैं, आप इन दो प्रकारों में से केवल एक ही अपने layout में जोड़ सकते हैं क्योंकि वे आपके टेबल्स के लिए अलग flow देते हैं" />
+      <add key="WALK_SCENARIO_LAYOUTS_EDIT_LAYOUT_PAGE_Add_Action_Required_Slots" value="action required slot के साथ, टेबल्स हर बार आपकी कार्रवाई की बारी पर इसमें भेजे जाएंगे" />
+      <add key="WALK_SCENARIO_LAYOUTS_EDIT_LAYOUT_PAGE_Add_InHand_Slots" value="in hand slot के साथ, टेबल्स तब स्थानांतरित होंगे जब भी आप hand में एंटर करें, vpip करें, blind पोस्ट करें आदि। इसे हर साइट कॉन्फ़िग में सेट किया जा सकता है" />
+      <add key="WALK_SCENARIO_LAYOUTS_LAYOUT_CONFIG_Layout_Hotkeys_Tab" value="अब चलिए layout hotkeys टैब देखें.." />
+      <add key="WALK_SCENARIO_LAYOUTS_LAYOUT_CONFIG_Layout_Hotkeys" value="अब चलिए layout hotkeys टैब देखें.." />
+      <add key="WALK_SCENARIO_LAYOUTS_LAYOUT_CONFIG_Layout_Hotkey_Dynamic_Slots" value="इस hotkey से आप किसी टेबल को dynamic slots फ्लो से लॉक कर सकते हैं, ताकि वह जहाँ है वहीं रहे। यह तब बहुत उपयोगी है जब आप बड़ा हाथ या फाइनल टेबल खेल रहे हों" />
+    </sub>
+    <sub id="4" name="Sites Config">
+      <add key="WALK_SCENARIO_SITECONFIG_HAMBURGER_MENU_ITEM_Sites" value="Sites Configuration पर जाने के लिए यहां क्लिक करें" />
+      <add key="WALK_SCENARIO_SITECONFIG_SITE_CONFIGURATIONS_Party_Poker_Hex" value="Pokerstars के लिए उपलब्ध कॉन्फ़िगरेशंस देखने के लिए क्लिक करें (यदि आप Stars में नहीं खेलते, चिंता न करें। आप बाद में अपनी साइट्स कॉन्फ़िगर कर पाएंगे)" />
+      <add key="WALK_SCENARIO_SITECONFIG_SITE_CONFIGURATION_DETAILS_Toggle_Tiling_Status" value="इस बटन से आप tiling को सक्रिय/निष्क्रिय कर सकते हैं (केवल इस साइट के लिए)।" />
+      <add key="WALK_SCENARIO_SITECONFIG_SITE_CONFIGURATION_DETAILS_Tiling_Options_Details" value="यहाँ आप एक विशेष पोकर साइट के लिए टेबल्स को स्वचालित रूप से कैसे move/tiling किया जाए, यह कॉन्फ़िगर कर पाएंगे।" />
+      <add key="WALK_SCENARIO_SITECONFIG_SITE_CONFIGURATION_DETAILS_Check_Auto_Play_On_Launch" value="जब इसे चालू किया जाता है, Jurojin खोलने पर आपके सभी टेबल्स ऊपर सेटिंग के अनुसार स्थानांतरित होंगे। यह विकल्प Jurojin में PLAY दबाने का समय बचाता है ताकि यह टेबल्स का पता लगाना शुरू कर सके। हम इस फीचर का उपयोग करने की जोरदार सलाह देते हैं।" />
+      <add key="WALK_SCENARIO_SITECONFIG_SITE_CONFIGURATION_DETAILS_Save_Settings" value="यदि आपके पास कुछ सहेजने के लिए है तो अभी करें! नहीं तो बस skip दबाएं" />
+      <add key="WALK_SCENARIO_SITECONFIG_HAMBURGER_MENU_ITEM_Back" value="चलो फिर से वापस चलते हैं और कुछ और फीचर्स देखें" />
+    </sub>
+    <sub id="5" name="General Configuration">
+      <add key="WALK_SCENARIO_GENCONFIG_HAMBURGER_MENU_ITEM_Configuration" value="यह बटन आपको General Configuration पर ले जाता है" />
+      <add key="WALK_SCENARIO_GENCONFIG_GENERAL_CONFIGURATION_Check_Magnetize_Playing_Area" value="Playing area को magnetize किया जा सकता है, इसका मतलब है कि आप टेबल्स को ड्रैग और ड्रॉप कर सकते हैं और वे तुरंत slots से चिपक जाएंगे। आप CTRL की दबाकर ड्रैग और ड्रॉप कर सकते हैं ताकि टेबल्स स्वैप न हों, बल्कि वे स्टैक हों।" />
+      <add key="WALK_SCENARIO_GENCONFIG_GENERAL_CONFIGURATION_Check_Magnetize_Observer_Area" value="Observer slots को भी magnetize किया जा सकता है" />
+      <add key="WALK_SCENARIO_GENCONFIG_GENERAL_CONFIGURATION_Tooltip_Magnetize_Playing_Area" value="यह आइकन आपको प्रत्येक फीचर का एक छोटा सा विवरण देगा" />
+      <add key="WALK_SCENARIO_GENCONFIG_GENERAL_CONFIGURATION_Check_Magnetize_Lobby_Slots" value="जैसे कि lobby slots भी। जब तक lobby slots में stack sites विकल्प दोनों हो" />
+      <add key="WALK_SCENARIO_GENCONFIG_GENERAL_CONFIGURATION_Check_Reorder_Observer_Area_Table_Closed" value="जब किसी टेबल को बंद किया जाता है तब आप observer slots में टेबल्स को पुनः क्रमबद्ध कर सकते हैं" />
+      <add key="WALK_SCENARIO_GENCONFIG_GENERAL_CONFIGURATION_Check_Reorder_Playing_Area_Table_Closed" value="जब किसी टेबल को बंद किया जाता है तब आप playing slots में टेबल्स को पुनः क्रमबद्ध कर सकते हैं" />
+      <add key="WALK_SCENARIO_GENCONFIG_GENERAL_CONFIGURATION_Check_Focus_Table_Under_Mouse" value="यह फीचर टेबल को सामने लाता है जब आप माउस को उसके ऊपर ले जाते हैं" />
+      <add key="WALK_SCENARIO_GENCONFIG_GENERAL_CONFIGURATION_Check_Highlight_Table_Under_Focus" value="यह फोकस किए गए टेबल के बॉर्डर को हाइलाइट करेगा।" />
+      <add key="WALK_SCENARIO_GENCONFIG_GENERAL_CONFIGURATION_Check_Show_Random_Number_Generator" value="यह ऐप के शुरू में random number generator दिखाएगा। यदि आप यह फीचर चालू रखते हैं, तो RNG इस गाइड के खत्म होने पर तुरंत दिखाई देगा!" />
+      <add key="WALK_SCENARIO_GENCONFIG_GENERAL_CONFIGURATION_Check_Minimize_To_System_Tray" value="जब आप minimize बटन दबाएंगे, तो ऐप केवल system tray में दिखाई देगा (Windows के नीचे दाएँ छोटे आइकन)" />
+      <add key="WALK_SCENARIO_GENCONFIG_GENERAL_CONFIGURATION_Check_Keep_Most_Urgent_On_Top" value="जब एक ही slot में एक से अधिक टेबल स्टैक हों, तो Jurojin सबसे जरूरी को ऊपर रखेगा। जब आप कार्रवाई करते हैं, तो अगला सबसे जरूरी ऊपर आएगा।" />
+      <add key="WALK_SCENARIO_GENCONFIG_GENERAL_CONFIGURATION_WorksFor_Keep_Most_Urgent_On_Top" value="कुछ फीचर्स सभी साइट्स के लिए काम नहीं करते! इस आइकन से आप जांच सकते हैं कौन सा सपोर्ट करता है!" />
+      <add key="WALK_SCENARIO_GENCONFIG_GENERAL_CONFIGURATION_Configure_Global" value="आप इन विकल्पों को ऑन या ऑफ कर सकते हैं ताकि Jurojin आदर्श हो सके!" />
+      <add key="WALK_SCENARIO_GENCONFIG_GENERAL_CONFIGURATION_Tab_Global_Hotkeys" value="ये Jurojin में उपलब्ध सामान्य हॉटकीज़ हैं" />
+      <add key="WALK_SCENARIO_GENCONFIG_GENERAL_CONFIGURATION_Set_HotKeys" value="आप फील्ड को सेलेक्ट करके और कीबोर्ड शॉर्टकट दबाकर हॉटकी सेट कर सकते हैं" />
+      <add key="WALK_SCENARIO_GENCONFIG_GENERAL_CONFIGURATION_Tab_Table_Border" value="यहाँ आप अपने टेबल्स के लिए रंगीन बॉर्डर्स कंफिगर कर सकते हैं! कुछ सेक्शन्स में ऐसे टैब होते हैं, चेक करना न भूलें!" />
+      <add key="WALK_SCENARIO_GENCONFIG_GENERAL_CONFIGURATION_Configure_Table_Border" value="आप इस विकल्प को ऑन कर सकते हैं ताकि फोकस्ड टेबल पर वायलेट बॉर्डर दिखे" />
+      <add key="WALK_SCENARIO_GENCONFIG_GENERAL_CONFIGURATION_Save_Changes" value="अपनी सेटिंग्स सेव करें या सीधे Skip Saving दबाएं" />
+    </sub>
+    <sub id="6" name="HotKeys Config">
+      <add key="WALK_SCENARIO_HOTKEYSCONFIG_HAMBURGER_MENU_ITEM_HotKeys" value="यहाँ आप टेबल्स पर चेक/फोल्ड/बेट/रेज जैसे एक्शन के लिए हॉटकीज़ डिफाइन कर पाएंगे!" />
+      <add key="WALK_SCENARIO_HOTKEYSCONFIG_Page_Intro" value="अपने बेटसाइज़ और एक्शंस के लिए माउस या कीबोर्ड से कीबाइंडिंग सेट करें! कुछ साइट्स जैसे GGPoker में आपको एक्स्ट्रा कॉन्फिग करनी पड़ती है, अधिक जानकारी के लिए हमारा FAQ देखें!" />
+      <add key="WALK_SCENARIO_HOTKEYSCONFIG_Page_Discord_Intro" value="ऐसा लगता है आपके पास इस फीचर का एक्सेस नहीं है! इस बटन पर क्लिक करके आप एक्सेस का अनुरोध कर सकते हैं, अपनी Jurojin यूजरनेम चैट में छोड़कर" />
+    </sub>
+    <sub id="7" name="Controller Config">
+      <add key="WALK_SCENARIO_CONTROLLER_HAMBURGER_MENU_ITEM_Controller" value="हमने कुछ पोकर साइट्स के लिए कंट्रोलर सपोर्ट भी जोड़ा है!" />
+      <add key="WALK_SCENARIO_CONTROLLER_Page_Intro" value="कुछ बीयर लें, सोफ़े पर बैठें और हमारे नए कंट्रोलर सपोर्ट के साथ स्पिन्स का आनंद लें!" />
+    </sub>
+    <sub id="8" name="Overlays Config">
+      <add key="WALK_SCENARIO_OVERLAYS_CONFIG_HAMBURGER_MENU_ITEM_Overlays" value="इस व्यू में आप अपने टेबल्स पर दिखने वाले overlays कंफिगर कर सकते हैं!" />
+      <add key="WALK_SCENARIO_OVERLAYS_CONFIG_Page_Intro" value="जो भी आइटम हर टेबल पर दिखता है वो इस व्यू में होता है, यहाँ आप उन्हें ऑन या ऑफ कर सकते हैं और कुछ पहलुओं को कंफिगर भी कर सकते हैं!" />
+      <add key="WALK_SCENARIO_OVERLAYS_CONFIG_Table_Overlays_Contents" value="यहाँ आप अपने टेबल्स के अंदर दिखने वाले overlays कंफिगर कर सकते हैं। ये overlays गेम में उपयोगी विभिन्न स्टैट्स दिखाएंगे। प्रत्येक overlay के पास 'Learn More' पर क्लिक करें, इन्हें समझने के लिए गाइड्स देखने को मिलेंगे" />
+      <add key="WALK_SCENARIO_OVERLAYS_CONFIG_Tab_Seats_Overlays_Intro" value="चलिए सीट overlays सेक्शन पर चलते हैं" />
+      <add key="WALK_SCENARIO_OVERLAYS_CONFIG_Seats_Overlays_Contents" value="सीट overlays हमेशा प्लेयर सीट के बगल में रहते हैं और पोजीशन व एक्शन लाइन जैसी बातें दिखाते हैं, सुनिश्चित करें कि साइट्स कंफिग में हीरो सेंटर में हो" />
+      <add key="WALK_SCENARIO_OVERLAYS_CONFIG_Tab_Table_Counters_Intro" value="अब चलिए काउंटर overlays चेक करते हैं" />
+      <add key="WALK_SCENARIO_OVERLAYS_CONFIG_Table_Counters_Contents" value="काउंटर overlays उस स्लॉट में टेबल से संबंधित जानकारी दिखाएंगे जहाँ टेबल स्थित है (यदि कोई हो)" />
+    </sub>
+    <sub id="9" name="Changelog">
+      <add key="WALK_SCENARIO_CHANGELOG_HAMBURGER_MENU_ITEM_Changelog" value="इस सेक्शन में आप ऐप की नवीनतम खबरें पढ़ पाएंगे! जब नई चीज़ें होंगी तो यह लाल हो जाएगा!" />
+      <add key="WALK_SCENARIO_CHANGELOG_Page_Intro" value="यहाँ नवीनतम खबरों के बारे में जानें!" />
+    </sub>
+    <sub id="10" name="Outro">
+      <add key="WALK_SCENARIO_GENOUTRO_REPORT_ISSUE" value="यदि आपको कोई समस्या हो तो रिपोर्ट बटन का उपयोग करें ताकि हम आपकी मदद कर सकें, या हमारा डिस्कॉर्ड चैनल जॉइन करें!" />
+      <add key="WALK_SCENARIO_GENOUTRO_WALKTHROUGH_ON_DEMAND" value="इस गाइड को आप किसी भी समय इस बटन को दबाकर फिर से देख सकते हैं।" />
+    </sub>
+    <sub id="11" name="Others">
+      <add key="WALK_Common_Label_User_Action_Complete" value="सब पूरा!" />
+      <add key="WALK_Common_Label_User_Intro_Acknowledge" value="समझ गया" />
+      <add key="WALK_Common_Skip_Saving" value="सेविंग छोड़ें" />
+      <add key="WALK_Button_See_Walkthrough_Again" value="गाइड फिर से देखें" />
+      <add key="WALK_Button_Guide" value="गाइड" />
+      <add key="WALK_Button_Skip_To_End" value="मैं इस गाइड को बाद में पूरा करूंगा" />
+    </sub>
+  </area>
+  <area id="116" name="Walkthrough V2">
+    <sub id="0" name="Intro">
+      <add key="WALKV2_INTRO_Title_Welcome_To_Jurojin_Poker" value="Jurojin Poker में आपका स्वागत है!" />
+      <add key="WALKV2_INTRO_Label_Choose_Your_Language_To_Begin" value="शुरू करने के लिए अपनी भाषा चुनें" />
+      <add key="WALKV2_INTRO_Button_Lets_Start" value="चलो शुरू करें" />
+    </sub>
+    <sub id="1" name="Mini Intro">
+      <add key="WALKV2_MINI_INTRO_Title_Lets_Learn_The_Basics" value="आइए बेसिक्स सीखते हैं..." />
+      <add key="WALKV2_MINI_INTRO_Description_I_Will_Be_Guiding_You_Through_The_App" value="मैं आपको ऐप के माध्यम से मार्गदर्शन दूंगा ताकि आप हमारे सबसे महत्वपूर्ण फीचर्स के बारे में सीख सकें! Jurojin में आपको तीन मुख्य कार्यक्षमताएँ मिलेंगी। आप इनमें से किसी पर भी क्लिक करके सीख सकते हैं।" />
+      <add key="WALKV2_MINI_INTRO_Button_Tiling" value="Tiling" />
+      <add key="WALKV2_MINI_INTRO_Button_Hotkeys" value="Hotkeys" />
+      <add key="WALKV2_MINI_INTRO_Button_Overlays" value="Overlays" />
+      <add key="WALKV2_MINI_INTRO_Button_I_Will_Go_Through_Jurojin_Myself" value="मैं खुद Jurojin के जरिए जाऊँगा" />
+    </sub>
+    <sub id="2" name="Mini Finish">
+      <add key="WALKV2_MINI_FINISH_Title_Well_Done" value="बहुत बढ़िया!" />
+      <add key="WALKV2_MINI_FINISH_Description_Great_You_Finished_One_Of_Our_Miniguides" value="बहुत बढ़िया! आपने हमारे मिनीगाइड्स में से एक पूरा कर लिया है! यदि आप कोई अन्य देखना चाहते हैं या इसे दोहराना चाहते हैं तो आप अभी कर सकते हैं!" />
+      <add key="WALKV2_MINI_FINISH_Button_Tiling" value="Tiling" />
+      <add key="WALKV2_MINI_FINISH_Button_Hotkeys" value="Hotkeys" />
+      <add key="WALKV2_MINI_FINISH_Button_Overlays" value="Overlays" />
+      <add key="WALKV2_MINI_FINISH_Button_I_Will_Go_Through_Jurojin_Myself" value="मैं खुद Jurojin के जरिए जाऊँगा" />
+    </sub>
+  </area>
+  <area id="117" name="HotKeys Friendly Names">
+    <add key="HOTKEY_Friendly_Name_0" value="Layout बदलें" />
+    <add key="HOTKEY_Friendly_Name_1" value="Playing Area का पुनः क्रम तय करें" />
+    <add key="HOTKEY_Friendly_Name_2" value="Observer Area का पुनः क्रम तय करें" />
+    <add key="HOTKEY_Friendly_Name_3" value="टेबल को Playing Area में भेजें" />
+    <add key="HOTKEY_Friendly_Name_4" value="टेबल को Observer Area में भेजें" />
+    <add key="HOTKEY_Friendly_Name_5" value="Active Layout देखें" />
+    <add key="HOTKEY_Friendly_Name_6" value="RNG को माउस पॉइंटर पर ले जाएँ" />
+    <add key="HOTKEY_Friendly_Name_7" value="Slot में Tables के बीच साइकिल करें" />
+    <add key="HOTKEY_Friendly_Name_8" value="टेबल एक्शन: Fold" />
+    <add key="HOTKEY_Friendly_Name_9" value="टेबल एक्शन: Check/Call" />
+    <add key="HOTKEY_Friendly_Name_10" value="टेबल एक्शन: Raise/Bet" />
+    <add key="HOTKEY_Friendly_Name_11" value="टेबल एक्शन: Button1" />
+    <add key="HOTKEY_Friendly_Name_12" value="टेबल एक्शन: Button2" />
+    <add key="HOTKEY_Friendly_Name_13" value="टेबल एक्शन: Button3" />
+    <add key="HOTKEY_Friendly_Name_14" value="टेबल एक्शन: Button4" />
+    <add key="HOTKEY_Friendly_Name_15" value="टेबल एक्शन: All In" />
+    <add key="HOTKEY_Friendly_Name_16" value="टेबल एक्शन: बेट कमी करें" />
+    <add key="HOTKEY_Friendly_Name_17" value="टेबल एक्शन: बेट बढ़ाएं" />
+    <add key="HOTKEY_Friendly_Name_18" value="अगले टेबल को सामने लाएं" />
+    <add key="HOTKEY_Friendly_Name_19" value="पहले वाले टेबल को सामने लाएं" />
+    <add key="HOTKEY_Friendly_Name_20" value="टेबल को अगले Slot में ले जाएं" />
+    <add key="HOTKEY_Friendly_Name_21" value="टेबल को पिछले Slot में ले जाएं" />
+    <add key="HOTKEY_Friendly_Name_22" value="स्वैप करते हुए टेबल को अगले Slot में ले जाएं" />
+    <add key="HOTKEY_Friendly_Name_23" value="स्वैप करते हुए टेबल को पिछले Slot में ले जाएं" />
+    <add key="HOTKEY_Friendly_Name_24" value="सबसे जरूरी टेबल पर फोकस करें" />
+    <add key="HOTKEY_Friendly_Name_25" value="मेन्यू खोलें" />
+    <add key="HOTKEY_Friendly_Name_26" value="सभी हॉटकीज़ डिसेबल करें" />
+    <add key="HOTKEY_Friendly_Name_27" value="Overlay की पोजीशन सेव करें" />
+    <add key="HOTKEY_Friendly_Name_28" value="BB Mode टॉगल करें" />
+    <add key="HOTKEY_Friendly_Name_29" value="Betsize Button No. 5" />
+    <add key="HOTKEY_Friendly_Name_30" value="Betsize Button No. 6" />
+    <add key="HOTKEY_Friendly_Name_31" value="Betsize Button No. 7" />
+    <add key="HOTKEY_Friendly_Name_32" value="Betsize Button No. 8" />
+    <add key="HOTKEY_Friendly_Name_34" value="टेबल कम करें" />
+    <add key="HOTKEY_Friendly_Name_35" value="टेबल बंद करें" />
+    <add key="HOTKEY_Friendly_Name_36" value="" />
+    <add key="HOTKEY_Friendly_Name_37" value="" />
+    <add key="HOTKEY_Friendly_Name_38" value="" />
+    <add key="HOTKEY_Friendly_Name_39" value="" />
+    <add key="HOTKEY_Friendly_Name_40" value="" />
+    <add key="HOTKEY_Friendly_Name_41" value="" />
+    <add key="HOTKEY_Friendly_Name_42" value="" />
+    <add key="HOTKEY_Friendly_Name_43" value="" />
+    <add key="HOTKEY_Friendly_Name_44" value="" />
+    <add key="HOTKEY_Friendly_Name_45" value="टेबल को Playing slot #1 पर भेजें" />
+    <add key="HOTKEY_Friendly_Name_46" value="टेबल को Playing slot #2 पर भेजें" />
+    <add key="HOTKEY_Friendly_Name_47" value="टेबल को Playing slot #3 पर भेजें" />
+    <add key="HOTKEY_Friendly_Name_48" value="टेबल को Playing slot #4 पर भेजें" />
+    <add key="HOTKEY_Friendly_Name_49" value="टेबल को Playing slot #5 पर भेजें" />
+    <add key="HOTKEY_Friendly_Name_50" value="टेबल को Observer slot #1 पर भेजें" />
+    <add key="HOTKEY_Friendly_Name_51" value="टेबल को Observer slot #2 पर भेजें" />
+    <add key="HOTKEY_Friendly_Name_52" value="टेबल को Observer slot #3 पर भेजें" />
+    <add key="HOTKEY_Friendly_Name_53" value="टेबल को Observer slot #4 पर भेजें" />
+    <add key="HOTKEY_Friendly_Name_54" value="टेबल को Observer slot #5 पर भेजें" />
+    <add key="HOTKEY_Friendly_Name_55" value="टेबल को Dynamic Flow से बाहर लॉक करें" />
+    <add key="HOTKEY_Friendly_Name_56" value="Betsize बटन नं. 9" />
+    <add key="HOTKEY_Friendly_Name_57" value="Betsize बटन नं. 10" />
+    <add key="HOTKEY_Friendly_Name_58" value="Betsize बटन नं. 11" />
+    <add key="HOTKEY_Friendly_Name_59" value="Betsize बटन नं. 12" />
+    <add key="HOTKEY_Friendly_Name_60" value="Betsize बटन नं. 13" />
+    <add key="HOTKEY_Friendly_Name_61" value="Betsize बटन नं. 14" />
+    <add key="HOTKEY_Friendly_Name_62" value="Betsize बटन नं. 15" />
+    <add key="HOTKEY_Friendly_Name_63" value="Betsize बटन नं. 16" />
+    <add key="HOTKEY_Friendly_Name_64" value="" />
+    <add key="HOTKEY_Error_Entry_0" value="सिस्टम रिजर्व्ड कीज़ की अनुमति नहीं है।" />
+    <add key="HOTKEY_Error_Entry_1" value="कोई की मॉडिफायर (Ctrl/Alt/Shift) निर्दिष्ट नहीं है।" />
+    <add key="HOTKEY_Error_Entry_2" value="कृपया कम से कम एक मॉडिफायर (Ctrl, Shift, Alt) और एक अक्षर या संख्या के साथ हॉटकी का उपयोग करें।" />
+    <add key="HOTKEY_Error_Entry_3" value="यह संयोजन अनुमति नहीं है। कृपया कोई अन्य मान आज़माएं।" />
+    <add key="PROXY_HOTKEY_Friendly_Name_0" value="Fold" />
+    <add key="PROXY_HOTKEY_Friendly_Name_1" value="Check" />
+    <add key="PROXY_HOTKEY_Friendly_Name_2" value="BB टॉगल करें" />
+    <add key="PROXY_HOTKEY_Friendly_Name_3" value="बेट बढ़ाएं" />
+    <add key="PROXY_HOTKEY_Friendly_Name_4" value="बेट कम करें" />
+    <add key="PROXY_HOTKEY_Friendly_Name_5" value="बेट रेज़" />
+    <add key="PROXY_HOTKEY_Friendly_Name_6" value="Button1" />
+    <add key="PROXY_HOTKEY_Friendly_Name_7" value="Button2" />
+    <add key="PROXY_HOTKEY_Friendly_Name_8" value="Button3" />
+    <add key="PROXY_HOTKEY_Friendly_Name_9" value="Button4" />
+    <add key="PROXY_HOTKEY_Friendly_Name_10" value="All In" />
+    <add key="HOTKEY_Error_Collision" value="इस संयोजन के लिए पहले से हॉटकी मैपिंग मौजूद है। टकराव: " />
+    <add key="PROXY_HOTKEY_Error_Collision" value="इस कीबाइंडिंग के लिए पहले से ही हॉटकी मैपिंग मौजूद है। टकराव: " />
+    <add key="HOTKEY_Error_Duplicated_Entries" value="हॉटकीज़ के डुप्लिकेट एंट्रीज़। कृपया प्रत्येक हॉटकी के लिए अलग मान चुनें।" />
+    <add key="HOTKEYS_USAGE_ON_VIEW_LOADED" value="हॉटकीज़ तभी काम करेंगी जब आप इस व्यू से बाहर जाएं!" />
+    <add key="HOTKEYS_USAGE_ON_VIEW_UNLOADED" value="अब हॉटकीज़ का उपयोग किया जा सकता है!" />
+    <add key="HOTKEY_COLLISION_Label_Keybinding_Is_Conflicting_With" value="कीबाइंडिंग टकरा रही है" />
+  </area>
+  <area id="118" name="Windows">
+    <sub id="0" name="Window - RNG Settings">
+      <add key="RNG_SETTINGS_Title_Standalone_RNG" value="Standalone RNG" />
+      <add key="RNG_SETTINGS_Label_Size" value="आकार" />
+      <add key="RNG_SETTINGS_Check_Use_Smaller_Version" value="छोटी संस्करण का उपयोग करें" />
+      <add key="RNG_SETTINGS_Label_Range" value="रेंज" />
+      <add key="RNG_SETTINGS_Label_To" value="से" />
+      <add key="RNG_SETTINGS_Title_Frequency" value="फ़्रीक्वेंसी" />
+      <add key="RNG_SETTINGS_Label_Refresh_After" value="के बाद रिफ्रेश करें" />
+      <add key="RNG_SETTINGS_Label_Seconds" value="सेकंड" />
+      <add key="RNG_SETTINGS_Label_Bind_Hotkey" value="हॉटकी बाँधें" />
+      <add key="RNG_SETTINGS_Label_Move_To_Mouse_Pointer" value="माउस पॉइंटर पर ले जाएं" />
+      <add key="RNG_SETTINGS_Check_Move_To_Previous_Location_Before_Pressing_Hotkey" value="हॉटकी दबाने से पहले पिछली जगह पर जाएं" />
+      <add key="RNG_SETTINGS_Button_Save" value="सेव करें" />
+      <add key="RNG_SETTINGS_Button_Cancel" value="रद्द करें" />
+    </sub>
+    <sub id="1" name="Slot Positions Selector">
+      <add key="SLOT_POSITION_ITEM_Label_Move" value="स्थानाँतरित करें" />
+      <add key="SLOT_POSITION_ITEM_Label_Swap" value="स्वैप करें" />
+    </sub>
+    <sub id="2" name="Window - Slot Size Selection">
+      <add key="SLOT_SIZE_SELECTION_WINDOW_Title" value="विंडो शीर्षक" />
+      <add key="SLOT_SIZE_SELECTION_WINDOW_Label_Slot_Size" value="slot आकार" />
+      <add key="SLOT_SIZE_SELECTION_WINDOW_Label_Width" value="चौड़ाई" />
+      <add key="SLOT_SIZE_SELECTION_WINDOW_Label_Height" value="ऊँचाई" />
+      <add key="SLOT_SIZE_SELECTION_WINDOW_Label_Slot_Padding" value="slot पैडिंग" />
+    </sub>
+    <sub id="3" name="Slot Area Window">
+      <add key="SLOT_AREA_WINDOW_Label_PosX" value="स्थिति X" />
+      <add key="SLOT_AREA_WINDOW_Label_PosY" value="स्थिति Y" />
+      <add key="SLOT_AREA_WINDOW_Label_Width" value="चौड़ाई" />
+      <add key="SLOT_AREA_WINDOW_Label_Height" value="ऊँचाई" />
+      <add key="SLOT_AREA_WINDOW_Label_Lock_Aspect_Ratio" value="आस्पेक्ट रेश्यो लॉक करें" />
+      <add key="SLOT_AREA_WINDOW_Label_Only_Work_For_These_Sites" value="केवल इन साइट्स के लिए काम करता है" />
+      <add key="SLOT_AREA_WINDOW_Tooltip_Swap" value="दो slots पर 'Swap' क्लिक करें ताकि उनकी स्थितियाँ बदल जाएं।" />
+    </sub>
+    <sub id="4" name="Lobby Slot Area">
+      <add key="LOBBY_SLOT_AREA_WINDOW_Label_Stack_In_Slot" value="इस slot में लॉबी स्टैक करें" />
+      <add key="LOBBY_SLOT_AREA_WINDOW_Label_Select_Site" value="साइट चुनें" />
+      <add key="LOBBY_SLOT_AREA_WINDOW_Label_Disclaimer" value="यह slot लॉबी के आकार का प्रतिनिधित्व नहीं करता! यह केवल स्क्रीन पर उसका स्थान (X, Y) दर्शाता है" />
+    </sub>
+    <sub id="5" name="Joystick Menu">
+      <add key="JOYSTICK_MENU_Title_Menu" value="मेनू" />
+      <add key="JOYSTICK_MENU_Button_Close" value="बंद करें" />
+      <add key="CONTROLLER_MENU_REORDER_OBSERVE_AREA" value="Observer क्षेत्र पुनः व्यवस्थित करें" />
+      <add key="CONTROLLER_MENU_REORDER_PLAYING_AREA" value="Playing क्षेत्र पुनः व्यवस्थित करें" />
+    </sub>
+    <sub id="6" name="Eula">
+      <add key="EULA_Title_Terms_And_Conditions" value="शर्तें और नियम" />
+      <add key="EULA_Sub_Please_Read_And_Accept_Conditions_Of_Use" value="कृपया उपयोग की शर्तें पढ़ें और स्वीकार करें" />
+      <add key="EULA_Check_I_Accept_Terms_And_Conditions" value="मैं Jurojin की शर्तों और नियमों को स्वीकार करता हूँ" />
+      <add key="EULA_Button_Scroll_To_End" value="" />
+      <add key="EULA_Button_Accept_And_Continue" value="स्वीकार करें और जारी रखें" />
+      <add key="EULA_Button_Resign_And_Close" value="अस्वीकार करें और बंद करें" />
+      <add key="EULA_Text_You_Cannot_Use_The_App_Until_Terms_Conditions" value="क्षमा करें, आप ऐप का उपयोग तब तक नहीं कर सकते जब तक शर्तें और नियम स्वीकार नहीं किए जाते" />
+      <add key="EULA_Text_You_Cannot_Create_Account_Until_Terms_Conditions" value="क्षमा करें, जब तक आप शर्तें और नियम स्वीकार नहीं करते, आप खाता नहीं बना सकते।" />
+      <add key="EULA_Text_There_Was_A_Problem" value="शर्तें और नियम पर हस्ताक्षर करने के लिए सर्वर से कनेक्ट करने में समस्या हुई, कृपया बाद में पुनः प्रयास करें या हमसे संपर्क करें!" />
+      <add key="EULA_Check_Join_Jurojin_Newsletter_1" value="Jurojin न्यूज़लेटर से जुड़ें" />
+      <add key="EULA_Check_Join_Jurojin_Newsletter_2" value="विशेष छूट और ऐप समाचार" />
+    </sub>
+    <sub id="7" name="News">
+      <add key="NEWS_WINDOW_Title_Limited_Time_Offer" value="सीमित समय की पेशकश" />
+      <add key="NEWS_WINDOW_Label_We_Have_An_Insane_Offer_For_All_Annual_Bundles" value="सभी वार्षिक बंडलों के लिए हमारे पास एक शानदार ऑफर है!" />
+      <add key="NEWS_WINDOW_Label_Get_Off_1" value="प्राप्त करें" />
+      <add key="NEWS_WINDOW_Label_Get_Off_2" value="हमारे किसी भी वार्षिक बंडल पर छूट! 00 बजे GMT से कोड का उपयोग करें" />
+      <add key="NEWS_WINDOW_Button_Unlock_Discount" value="छूट अनलॉक करें" />
+      <add key="NEWS_WINDOW_Label_Limited_Time_Offer" value="सीमित समय की पेशकश" />
+    </sub>
+  </area>
+  <area id="119" name="Custom Controls">
+    <add key="WORKS_FOR_SITES_CONTROL_Title" value="यह सुविधा केवल के लिए काम करती है" />
+    <add key="ENABLE_FOR_SITES_CONTROL_Title" value="साइट्स को ऑन/ऑफ करने के लिए ड्रैग और ड्रॉप करें" />
+    <add key="ENABLE_FOR_SITES_CONTROL_Popup_Body" value="विशिष्ट साइट्स के लिए यह सुविधा सक्षम करने के लिए क्लिक करें" />
+    <add key="ACTIVATE_SLOT_FEATURE_TOOL_TIP_Title" value="उफ़! आपने अधिकतम सीमा तक पहुँच गए हैं" />
+    <add key="ACTIVATE_SLOT_FEATURE_TOOL_TIP_Body" isFormatted="true" value="&lt;p style=&quot;font-weight: 700;&quot;&gt;आपने पहले ही सभी अनुमत slots का उपयोग कर लिया है।&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-weight: 600;&quot;&gt;सक्रिय करें&lt;/span&gt; &lt;span style=&quot;font-weight: 600;&quot;&gt;BUNDLE FULL TILLING&lt;/span&gt; ताकि आप &lt;span style=&quot;font-weight: 600;&quot;&gt;असीमित slots&lt;/span&gt; जोड़ सकें!&lt;/p&gt;" />
+    <add key="LEARN_MORE_Text_Learn_More_About_This_Subject" value="इस विषय के बारे में अधिक जानने के लिए क्लिक करें!" />
+    <add key="ENABLE_FOR_SITES_CONTROL_Button_Save" value="सेव करें" />
+    <add key="WORKS_FOR_SITES_CONTROL_Button_Cancel" value="रद्द करें" />
+    <add key="SITE_HEX_CONTROL_Label_Read_Review" value="समीक्षा पढ़ें" />
+  </area>
+  <area id="120" name="Toasters">
+    <add key="ACTIVE_LAYOUT_TOASTER_TEXT" value="सक्रिय layout: " />
+    <add key="NO_ACCESS_TO_FEATURE_MESSAGE" value="#game# में #name# तक पहुँच नहीं! कृपया हमारी Discord समुदाय में पूछें!" />
+    <add key="HOTKEYS_DISABLED_FOR_SITE" value="याद रखें, आपने #game# साइट के लिए hotkeys अक्षम कर दिए हैं! आप उन्हें hotkeys सेक्शन में वापस चालू कर सकते हैं!" />
+    <add key="OVERLAYS_POSITION_SAVED" value="आपकी overlays की स्थिति अब सेव कर दी गई है!" />
+    <add key="APP_LOCATION_RESTORED" value="ऐप का स्थान पुनस्थापित किया गया" />
+    <add key="INJECTION_AVOIDED_VIA_BACKOFFICE_NOTIF" value="कृपया ऐप दोबारा खोलें! आपके पोकयरूम में से एक अब diagnosis मोड में है और हमें समस्या को जल्द से जल्द हल करने के लिए सभी से ऐप फिर से खोलने की आवश्यकता है!" />
+    <add key="INJECTION_AVOIDED_VIA_BACKOFFICE" value="कृपया ऐप दोबारा खोलें! आपके पोकयरूम में से एक अब diagnosis मोड में है और हमें समस्या को जल्द से जल्द हल करने के लिए सभी से ऐप फिर से खोलने की आवश्यकता है!" />
+    <add key="HOSTS_FILE_BLOCKS_HELP_REPORT" value="hosts फ़ाइल के कारण सहायता अवरुद्ध है। सपोर्ट से संपर्क करें।" />
+    <add key="COINPOKER_ALT_STUCK_UNJAMMED" value="CoinPoker Alt Stucked was Unjammed" />
+    <add key="NEW_APP_VERSION_NOTIFICATION" value="आपके पास नया पेंडिंग अपडेट है! नवीनतम संस्करण पाने के लिए Jurojin को पुनः खोलना सुझाव दिया जाता है!" />
+    <add key="MOVE_ARROUND_HOTKEYS_DISCLAIMER" value="यदि आप कीबोर्ड से खेल रहे हैं तो &quot;Focus Table Under Mouse&quot; को बंद करें या माउस पॉइंटर को कोने में छोड़ दें!" />
+    <add key="SPACEBAR_NOT_RECOMMENDED" value="आपको #game# पर spacebar को hotkey के रूप में उपयोग नहीं करना चाहिए क्योंकि यह कई बग्स उत्पन्न करता है!" />
+    <add key="KEEP_MOST_URGENT_MESSAGE" value="हमने आपके ब्राउज़र में एक मार्गदर्शिका खोली है ताकि आप प्रत्येक साइट को 'Keep Most Urgent on Top' फीचर के लिए ठीक से कॉन्फ़िगर कर सकें" />
+    <add key="AUTO_FOCUS_MOUSE_FREE_DIALOG_TITLE" value="माउस के बिना खेलें?" />
+    <add key="AUTO_FOCUS_MOUSE_FREE_DIALOG_BODY" value="Auto Focus कीबोर्ड फ़ोकस को सबसे जरूरी टेबल पर ले जाता है। माउस के बिना fold, check या bet के लिए टेबल हॉटकी फ़ोकस की गई टेबल पर लगनी चाहिए।" />
+    <add key="AUTO_FOCUS_MOUSE_FREE_DIALOG_YES" value="हाँ, बदलें" />
+    <add key="AUTO_FOCUS_MOUSE_FREE_DIALOG_IGNORE" value="नज़रअंदाज़ करें" />
+    <add key="ONE_TABLE_HOTKEYS_MESSAGE" value="आप एक बार में केवल एक टेबल पर ही hotkeys का उपयोग कर सकते हैं! यदि आप सभी टेबल्स पर उन्हें उपयोग करना चाहते हैं तो कृपया हमारे स्टोर को देखें!" />
+    <add key="CONNECTION_COLLIDED" value="यह ऐप एक समय में केवल एक पीसी पर चल सकता है, आपकी ऐप दूसरी पीसी पर खुली रहेगी" />
+    <add key="PACIFIC_POKER_X64" value="आपके पास 888Poker का x64 संस्करण है जहाँ केवल tiling काम करेगा। आप हमारे गाइड का पालन कर सकते हैं, x86 संस्करण इंस्टॉल करना इसे ठीक कर देगा।" />
+    <add key="PACIFIC_POKER_X64_WORKING" value="Jurojin अब पूरी तरह से 888 (x64) संस्करण का समर्थन करता है, कृपया अपने क्षेत्र के लिए नवीनतम 888 सॉफ़्टवेयर डाउनलोड और इंस्टॉल करें। परिणामस्वरूप, x86 समर्थन अब बंद कर दिया गया है।" />
+    <add key="TABLE_BURIED_IN_STACK_DIALOG" value="आपकी कुछ जरूरी टेबल्स एक स्टैक में दबी हुई हैं! जब आप यह संवाद बंद करेंगे तो आपका ब्राउज़र एक बहुत उपयोगी लेख खोलेगा, कृपया 'Keep Most Urgent on Top' फीचर चालू करें" />
+    <add key="TABLE_BURIED_IN_STACK_TOASTER" value="आपकी कुछ जरूरी टेबल्स एक स्टैक में दबी हुई हैं, 'Keep Most Urgent on Top' फीचर चालू करने पर विचार करें।" />
+    <add key="STACK_GUIDANCE_STACKING_OFF" value="उफ़ — एक स्लॉट में कई टेबल हैं और स्टैकिंग सुविधाएँ बंद हैं। हम दिखाएँगे कैसे ठीक करें। इस डायलॉग को बंद करने पर ब्राउज़र में गाइड खुलेगी।" />
+    <add key="STACK_GUIDANCE_ENHANCE_STACK" value="स्टैक्ड प्ले में आप सही रास्ते पर हैं। कुछ और सुविधाएँ दिखाते हैं जो फ़र्क़ लाएँगी। इस डायलॉग को बंद करने पर ब्राउज़र में गाइड खुलेगी।" />
+    <add key="APP_LIMITATIONS_FREE_TIER_STAKE_NOT_COVERED" value="Free Tier प्लान स्टेक्स के कारण इस टेबल को कवर नहीं करता। सब्सक्राइब करें और अनलॉक करें!" />
+    <add key="APP_LIMITATIONS_FREE_TIER_STAKE_NOT_COVERED_ACTION" value="सब्सक्राइब करें और अनलॉक करें!" />
+    <add key="APP_LIMITATIONS_FREE_TIER_EXEMPT_ROOM_NOT_COVERED" value="#game# टेबल Free प्लान पर समर्थित नहीं हैं।" />
+    <add key="APP_LIMITATIONS_FREE_TIER_EXEMPT_ROOM_NOT_COVERED_ACTION" value="Tiling सब्सक्राइब करें" />
+    <add key="APP_LIMITATIONS_LOW_STAKES_QUOTA_REACHED" value="ओह, आपने Low-Stakes से ऊपर की कोटा पूरी कर ली है। अनलॉक करने के लिए अपग्रेड करें!" />
+    <add key="APP_LIMITATIONS_LOW_STAKES_QUOTA_REACHED_ACTION" value="अनलॉक करने के लिए अपग्रेड करें!" />
+    <add key="APP_LIMITATIONS_CLUBGG_FULL_ACCESS_ONLY" value="ClubGG केवल Full Access में शामिल है" />
+    <add key="APP_LIMITATIONS_CLUBGG_FULL_ACCESS_ONLY_ACTION" value="Full Access प्राप्त करें" />
+    <add key="APP_LIMIATIONS_MAX_TILED_TABLES_REACHED" value="आप उच्च स्टेक्स की केवल दो टेबल टाइल कर सकते हैं, और माइक्रोस्टेक्स हो तो असीमित!" />
+    <add key="APP_LIMIATIONS_MAX_TILED_TABLES_REACHED_ACTION" value="Tiling Bundle लें" />
+    <add key="APP_LIMITATIONS_NEW_TABLE_GAINED_HOTKEY_RIGHTS" value="यह अब वह उच्च-स्टेक्स टेबल है जहाँ मुफ़्त हॉटकी उपलब्ध हैं!" />
+    <add key="APP_LIMITATIONS_NEW_TABLE_GAINED_HOTKEY_RIGHTS_ACTION" value="सभी टेबल पर हॉटकी सक्षम करें" />
+    <add key="APP_LIMITATIONS_TABLE_DOESNT_HAVE_HOTKEY_RIGHTS" value="इस टेबल पर हॉटकी इस्तेमाल नहीं कर सकते" />
+    <add key="APP_LIMITATIONS_TABLE_DOESNT_HAVE_HOTKEY_RIGHTS_ACTION" value="सभी टेबल पर हॉटकी सक्षम करें" />
+    <add key="APP_LIMITATIONS_TABLE_DOESNT_HAVE_HOTKEY_RIGHTS_SHOW_FREE_TABLE" value="यह वह उच्च-स्टेक्स टेबल है जहाँ मुफ़्त हॉटकी उपलब्ध हैं!" />
+    <add key="APP_LIMITATIONS_NEW_TABLE_GAINED_OVERLAY_RIGHTS" value="यह अब मुफ़्त ओवरले वाली टेबल है" />
+    <add key="APP_LIMITATIONS_NEW_TABLE_GAINED_OVERLAY_RIGHTS_ACTION" value="सभी टेबल के लिए ओवरले अनलॉक करें" />
+    <add key="APP_LIMITATIONS_TABLE_DOESNT_HAVE_OVERLAY_RIGHTS" value="इस टेबल पर ओवरले नहीं होंगे! उच्च स्टेक्स की केवल एक टेबल पर मिल सकते हैं!" />
+    <add key="APP_LIMITATIONS_TABLE_DOESNT_HAVE_OVERLAY_RIGHTS_ACTION" value="सभी टेबल के लिए ओवरले अनलॉक करें" />
+    <add key="ERROR_PLAYGROUND" value="यदि आप Playground mode चालू रखते हैं तो Winamax पर कोई भी फ़ंक्शन काम नहीं करेगा! कृपया इसे बंद करना सुनिश्चित करें" />
+    <add key="WINAMAX_OLD" value="" />
+    <add key="DEACTIVATE_TABLE_UNDER_MOUSE" value="यदि आप टेबल्स के बीच घुमने के लिए कंट्रोलर या कीबोर्ड का उपयोग करने जा रहे हैं, तो &quot;Focus Table Under Mouse&quot; को बंद करना सुनिश्चित करें&quot;" />
+  </area>
+  <area id="121" name="Pages - Store">
+    <sub id="0" name="Page - Jurojin Store">
+      <add key="STORE_NL_Title_Jurojin_Store" value="Jurojin Store" />
+      <add key="STORE_NL_Section_Your_Products" value="आपके प्रोडक्ट्स" />
+      <add key="STORE_NL_Section_Explore_All_Bundles" value="सभी बंडल देखें" />
+      <add key="STORE_NL_Button_Checkout" value="Checkout" />
+      <add key="STORE_NL_Label_I_Have_A_Gift_Card_Line1" value="मेरे पास एक" />
+      <add key="STORE_NL_Label_I_Have_A_Gift_Card_Line2" value="Gift Card" />
+      <add key="STORE_NL_Label_I_Have_A_Gift_Card_Redeem" value="अब रिडीम करें" />
+      <add key="STORE_NL_Label_Upgrade_Your_Active_Plan_Pay_Only_The_Difference" value="अपने सक्रिय प्लान को अपग्रेड करें और केवल अंतर राशि भुगतान करें" />
+    </sub>
+    <sub id="1" name="Page - Fill Cart">
+      <add key="FILL_CART_NL_Title_Jurojin_Store" value="Jurojin Store" />
+      <add key="FILL_CART_NL_Button_Proceed_To_Payment" value="भुगतान के लिए आगे बढ़ें" />
+      <add key="FILL_CART_NL_Button_Continue" value="जारी रखें" />
+      <add key="FILL_CART_NL_Label_We_Noticed_Your_Selection_More_Expensive_Do_You_Want_Only_Full_Access" value="हमने देखा कि आपका चयन हमारे फुल एक्सेस बंडल से महंगा है, जिसमें कम कीमत में सभी फीचर्स हैं। क्या आप अपना कार्ट केवल फुल एक्सेस बंडल पर बदलना चाहते हैं?" />
+      <add key="FILL_CART_NL_Label_Remaining_Months" value="बचे हुए महीने" />
+      <add key="FILL_CART_NL_Label_Regular_Price" value="सामान्य कीमत" />
+      <add key="FILL_CART_NL_Label_Pay_Only_The_Difference" value="केवल अंतर राशि भुगतान करें" />
+      <add key="FILL_CART_NL_Label_One_Time_Payment" value="एक बार का भुगतान" />
+      <add key="FILL_CART_NL_Label_Days_Of_Upgrade" value="" />
+      <add key="FILL_CART_NL_Error_Message_Fail_To" value="" />
+    </sub>
+    <sub id="2" name="UserControl - Purchase Summary">
+      <add key="PURCHASE_SUMMARY_NL_Title_Purchase_Summary" value="खरीद सारांश" />
+      <add key="PURCHASE_SUMMARY_NL_Label_Total" value="कुल" />
+      <add key="PURCHASE_SUMMARY_NL_Label_Without_The_Network_Fee" value="*नेटवर्क शुल्क के बिना" />
+    </sub>
+    <sub id="3" name="Dialog - Your Trial Ending Soon">
+      <add key="DIALOG_YOUR_TRIAL_ENDING_SOON_Title" value="आपका ट्रायल जल्द ही समाप्त होने वाला है!" />
+      <add key="DIALOG_YOUR_TRIAL_ENDING_SOON_Details" value="क्या आपने फैसला कर लिया है? यदि आप तैयार हैं, तो अब स्टोर पर जाएं और वे फीचर्स प्राप्त करें जिन्हें आप पसंद करते हैं" />
+      <add key="DIALOG_YOUR_TRIAL_ENDING_SOON_Button_Reopen_Checkout_In_Browser" value="ब्राउज़र में चेकआउट फिर से खोलें" />
+      <add key="DIALOG_YOUR_TRIAL_ENDING_SOON_Button_Reopen_Checkout_In_Browser_Description" value="यदि आपने गलती से चेकआउट पेज बंद कर दिया है" />
+      <add key="DIALOG_YOUR_TRIAL_ENDING_SOON_Button_Finish_Purchase" value="खरीद पूरी करें" />
+      <add key="DIALOG_YOUR_TRIAL_ENDING_SOON_Button_Finish_Purchase_Description" value="यदि आपको पहले ही भुगतान पुष्टि ईमेल मिल चुका है" />
+      <add key="DIALOG_YOUR_TRIAL_ENDING_SOON_Button_Go_To_Discord" value="Discord पर जाएं" />
+      <add key="DIALOG_YOUR_TRIAL_ENDING_SOON_Button_Go_To_Jurojin_Store" value="Jurojin Store पर जाएं" />
+    </sub>
+    <sub id="4" name="Dialog - Continue Browsing And Come Back Here">
+      <add key="DIALOG_CONTINUE_BROWSING_AND_COME_BACK_AGAIN_Title" value="" />
+      <add key="DIALOG_CONTINUE_BROWSING_AND_COME_BACK_AGAIN_Details" value="" />
+      <add key="DIALOG_CONTINUE_BROWSING_AND_COME_BACK_AGAIN_Button_Reopen_Checkout_In_Browser" value="ब्राउज़र में चेकआउट फिर से खोलें" />
+      <add key="DIALOG_CONTINUE_BROWSING_AND_COME_BACK_AGAIN_Button_Reopen_Checkout_In_Browser_Description" value="यदि आपने गलती से चेकआउट पेज बंद कर दिया है" />
+      <add key="DIALOG_CONTINUE_BROWSING_AND_COME_BACK_AGAIN_Button_Finish_Purchase" value="खरीद पूरी करें" />
+      <add key="DIALOG_CONTINUE_BROWSING_AND_COME_BACK_AGAIN_Button_Finish_Purchase_Description" value="यदि आपको पहले ही भुगतान पुष्टि ईमेल मिल चुका है" />
+    </sub>
+    <sub id="5" name="Dialog - Everything is Ready to Go!">
+      <add key="DIALOG_EVERYTHING_IS_READY_TO_GO_Title" value="सब कुछ तैयार है!" />
+      <add key="DIALOG_EVERYTHING_IS_READY_TO_GO_Label_We_Hope_You_Enjoy_Your_New_Features" value="हमें उम्मीद है कि आप अपने नए फीचर्स का आनंद लेंगे!" />
+      <add key="DIALOG_EVERYTHING_IS_READY_TO_GO_Button_Got_It" value="समझ गया" />
+      <add key="DIALOG_EVERYTHING_IS_READY_TO_GO_Label_Your_Bundle_Is_Now_Active" isFormatted="true" value="&lt;p आपका &lt;span style=&quot;font-weight: 700;&quot;&gt;{0}&lt;/span&gt; अब सक्रिय है!&lt;/p&gt;" />
+      <add key="DIALOG_BUNDLE_RAN_OUT_OF_JUICE_Title" value="एक्सेस समाप्त" />
+      <add key="DIALOG_BUNDLE_RAN_OUT_OF_JUICE_Label_Body" isFormatted="true" value="&lt;p&gt;इस सत्र के दौरान आपका &lt;span style=&quot;font-weight: 700;&quot;&gt;{0}&lt;/span&gt; बंडल समाप्त हो गया। पहुँच पुनर्स्थापित करने और जहाँ छोड़ा था वहीं से जारी रखने के लिए Store में अपनी सदस्यता नवीनीकृत करें।&lt;/p&gt;" />
+      <add key="DIALOG_BUNDLE_RAN_OUT_OF_JUICE_Button_Got_It" value="Store पर जाएं" />
+    </sub>
+    <sub id="6" name="Dialog - We Havent Received Payment Our End Yet">
+      <add key="DIALOG_WE_HAVENT_RECEIVED_PAYMENT_YET_Title" value="हमें अभी तक आपका भुगतान प्राप्त नहीं हुआ है" />
+      <add key="DIALOG_WE_HAVENT_RECEIVED_PAYMENT_YET_Details" value="कृपया Jurojin टीम से भुगतान पुष्टि वाली ईमेल का इंतजार करें और फिर से प्रयास करें। यदि आपको ईमेल मिल चुकी है, तो कृपया पुनः प्रयास करें या समर्थन से संपर्क करें" />
+      <add key="DIALOG_WE_HAVENT_RECEIVED_PAYMENT_YET_Button_Got_It" value="समझ गया" />
+    </sub>
+    <sub id="7" name="UserControl - Bundle Card">
+      <add key="BUNDLE_CARD_Button_Read_More" value="और पढ़ें" />
+      <add key="BUNDLE_CARD_Button_Add_To_Cart" value="कार्ट में जोड़ें" />
+      <add key="BUNDLE_CARD_Label_Active_Bundle" value="सक्रिय बंडल" />
+      <add key="BUNDLE_CARD_Label_Time_Remaining" value="शेष समय" />
+      <add key="BUNDLE_CARD_Label_Renews_In" value="" />
+      <add key="BUNDLE_CARD_Label_Remaining" value="" />
+      <add key="BUNDLE_CARD_Button_Cancel" value="" />
+      <add key="BUNDLE_CARD_Label_Cancelled" value="" />
+      <add key="BUNDLE_CARD_Label_Already_Subscribed" value="" />
+    </sub>
+    <sub id="8" name="UserControl - Your Products">
+      <add key="YOUR_PRODUCTS_Label_Time_Remaining" value="शेष समय" />
+      <add key="YOUR_PRODUCTS_Button_Add_To_Cart" value="दिन जोड़ें" />
+    </sub>
+    <sub id="9" name="Store - Top Menu">
+      <add key="STORE_TOP_MENU_Label_Link_With_Discord_Access_Full_Pack_1" value="पूरा पैक प्राप्त करने के लिए अपना Discord लिंक करें" />
+      <add key="STORE_TOP_MENU_Label_Link_With_Discord_Access_Full_Pack_2" value="15-दिन का फुल पैक ट्रायल" />
+      <add key="STORE_TOP_MENU_Button_Link_Now" value="अब लिंक करें" />
+      <add key="STORE_TOP_MENU_Label_Your_Trial_Period_Is_Ending" value="आपका ट्रायल पीरियड समाप्त हो रहा है!" />
+      <add key="STORE_TOP_MENU_Label_Dont_Miss_The_Fun" value="मज़े को मिस न करें!" />
+      <add key="STORE_TOP_MENU_Button_Learn_More" value="और जानें" />
+      <add key="STORE_TOP_MENU_Label_Trial_Days" value="ट्रायल दिन" />
+      <add key="STORE_TOP_MENU_Label_One_Of_Your_Products_Is_About_To_Expire" value="आपका एक प्रोडक्ट समाप्त होने वाला है!" />
+      <add key="STORE_TOP_MENU_Button_Renew_Now" value="अब नवीनीकरण करें" />
+      <add key="STORE_TOP_MENU_Label_Claim_Your_Free_Full_Pack_1" value="अपना मुफ्त" />
+      <add key="STORE_TOP_MENU_Label_Claim_Your_Free_Full_Pack_2" value="फुल पैक 15-दिन ट्रायल प्राप्त करें" />
+      <add key="STORE_TOP_MENU_Button_Claim_Now" value="अब दावा करें" />
+      <add key="STORE_TOP_MENU_Label_Limited_Offer" value="सीमित ऑफर" />
+      <add key="COUPON_RECEIVED_Toast_Limited_Time_Offer" value="आपने एक सीमित अर्ली बर्ड छूट अनलॉक की है। यह आपके द्वारा चुने गए किसी भी प्लान पर लागू होती है।" />
+      <add key="STORE_TOP_MENU_Button_Get_Discount" value="डिस्काउंट प्राप्त करें" />
+      <add key="STORE_TOP_MENU_Label_You_Are_On_Free_Mode_Line1" value="आप FREE मोड पर हैं!" />
+      <add key="STORE_TOP_MENU_Label_You_Are_On_Free_Mode_Line2" value="और कुछ सीमाओं का सामना कर रहे हैं" />
+    </sub>
+    <sub id="10" name="Dialog - Jurojin Store Checkout Platform">
+      <add key="DIALOG_STORE_CHECKOUT_PLATFORM_Title_Jurojin_Store_Checkout" value="Jurojin Store चेकआउट" />
+      <add key="DIALOG_STORE_CHECKOUT_PLATFORM_Label_Amount_To_Pay" value="भुगतान करने की राशि" />
+      <add key="DIALOG_STORE_CHECKOUT_PLATFORM_Label_Choose_A_Payment_Platform" value="भुगतान प्लेटफ़ॉर्म चुनें" />
+      <add key="DIALOG_STORE_CHECKOUT_PLATFORM_Label_Credit_Card_Fiat_Wallets_Others" value="क्रेडिट कार्ड, फिएट वॉलेट्स, गिफ्ट कार्ड्स, या अन्य" />
+      <add key="DIALOG_STORE_CHECKOUT_PLATFORM_Label_Crypto_Payment" value="क्रिप्टो भुगतान (USDT/USDC/BTC)" />
+      <add key="DIALOG_STORE_CHECKOUT_PLATFORM_Toast_You_Wont_Be_Charged_Until_Last_Step" value="आपको अंतिम कदम तक शुल्क नहीं लगेगा" />
+      <add key="DIALOG_STORE_CHECKOUT_PLATFORM_Label_Card_Title" value="" />
+      <add key="DIALOG_STORE_CHECKOUT_PLATFORM_Label_Card_Providers" value="" />
+      <add key="DIALOG_STORE_CHECKOUT_PLATFORM_Label_Card_Type" value="" />
+      <add key="DIALOG_STORE_CHECKOUT_PLATFORM_Label_Crypto_Title" value="" />
+      <add key="DIALOG_STORE_CHECKOUT_PLATFORM_Label_Crypto_Providers" value="" />
+      <add key="DIALOG_STORE_CHECKOUT_PLATFORM_Label_One_Time_Purchase" value="एक बार की खरीद" />
+      <add key="DIALOG_STORE_CHECKOUT_PLATFORM_Label_EWallet_Title" value="" />
+      <add key="DIALOG_STORE_CHECKOUT_PLATFORM_Label_EWallet_Providers" value="" />
+      <add key="DIALOG_STORE_CHECKOUT_PLATFORM_Button_Go_To_Payment" value="भुगतान के लिए आगे बढ़ें" />
+      <add key="DIALOG_STORE_CHECKOUT_PLATFORM_Button_Cancel" value="रद्द करें" />
+      <add key="DIALOG_STORE_CHECKOUT_PLATFORM_Warning_Title_Important" value="महत्वपूर्ण" />
+      <add key="DIALOG_STORE_CHECKOUT_PLATFORM_Warning_Body_Due_Higher_Fees" value="क्रिप्टो नेटवर्क्स में उच्च शुल्क के कारण, आपको इन शुल्कों के अनुरूप अतिरिक्त राशि देय होगी" />
+      <add key="DIALOG_STORE_CHECKOUT_PLATFORM_Tooltip_Cant_Subscribe_To_More_Than_One_With_Stripe" value="" />
+    </sub>
+    <sub id="11" name="Dialog - Store Checkout Crypto">
+      <add key="DIALOG_STORE_CHECKOUT_CRYPTO_Title_Jurojin_Store_Checkout" value="Jurojin Store चेकआउट" />
+      <add key="DIALOG_STORE_CHECKOUT_CRYPTO_Label_Amount_To_Pay" value="भुगतान करने की राशि" />
+      <add key="DIALOG_STORE_CHECKOUT_CRYPTO_Label_Choose_A_Network" value="नेटवर्क चुनें" />
+      <add key="DIALOG_STORE_CHECKOUT_CRYPTO_Label_Choose_A_Cryptocurrency" value="एक क्रिप्टोकरेंसी चुनें" />
+      <add key="DIALOG_STORE_CHECKOUT_CRYPTO_Button_Continue" value="जारी रखें" />
+      <add key="DIALOG_STORE_CHECKOUT_CRYPTO_Button_Cancel" value="रद्द करें" />
+      <add key="DIALOG_STORE_CHECKOUT_CRYPTO_ERROR_EXPIRED" value="आप जो कूपन उपयोग करने की कोशिश कर रहे हैं, वह समाप्त हो चुका है" />
+      <add key="DIALOG_STORE_CHECKOUT_CRYPTO_ERROR_NOT_FOUND" value="आप जो कूपन उपयोग करने की कोशिश कर रहे हैं, वह नहीं मिला" />
+      <add key="DIALOG_STORE_CHECKOUT_CRYPTO_ERROR_NO_PRODUCTS" value="आप जो कूपन उपयोग करने की कोशिश कर रहे हैं, उसमें आपके चयनित किसी भी प्रोडक्ट के लिए कोई छूट नहीं है" />
+      <add key="DIALOG_STORE_CHECKOUT_CRYPTO_ERROR_ANNUAL_ONLY" value="यह कूपन केवल इस उत्पाद के वार्षिक संस्करण पर लागू होता है" />
+      <add key="DIALOG_STORE_CHECKOUT_CRYPTO_NO_PAYMENT_OPTIONS" value="क्रिप्टो भुगतान विकल्प प्राप्त करते समय त्रुटि हुई। कृपया सपोर्ट से संपर्क करें या Verifone के साथ भुगतान करें" />
+      <add key="DIALOG_STORE_CHECKOUT_STRIPE_Error_Occurred" value="" />
+    </sub>
+    <sub id="12" name="Dialog - Store Payment Info">
+      <add key="DIALOG_STORE_PAYMENT_INFO_Title_Payment_Info" value="भुगतान जानकारी" />
+      <add key="DIALOG_STORE_PAYMENT_INFO_Label_Amount_To_Be_Sent" value="भेजी जाने वाली राशि" />
+      <add key="DIALOG_STORE_PAYMENT_INFO_Label_Send_To_Address" value="पते पर भेजें" />
+      <add key="DIALOG_STORE_PAYMENT_INFO_Label_Remaining_Time" value="बचा हुआ समय" />
+      <add key="DIALOG_STORE_PAYMENT_INFO_Toast_Only_Send_To_This_Address_1" value="केवल इस पते पर भेजें यदि आपने पुष्टि की है कि आप" />
+      <add key="DIALOG_STORE_PAYMENT_INFO_Toast_Only_Send_To_This_Address_2" value="नेटवर्क में हैं" />
+      <add key="DIALOG_STORE_PAYMENT_INFO_Toast_You_Will_Receive_A_Confirmation_Email" value="भुगतान पुष्टि में 30 मिनट तक लग सकते हैं! आपको एक पुष्टि ईमेल मिलेगा। एक बार मिलने के बाद, आप नीचे दिए बटन पर क्लिक करके अपने नए फीचर्स का आनंद ले सकते हैं। कृपया एक से अधिक बार भुगतान न करें" />
+      <add key="DIALOG_STORE_PAYMENT_INFO_Toast_Check_Amount_You_Need_To_Send_As_Gas_Fees_Added_To_Final_Price" value="भेजने के लिए राशि जांचें, क्योंकि गैस शुल्क अंतिम कीमत में जोड़ा जाएगा" />
+      <add key="DIALOG_STORE_PAYMENT_INFO_Button_Ive_Received_My_Confirmation_Email" value="मुझे मेरी पुष्टि ईमेल मिल चुकी है" />
+    </sub>
+    <sub id="13" name="Dialog - Store Checkout Coupon ">
+      <add key="DIALOG_STORE_CHECKOUT_COUPON_Title_Jurojin_Store_Checkout" value="Jurojin Store चेकआउट" />
+      <add key="DIALOG_STORE_CHECKOUT_COUPON_Label_I_Have_Discount_Coupon" value="मेरे पास एक डिस्काउंट कूपन है" />
+      <add key="DIALOG_STORE_CHECKOUT_COUPON_Label_Type_In_Your_Coupon" value="अपना Coupon टाइप करें" />
+      <add key="DIALOG_STORE_CHECKOUT_COUPON_Button_Redeem" value="रिडीम करें" />
+      <add key="DIALOG_STORE_CHECKOUT_COUPON_Toast_Coupon_Applied_Succesfully" value="coupon सफलतापूर्वक लागू हुआ!" />
+      <add key="DIALOG_STORE_CHECKOUT_COUPON_Button_Continue" value="जारी रखें" />
+      <add key="DIALOG_STORE_CHECKOUT_COUPON_Button_Cancel" value="रद्द करें" />
+      <add key="DIALOG_STORE_CHECKOUT_COUPON_Error_The_Coupon_Was_Not_Applied" value="Coupon लागू नहीं हुआ। कृपया किसी दूसरे कोड के साथ पुनः प्रयास करें।" />
+      <add key="DIALOG_STORE_CHECKOUT_COUPON_Error_HundredForSome" value="आपका दर्ज किया गया coupon आपके cart के एक उत्पाद के 100% मूल्य का giftcard है, कृपया redeem giftcard बटन का उपयोग करें" />
+    </sub>
+    <sub id="14" name="Dialog - Store Redeem Gift Card">
+      <add key="DIALOG_STORE_REDEEM_GIFT_CARD_Title_Redeem_Your_Gift_Card" value="अपना Gift Card redeem करें" />
+      <add key="DIALOG_STORE_REDEEM_GIFT_CARD_Placeholder_Type_In_Your_Gift_Card_Code" value="अपना Gift Card कोड टाइप करें" />
+      <add key="DIALOG_STORE_REDEEM_GIFT_CARD_Button_Redeem" value="रिडीम करें" />
+      <add key="DIALOG_STORE_REDEEM_GIFT_CARD_Button_Cancel" value="रद्द करें" />
+      <add key="DIALOG_STORE_REDEEM_GIFT_CARD_Error_Coupon_Was_Not_Applied_Try_Again" value="Coupon लागू नहीं हुआ। कृपया किसी दूसरे कोड के साथ पुनः प्रयास करें।" />
+      <add key="DIALOG_STORE_REDEEM_GIFT_CARD_ERROR_NOT_FOUND" value="आपका दर्ज किया गया कोड नहीं मिला" />
+      <add key="DIALOG_STORE_REDEEM_GIFT_CARD_ERROR_EXPIRED" value="आपका दर्ज किया गया कोड expired है" />
+      <add key="DIALOG_STORE_REDEEM_GIFT_CARD_ERROR_NO_PRODUCTS" value="आपका दर्ज किया गया कोड किसी उत्पाद से मेल नहीं खाता, कृपया अपने विक्रेता से संपर्क करें" />
+      <add key="DIALOG_STORE_REDEEM_GIFT_CARD_ERROR_NOTHUNDRED" value="आपका दर्ज किया गया कोड discount है, giftcard नहीं, इसे store checkout में redeem करना सुनिश्चित करें" />
+      <add key="DIALOG_STORE_REDEEM_GIFT_CARD_ERROR_BADREQUEST" value="आपका दर्ज किया गया कोड में समस्या है, support से संपर्क करें" />
+    </sub>
+    <sub id="15" name="Dialog - Store Binance Warning">
+      <add key="DIALOG_STORE_BINANCE_WARNING_Title" value="लगभग हो गया..." />
+      <add key="DIALOG_STORE_BINANCE_WARNING_Body" isFormatted="true" value="&lt;p&gt;यदि आप &lt;span style=&quot;font-weight: 700;&quot;&gt;Binance&lt;/span&gt; से withdrawal कर रहे हैं, तो आपको &lt;span style=&quot;font-weight: 700;&quot;&gt;अपने withdrawal में 1 अतिरिक्त USDT जोड़ना होगा&lt;/span&gt;, यदि आप किसी अन्य platform का उपयोग कर रहे हैं, तो कृपया हमें USDT भेजने से पहले उनके withdrawal rates जांच लें ताकि आंशिक भुगतान से बचा जा सके।&lt;/p&gt;" />
+      <add key="DIALOG_STORE_BINANCE_WARNING_Button_Continue" value="जारी रखें" />
+      <add key="DIALOG_STORE_BINANCE_WARNING_Button_Cancel" value="रद्द करें" />
+      <add key="DIALOG_STORE_BINANCE_WARNING_Btc_Body" value="जब सीधे exchanges से withdrawal करते हैं, तो withdrawal शुल्क लिया जाता है। सुनिश्चित करें कि आप सही राशि उस पते पर भेज रहे हैं! Binance में आपको यह बटन दबाना होगा ताकि withdrawal राशि सही हो, अन्यथा हमें अपर्याप्त धन प्राप्त होगा और आपके products सक्रिय नहीं होंगे।" />
+    </sub>
+    <sub id="16" name="Dialog - WelcomeTo31DaysTrial">
+      <add key="DIALOG_WELCOME_31_DAYS_TRIAL_Title" value="आपका Trial शुरू हो गया है!" />
+      <add key="DIALOG_WELCOME_31_DAYS_TRIAL_Label_Welcome_To_Jurojin" value="Jurojin में आपका स्वागत है!" />
+      <add key="DIALOG_WELCOME_31_DAYS_TRIAL_Label_Thanks_For_Registering" value="#affi# के माध्यम से रजिस्टर करने के लिए धन्यवाद — आपका 31-दिन का मुफ्त trial अभी शुरू हुआ है। JurojinPoker की सभी सुविधाओं का आनंद लें" />
+      <add key="DIALOG_WELCOME_31_DAYS_TRIAL_Button_Get_Started" value="शुरू करें" />
+    </sub>
+    <sub id="17" name="Dialog - WelcomeTo15DaysTrial">
+      <add key="DIALOG_WELCOME_15_DAYS_TRIAL_Title" value="आपका Trial शुरू हो गया है!" />
+      <add key="DIALOG_WELCOME_15_DAYS_TRIAL_Label_Welcome_To_Jurojin" value="Jurojin में आपका स्वागत है!" />
+      <add key="DIALOG_WELCOME_15_DAYS_TRIAL_Label_Your_15_Day_Free_Trial_Started" value="आपका 15-दिन का मुफ्त trial अभी शुरू हुआ है। JurojinPoker की सभी सुविधाओं का आनंद लें" />
+      <add key="DIALOG_WELCOME_15_DAYS_TRIAL_Button_Get_Started" value="शुरू करें" />
+    </sub>
+    <sub id="18" name="Dialog - Get All Power of Jurojin">
+      <add key="DIALOG_GET_ALL_POWER_OF_JUROJIN_Title_Get_All_The_Power_Of_Jurojin" value="Jurojin की पूरी शक्ति प्राप्त करें" />
+      <add key="DIALOG_GET_ALL_POWER_OF_JUROJIN_Label_Ready_For_The_Full_Jurojin_Experiene" value="पूरी Jurojin अनुभव के लिए तैयार? तुरंत शुरू करें!" />
+      <add key="DIALOG_GET_ALL_POWER_OF_JUROJIN_Label_Visit_Our_Store_And_Get_Any_Bundles" value="हमारे Store पर जाएं और जो भी bundles चाहें प्राप्त करें। अपनी सबसे अच्छी योजना चुनें और कभी भी रद्द करें" />
+      <add key="DIALOG_GET_ALL_POWER_OF_JUROJIN_Button_Visit_Jurojin_Store" value="Jurojin Store पर जाएं" />
+      <add key="DIALOG_GET_ALL_POWER_OF_JUROJIN_Label_Ask_Juro_Bot_How_To_Use_Jurojin_For_Free" value="Juro Bot से पूछें कि microstakes पर Jurojin कैसे मुफ्त में उपयोग करें — सभी सुविधाएँ अनलॉक!" />
+      <add key="DIALOG_GET_ALL_POWER_OF_JUROJIN_Button_Learn_More" value="और जानें" />
+    </sub>
+    <sub id="19" name="Dialog - Trial Alredy Used">
+      <add key="DIALOG_TRIAL_ALREADY_USED_Title" value="Trial पहले ही उपयोग किया जा चुका है" />
+      <add key="DIALOG_TRIAL_ALREADY_USED_Body" isFormatted="true" value="&lt;p&gt;उफ़, आपने अपना trial पहले ही किसी अन्य device/account पर उपयोग किया है, यदि आपको नया trial चाहिए, तो &lt;a href=&quot;mailto:support@jurojinpoker.com&quot;&gt;help@jurojinpoker.com&lt;/a&gt; पर ईमेल भेजें&lt;/p&gt;" />
+    </sub>
+    <sub id="20" name="Dialog - Store Network Fees">
+      <add key="DIALOG_STORE_NETWORK_FEES_Title_This_Is_Your_Final_Amount" value="यह आपकी अंतिम राशि है। यदि यह ठीक लगता है, तो जारी रखें दबाएं।" />
+      <add key="DIALOG_STORE_NETWORK_FEES_Label_Network_Fees" value="Network Fees:" />
+      <add key="DIALOG_STORE_NETWORK_FEES_Label_We_Recommend_Purchasing_Annual_Bundles" value="Network Fees का अधिकतम लाभ उठाने के लिए हम वार्षिक bundles खरीदने की सलाह देते हैं, या हमारे विभिन्न non-crypto payment विकल्पों के साथ Verifone का उपयोग करें।" />
+      <add key="DIALOG_STORE_NETWORK_FEES_Button_Continue" value="जारी रखें" />
+      <add key="DIALOG_STORE_NETWORK_FEES_Button_Cancel" value="रद्द करें" />
+    </sub>
+    <sub id="21" name="Dialog - Store upgrade item warning">
+      <add key="DIALOG_STORE_UPGRADE_CART_Warning_Title" value="" />
+      <add key="DIALOG_STORE_UPGRADE_CART_Warning_Upgrade_Product_Will_Be_Removed" value="" />
+      <add key="DIALOG_STORE_UPGRADE_CART_Warning_Other_Products_Will_Be_Removed" value="" />
+    </sub>
+    <sub id="22" name="Dialog - Store upgrade payment url error">
+      <add key="DIALOG_STORE_UPGRADE_PAYMENT_URL_Error_Body" value="" />
+    </sub>
+  </area>
+  <area id="122" name="Dialogs - Report Issue">
+    <sub id="0" name="Dialog - Report Issue">
+      <add key="DIALOG_REPORT_ISSUE_NL_Title" value="समस्या रिपोर्ट करें" />
+      <add key="DIALOG_REPORT_ISSUE_NL_Label_Thank_You_For_Your_Help" value="आपकी मदद के लिए धन्यवाद!" />
+      <add key="DIALOG_REPORT_ISSUE_NL_Label_Write_The_Issue_Here" value="यहाँ समस्या लिखें..." />
+      <add key="DIALOG_REPORT_ISSUE_NL_Button_Send_Report_To_Jurojin_Servers" value="रिपोर्ट Jurojin Servers को भेजें" />
+      <add key="DIALOG_REPORT_ISSUE_NL_Button_Sending" value="भेजा जा रहा है..." />
+      <add key="DIALOG_REPORT_ISSUE_NL_Button_Add_Hand_To_Report" value="हैंड सबमिट करें" />
+    </sub>
+    <sub id="1" name="Dialog - Replied Issue">
+      <add key="DIALOG_REPLIED_ISSUE_NL_Title" value="हमने आपकी समस्या रिपोर्ट का जवाब दिया है" />
+      <add key="DIALOG_REPLIED_ISSUE_NL_Label_Your_Report" value="आपकी रिपोर्ट" />
+      <add key="DIALOG_REPLIED_ISSUE_NL_Button_Close" value="बंद करें" />
+    </sub>
+    <sub id="2" name="Dialog - Follow up issue">
+      <add key="DIALOG_FOLLOW_UP_ISSUE_NL_Title" value="क्या आप इस समस्या पर हमसे बात जारी रखना चाहते हैं?" />
+      <add key="DIALOG_FOLLOW_UP_ISSUE_NL_Label_Reply_To_The_Email_We_Sent_You" value="हमने जो ईमेल भेजा है, उसका जवाब दें" />
+      <add key="DIALOG_FOLLOW_UP_ISSUE_NL_Label_Just_Reply_To_Our_Email_And_We_Will_Answer_You_As_Soon_As_Possible" value="बस हमारे ईमेल का जवाब दें और हम जल्द से जल्द आपको उत्तर देंगे" />
+      <add key="DIALOG_FOLLOW_UP_ISSUE_NL_Button_Got_It" value="समझ गया" />
+      <add key="DIALOG_FOLLOW_UP_ISSUE_NL_Label_Join_Our_Discord_Community" value="हमारे Discord समुदाय में शामिल हों" />
+      <add key="DIALOG_FOLLOW_UP_ISSUE_NL_Label_Where_You_Can_Talk_About_This_Issue_And_Many_Other_Things" value="जहाँ आप इस समस्या और कई अन्य बातों पर चर्चा कर सकते हैं" />
+      <add key="DIALOG_FOLLOW_UP_ISSUE_NL_Join_Discord" value="Discord में शामिल हों" />
+    </sub>
+    <sub id="3" name="Dialog - Pending Reports">
+      <add key="DIALOG_PENDING_REPORTS_Title" value="लंबित रिपोर्ट्स" />
+      <add key="DIALOG_PENDING_REPORTS_Body_1" value="रुकें! आपके पास" />
+      <add key="DIALOG_PENDING_REPORTS_Body_2" value="लंबित हाथ की रिपोर्ट्स हैं जो हमारे सर्वर पर नहीं भेजी गई हैं! क्या आप उन्हें ऐप बंद करने से पहले भेजना चाहते हैं?" />
+      <add key="DIALOG_PENDING_REPORTS_Button_Send_Reports" value="हाँ, रिपोर्ट्स भेजें" />
+      <add key="DIALOG_PENDING_REPORTS_Button_Sending_Reports" value="रिपोर्ट्स भेजी जा रही हैं" />
+      <add key="DIALOG_PENDING_REPORTS_Button_Exit_Jurojin" value="नहीं, Jurojin बंद करें" />
+    </sub>
+    <sub id="4" name="Dialog - Get AI Help Report Issue">
+      <add key="DIALOG_AI_HELP_REPORT_ISSUE_Title" value="मद्दद लें या समस्या रिपोर्ट करें – आपके लिए क्या बेहतर है?" />
+      <add key="DIALOG_AI_HELP_REPORT_ISSUE_Label_Talk_To_Your_Ai_Assistant" value="अभी अपने AI सहायक से बात करें" />
+      <add key="DIALOG_AI_HELP_REPORT_ISSUE_Get_Quick_Personalized_Answers_To_Resolve_Issue" value="अपने समस्या को हल करने के लिए त्वरित, व्यक्तिगत उत्तर प्राप्त करें।" />
+      <add key="DIALOG_AI_HELP_REPORT_ISSUE_Button_Chat_With_AI" value="AI से चैट करें" />
+      <add key="DIALOG_AI_HELP_REPORT_ISSUE_Label_Contact_The_Jurojin_Team_Directly" value="सीधे Jurojin टीम से संपर्क करें" />
+      <add key="DIALOG_AI_HELP_REPORT_ISSUE_Label_Report_Issue_To_Our_Team_We_Handle_It_ASAP" value="समस्या सीधे हमारी टीम को रिपोर्ट करें, और हम इसे जल्द से जल्द संभालेंगे।" />
+      <add key="DIALOG_AI_HELP_REPORT_ISSUE_Button_Report_Issue" value="समस्या रिपोर्ट करें" />
+    </sub>
+  </area>
+  <area id="123" name="Feature Showcase">
+    <sub id="0" name="Highlight Callouts">
+      <add key="FEATURE_SHOWCASE_NL_Body_Action_History_Settings" value="नई शानदार थीम्स देखें। स्पॉइलर अलर्ट: &quot;Minimal&quot; आपकी अगली पसंदीदा थीम होगी!" />
+      <add key="FEATURE_SHOWCASE_NL_Body_Keep_Most_Urgent_On_Top" value="&quot;स्टैक की तात्कालिकता प्रबंधित करें&quot; चालू करें, ताकि एक ही स्लॉट में कई टेबल रखने पर Jurojin सबसे जरूरी टेबल को सबसे ऊपर रखे। अपनी पोकर साइट का अपना टेबल फ़ोकस/तात्कालिकता विकल्प भी बंद करें, ताकि वह Jurojin से न टकराए।" />
+      <add key="FEATURE_SHOWCASE_NL_Body_Auto_Focus_Most_Urgent" value="&quot;हमेशा सबसे जरूरी टेबल पर ऑटो फ़ोकस&quot; चालू करें, और Jurojin हमेशा सबसे जरूरी टेबल को सबसे ऊपर रखेगा, भले ही आपकी टेबल एक-दूसरे पर चढ़ी हों। अपनी पोकर साइट का अपना टेबल फ़ोकस/तात्कालिकता विकल्प भी बंद करें, ताकि वह Jurojin से न टकराए।" />
+      <add key="FEATURE_SHOWCASE_TOAST_Configuration_Suggestion" value="Jurojin के पास आपके लिए एक कॉन्फ़िगरेशन सुझाव है!" />
+    </sub>
+  </area>
+</locale>
